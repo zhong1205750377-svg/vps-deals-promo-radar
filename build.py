@@ -44,8 +44,9 @@ def esc(x):
     return html.escape(str(x), quote=True)
 
 
-def page(title, description, canonical, body, jsonld):
-    kind = "index" if canonical.endswith("/") else "compare" if canonical.endswith("compare.html") else "deal" if "/deal-" in canonical else "provider"
+def page(title, description, canonical, body, jsonld, kind=None):
+    if kind is None:
+        kind = "index" if canonical.endswith("/") else "compare" if canonical.endswith("compare.html") else "deal" if "/deal-" in canonical else "provider"
     template = (ROOT / "templates" / f"{kind}.html").read_text(encoding="utf-8")
     values = {"TITLE": esc(title), "DESCRIPTION": esc(description), "CANONICAL": esc(canonical), "BRAND": esc(CONFIG["brand"]), "BODY": body, "JSONLD": json.dumps(jsonld, ensure_ascii=False)}
     for key, value in values.items():
@@ -130,13 +131,54 @@ def main():
         if offer.get("valid_until"):
             schema_offer["priceValidUntil"] = offer["valid_until"]
         (OUT / f"deal-{oid}.html").write_text(page(f"{offer.get('provider')} VPS price | {CONFIG['brand']}", desc, offer_url, detail_body, schema_offer), encoding="utf-8")
+    # Static info pages (About / Privacy / Contact) and a real 404 page.
+    info = {
+        "about": (
+            "About | " + CONFIG["brand"],
+            "About vpspricewatch.com — an independent VPS price tracking project maintained by a single independent developer.",
+            '<section class="hero"><p class="eyebrow">About this site</p><h1>About vpspricewatch.com</h1><p>vpspricewatch.com is an independent VPS price tracking project. It is maintained by a single independent developer as a personal side project.</p></section>'
+            '<section><h2>What this site does</h2><p>It collects and publishes public VPS plan prices observed directly on official hosting provider pages. Every listing links back to its official source so visitors can confirm the current terms themselves.</p><p>The project does not sell hosting, is not affiliated with any provider, and never changes the prices shown by providers. Listings are price observations, not guaranteed coupons or discounts.</p></section>'
+            '<section><h2>Why it exists</h2><p>Provider pricing pages are spread across many sites and change often. This project keeps a single, source-linked view of public plan prices so the comparison is easy to verify.</p></section>'
+            '<section><h2>Contact</h2><p>Questions or corrections? See the <a href="/contact.html">contact page</a>.</p></section>',
+        ),
+        "privacy": (
+            "Privacy Policy | " + CONFIG["brand"],
+            "Privacy policy for vpspricewatch.com: third-party advertising and the visitor data the site uses.",
+            '<section class="hero"><p class="eyebrow">Legal</p><h1>Privacy Policy</h1><p>Last updated: 2026-09-30</p></section>'
+            '<section><h2>Overview</h2><p>This privacy policy explains what information vpspricewatch.com collects and how it is used. By using the site you agree to the practices described here.</p></section>'
+            '<section><h2>Third-party advertising</h2><p>This site will display third-party advertisements in the future. Ad networks, including but not limited to Google AdSense or similar providers, may serve ads on these pages. These networks may use cookies, web beacons, or similar technologies to serve ads based on your prior visits to this or other websites. You can opt out of personalized advertising through the relevant provider\'s settings or industry opt-out pages.</p></section>'
+            '<section><h2>Data we use</h2><p>When you visit, the following data may be processed:</p><ul>'
+            '<li><strong>Server and CDN logs:</strong> the hosting provider (Cloudflare) records request metadata such as IP address, browser type, requested URL, and timestamp for security and performance.</li>'
+            '<li><strong>Analytics:</strong> privacy-respecting, aggregated usage statistics may be collected to understand which pages are useful. No persistent cross-site identifiers are set for this purpose.</li>'
+            '<li><strong>Advertising cookies:</strong> if and when ads are enabled, the ad network may set cookies to measure impressions and serve relevant ads.</li>'
+            '<li><strong>Email:</strong> if you contact us by email, we store the message and address only to reply.</li>'
+            '</ul></section>'
+            '<section><h2>Your choices</h2><p>You can disable cookies in your browser. Doing so may limit some advertising features but will not affect core content. For ad personalization controls, use the opt-out tools provided by the advertising network.</p></section>'
+            '<section><h2>Contact</h2><p>Questions about this policy: <a href="mailto:contact@vpspricewatch.com">contact@vpspricewatch.com</a>.</p></section>',
+        ),
+        "contact": (
+            "Contact | " + CONFIG["brand"],
+            "Contact vpspricewatch.com by email.",
+            '<section class="hero"><p class="eyebrow">Get in touch</p><h1>Contact</h1><p>The fastest way to reach the project is email.</p></section>'
+            '<section><h2>Email</h2><p>You can reach the maintainer at <a href="mailto:contact@vpspricewatch.com">contact@vpspricewatch.com</a>.</p><p>Please use email for corrections to listings, provider requests, or general questions. Response times are not guaranteed but most messages are answered.</p></section>'
+            '<section><h2>Before you write</h2><p>Prices shown on the site are observations from official provider pages. For billing, account, or service issues, contact the provider directly — this project cannot change provider accounts.</p></section>',
+        ),
+    }
+    for slug, (ptitle, pdesc, pbody) in info.items():
+        pcanon = f"{base}/{slug}.html"
+        pld = {"@context": "https://schema.org", "@type": "WebPage", "name": ptitle, "url": pcanon}
+        (OUT / f"{slug}.html").write_text(page(ptitle, pdesc, pcanon, pbody, pld, kind="page"), encoding="utf-8")
+        urls.append(f"/{slug}.html")
+    notfound_body = '<section class="hero"><p class="eyebrow">404</p><h1>Page not found</h1><p>The page you requested does not exist or has moved. <a href="/">Return home</a> or browse <a href="/compare.html">providers</a>.</p></section>'
+    notfound_ld = {"@context": "https://schema.org", "@type": "WebPage", "name": "404 — Page not found", "url": f"{base}/404.html"}
+    (OUT / "404.html").write_text(page("404 | " + CONFIG["brand"], "The requested page was not found.", f"{base}/404.html", notfound_body, notfound_ld, kind="page"), encoding="utf-8")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{esc(base + u)}</loc><lastmod>{stamp}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
     (OUT / "style.css").write_text(CSS, encoding="utf-8")
     print(f"Built {len(urls)} pages for {len(CONFIG['providers'])} configured providers in {OUT}.")
 
 
-CSS = """*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}header{display:flex;justify-content:space-between;align-items:center;padding:18px max(5vw,24px);background:#0b1220;color:#fff}a{color:#2362a6}header a{color:#fff;text-decoration:none;margin-left:18px}.brand{font-weight:800;font-size:1.15rem}main{max-width:1080px;margin:auto;padding:32px 24px}.hero{padding:34px;border-radius:20px;background:linear-gradient(125deg,#0e1d38,#185e79);color:white}.hero a{color:#c4ecff}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:.3em 0}.eyebrow,.updated,.source{font-size:.86rem;opacity:.8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #e1e7ef;border-radius:14px;padding:22px;box-shadow:0 4px 18px #0c20300c}.card h2{margin:.3em 0}.price{font-size:1.5rem;font-weight:750;color:#087b62}.button{display:inline-block;background:#0a775d;color:#fff;padding:9px 15px;border-radius:8px;text-decoration:none}.source{overflow-wrap:anywhere}.provider-list{line-height:2.2}footer{padding:28px max(5vw,24px);background:#e9eef4;color:#45536a;font-size:.9rem}@media(max-width:600px){header{align-items:flex-start;gap:12px;flex-direction:column}header a{margin:0 14px 0 0}.hero{padding:24px}}"""
+CSS = """*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}header{display:flex;justify-content:space-between;align-items:center;padding:18px max(5vw,24px);background:#0b1220;color:#fff}a{color:#2362a6}header a{color:#fff;text-decoration:none;margin-left:18px}.brand{font-weight:800;font-size:1.15rem}main{max-width:1080px;margin:auto;padding:32px 24px}.hero{padding:34px;border-radius:20px;background:linear-gradient(125deg,#0e1d38,#185e79);color:white}.hero a{color:#c4ecff}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:.3em 0}.eyebrow,.updated,.source{font-size:.86rem;opacity:.8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #e1e7ef;border-radius:14px;padding:22px;box-shadow:0 4px 18px #0c20300c}.card h2{margin:.3em 0}.price{font-size:1.5rem;font-weight:750;color:#087b62}.button{display:inline-block;background:#0a775d;color:#fff;padding:9px 15px;border-radius:8px;text-decoration:none}.source{overflow-wrap:anywhere}.provider-list{line-height:2.2}footer{padding:28px max(5vw,24px);background:#e9eef4;color:#45536a;font-size:.9rem}.foot-nav{margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid #d6deea}.foot-nav a{margin-right:18px;color:#2362a6;text-decoration:none}@media(max-width:600px){header{align-items:flex-start;gap:12px;flex-direction:column}header a{margin:0 14px 0 0}.hero{padding:24px}}"""
 
 if __name__ == "__main__":
     main()
