@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://vps-deals-promo-radar-2r6.pages.dev/sitemap.xml
+Sitemap: https://vpspricewatch.com/sitemap.xml
