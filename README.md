@@ -2,7 +2,7 @@
 
 An English-language VPS price directory that reads provider sources from `.ilang/site.ilang`, fetches public official pages, and builds a static site with Python's standard library.
 
-**Live site:** https://vps-deals-promo-radar.pages.dev (placeholder until deployed)
+**Live site:** https://vps-deals-promo-radar-2r6.pages.dev
 
 ## Data and updates
 
@@ -21,7 +21,7 @@ The generated static site is in `site/`. To change the providers, edit `.ilang/s
 
 1. Create a public GitHub repository named `vps-deals-promo-radar`, add these files, and push the default branch.
 2. In Cloudflare Pages, create a project connected to that repository. Set the production branch to `main`, build command to `python build.py`, and output directory to `site`.
-3. Wait for the Pages deployment, then replace `https://vps-deals.pages.dev` in `.ilang/site.ilang` with the actual Pages URL (or your custom domain) and push. The canonical links and sitemap are generated from that setting.
+3. The canonical links and sitemap are generated from `base_url` in `.ilang/site.ilang`.
 4. Review the live pages before applying to affiliate programs. Add an affiliate URL only to the provider row in `.ilang/site.ilang` after approval and after checking that program's current rules.
 
 GitHub Actions needs the repository setting **Actions → General → Workflow permissions → Read and write permissions** so the scheduled job can commit its generated files. Cron scheduling can be delayed by GitHub during busy periods; six hours is the requested cadence, not a guaranteed publication SLA.
