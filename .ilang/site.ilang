@@ -1,0 +1,23 @@
+ILANG
+::HEAD{TYPE:config PROJECT:vps-deals LANG:zh}
+
+::STATE{@SITE, brand:vps-deals, niche:VPS hosting offers, domain:https://vps-deals.pages.dev}
+
+::MODULE{SETTINGS}
+  locale: en-US
+  timezone: UTC
+  update_frequency: 6h
+  base_url: https://vps-deals.pages.dev
+
+::MODULE{PROVIDERS|title:Official provider pages; edit here to change the rendered site}
+  Hostinger | https://www.hostinger.com | https://www.hostinger.com/vps-hosting | 
+  InterServer | https://www.interserver.net | https://www.interserver.net/vps/cheap-vps.html | 
+  Contabo | https://contabo.com | https://contabo.com/en/vps-server/ | 
+
+::MODULE{FIELDS}
+  title price currency offer_url valid_until source_url fetched_at provider
+
+::RULE{price_missing: omit price, never infer it}
+::RULE{valid_until_expired: mark expired and exclude from active listings}
+::RULE{source: official provider pages only; respect robots.txt; no bypasses}
+::BOUNDARY{never: fabricate offers, prices, commissions, or expiry dates|scope:permanent}

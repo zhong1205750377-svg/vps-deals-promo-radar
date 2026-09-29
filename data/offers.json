@@ -1,0 +1,44 @@
+{
+  "fetched_at": "2026-09-29T01:45:55Z",
+  "providers": [
+    {
+      "name": "Hostinger",
+      "home": "https://www.hostinger.com",
+      "source": "https://www.hostinger.com/vps-hosting",
+      "affiliate": ""
+    },
+    {
+      "name": "InterServer",
+      "home": "https://www.interserver.net",
+      "source": "https://www.interserver.net/vps/cheap-vps.html",
+      "affiliate": ""
+    },
+    {
+      "name": "Contabo",
+      "home": "https://contabo.com",
+      "source": "https://contabo.com/en/vps-server/",
+      "affiliate": ""
+    }
+  ],
+  "offers": [],
+  "errors": [
+    {
+      "provider": "Hostinger",
+      "source_url": "https://www.hostinger.com/vps-hosting",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>",
+      "fetched_at": "2026-09-29T01:45:55Z"
+    },
+    {
+      "provider": "InterServer",
+      "source_url": "https://www.interserver.net/vps/cheap-vps.html",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>",
+      "fetched_at": "2026-09-29T01:45:55Z"
+    },
+    {
+      "provider": "Contabo",
+      "source_url": "https://contabo.com/en/vps-server/",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>",
+      "fetched_at": "2026-09-29T01:45:55Z"
+    }
+  ]
+}
