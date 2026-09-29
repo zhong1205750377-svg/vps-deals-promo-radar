@@ -2,7 +2,7 @@
 
 An English-language VPS price directory that reads provider sources from `.ilang/site.ilang`, fetches public official pages, and builds a static site with Python's standard library.
 
-**Live site:** https://vps-deals.pages.dev (placeholder until deployed)
+**Live site:** https://vps-deals-promo-radar.pages.dev (placeholder until deployed)
 
 ## Data and updates
 

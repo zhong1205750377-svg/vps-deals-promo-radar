@@ -1,13 +1,13 @@
 ILANG
 ::HEAD{TYPE:config PROJECT:vps-deals LANG:zh}
 
-::STATE{@SITE, brand:vps-deals, niche:VPS hosting offers, domain:https://vps-deals.pages.dev}
+::STATE{@SITE, brand:vps-deals, niche:VPS hosting offers, domain:https://vps-deals-promo-radar.pages.dev}
 
 ::MODULE{SETTINGS}
   locale: en-US
   timezone: UTC
   update_frequency: 6h
-  base_url: https://vps-deals.pages.dev
+  base_url: https://vps-deals-promo-radar.pages.dev
 
 ::MODULE{PROVIDERS|title:Official provider pages; edit here to change the rendered site}
   Hostinger | https://www.hostinger.com | https://www.hostinger.com/vps-hosting | 
