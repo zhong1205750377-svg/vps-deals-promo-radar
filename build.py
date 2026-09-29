@@ -63,16 +63,37 @@ def main():
     data_path = ROOT / "data/offers.json"
     data = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else {"offers": [], "fetched_at": None, "errors": []}
     offers = data.get("offers", [])
-    base = CONFIG["settings"].get("base_url", "https://vps-deals.pages.dev").rstrip("/")
+    base = CONFIG["settings"].get("base_url", "").strip().rstrip("/")
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(exist_ok=True)
+    # Defensively enforce one well-formed monthly offer per provider/plan/currency.
+    valid_offers = []
+    seen = set()
+    for offer in offers:
+        provider = str(offer.get("provider", "")).strip()
+        title = str(offer.get("title", "")).strip()
+        currency = str(offer.get("currency", "")).strip().upper()
+        price = str(offer.get("price", "")).strip()
+        source_url = str(offer.get("source_url", "")).strip()
+        if not (provider and re.fullmatch(r"(?:KVM\s+\d+|Cloud VPS \d+)", title, re.I)
+                and currency in {"USD", "EUR", "GBP"}
+                and re.fullmatch(r"\d+(?:\.\d{1,2})?", price)
+                and offer.get("billing_period") == "month" and source_url.startswith("https://")):
+            continue
+        key = (provider.casefold(), title.casefold(), currency)
+        if key in seen:
+            continue
+        seen.add(key)
+        valid_offers.append(offer)
+    offers = valid_offers
     cards = []
     for offer in offers:
         currency = offer.get("currency", "")
         price = offer.get("price")
-        price_text = f"{currency} {price}/month" if price else "Price unavailable"
-        cards.append(f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · Official public price</p><h2>{esc(offer.get("title"))}</h2><p class="price">{esc(price_text)}</p><p>{esc(offer.get("evidence", ""))}</p><p class="source">Observed {esc(offer.get("fetched_at", ""))}</p><a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a> <a href="{esc(offer.get("source_url", ""))}">Source</a></article>')
+        price_text = f"{currency} {price}/month"
+        description = offer.get("description") or f"{offer.get('provider')} {offer.get('title')}: {price_text}. Check current terms on the official source."
+        cards.append(f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · Official public price</p><h2>{esc(offer.get("title"))}</h2><p class="price">{esc(price_text)}</p><p>{esc(description)} <a href="{esc(offer.get("source_url", ""))}">Official source</a></p><p class="source">Observed {esc(offer.get("fetched_at", ""))}</p><a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>')
     if not cards:
         cards = ['<article class="card empty"><h2>No prices verified yet</h2><p>The scheduled fetch will publish only prices it can read on the official sources. Check the source pages below in the meantime.</p></article>']
     providers_html = "".join(f'<li><a href="{esc(p["source"])}">{esc(p["name"])} official pricing page</a></li>' for p in CONFIG["providers"])
@@ -102,7 +123,7 @@ def main():
         oid = re.sub(r"[^a-z0-9]+", "-", str(offer.get("id", "offer")).lower()).strip("-")
         offer_url = f"{base}/deal-{oid}.html"
         urls.append(f"/deal-{oid}.html")
-        detail_body = f'<section class="hero"><p class="eyebrow">Official VPS price observation</p><h1>{esc(offer.get("provider"))}: {esc(offer.get("title"))}</h1><p class="price">{esc(offer.get("currency", ""))} {esc(offer.get("price", "Price unavailable"))}/month</p><p>Observed {esc(offer.get("fetched_at", ""))}. This is a public price listing, not a guaranteed discount. Confirm current price and terms with the provider.</p><p><a href="{esc(offer.get("source_url", ""))}">Original source page</a></p><a class="button" href="{esc(offer.get("offer_url", ""))}" rel="nofollow noopener">Check provider</a></section><p>{esc(offer.get("evidence", ""))}</p>'
+        detail_body = f'<section class="hero"><p class="eyebrow">Official VPS price observation</p><h1>{esc(offer.get("provider"))}: {esc(offer.get("title"))}</h1><p class="price">{esc(offer.get("currency", ""))} {esc(offer.get("price", ""))}/month</p><p>{esc(offer.get("description") or f"{offer.get('provider')} {offer.get('title')}: {offer.get('currency')} {offer.get('price')}/month. Check current terms on the official source.")}</p><p>Observed {esc(offer.get("fetched_at", ""))}. Confirm current terms with the provider.</p><p><a href="{esc(offer.get("source_url", ""))}">Original source page</a></p><a class="button" href="{esc(offer.get("offer_url", ""))}" rel="nofollow noopener">Check provider</a></section>'
         schema_offer = {"@context": "https://schema.org", "@type": "Offer", "url": offer.get("offer_url", ""), "seller": {"@type": "Organization", "name": offer.get("provider", "")}}
         if offer.get("price") and offer.get("currency"):
             schema_offer.update({"price": offer["price"], "priceCurrency": offer["currency"]})
