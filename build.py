@@ -139,7 +139,7 @@ def main():
             '<section class="hero"><p class="eyebrow">About this site</p><h1>About vpspricewatch.com</h1><p>vpspricewatch.com is an independent VPS price tracking project. It is maintained by a single independent developer as a personal side project.</p></section>'
             '<section><h2>What this site does</h2><p>It collects and publishes public VPS plan prices observed directly on official hosting provider pages. Every listing links back to its official source so visitors can confirm the current terms themselves.</p><p>The project does not sell hosting, is not affiliated with any provider, and never changes the prices shown by providers. Listings are price observations, not guaranteed coupons or discounts.</p></section>'
             '<section><h2>Why it exists</h2><p>Provider pricing pages are spread across many sites and change often. This project keeps a single, source-linked view of public plan prices so the comparison is easy to verify.</p></section>'
-            '<section><h2>Contact</h2><p>Questions or corrections? See the <a href="/contact.html">contact page</a>.</p></section>',
+            '<section><h2>Contact</h2><p>Questions or corrections? See the <a href="/contact">contact page</a>.</p></section>',
         ),
         "privacy": (
             "Privacy Policy | " + CONFIG["brand"],
@@ -165,11 +165,11 @@ def main():
         ),
     }
     for slug, (ptitle, pdesc, pbody) in info.items():
-        pcanon = f"{base}/{slug}.html"
+        pcanon = f"{base}/{slug}"
         pld = {"@context": "https://schema.org", "@type": "WebPage", "name": ptitle, "url": pcanon}
         (OUT / f"{slug}.html").write_text(page(ptitle, pdesc, pcanon, pbody, pld, kind="page"), encoding="utf-8")
-        urls.append(f"/{slug}.html")
-    notfound_body = '<section class="hero"><p class="eyebrow">404</p><h1>Page not found</h1><p>The page you requested does not exist or has moved. <a href="/">Return home</a> or browse <a href="/compare.html">providers</a>.</p></section>'
+        urls.append(f"/{slug}")
+    notfound_body = '<section class="hero"><p class="eyebrow">404</p><h1>Page not found</h1><p>The page you requested does not exist or has moved. <a href="/">Return home</a> or browse <a href="/compare">providers</a>.</p></section>'
     notfound_ld = {"@context": "https://schema.org", "@type": "WebPage", "name": "404 — Page not found", "url": f"{base}/404.html"}
     (OUT / "404.html").write_text(page("404 | " + CONFIG["brand"], "The requested page was not found.", f"{base}/404.html", notfound_body, notfound_ld, kind="page"), encoding="utf-8")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{esc(base + u)}</loc><lastmod>{stamp}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
