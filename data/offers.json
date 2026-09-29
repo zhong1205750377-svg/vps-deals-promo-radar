@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-29T06:48:23Z",
+  "fetched_at": "2026-09-29T18:38:31Z",
   "providers": [
     {
       "name": "Hostinger",
@@ -30,7 +30,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-09-29T06:47:39Z",
+      "fetched_at": "2026-09-29T18:38:31Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 1: USD 6.49/month. Check current terms on the official source.",
@@ -45,7 +45,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-09-29T06:47:39Z",
+      "fetched_at": "2026-09-29T18:38:31Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 2: USD 8.99/month. Check current terms on the official source.",
@@ -60,7 +60,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-09-29T06:47:39Z",
+      "fetched_at": "2026-09-29T18:38:31Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 4: USD 12.99/month. Check current terms on the official source.",
@@ -75,7 +75,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-09-29T06:47:39Z",
+      "fetched_at": "2026-09-29T18:38:31Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 8: USD 25.99/month. Check current terms on the official source.",
@@ -85,150 +85,61 @@
   "discarded": [
     {
       "provider": "Hostinger",
-      "plan": "KVM 1",
-      "price": "USD 19.49/month",
-      "count": 2,
-      "reason": "crossed-out prior/list price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 1",
-      "price": "USD 11.99/month",
-      "count": 2,
-      "reason": "explicit renewal price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 1",
-      "price": "USD 6.49/month",
-      "count": 2,
-      "reason": "same current plan repeated in official page markup; duplicate observations removed"
-    },
-    {
-      "provider": "Hostinger",
       "plan": "KVM 2",
-      "price": "USD 24.49/month",
-      "count": 2,
-      "reason": "crossed-out prior/list price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 2",
-      "price": "USD 14.99/month",
-      "count": 2,
-      "reason": "explicit renewal price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 2",
-      "price": "USD 8.99/month",
-      "count": 2,
-      "reason": "same current plan repeated in official page markup; duplicate observations removed"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 4",
-      "price": "USD 42.99/month",
-      "count": 2,
-      "reason": "crossed-out prior/list price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 4",
-      "price": "USD 28.99/month",
-      "count": 2,
-      "reason": "explicit renewal price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 4",
-      "price": "USD 12.99/month",
-      "count": 2,
-      "reason": "same current plan repeated in official page markup; duplicate observations removed"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 8",
-      "price": "USD 73.99/month",
-      "count": 2,
-      "reason": "crossed-out prior/list price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 8",
-      "price": "USD 49.99/month",
-      "count": 2,
-      "reason": "explicit renewal price, not the current offer; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "KVM 8",
-      "price": "USD 25.99/month",
-      "count": 2,
-      "reason": "same current plan repeated in official page markup; duplicate observations removed"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "VPS",
-      "price": "USD 6.49/month",
-      "reason": "generic FAQ/range reference without an exact model; excluded"
-    },
-    {
-      "provider": "Hostinger",
-      "plan": "VPS",
-      "price": "USD 25.99/month",
-      "reason": "generic FAQ/range reference without an exact model; excluded"
+      "reason": "no unique non-renewal monthly price in the plan block"
     },
     {
       "provider": "InterServer",
-      "plan": "VPS",
-      "price": "USD 3/month",
-      "count": 4,
-      "reason": "generic starting-price/FAQ references without an exact model; excluded"
+      "plan": "Windows Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
     },
     {
       "provider": "InterServer",
-      "plan": "Linux VPS",
-      "price": "USD 3/month per slice",
-      "reason": "starting slice, no exact named plan model; excluded"
+      "plan": "Linux Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
     },
     {
       "provider": "InterServer",
-      "plan": "Windows VPS",
-      "price": "USD 10/month",
-      "count": 2,
-      "reason": "starting configuration/category, no exact named plan model; excluded"
+      "plan": "Linux Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
     },
     {
       "provider": "InterServer",
-      "plan": "Windows VPS / Cloud Apps",
-      "price": "USD 3/month",
-      "reason": "price belongs to Cloud Apps, not an identified VPS plan; excluded"
+      "plan": "Windows Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
     },
     {
-      "provider": "Contabo",
-      "plan": "all plans",
-      "reason": "source could not be fetched/robots access verified locally; no current exact price published"
+      "provider": "InterServer",
+      "plan": "Windows Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
+    },
+    {
+      "provider": "InterServer",
+      "plan": "Windows Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
+    },
+    {
+      "provider": "InterServer",
+      "plan": "Linux Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
+    },
+    {
+      "provider": "InterServer",
+      "plan": "Windows Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
+    },
+    {
+      "provider": "InterServer",
+      "plan": "Windows Vps",
+      "reason": "product category/starting slice has no exact named plan model; excluded"
     }
   ],
   "errors": [
     {
-      "provider": "Hostinger",
-      "source_url": "https://www.hostinger.com/vps-hosting",
-      "error": "robots.txt could not be checked; refusing to fetch",
-      "fetched_at": "2026-09-29T06:48:23Z"
-    },
-    {
-      "provider": "InterServer",
-      "source_url": "https://www.interserver.net/vps/cheap-vps.html",
-      "error": "robots.txt could not be checked; refusing to fetch",
-      "fetched_at": "2026-09-29T06:48:23Z"
-    },
-    {
       "provider": "Contabo",
       "source_url": "https://contabo.com/en/vps-server/",
-      "error": "robots.txt could not be checked; refusing to fetch",
-      "fetched_at": "2026-09-29T06:48:23Z"
+      "error": "HTTP Error 403: Forbidden",
+      "fetched_at": "2026-09-29T18:38:31Z"
     }
   ]
 }
