@@ -103,7 +103,7 @@ def main():
     ld = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(o.get("title", "VPS"), o.get("price"), o.get("currency"), o.get("source_url", ""), i + 1) for i, o in enumerate(offers)]}
     (OUT / "index.html").write_text(page(f"{CONFIG['brand']} | VPS Prices", desc, base + "/", index_body, ld), encoding="utf-8")
     compare_body = f"<section class=\"hero\"><p class=\"eyebrow\">Provider index</p><h1>Compare official VPS sources</h1><p>Browse each provider's public VPS page. Prices shown here come from the latest successful fetch.</p></section><ul class=\"provider-list\">{providers_html}</ul>"
-    (OUT / "compare.html").write_text(page(f"Compare VPS providers | {CONFIG['brand']}", desc, base + "/compare.html", compare_body, {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(p["name"], None, None, p["source"], i + 1) for i, p in enumerate(CONFIG["providers"])]}), encoding="utf-8")
+    (OUT / "compare.html").write_text(page(f"Compare VPS providers | {CONFIG['brand']}", desc, base + "/compare", compare_body, {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(p["name"], None, None, p["source"], i + 1) for i, p in enumerate(CONFIG["providers"])]}), encoding="utf-8")
     for p in CONFIG["providers"]:
         pid = re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-")
         related = [o for o in offers if o.get("provider") == p["name"]]
@@ -119,7 +119,7 @@ def main():
         stamp = datetime.fromisoformat(stamp_raw.replace("Z", "+00:00")).date().isoformat()
     except (AttributeError, ValueError):
         stamp = ""
-    urls = ["/", "/compare.html"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}.html" for p in CONFIG["providers"]]
+    urls = ["/", "/compare"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}.html" for p in CONFIG["providers"]]
     for offer in offers:
         oid = re.sub(r"[^a-z0-9]+", "-", str(offer.get("id", "offer")).lower()).strip("-")
         offer_url = f"{base}/deal-{oid}.html"
