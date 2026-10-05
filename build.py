@@ -175,6 +175,20 @@ def main():
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{esc(base + u)}</loc><lastmod>{stamp}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
     (OUT / "style.css").write_text(CSS, encoding="utf-8")
+    editorial = ROOT / "editorial"
+    if editorial.exists():
+        shutil.copytree(editorial, OUT / "guides", dirs_exist_ok=True)
+        with (OUT / "style.css").open("a", encoding="utf-8") as fh:
+            fh.write((editorial / "editorial.css").read_text(encoding="utf-8"))
+        for hp in OUT.rglob("*.html"):
+            txt = hp.read_text(encoding="utf-8")
+            if 'href="/guides/"' not in txt:
+                txt = txt.replace('<a href="/compare.html">Compare providers</a>', '<a href="/compare.html">Compare providers</a><a href="/guides/">Guides</a>')
+                hp.write_text(txt, encoding="utf-8")
+        sm = (OUT / "sitemap.xml").read_text(encoding="utf-8")
+        entries = "".join('<url><loc>' + esc(base + '/guides/' + str(p.parent.relative_to(editorial)).replace('\\','/').replace('.', '').strip('/') + '/') + '</loc></url>\n' for p in editorial.rglob('index.html'))
+        entries = entries.replace('/guides//', '/guides/')
+        (OUT / "sitemap.xml").write_text(sm.replace('</urlset>', entries + '</urlset>'), encoding="utf-8")
     print(f"Built {len(urls)} pages for {len(CONFIG['providers'])} configured providers in {OUT}.")
 
 
