@@ -1,7 +1,7 @@
 ILANG
 ::HEAD{TYPE:config PROJECT:vps-deals LANG:zh}
 
-::STATE{@SITE, brand:vps-deals, niche:VPS hosting offers, domain:https://vpspricewatch.com}
+::STATE{@SITE, brand:vpspricewatch.com, niche:VPS hosting offers, domain:https://vpspricewatch.com}
 
 ::MODULE{SETTINGS}
   locale: en-US
