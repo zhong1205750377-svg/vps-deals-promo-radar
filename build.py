@@ -44,6 +44,22 @@ def esc(x):
     return html.escape(str(x), quote=True)
 
 
+# Real Admitad affiliate link for is*hosting VPS (offer 173159), joined to ad space
+# "VPS Price Watch" (website 3007089). Verified: 302 -> ishosting.com with admitad attribution.
+AD_URL = "https://xcdus.com/g/t7pdcms1vh9f1175b8bbf6378a678b/"
+AD_BLOCK = (
+    '<section class="ad" aria-label="Advertisement">'
+    '<p class="ad-label">Sponsored</p>'
+    '<div class="ad-card">'
+    '<h2>is*hosting VPS — 40+ countries</h2>'
+    '<p>Want a VPS outside the usual big brands? is*hosting runs VPS in 40+ locations with '
+    'flexible configurations and hourly billing.</p>'
+    f'<a class="button" href="{AD_URL}" rel="nofollow sponsored noopener" target="_blank">'
+    'View is*hosting plans</a>'
+    '</div></section>'
+)
+
+
 def page(title, description, canonical, body, jsonld, kind=None):
     if kind is None:
         kind = "index" if canonical.endswith("/") else "compare" if canonical.endswith("compare.html") else "deal" if "/deal-" in canonical else "provider"
@@ -99,10 +115,10 @@ def main():
         cards = ['<article class="card empty"><h2>No prices verified yet</h2><p>The scheduled fetch will publish only prices it can read on the official sources. Check the source pages below in the meantime.</p></article>']
     providers_html = "".join(f'<li><a href="{esc(p["source"])}">{esc(p["name"])} official pricing page</a></li>' for p in CONFIG["providers"])
     desc = f"Current VPS prices observed on official provider pages. Source URLs and observation times are shown for each listing."
-    index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section><section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
+    index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section>{AD_BLOCK}<section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
     ld = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(o.get("title", "VPS"), o.get("price"), o.get("currency"), o.get("source_url", ""), i + 1) for i, o in enumerate(offers)]}
     (OUT / "index.html").write_text(page(f"{CONFIG['brand']} | VPS Prices", desc, base + "/", index_body, ld), encoding="utf-8")
-    compare_body = f"<section class=\"hero\"><p class=\"eyebrow\">Provider index</p><h1>Compare official VPS sources</h1><p>Browse each provider's public VPS page. Prices shown here come from the latest successful fetch.</p></section><ul class=\"provider-list\">{providers_html}</ul>"
+    compare_body = f"<section class=\"hero\"><p class=\"eyebrow\">Provider index</p><h1>Compare official VPS sources</h1><p>Browse each provider's public VPS page. Prices shown here come from the latest successful fetch.</p></section><ul class=\"provider-list\">{providers_html}</ul>{AD_BLOCK}"
     (OUT / "compare.html").write_text(page(f"Compare VPS providers | {CONFIG['brand']}", desc, base + "/compare", compare_body, {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(p["name"], None, None, p["source"], i + 1) for i, p in enumerate(CONFIG["providers"])]}), encoding="utf-8")
     for p in CONFIG["providers"]:
         pid = re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-")
@@ -192,7 +208,7 @@ def main():
     print(f"Built {len(urls)} pages for {len(CONFIG['providers'])} configured providers in {OUT}.")
 
 
-CSS = """*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}header{display:flex;justify-content:space-between;align-items:center;padding:18px max(5vw,24px);background:#0b1220;color:#fff}a{color:#2362a6}header a{color:#fff;text-decoration:none;margin-left:18px}.brand{font-weight:800;font-size:1.15rem}main{max-width:1080px;margin:auto;padding:32px 24px}.hero{padding:34px;border-radius:20px;background:linear-gradient(125deg,#0e1d38,#185e79);color:white}.hero a{color:#c4ecff}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:.3em 0}.eyebrow,.updated,.source{font-size:.86rem;opacity:.8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #e1e7ef;border-radius:14px;padding:22px;box-shadow:0 4px 18px #0c20300c}.card h2{margin:.3em 0}.price{font-size:1.5rem;font-weight:750;color:#087b62}.button{display:inline-block;background:#0a775d;color:#fff;padding:9px 15px;border-radius:8px;text-decoration:none}.source{overflow-wrap:anywhere}.provider-list{line-height:2.2}footer{padding:28px max(5vw,24px);background:#e9eef4;color:#45536a;font-size:.9rem}.foot-nav{margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid #d6deea}.foot-nav a{margin-right:18px;color:#2362a6;text-decoration:none}@media(max-width:600px){header{align-items:flex-start;gap:12px;flex-direction:column}header a{margin:0 14px 0 0}.hero{padding:24px}}"""
+CSS = """*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}header{display:flex;justify-content:space-between;align-items:center;padding:18px max(5vw,24px);background:#0b1220;color:#fff}a{color:#2362a6}header a{color:#fff;text-decoration:none;margin-left:18px}.brand{font-weight:800;font-size:1.15rem}main{max-width:1080px;margin:auto;padding:32px 24px}.hero{padding:34px;border-radius:20px;background:linear-gradient(125deg,#0e1d38,#185e79);color:white}.hero a{color:#c4ecff}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:.3em 0}.eyebrow,.updated,.source{font-size:.86rem;opacity:.8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #e1e7ef;border-radius:14px;padding:22px;box-shadow:0 4px 18px #0c20300c}.card h2{margin:.3em 0}.price{font-size:1.5rem;font-weight:750;color:#087b62}.button{display:inline-block;background:#0a775d;color:#fff;padding:9px 15px;border-radius:8px;text-decoration:none}.source{overflow-wrap:anywhere}.provider-list{line-height:2.2}footer{padding:28px max(5vw,24px);background:#e9eef4;color:#45536a;font-size:.9rem}.foot-nav{margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid #d6deea}.foot-nav a{margin-right:18px;color:#2362a6;text-decoration:none}@media(max-width:600px){header{align-items:flex-start;gap:12px;flex-direction:column}header a{margin:0 14px 0 0}.hero{padding:24px}}.ad{margin:32px 0;padding:18px 22px;background:#fff8e6;border:1px dashed #d9a441;border-radius:14px}.ad-label{margin:0 0 8px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#8a6d1f}.ad-card h2{margin:.2em 0 .4em;font-size:1.15rem}.ad-card p{margin:0 0 12px}"""
 
 if __name__ == "__main__":
     main()
