@@ -123,23 +123,25 @@ def main():
     for p in CONFIG["providers"]:
         pid = re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-")
         related = [o for o in offers if o.get("provider") == p["name"]]
+        if not related:
+            continue
         lis = "".join(f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>' for o in related) or "<li>No verifiable price captured yet.</li>"
         detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p>'
         offer_nodes = [{"@type": "Offer", "url": o["source_url"], "price": o["price"], "priceCurrency": o["currency"]} for o in related if o.get("price") and o.get("currency") and o.get("source_url")]
         product = {"@context": "https://schema.org", "@type": "Service", "name": f"{p['name']} VPS", "url": p["source"], "provider": {"@type": "Organization", "name": p["name"], "url": p["home"]}}
         if offer_nodes:
             product["offers"] = offer_nodes
-        (OUT / f"provider-{pid}.html").write_text(page(f"{p['name']} VPS prices | {CONFIG['brand']}", desc, f"{base}/provider-{pid}.html", detail, product), encoding="utf-8")
+        (OUT / f"provider-{pid}.html").write_text(page(f"{p['name']} VPS prices | {CONFIG['brand']}", desc, f"{base}/provider-{pid}", detail, product), encoding="utf-8")
     stamp_raw = data.get("fetched_at")
     try:
         stamp = datetime.fromisoformat(stamp_raw.replace("Z", "+00:00")).date().isoformat()
     except (AttributeError, ValueError):
         stamp = ""
-    urls = ["/", "/compare"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}.html" for p in CONFIG["providers"]]
-    for offer in offers:
+    urls = ["/", "/compare"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}" for p in CONFIG["providers"] if any(o.get("provider") == p["name"] for o in offers)]
+    for offer in []:  # Thin duplicate price-only deal pages are excluded; observations remain on the homepage.
         oid = re.sub(r"[^a-z0-9]+", "-", str(offer.get("id", "offer")).lower()).strip("-")
         offer_url = f"{base}/deal-{oid}.html"
-        urls.append(f"/deal-{oid}.html")
+        urls.append(f"/deal-{oid}")
         detail_body = f'<section class="hero"><p class="eyebrow">Official VPS price observation</p><h1>{esc(offer.get("provider"))}: {esc(offer.get("title"))}</h1><p class="price">{esc(offer.get("currency", ""))} {esc(offer.get("price", ""))}/month</p><p>{esc(offer.get("description") or f"{offer.get('provider')} {offer.get('title')}: {offer.get('currency')} {offer.get('price')}/month. Check current terms on the official source.")}</p><p>Observed {esc(offer.get("fetched_at", ""))}. Confirm current terms with the provider.</p><p><a href="{esc(offer.get("source_url", ""))}">Original source page</a></p><a class="button" href="{esc(offer.get("offer_url", ""))}" rel="nofollow noopener">Check provider</a></section>'
         schema_offer = {"@context": "https://schema.org", "@type": "Offer", "url": offer.get("offer_url", ""), "seller": {"@type": "Organization", "name": offer.get("provider", "")}}
         if offer.get("price") and offer.get("currency"):
