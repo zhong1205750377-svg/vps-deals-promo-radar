@@ -175,8 +175,8 @@ def main():
         "contact": (
             "Contact | " + CONFIG["brand"],
             "Contact channel availability for vpspricewatch.com.",
-            '<section class="hero"><p class="eyebrow">Get in touch</p><h1>Contact</h1><p>A verified contact channel is not yet available. No unverified email address is published here.</p></section>'
-            '<section><h2>Contact availability</h2><p>The maintainer is configuring a verified way to receive messages. This page will publish the address only after receipt has been confirmed.</p></section>'
+            '<section class="hero"><p class="eyebrow">Get in touch</p><h1>Contact</h1><p>Contact the independently maintained VPS Price Watch directory by email.</p></section>'
+            '<section><h2>Email</h2><p><a href="mailto:zhong1205750377@gmail.com">zhong1205750377@gmail.com</a></p><p>Use this address for listing corrections, questions about this site, or privacy requests.</p></section>'
             '<section><h2>Before you write</h2><p>Prices shown on the site are observations from official provider pages. For billing, account, or service issues, contact the provider directly — this project cannot change provider accounts.</p></section>',
         ),
     }
