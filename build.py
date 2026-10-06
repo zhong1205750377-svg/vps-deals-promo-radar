@@ -165,7 +165,7 @@ def main():
             '<section><h2>Advertising and affiliate links</h2><p>No third-party advertising network code or affiliate tracking links are currently installed on this site. If advertising is enabled, this policy will identify the networks actually used and explain their data practices.</p></section>'
             '<section><h2>Data we use</h2><p>When you visit, the following data may be processed:</p><ul>'
             '<li><strong>Server and CDN logs:</strong> the hosting provider (Cloudflare) records request metadata such as IP address, browser type, requested URL, and timestamp for security and performance.</li>'
-            '<li><strong>Analytics:</strong> privacy-respecting, aggregated usage statistics may be collected to understand which pages are useful. No analytics tracking script is currently installed on these pages.</li>'
+            '<li><strong>Analytics:</strong> privacy-respecting, aggregated usage statistics may be collected to understand which pages are useful. Cloudflare Web Analytics is enabled by the hosting service and collects performance and usage measurements. No Google Analytics measurement script is currently installed in the site source.</li>'
             '<li><strong>Advertising cookies:</strong> if and when ads are enabled, the ad network may set cookies to measure impressions and serve relevant ads.</li>'
             '<li><strong>Email:</strong> if you contact us by email, we store the message and address only to reply.</li>'
             '</ul></section>'
