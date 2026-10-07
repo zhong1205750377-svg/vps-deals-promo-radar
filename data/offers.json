@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-07T12:44:32Z",
+  "fetched_at": "2026-10-07T18:41:04Z",
   "providers": [
     {
       "name": "Hostinger",
@@ -30,7 +30,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-10-07T12:44:32Z",
+      "fetched_at": "2026-10-07T18:41:04Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 1: USD 6.49/month. Check current terms on the official source.",
@@ -45,7 +45,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-10-07T12:44:32Z",
+      "fetched_at": "2026-10-07T18:41:04Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 2: USD 8.99/month. Check current terms on the official source.",
@@ -60,7 +60,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-10-07T12:44:32Z",
+      "fetched_at": "2026-10-07T18:41:04Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 4: USD 12.99/month. Check current terms on the official source.",
@@ -75,7 +75,7 @@
       "billing_period": "month",
       "offer_url": "https://www.hostinger.com/vps-hosting",
       "source_url": "https://www.hostinger.com/vps-hosting",
-      "fetched_at": "2026-10-07T12:44:32Z",
+      "fetched_at": "2026-10-07T18:41:04Z",
       "valid_until": null,
       "kind": "public-price",
       "description": "Hostinger KVM 8: USD 25.99/month. Check current terms on the official source.",
@@ -94,13 +94,13 @@
       "provider": "InterServer",
       "source_url": "https://www.interserver.net/vps/cheap-vps.html",
       "error": "robots.txt request failed: HTTP 403",
-      "fetched_at": "2026-10-07T12:44:32Z"
+      "fetched_at": "2026-10-07T18:41:04Z"
     },
     {
       "provider": "Contabo",
       "source_url": "https://contabo.com/en/vps-server/",
       "error": "HTTP Error 403: Forbidden",
-      "fetched_at": "2026-10-07T12:44:32Z"
+      "fetched_at": "2026-10-07T18:41:04Z"
     }
   ]
 }
