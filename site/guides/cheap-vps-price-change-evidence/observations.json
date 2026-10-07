@@ -1,0 +1,67 @@
+{
+  "first_revision": "c7da94b",
+  "second_revision": "cd49fceea5748e87475b9a7e0c0f896d2266061d",
+  "inputs": [
+    {
+      "timestamp": "2026-10-05T06:47:28Z",
+      "sha256": "8c6e1b77fd898227ebf07548c3318b392046cddd58f6fb9430cab60e42842ff1"
+    },
+    {
+      "timestamp": "2026-10-07T00:46:55Z",
+      "sha256": "a26444856b892e16e4e7acbffdacf527d5f78421312f71c1aec2772719ca48ed"
+    }
+  ],
+  "rows": [
+    {
+      "plan": "KVM 1",
+      "provider": "Hostinger",
+      "currency": "USD",
+      "billing_period": "month",
+      "source_url": "https://www.hostinger.com/vps-hosting",
+      "first_timestamp": "2026-10-05T06:47:28Z",
+      "first_price": "6.49",
+      "second_timestamp": "2026-10-07T00:46:55Z",
+      "second_price": "6.49",
+      "delta": "0.00"
+    },
+    {
+      "plan": "KVM 2",
+      "provider": "Hostinger",
+      "currency": "USD",
+      "billing_period": "month",
+      "source_url": "https://www.hostinger.com/vps-hosting",
+      "first_timestamp": "2026-10-05T06:47:28Z",
+      "first_price": "8.99",
+      "second_timestamp": "2026-10-07T00:46:55Z",
+      "second_price": "8.99",
+      "delta": "0.00"
+    },
+    {
+      "plan": "KVM 4",
+      "provider": "Hostinger",
+      "currency": "USD",
+      "billing_period": "month",
+      "source_url": "https://www.hostinger.com/vps-hosting",
+      "first_timestamp": "2026-10-05T06:47:28Z",
+      "first_price": "12.99",
+      "second_timestamp": "2026-10-07T00:46:55Z",
+      "second_price": "12.99",
+      "delta": "0.00"
+    },
+    {
+      "plan": "KVM 8",
+      "provider": "Hostinger",
+      "currency": "USD",
+      "billing_period": "month",
+      "source_url": "https://www.hostinger.com/vps-hosting",
+      "first_timestamp": "2026-10-05T06:47:28Z",
+      "first_price": "25.99",
+      "second_timestamp": "2026-10-07T00:46:55Z",
+      "second_price": "25.99",
+      "delta": "0.00"
+    }
+  ],
+  "elapsed_seconds": 151167,
+  "formula": "delta = second recorded price - first recorded price; elapsed_seconds = second UTC timestamp - first UTC timestamp",
+  "limits": "Stored parsed price observations, not archived complete checkout quotes. Commitment, renewal, tax and resource equivalence are not established."
+}
