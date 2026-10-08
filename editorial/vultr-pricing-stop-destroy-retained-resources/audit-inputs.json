@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-08",
+  "scope": "Documentation-driven exit audit for one instance and separately retained resources; no account inspected or modified.",
+  "sources": [
+    {
+      "id": "server",
+      "url": "https://docs.vultr.com/support/platform/billing/how-am-i-billed-for-my-servers",
+      "retrieved_at": "2026-10-08T01:04:44.871386+00:00",
+      "sha256": "18da596ac45046b9b0c6f721aef647521fffaeb2addf7f8ca1b6f509d096b000",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-08-vultr-server.html"
+    },
+    {
+      "id": "stopped",
+      "url": "https://docs.vultr.com/support/platform/billing/are-stopped-instances-still-billed-on-vultr",
+      "retrieved_at": "2026-10-08T01:04:46.686472+00:00",
+      "sha256": "acd0e209633ef2e732460383cacbd3322411c4ab1895a3b8b814c06aac3fd514",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-08-vultr-stopped.html"
+    },
+    {
+      "id": "snapshot",
+      "url": "https://docs.vultr.com/support/platform/billing/does-vultr-charge-for-stored-snapshots",
+      "retrieved_at": "2026-10-08T01:04:48.768969+00:00",
+      "sha256": "6bfb350fbd2a36d7c9cc6b72cf7341f76051b8f90c3aef98b2c6855d4e6de917",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-08-vultr-snapshot.html"
+    },
+    {
+      "id": "volume",
+      "url": "https://docs.vultr.com/products/storage/block-storage/management/delete-block-storage",
+      "retrieved_at": "2026-10-08T01:04:50.937783+00:00",
+      "sha256": "391f4c1f517bb97c11ccca078fb5a44fbd061624d4a2626e6c9b61a7b635ef4c",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-08-vultr-volume.html"
+    }
+  ],
+  "fixture_inputs_and_results": [
+    {
+      "id": "A",
+      "instance": "stopped",
+      "snapshot": false,
+      "volume": false,
+      "ip": false,
+      "result": {
+        "known_billable_categories": [
+          "instance"
+        ],
+        "unresolved_categories": [],
+        "within_scope_clear": false
+      }
+    },
+    {
+      "id": "B",
+      "instance": "destroyed",
+      "snapshot": true,
+      "volume": false,
+      "ip": false,
+      "result": {
+        "known_billable_categories": [
+          "snapshot"
+        ],
+        "unresolved_categories": [],
+        "within_scope_clear": false
+      }
+    },
+    {
+      "id": "C",
+      "instance": "destroyed",
+      "snapshot": false,
+      "volume": true,
+      "ip": null,
+      "result": {
+        "known_billable_categories": [],
+        "unresolved_categories": [
+          "block_volume",
+          "reserved_ip_presence_unknown"
+        ],
+        "within_scope_clear": false
+      }
+    },
+    {
+      "id": "D",
+      "instance": "destroyed",
+      "snapshot": false,
+      "volume": false,
+      "ip": false,
+      "result": {
+        "known_billable_categories": [],
+        "unresolved_categories": [],
+        "within_scope_clear": true
+      }
+    }
+  ],
+  "unknown_policy": "Unknown presence is never converted to absence. A clear result applies only to listed categories, not the account balance.",
+  "ip_rule": "No reserved-IP price or automatic-release assertion established by these four documents."
+}
