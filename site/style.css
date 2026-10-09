@@ -7,3 +7,6 @@ img{max-width:100%;height:auto}main,section,.card{min-width:0}main{overflow-wrap
 
 /* Daily shift 2026-10-08: readable audit tables */
 .table-scroll{border-radius:12px;background:#fff;border:1px solid #dbe4ed;margin:20px 0}th{background:#e9f1f8;color:#132a43;font-weight:700}tr:nth-child(even) td{background:#f7fafd}th,td{border-color:#dbe4ed}.table-scroll p{padding:0 14px}
+
+/* Daily shift 2026-10-09: readable answer line length */
+.answer p{max-width:72ch;line-height:1.65}.answer h1{max-width:30ch;text-wrap:balance}
