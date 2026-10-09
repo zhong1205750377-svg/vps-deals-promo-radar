@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T06:44:24Z",
+  "fetched_at": "2026-10-09T10:58:00Z",
   "providers": [
     {
       "name": "Hostinger",
@@ -8,15 +8,15 @@
       "affiliate": ""
     },
     {
-      "name": "InterServer",
-      "home": "https://www.interserver.net",
-      "source": "https://www.interserver.net/vps/cheap-vps.html",
+      "name": "DigitalOcean",
+      "home": "https://www.digitalocean.com",
+      "source": "https://www.digitalocean.com/pricing/droplets",
       "affiliate": ""
     },
     {
-      "name": "Contabo",
-      "home": "https://contabo.com",
-      "source": "https://contabo.com/en/vps-server/",
+      "name": "OVHcloud",
+      "home": "https://www.ovhcloud.com",
+      "source": "https://www.ovhcloud.com/en/vps/",
       "affiliate": ""
     }
   ],
@@ -80,22 +80,174 @@
       "kind": "public-price",
       "description": "Hostinger KVM 8: USD 25.99/month. Check current terms on the official source.",
       "affiliate_url": ""
-    }
-  ],
-  "unobserved": [
-    {
-      "provider": "InterServer",
-      "source_url": "https://www.interserver.net/vps/cheap-vps.html",
-      "fetched_at": "2026-10-09T18:43+08:00",
-      "note": "Not observed. The official page did not return a pricing table to our reader: it answered with a Cloudflare security-verification screen (Chinese: 正在进行安全验证 — 'security check in progress', Ray ID a47ca9737e9aeb94 on the 2026-10-09 18:22 attempt). No plan price was readable, so none is published. Nothing is estimated or copied from any other source."
     },
     {
-      "provider": "Contabo",
-      "source_url": "https://contabo.com/en/vps-server/",
-      "fetched_at": "2026-10-09T18:43+08:00",
-      "note": "Not observed. The official page did not return a pricing table to our reader: it answered with a 'Security check' screen (visitor verification) instead of the VPS plan list. No plan price was readable, so none is published. Nothing is estimated or copied from any other source."
+      "id": "digitalocean-basic-512-mib-1-vcpu",
+      "provider": "DigitalOcean",
+      "title": "Basic 512 MiB 1 vCPU",
+      "price": "4.00",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.digitalocean.com/pricing/droplets",
+      "source_url": "https://www.digitalocean.com/pricing/droplets",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "DigitalOcean Basic Droplet (Regular CPU): 512 MiB memory, 1 vCPU, 500 GiB transfer, 10 GiB SSD. Listed on the official Droplet pricing page at USD 4.00/month (USD 0.00595/hour).",
+      "affiliate_url": ""
+    },
+    {
+      "id": "digitalocean-basic-1-gib-1-vcpu",
+      "provider": "DigitalOcean",
+      "title": "Basic 1 GiB 1 vCPU",
+      "price": "6.00",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.digitalocean.com/pricing/droplets",
+      "source_url": "https://www.digitalocean.com/pricing/droplets",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "DigitalOcean Basic Droplet (Regular CPU): 1 GiB memory, 1 vCPU, 1,000 GiB transfer, 25 GiB SSD. Listed on the official Droplet pricing page at USD 6.00/month (USD 0.00893/hour).",
+      "affiliate_url": ""
+    },
+    {
+      "id": "digitalocean-basic-2-gib-1-vcpu",
+      "provider": "DigitalOcean",
+      "title": "Basic 2 GiB 1 vCPU",
+      "price": "12.00",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.digitalocean.com/pricing/droplets",
+      "source_url": "https://www.digitalocean.com/pricing/droplets",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "DigitalOcean Basic Droplet (Regular CPU): 2 GiB memory, 1 vCPU, 2,000 GiB transfer, 50 GiB SSD. Listed on the official Droplet pricing page at USD 12.00/month (USD 0.01786/hour).",
+      "affiliate_url": ""
+    },
+    {
+      "id": "digitalocean-basic-2-gib-2-vcpu",
+      "provider": "DigitalOcean",
+      "title": "Basic 2 GiB 2 vCPU",
+      "price": "18.00",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.digitalocean.com/pricing/droplets",
+      "source_url": "https://www.digitalocean.com/pricing/droplets",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "DigitalOcean Basic Droplet (Regular CPU): 2 GiB memory, 2 vCPU, 3,000 GiB transfer, 60 GiB SSD. Listed on the official Droplet pricing page at USD 18.00/month (USD 0.02679/hour).",
+      "affiliate_url": ""
+    },
+    {
+      "id": "digitalocean-basic-4-gib-2-vcpu",
+      "provider": "DigitalOcean",
+      "title": "Basic 4 GiB 2 vCPU",
+      "price": "24.00",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.digitalocean.com/pricing/droplets",
+      "source_url": "https://www.digitalocean.com/pricing/droplets",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "DigitalOcean Basic Droplet (Regular CPU): 4 GiB memory, 2 vCPU, 4,000 GiB transfer, 80 GiB SSD. Listed on the official Droplet pricing page at USD 24.00/month (USD 0.03571/hour).",
+      "affiliate_url": ""
+    },
+    {
+      "id": "digitalocean-basic-8-gib-4-vcpu",
+      "provider": "DigitalOcean",
+      "title": "Basic 8 GiB 4 vCPU",
+      "price": "48.00",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.digitalocean.com/pricing/droplets",
+      "source_url": "https://www.digitalocean.com/pricing/droplets",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "DigitalOcean Basic Droplet (Regular CPU): 8 GiB memory, 4 vCPU, 5,000 GiB transfer, 160 GiB SSD. Listed on the official Droplet pricing page at USD 48.00/month (USD 0.07143/hour).",
+      "affiliate_url": ""
+    },
+    {
+      "id": "digitalocean-basic-16-gib-8-vcpu",
+      "provider": "DigitalOcean",
+      "title": "Basic 16 GiB 8 vCPU",
+      "price": "96.00",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.digitalocean.com/pricing/droplets",
+      "source_url": "https://www.digitalocean.com/pricing/droplets",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "DigitalOcean Basic Droplet (Regular CPU): 16 GiB memory, 8 vCPU, 6,000 GiB transfer, 320 GiB SSD. Listed on the official Droplet pricing page at USD 96.00/month (USD 0.14286/hour).",
+      "affiliate_url": ""
+    },
+    {
+      "id": "ovhcloud-vps-1",
+      "provider": "OVHcloud",
+      "title": "VPS-1",
+      "price": "4.54",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.ovhcloud.com/en/vps/",
+      "source_url": "https://www.ovhcloud.com/en/vps/",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "OVHcloud VPS 2027 range VPS-1: 2 vCores, 4 GB RAM, 40 GB SSD NVMe, 500 Mbps public bandwidth. Shown on the official VPS page as 'From USD 4.54/month'.",
+      "affiliate_url": ""
+    },
+    {
+      "id": "ovhcloud-vps-2",
+      "provider": "OVHcloud",
+      "title": "VPS-2",
+      "price": "8.50",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.ovhcloud.com/en/vps/",
+      "source_url": "https://www.ovhcloud.com/en/vps/",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "OVHcloud VPS 2027 range VPS-2: 4 vCores, 8 GB RAM, 75 GB SSD NVMe, 1 Gbps public bandwidth. Shown on the official VPS page as 'From USD 8.50/month'.",
+      "affiliate_url": ""
+    },
+    {
+      "id": "ovhcloud-vps-3",
+      "provider": "OVHcloud",
+      "title": "VPS-3",
+      "price": "12.32",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.ovhcloud.com/en/vps/",
+      "source_url": "https://www.ovhcloud.com/en/vps/",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "OVHcloud VPS 2027 range VPS-3: 6 vCores, 12 GB RAM, 100 GB SSD NVMe, 2 Gbps public bandwidth. Shown on the official VPS page as 'From USD 12.32/month'.",
+      "affiliate_url": ""
+    },
+    {
+      "id": "ovhcloud-vps-4",
+      "provider": "OVHcloud",
+      "title": "VPS-4",
+      "price": "23.37",
+      "currency": "USD",
+      "billing_period": "month",
+      "offer_url": "https://www.ovhcloud.com/en/vps/",
+      "source_url": "https://www.ovhcloud.com/en/vps/",
+      "fetched_at": "2026-10-09T18:58+08:00",
+      "valid_until": null,
+      "kind": "public-price",
+      "description": "OVHcloud VPS 2027 range VPS-4: 8 vCores, 24 GB RAM, 200 GB SSD NVMe, 3 Gbps public bandwidth. Shown on the official VPS page as 'From USD 23.37/month'.",
+      "affiliate_url": ""
     }
   ],
+  "unobserved": [],
   "discarded": [
     {
       "provider": "Hostinger",
@@ -103,18 +255,5 @@
       "reason": "no unique non-renewal monthly price in the plan block"
     }
   ],
-  "errors": [
-    {
-      "provider": "InterServer",
-      "source_url": "https://www.interserver.net/vps/cheap-vps.html",
-      "error": "robots.txt request failed: HTTP 403",
-      "fetched_at": "2026-10-09T06:44:24Z"
-    },
-    {
-      "provider": "Contabo",
-      "source_url": "https://contabo.com/en/vps-server/",
-      "error": "HTTP Error 403: Forbidden",
-      "fetched_at": "2026-10-09T06:44:24Z"
-    }
-  ]
+  "errors": []
 }

@@ -11,8 +11,8 @@ ILANG
 
 ::MODULE{PROVIDERS|title:Official provider pages; edit here to change the rendered site}
   Hostinger | https://www.hostinger.com | https://www.hostinger.com/vps-hosting | 
-  InterServer | https://www.interserver.net | https://www.interserver.net/vps/cheap-vps.html | 
-  Contabo | https://contabo.com | https://contabo.com/en/vps-server/ | 
+  DigitalOcean | https://www.digitalocean.com | https://www.digitalocean.com/pricing/droplets | 
+  OVHcloud | https://www.ovhcloud.com | https://www.ovhcloud.com/en/vps/ | 
 
 ::MODULE{FIELDS}
   title price currency offer_url valid_until source_url fetched_at provider

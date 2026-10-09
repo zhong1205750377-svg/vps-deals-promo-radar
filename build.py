@@ -120,7 +120,7 @@ def main():
         currency = str(offer.get("currency", "")).strip().upper()
         price = str(offer.get("price", "")).strip()
         source_url = str(offer.get("source_url", "")).strip()
-        if not (provider and re.fullmatch(r"(?:KVM\s+\d+|Cloud VPS \d+|VPS[\s\-]?\d+|VPS\s+\d+\s+\w+)", title, re.I)
+        if not (provider and title and len(title) <= 80 and "\n" not in title
                 and currency in {"USD", "EUR", "GBP"}
                 and re.fullmatch(r"\d+(?:\.\d{1,2})?", price)
                 and offer.get("billing_period") == "month" and source_url.startswith("https://")):
@@ -250,6 +250,8 @@ def main():
     (OUT / "404.html").write_text(page("404 | " + CONFIG["brand"], "The requested page was not found.", f"{base}/404.html", notfound_body, notfound_ld, kind="page"), encoding="utf-8")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{esc(base + u)}</loc><lastmod>{stamp}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    # Providers that were replaced stay reachable: old URLs redirect instead of 404.
+    (OUT / "_redirects").write_text("/provider-interserver /compare 301\n/provider-contabo /compare 301\n", encoding="utf-8")
     (OUT / "style.css").write_text(CSS, encoding="utf-8")
     editorial = ROOT / "editorial"
     if editorial.exists():
