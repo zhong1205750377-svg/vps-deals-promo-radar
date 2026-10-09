@@ -58,6 +58,30 @@ AD_BLOCK = (
     'View is*hosting plans</a>'
     '</div></section>'
 )
+ADDITIONAL_AD_BLOCKS = (
+    '<section class="ad" aria-label="Advertisement">'
+    '<p class="ad-label">Sponsored</p>'
+    '<div class="ad-card">'
+    '<h2>HyperHost</h2>'
+    '<a class="button" href="https://rcpsj.com/g/4y24lnxl7f9f1175b8bb7f67b8171e/" rel="nofollow sponsored noopener" target="_blank">'
+    'View HyperHost plans</a>'
+    '</div></section>'
+    '<section class="ad" aria-label="Advertisement">'
+    '<p class="ad-label">Sponsored</p>'
+    '<div class="ad-card">'
+    '<h2>Godlike.Host</h2>'
+    '<a class="button" href="https://yjfca.com/g/n4h0en61qn9f1175b8bb52f0388f55/" rel="nofollow sponsored noopener" target="_blank">'
+    'View Godlike.Host plans</a>'
+    '</div></section>'
+    '<section class="ad" aria-label="Advertisement">'
+    '<p class="ad-label">Sponsored</p>'
+    '<div class="ad-card">'
+    '<h2>ProHoster</h2>'
+    '<a class="button" href="https://ntzgd.com/g/gaetfoqpj79f1175b8bb934d4157fe/" rel="nofollow sponsored noopener" target="_blank">'
+    'View ProHoster plans</a>'
+    '</div></section>'
+)
+SPONSORED_BLOCKS = AD_BLOCK + ADDITIONAL_AD_BLOCKS
 
 
 def page(title, description, canonical, body, jsonld, kind=None):
@@ -115,10 +139,10 @@ def main():
         cards = ['<article class="card empty"><h2>No prices verified yet</h2><p>The scheduled fetch will publish only prices it can read on the official sources. Check the source pages below in the meantime.</p></article>']
     providers_html = "".join(f'<li><a href="{esc(p["source"])}">{esc(p["name"])} official pricing page</a></li>' for p in CONFIG["providers"])
     desc = f"Current VPS prices observed on official provider pages. Source URLs and observation times are shown for each listing."
-    index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section>{AD_BLOCK}<section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
+    index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section>{SPONSORED_BLOCKS}<section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
     ld = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(o.get("title", "VPS"), o.get("price"), o.get("currency"), o.get("source_url", ""), i + 1) for i, o in enumerate(offers)]}
     (OUT / "index.html").write_text(page(f"{CONFIG['brand']} | VPS Prices", desc, base + "/", index_body, ld), encoding="utf-8")
-    compare_body = f"<section class=\"hero\"><p class=\"eyebrow\">Provider index</p><h1>Compare official VPS sources</h1><p>Browse each provider's public VPS page. Prices shown here come from the latest successful fetch.</p></section><ul class=\"provider-list\">{providers_html}</ul>{AD_BLOCK}"
+    compare_body = f"<section class=\"hero\"><p class=\"eyebrow\">Provider index</p><h1>Compare official VPS sources</h1><p>Browse each provider's public VPS page. Prices shown here come from the latest successful fetch.</p></section><ul class=\"provider-list\">{providers_html}</ul>{SPONSORED_BLOCKS}"
     (OUT / "compare.html").write_text(page(f"Compare VPS providers | {CONFIG['brand']}", desc, base + "/compare", compare_body, {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(p["name"], None, None, p["source"], i + 1) for i, p in enumerate(CONFIG["providers"])]}), encoding="utf-8")
     for p in CONFIG["providers"]:
         pid = re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-")
