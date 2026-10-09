@@ -104,6 +104,9 @@ def main():
     data_path = ROOT / "data/offers.json"
     data = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else {"offers": [], "fetched_at": None, "errors": []}
     offers = data.get("offers", [])
+    # Providers whose official page was read but yielded no usable plan price are published
+    # as "not observed" records with their source URL and observation time (never invented).
+    unobserved = [u for u in data.get("unobserved", []) if str(u.get("provider", "")).strip()]
     base = CONFIG["settings"].get("base_url", "").strip().rstrip("/")
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -117,7 +120,7 @@ def main():
         currency = str(offer.get("currency", "")).strip().upper()
         price = str(offer.get("price", "")).strip()
         source_url = str(offer.get("source_url", "")).strip()
-        if not (provider and re.fullmatch(r"(?:KVM\s+\d+|Cloud VPS \d+)", title, re.I)
+        if not (provider and re.fullmatch(r"(?:KVM\s+\d+|Cloud VPS \d+|VPS[\s\-]?\d+|VPS\s+\d+\s+\w+)", title, re.I)
                 and currency in {"USD", "EUR", "GBP"}
                 and re.fullmatch(r"\d+(?:\.\d{1,2})?", price)
                 and offer.get("billing_period") == "month" and source_url.startswith("https://")):
@@ -135,9 +138,27 @@ def main():
         price_text = f"{currency} {price}/month"
         description = offer.get("description") or f"{offer.get('provider')} {offer.get('title')}: {price_text}. Check current terms on the official source."
         cards.append(f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · Official public price</p><h2>{esc(offer.get("title"))}</h2><p class="price">{esc(price_text)}</p><p>{esc(description)} <a href="{esc(offer.get("source_url", ""))}">Official source</a></p><p class="source">Observed {esc(offer.get("fetched_at", ""))}</p><a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>')
+    # Providers read but with no usable price are shown in the same card structure, with the
+    # official source URL and the exact time the page was read.
+    for rec in unobserved:
+        provider = str(rec.get("provider", "")).strip()
+        if any(o.get("provider") == provider for o in offers):
+            continue
+        note = rec.get("note") or "No plan price could be read on the official page."
+        cards.append(
+            f'<article class="card empty"><p class="eyebrow">{esc(provider)} · Official public price</p>'
+            f'<h2>Not observed</h2><p class="price">—</p>'
+            f'<p>{esc(note)} <a href="{esc(rec.get("source_url", ""))}">Official source</a></p>'
+            f'<p class="source">Observed {esc(rec.get("fetched_at", ""))}</p>'
+            f'<a class="button" href="{esc(rec.get("source_url", ""))}" rel="nofollow noopener">Check provider</a></article>'
+        )
     if not cards:
         cards = ['<article class="card empty"><h2>No prices verified yet</h2><p>The scheduled fetch will publish only prices it can read on the official sources. Check the source pages below in the meantime.</p></article>']
-    providers_html = "".join(f'<li><a href="{esc(p["source"])}">{esc(p["name"])} official pricing page</a></li>' for p in CONFIG["providers"])
+    providers_html = "".join(
+        f'<li><a href="/provider-{esc(re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-"))}">{esc(p["name"])} on {esc(CONFIG["brand"])}</a>'
+        f' · official pricing page: <a href="{esc(p["source"])}">{esc(p["source"])}</a></li>'
+        for p in CONFIG["providers"]
+    )
     desc = f"Current VPS prices observed on official provider pages. Source URLs and observation times are shown for each listing."
     index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section>{SPONSORED_BLOCKS}<section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
     ld = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(o.get("title", "VPS"), o.get("price"), o.get("currency"), o.get("source_url", ""), i + 1) for i, o in enumerate(offers)]}
@@ -147,10 +168,17 @@ def main():
     for p in CONFIG["providers"]:
         pid = re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-")
         related = [o for o in offers if o.get("provider") == p["name"]]
+        notes = [u for u in unobserved if str(u.get("provider", "")).strip() == p["name"]]
         if not related:
-            continue
-        lis = "".join(f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>' for o in related) or "<li>No verifiable price captured yet.</li>"
-        detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p>'
+            if notes:
+                rec = notes[0]
+                lis = (f'<li>Not observed · observed {esc(rec.get("fetched_at", ""))} · '
+                       f'{esc(rec.get("note", "No plan price could be read on the official page."))}</li>')
+            else:
+                lis = "<li>No verifiable price captured yet.</li>"
+        else:
+            lis = "".join(f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>' for o in related)
+        detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p><p><a href="/compare">Back to provider comparison</a></p>'
         offer_nodes = [{"@type": "Offer", "url": o["source_url"], "price": o["price"], "priceCurrency": o["currency"]} for o in related if o.get("price") and o.get("currency") and o.get("source_url")]
         product = {"@context": "https://schema.org", "@type": "Service", "name": f"{p['name']} VPS", "url": p["source"], "provider": {"@type": "Organization", "name": p["name"], "url": p["home"]}}
         if offer_nodes:
@@ -161,7 +189,7 @@ def main():
         stamp = datetime.fromisoformat(stamp_raw.replace("Z", "+00:00")).date().isoformat()
     except (AttributeError, ValueError):
         stamp = ""
-    urls = ["/", "/compare"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}" for p in CONFIG["providers"] if any(o.get("provider") == p["name"] for o in offers)]
+    urls = ["/", "/compare"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}" for p in CONFIG["providers"]]
     for offer in []:  # Thin duplicate price-only deal pages are excluded; observations remain on the homepage.
         oid = re.sub(r"[^a-z0-9]+", "-", str(offer.get("id", "offer")).lower()).strip("-")
         offer_url = f"{base}/deal-{oid}.html"

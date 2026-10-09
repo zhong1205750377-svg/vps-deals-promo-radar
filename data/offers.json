@@ -82,6 +82,20 @@
       "affiliate_url": ""
     }
   ],
+  "unobserved": [
+    {
+      "provider": "InterServer",
+      "source_url": "https://www.interserver.net/vps/cheap-vps.html",
+      "fetched_at": "2026-10-09T18:43+08:00",
+      "note": "Not observed. The official page did not return a pricing table to our reader: it answered with a Cloudflare security-verification screen (Chinese: 正在进行安全验证 — 'security check in progress', Ray ID a47ca9737e9aeb94 on the 2026-10-09 18:22 attempt). No plan price was readable, so none is published. Nothing is estimated or copied from any other source."
+    },
+    {
+      "provider": "Contabo",
+      "source_url": "https://contabo.com/en/vps-server/",
+      "fetched_at": "2026-10-09T18:43+08:00",
+      "note": "Not observed. The official page did not return a pricing table to our reader: it answered with a 'Security check' screen (visitor verification) instead of the VPS plan list. No plan price was readable, so none is published. Nothing is estimated or copied from any other source."
+    }
+  ],
   "discarded": [
     {
       "provider": "Hostinger",
