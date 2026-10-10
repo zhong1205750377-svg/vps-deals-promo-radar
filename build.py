@@ -98,19 +98,25 @@ def item(title, price, currency, url, position):
     return {"@type": "ListItem", "position": position, "url": url, "name": title}
 
 
+def quote(x):
+    """Wrap an official-source string in the same curly quotes the source page uses."""
+    return "\u201c" + esc(x) + "\u201d"
+
+
 def plan_line(o):
-    """One observed plan per line. Discounted plans carry the whole basis, never just the first price."""
-    if o.get("intro_price") and o.get("renewal_price"):
-        term = esc(o.get("term", ""))
-        if o.get("term_is_inferred"):
-            term += " (inferred — " + esc(o.get("term_evidence", "")) + ")"
+    """One observed plan per line. Every string printed here is copied verbatim from the
+    official source page; the site adds only the field labels around it."""
+    if o.get("official_discount") and o.get("official_renewal"):
+        specs = " \u00b7 ".join(quote(s) for s in o.get("official_spec_lines", []))
         return (
-            f'<li><strong>{esc(o.get("title"))}</strong> — first term {esc(o.get("currency"))} {esc(o.get("intro_price"))}/mo'
-            f' ({esc(o.get("discount_wording", ""))}); prepaid {term};'
-            f' renewal {esc(o.get("currency"))} {esc(o.get("renewal_price"))}/mo ({esc(o.get("renewal_wording", ""))});'
-            f' {esc(o.get("spec", ""))} · observed {esc(o.get("fetched_at", ""))}</li>'
+            f'<li><strong>{esc(o.get("title"))}</strong> \u2014 first term {esc(o.get("currency"))} {esc(o.get("intro_price"))}/mo;'
+            f' discount {quote(o.get("official_discount", ""))}; was {quote(o.get("official_was", ""))} \u2192 now {quote(o.get("official_now", ""))};'
+            f' renewal {quote(o.get("official_renewal", ""))};'
+            f' specs {specs} \u00b7 observed {esc(o.get("fetched_at", ""))}</li>'
         )
-    return f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>'
+    if o.get("official_price_line"):
+        return f'<li>{esc(o.get("title"))}: From {esc(o.get("currency"))} {esc(o.get("price"))}/month \u00b7 observed {esc(o.get("fetched_at"))}</li>'
+    return f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month \u00b7 observed {esc(o.get("fetched_at"))}</li>'
 
 
 def main():
@@ -152,26 +158,31 @@ def main():
         price = offer.get("price")
         price_text = f"{currency} {price}/month"
         description = offer.get("description") or f"{offer.get('provider')} {offer.get('title')}: {price_text}. Check current terms on the official source."
-        if offer.get("intro_price") and offer.get("renewal_price"):
-            # The official page publishes this as a discounted first-term price with a separate
-            # renewal rate, so the card states the whole basis instead of calling it a public price.
-            term_note = esc(offer.get("term", "")) + (" (inferred — " + esc(offer.get("term_evidence", "")) + ")" if offer.get("term_is_inferred") else "")
+        if offer.get("official_discount") and offer.get("official_renewal"):
+            # The official page prints a discounted price with a separate renewal rate, so the
+            # card states exactly those official strings and nothing the page does not print.
+            specs = " \u00b7 ".join(quote(s) for s in offer.get("official_spec_lines", []))
             cards.append(
-                f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · First-term price · {esc(offer.get("term", ""))} prepaid · {esc(offer.get("discount", ""))}</p>'
+                f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} \u00b7 {esc(offer.get("price_basis_label", "Official public price"))} \u00b7 {esc(offer.get("discount", ""))}</p>'
                 f'<h2>{esc(offer.get("title"))}</h2>'
                 f'<p class="price">{esc(currency)} {esc(offer.get("intro_price"))}/mo first term</p>'
                 f'<ul>'
-                f'<li><strong>First-term price:</strong> {esc(currency)} {esc(offer.get("intro_price"))}/mo — {esc(offer.get("discount_wording", ""))}</li>'
-                f'<li><strong>Prepaid term:</strong> {term_note}</li>'
-                f'<li><strong>Renewal price:</strong> {esc(currency)} {esc(offer.get("renewal_price"))}/mo ({esc(offer.get("renewal_wording", ""))})</li>'
-                f'<li><strong>Specs:</strong> {esc(offer.get("spec", ""))}</li>'
-                f'<li><strong>How the monthly rate is calculated (official wording):</strong> “{esc(offer.get("pricing_note", ""))}”</li>'
+                f'<li><strong>Discount printed on the official page:</strong> {quote(offer.get("official_discount", ""))}</li>'
+                f'<li><strong>Price shown before discount:</strong> {quote(offer.get("official_was", ""))}</li>'
+                f'<li><strong>Price shown after discount:</strong> {quote(offer.get("official_now", ""))}</li>'
+                f'<li><strong>Renewal:</strong> {quote(offer.get("official_renewal", ""))}</li>'
+                f'<li><strong>Specs:</strong> {specs}</li>'
+                f'<li><strong>How the monthly rate is calculated:</strong> {quote(offer.get("official_note", ""))}</li>'
                 f'</ul>'
-                f'<p class="source">Observed {esc(offer.get("fetched_at", ""))} · <a href="{esc(offer.get("source_url", ""))}">Official source</a></p>'
+                f'<p class="source">Observed {esc(offer.get("fetched_at", ""))} \u00b7 <a href="{esc(offer.get("source_url", ""))}">Official source</a></p>'
                 f'<a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>'
             )
             continue
-        cards.append(f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · Official public price</p><h2>{esc(offer.get("title"))}</h2><p class="price">{esc(price_text)}</p><p>{esc(description)} <a href="{esc(offer.get("source_url", ""))}">Official source</a></p><p class="source">Observed {esc(offer.get("fetched_at", ""))}</p><a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>')
+        basis_label = esc(offer.get("price_basis_label", "Official public price"))
+        if offer.get("official_price_line"):
+            # Official page prints this as a starting price ("From"), not as a fixed list price.
+            price_text = f'From {currency} {price}/month'
+        cards.append(f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} \u00b7 {basis_label}</p><h2>{esc(offer.get("title"))}</h2><p class="price">{esc(price_text)}</p><p>{esc(description)} <a href="{esc(offer.get("source_url", ""))}">Official source</a></p><p class="source">Observed {esc(offer.get("fetched_at", ""))}</p><a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>')
     # Providers read but with no usable price are shown in the same card structure, with the
     # official source URL and the exact time the page was read.
     for rec in unobserved:

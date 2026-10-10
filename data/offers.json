@@ -38,15 +38,22 @@
       "discount": "67% off",
       "list_price": "19.49",
       "intro_price": "6.49",
-      "term": "2 years",
       "renewal_price": "11.99",
-      "renewal_term": "2 years",
       "spec": "1 vCPU core, 4 GB RAM, 50 GB NVMe disk space, 4 TB bandwidth",
       "pricing_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
-      "term_is_inferred": true,
-      "term_evidence": "Inferred, not printed separately: the page says every plan is paid upfront and that this plan \"Renews at USD 11.99/mo for 2 years\" — the initial prepaid term is therefore taken to be 2 years.",
       "renewal_wording": "Renews at USD 11.99/mo for 2 years. Cancel anytime.",
-      "discount_wording": "67% off — was USD 19.49/mo, now USD 6.49/mo"
+      "official_discount": "67% off",
+      "official_was": "$19.49/mo",
+      "official_now": "$6.49/mo",
+      "official_renewal": "Renews at $11.99/mo for 2 years. Cancel anytime.",
+      "official_spec_lines": [
+        "1 vCPU core",
+        "4 GB RAM",
+        "50 GB NVMe disk space",
+        "4 TB bandwidth"
+      ],
+      "official_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
+      "price_basis_label": "First-term price"
     },
     {
       "id": "hostinger-kvm-2",
@@ -65,15 +72,22 @@
       "discount": "63% off",
       "list_price": "24.49",
       "intro_price": "8.99",
-      "term": "2 years",
       "renewal_price": "14.99",
-      "renewal_term": "2 years",
       "spec": "2 vCPU cores, 8 GB RAM, 100 GB NVMe disk space, 8 TB bandwidth",
       "pricing_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
-      "term_is_inferred": true,
-      "term_evidence": "Inferred, not printed separately: the page says every plan is paid upfront and that this plan \"Renews at USD 14.99/mo for 2 years\" — the initial prepaid term is therefore taken to be 2 years.",
       "renewal_wording": "Renews at USD 14.99/mo for 2 years. Cancel anytime.",
-      "discount_wording": "63% off — was USD 24.49/mo, now USD 8.99/mo"
+      "official_discount": "63% off",
+      "official_was": "$24.49/mo",
+      "official_now": "$8.99/mo",
+      "official_renewal": "Renews at $14.99/mo for 2 years. Cancel anytime.",
+      "official_spec_lines": [
+        "2 vCPU cores",
+        "8 GB RAM",
+        "100 GB NVMe disk space",
+        "8 TB bandwidth"
+      ],
+      "official_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
+      "price_basis_label": "First-term price"
     },
     {
       "id": "hostinger-kvm-4",
@@ -92,15 +106,22 @@
       "discount": "70% off",
       "list_price": "42.99",
       "intro_price": "12.99",
-      "term": "2 years",
       "renewal_price": "28.99",
-      "renewal_term": "2 years",
       "spec": "4 vCPU cores, 16 GB RAM, 200 GB NVMe disk space, 16 TB bandwidth",
       "pricing_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
-      "term_is_inferred": true,
-      "term_evidence": "Inferred, not printed separately: the page says every plan is paid upfront and that this plan \"Renews at USD 28.99/mo for 2 years\" — the initial prepaid term is therefore taken to be 2 years.",
       "renewal_wording": "Renews at USD 28.99/mo for 2 years. Cancel anytime.",
-      "discount_wording": "70% off — was USD 42.99/mo, now USD 12.99/mo"
+      "official_discount": "70% off",
+      "official_was": "$42.99/mo",
+      "official_now": "$12.99/mo",
+      "official_renewal": "Renews at $28.99/mo for 2 years. Cancel anytime.",
+      "official_spec_lines": [
+        "4 vCPU cores",
+        "16 GB RAM",
+        "200 GB NVMe disk space",
+        "16 TB bandwidth"
+      ],
+      "official_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
+      "price_basis_label": "First-term price"
     },
     {
       "id": "hostinger-kvm-8",
@@ -119,15 +140,22 @@
       "discount": "65% off",
       "list_price": "73.99",
       "intro_price": "25.99",
-      "term": "2 years",
       "renewal_price": "49.99",
-      "renewal_term": "2 years",
       "spec": "8 vCPU cores, 32 GB RAM, 400 GB NVMe disk space, 32 TB bandwidth",
       "pricing_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
-      "term_is_inferred": true,
-      "term_evidence": "Inferred, not printed separately: the page says every plan is paid upfront and that this plan \"Renews at USD 49.99/mo for 2 years\" — the initial prepaid term is therefore taken to be 2 years.",
       "renewal_wording": "Renews at USD 49.99/mo for 2 years. Cancel anytime.",
-      "discount_wording": "65% off — was USD 73.99/mo, now USD 25.99/mo"
+      "official_discount": "65% off",
+      "official_was": "$73.99/mo",
+      "official_now": "$25.99/mo",
+      "official_renewal": "Renews at $49.99/mo for 2 years. Cancel anytime.",
+      "official_spec_lines": [
+        "8 vCPU cores",
+        "32 GB RAM",
+        "400 GB NVMe disk space",
+        "32 TB bandwidth"
+      ],
+      "official_note": "All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan.",
+      "price_basis_label": "First-term price"
     },
     {
       "id": "digitalocean-basic-512-mib-1-vcpu",
@@ -247,7 +275,9 @@
       "valid_until": null,
       "kind": "public-price",
       "description": "OVHcloud VPS 2027 range VPS-1: 2 vCores, 4 GB RAM, 40 GB SSD NVMe, 500 Mbps public bandwidth. Shown on the official VPS page as 'From USD 4.54/month'.",
-      "affiliate_url": ""
+      "affiliate_url": "",
+      "price_basis_label": "Starting price",
+      "official_price_line": "From $4.54/month"
     },
     {
       "id": "ovhcloud-vps-2",
@@ -262,7 +292,9 @@
       "valid_until": null,
       "kind": "public-price",
       "description": "OVHcloud VPS 2027 range VPS-2: 4 vCores, 8 GB RAM, 75 GB SSD NVMe, 1 Gbps public bandwidth. Shown on the official VPS page as 'From USD 8.50/month'.",
-      "affiliate_url": ""
+      "affiliate_url": "",
+      "price_basis_label": "Starting price",
+      "official_price_line": "From $8.50/month"
     },
     {
       "id": "ovhcloud-vps-3",
@@ -277,7 +309,9 @@
       "valid_until": null,
       "kind": "public-price",
       "description": "OVHcloud VPS 2027 range VPS-3: 6 vCores, 12 GB RAM, 100 GB SSD NVMe, 2 Gbps public bandwidth. Shown on the official VPS page as 'From USD 12.32/month'.",
-      "affiliate_url": ""
+      "affiliate_url": "",
+      "price_basis_label": "Starting price",
+      "official_price_line": "From $12.32/month"
     },
     {
       "id": "ovhcloud-vps-4",
@@ -292,7 +326,9 @@
       "valid_until": null,
       "kind": "public-price",
       "description": "OVHcloud VPS 2027 range VPS-4: 8 vCores, 24 GB RAM, 200 GB SSD NVMe, 3 Gbps public bandwidth. Shown on the official VPS page as 'From USD 23.37/month'.",
-      "affiliate_url": ""
+      "affiliate_url": "",
+      "price_basis_label": "Starting price",
+      "official_price_line": "From $23.37/month"
     }
   ],
   "unobserved": [],
