@@ -104,6 +104,9 @@ def main():
     data_path = ROOT / "data/offers.json"
     data = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else {"offers": [], "fetched_at": None, "errors": []}
     offers = data.get("offers", [])
+    # Providers whose official page was read but yielded no usable plan price are published
+    # as "not observed" records with their source URL and observation time (never invented).
+    unobserved = [u for u in data.get("unobserved", []) if str(u.get("provider", "")).strip()]
     base = CONFIG["settings"].get("base_url", "").strip().rstrip("/")
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -117,7 +120,7 @@ def main():
         currency = str(offer.get("currency", "")).strip().upper()
         price = str(offer.get("price", "")).strip()
         source_url = str(offer.get("source_url", "")).strip()
-        if not (provider and re.fullmatch(r"(?:KVM\s+\d+|Cloud VPS \d+)", title, re.I)
+        if not (provider and title and len(title) <= 80 and "\n" not in title
                 and currency in {"USD", "EUR", "GBP"}
                 and re.fullmatch(r"\d+(?:\.\d{1,2})?", price)
                 and offer.get("billing_period") == "month" and source_url.startswith("https://")):
@@ -135,9 +138,27 @@ def main():
         price_text = f"{currency} {price}/month"
         description = offer.get("description") or f"{offer.get('provider')} {offer.get('title')}: {price_text}. Check current terms on the official source."
         cards.append(f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · Official public price</p><h2>{esc(offer.get("title"))}</h2><p class="price">{esc(price_text)}</p><p>{esc(description)} <a href="{esc(offer.get("source_url", ""))}">Official source</a></p><p class="source">Observed {esc(offer.get("fetched_at", ""))}</p><a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>')
+    # Providers read but with no usable price are shown in the same card structure, with the
+    # official source URL and the exact time the page was read.
+    for rec in unobserved:
+        provider = str(rec.get("provider", "")).strip()
+        if any(o.get("provider") == provider for o in offers):
+            continue
+        note = rec.get("note") or "No plan price could be read on the official page."
+        cards.append(
+            f'<article class="card empty"><p class="eyebrow">{esc(provider)} · Official public price</p>'
+            f'<h2>Not observed</h2><p class="price">—</p>'
+            f'<p>{esc(note)} <a href="{esc(rec.get("source_url", ""))}">Official source</a></p>'
+            f'<p class="source">Observed {esc(rec.get("fetched_at", ""))}</p>'
+            f'<a class="button" href="{esc(rec.get("source_url", ""))}" rel="nofollow noopener">Check provider</a></article>'
+        )
     if not cards:
         cards = ['<article class="card empty"><h2>No prices verified yet</h2><p>The scheduled fetch will publish only prices it can read on the official sources. Check the source pages below in the meantime.</p></article>']
-    providers_html = "".join(f'<li><a href="{esc(p["source"])}">{esc(p["name"])} official pricing page</a></li>' for p in CONFIG["providers"])
+    providers_html = "".join(
+        f'<li><a href="/provider-{esc(re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-"))}">{esc(p["name"])} on {esc(CONFIG["brand"])}</a>'
+        f' · official pricing page: <a href="{esc(p["source"])}">{esc(p["source"])}</a></li>'
+        for p in CONFIG["providers"]
+    )
     desc = f"Current VPS prices observed on official provider pages. Source URLs and observation times are shown for each listing."
     index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section>{SPONSORED_BLOCKS}<section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
     ld = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(o.get("title", "VPS"), o.get("price"), o.get("currency"), o.get("source_url", ""), i + 1) for i, o in enumerate(offers)]}
@@ -147,10 +168,17 @@ def main():
     for p in CONFIG["providers"]:
         pid = re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-")
         related = [o for o in offers if o.get("provider") == p["name"]]
+        notes = [u for u in unobserved if str(u.get("provider", "")).strip() == p["name"]]
         if not related:
-            continue
-        lis = "".join(f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>' for o in related) or "<li>No verifiable price captured yet.</li>"
-        detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p>'
+            if notes:
+                rec = notes[0]
+                lis = (f'<li>Not observed · observed {esc(rec.get("fetched_at", ""))} · '
+                       f'{esc(rec.get("note", "No plan price could be read on the official page."))}</li>')
+            else:
+                lis = "<li>No verifiable price captured yet.</li>"
+        else:
+            lis = "".join(f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>' for o in related)
+        detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p><p><a href="/compare">Back to provider comparison</a></p>'
         offer_nodes = [{"@type": "Offer", "url": o["source_url"], "price": o["price"], "priceCurrency": o["currency"]} for o in related if o.get("price") and o.get("currency") and o.get("source_url")]
         product = {"@context": "https://schema.org", "@type": "Service", "name": f"{p['name']} VPS", "url": p["source"], "provider": {"@type": "Organization", "name": p["name"], "url": p["home"]}}
         if offer_nodes:
@@ -161,7 +189,7 @@ def main():
         stamp = datetime.fromisoformat(stamp_raw.replace("Z", "+00:00")).date().isoformat()
     except (AttributeError, ValueError):
         stamp = ""
-    urls = ["/", "/compare"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}" for p in CONFIG["providers"] if any(o.get("provider") == p["name"] for o in offers)]
+    urls = ["/", "/compare"] + [f"/provider-{re.sub(r'[^a-z0-9]+','-',p['name'].lower()).strip('-')}" for p in CONFIG["providers"]]
     for offer in []:  # Thin duplicate price-only deal pages are excluded; observations remain on the homepage.
         oid = re.sub(r"[^a-z0-9]+", "-", str(offer.get("id", "offer")).lower()).strip("-")
         offer_url = f"{base}/deal-{oid}.html"
@@ -185,17 +213,23 @@ def main():
         ),
         "privacy": (
             "Privacy Policy | " + CONFIG["brand"],
-            "Privacy policy for vpspricewatch.com: third-party advertising and the visitor data the site uses.",
-            '<section class="hero"><p class="eyebrow">Legal</p><h1>Privacy Policy</h1><p>Last updated: 2026-10-06</p></section>'
+            "Privacy policy for vpspricewatch.com: affiliate links, sponsored placements, third-party advertising and the visitor data the site uses.",
+            '<section class="hero"><p class="eyebrow">Legal</p><h1>Privacy Policy</h1><p>Last updated: 2026-10-09</p></section>'
             '<section><h2>Overview</h2><p>This privacy policy explains what information vpspricewatch.com collects and how it is used. By using the site you agree to the practices described here.</p></section>'
-            '<section><h2>Advertising and affiliate links</h2><p>This site uses third-party affiliate promotion links through Admitad, including a sponsored is*hosting promotion on the homepage and provider comparison page. If you follow an affiliate link and make a qualifying purchase, this site may earn a commission. Sponsored promotions are labelled separately from price observations.</p><p>Affiliate commissions do not change how we report prices or our independent editorial position. Published price observations remain linked to official provider sources; confirm the final price and terms with the provider.</p><p>When you follow an affiliate link, you leave this site. The affiliate network and advertiser may process referral information under their own privacy policies.</p></section>'
+            '<section><h2>Advertising and affiliate links</h2><p>This site participates in affiliate marketing. Some outbound links to hosting providers are affiliate links issued and tracked through the <strong>Admitad</strong> affiliate network (admitad.com). If you follow one of these links and later make a qualifying purchase, this site may earn a commission.</p>'
+            '<p><strong>No extra cost to you:</strong> affiliate links do not change the price you pay. Prices shown on this site are observations taken from official provider pages, and the final price and terms must always be confirmed with the provider.</p>'
+            '<p><strong>Current sponsored partners:</strong> is*hosting, HyperHost, Godlike.Host and ProHoster. Sponsored placements for these partners appear on the homepage and the provider comparison page. The list of partners may change as partnerships are added or removed; this page reflects the current state.</p>'
+            '<p><strong>How sponsored links are marked:</strong> sponsored placements are labelled <em>Sponsored</em> and their links carry <code>rel="nofollow sponsored"</code> so that search engines can identify them as paid placements. Sponsored content is always shown separately from price observations.</p>'
+            '<p><strong>Editorial independence:</strong> affiliate commissions do not change how we report prices, rankings, or comparisons. This site does not sell hosting itself and cannot change provider prices, accounts, or billing.</p>'
+            '<p>When you follow an affiliate link you leave this site. The affiliate network and the advertiser may then process referral information under their own privacy policies, which we do not control.</p></section>'
             '<section><h2>Data we use</h2><p>When you visit, the following data may be processed:</p><ul>'
             '<li><strong>Server and CDN logs:</strong> the hosting provider (Cloudflare) records request metadata such as IP address, browser type, requested URL, and timestamp for security and performance.</li>'
             '<li><strong>Analytics:</strong> privacy-respecting, aggregated usage statistics may be collected to understand which pages are useful. Cloudflare Web Analytics is enabled by the hosting service and collects performance and usage measurements. No Google Analytics measurement script is currently installed in the site source.</li>'
-            '<li><strong>Affiliate referrals:</strong> following a promotion link sends you to the affiliate network or advertiser, which may use referral identifiers to attribute a purchase. This site does not ask you to submit payment details.</li>'
+            '<li><strong>Affiliate attribution:</strong> following a sponsored link sends you to the affiliate network, which may set a cookie or use similar technologies to record the referral (referring page, time, and a network identifier) so that a resulting purchase can be attributed. This site only receives aggregated statistics, never your payment or personal details.</li>'
+            '<li><strong>Advertising cookies:</strong> if and when additional ad networks are enabled, those networks may set cookies to measure impressions and serve relevant ads.</li>'
             '<li><strong>Email:</strong> if you contact us by email, we store the message and address only to reply.</li>'
             '</ul></section>'
-            '<section><h2>Your choices</h2><p>You can disable cookies in your browser. Doing so may limit some advertising features but will not affect core content. For ad personalization controls, use the opt-out tools provided by the advertising network.</p></section>'
+            '<section><h2>Your choices</h2><p>You can disable or block cookies in your browser, including third-party cookies. Blocking them prevents affiliate referral attribution and ad personalization but will not affect access to any core content on this site. For ad personalization controls, use the opt-out tools provided by the advertising network or by Admitad.</p></section>'
             '<section><h2>Contact</h2><p>See the <a href="/contact">contact page</a> for the current availability of a contact channel.</p></section>',
         ),
         "contact": (
@@ -216,6 +250,8 @@ def main():
     (OUT / "404.html").write_text(page("404 | " + CONFIG["brand"], "The requested page was not found.", f"{base}/404.html", notfound_body, notfound_ld, kind="page"), encoding="utf-8")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{esc(base + u)}</loc><lastmod>{stamp}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    # Providers that were replaced stay reachable: old URLs redirect instead of 404.
+    (OUT / "_redirects").write_text("/provider-interserver /compare 301\n/provider-contabo /compare 301\n", encoding="utf-8")
     (OUT / "style.css").write_text(CSS, encoding="utf-8")
     editorial = ROOT / "editorial"
     if editorial.exists():
