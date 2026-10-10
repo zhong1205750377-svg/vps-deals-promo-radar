@@ -8,3 +8,6 @@
 
 /* Daily shift 2026-10-09: readable answer line length */
 .answer p{max-width:72ch;line-height:1.65}.answer h1{max-width:30ch;text-wrap:balance}
+
+/* Daily shift 2026-10-10: visible keyboard focus and figure captions */
+main a:focus-visible,header a:focus-visible,footer a:focus-visible{outline:3px solid #185e79;outline-offset:4px;border-radius:3px}figcaption{max-width:72ch;line-height:1.5;padding:8px 0}

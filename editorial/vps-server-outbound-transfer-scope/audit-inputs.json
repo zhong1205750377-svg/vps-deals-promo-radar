@@ -1,0 +1,75 @@
+{
+  "origin": "All seven routes are project-authored synthetic fixtures, not captured packets or customer traffic. Classification does not calculate charges.",
+  "provider_scope": "DigitalOcean Droplets only; other products and providers require their own rules",
+  "fixtures": [
+    {
+      "id": "A",
+      "direction": "inbound",
+      "route": "public",
+      "ip_version": 4,
+      "expected": "inbound_not_counted",
+      "product": "droplet"
+    },
+    {
+      "id": "B",
+      "direction": "outbound",
+      "route": "public",
+      "ip_version": 4,
+      "expected": "counts_team_pool",
+      "product": "droplet"
+    },
+    {
+      "id": "C",
+      "direction": "outbound",
+      "route": "vpc_private",
+      "ip_version": 4,
+      "expected": "vpc_private_not_counted",
+      "product": "droplet"
+    },
+    {
+      "id": "D",
+      "direction": "outbound",
+      "route": null,
+      "ip_version": 6,
+      "expected": "counts_team_pool",
+      "product": "droplet"
+    },
+    {
+      "id": "E",
+      "direction": "outbound",
+      "route": "public",
+      "ip_version": 4,
+      "provider_firewall_drop": true,
+      "expected": "provider_dropped_not_counted",
+      "product": "droplet"
+    },
+    {
+      "id": "F",
+      "direction": "outbound",
+      "route": null,
+      "ip_version": null,
+      "expected": "unresolved_route",
+      "product": "droplet"
+    },
+    {
+      "id": "G",
+      "direction": "outbound",
+      "route": "vpc_private",
+      "ip_version": 6,
+      "expected": "inconsistent_route_evidence",
+      "product": "droplet"
+    }
+  ],
+  "official_evidence": [
+    {
+      "id": "bandwidth",
+      "url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+      "retrieved_at": "2026-10-10T01:04:12.569343+00:00",
+      "sha256": "cd39f272ae76879d6c77ab5d5a05e02a6854dc9419570d4c83bf3c371e5b7797",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-10-bandwidth.html",
+      "robots_url": "https://docs.digitalocean.com/robots.txt",
+      "robots_sha256": "a5190b4d45ad0e406a33cb411d64bc50d670888fa01fb7613e8aed2354ccf9c1"
+    }
+  ],
+  "formula": "A counts_team_pool label means transfer contributes to pooled usage, not that an overage charge necessarily exists. Monetary inputs intentionally absent."
+}
