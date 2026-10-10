@@ -98,6 +98,21 @@ def item(title, price, currency, url, position):
     return {"@type": "ListItem", "position": position, "url": url, "name": title}
 
 
+def plan_line(o):
+    """One observed plan per line. Discounted plans carry the whole basis, never just the first price."""
+    if o.get("intro_price") and o.get("renewal_price"):
+        term = esc(o.get("term", ""))
+        if o.get("term_is_inferred"):
+            term += " (inferred — " + esc(o.get("term_evidence", "")) + ")"
+        return (
+            f'<li><strong>{esc(o.get("title"))}</strong> — first term {esc(o.get("currency"))} {esc(o.get("intro_price"))}/mo'
+            f' ({esc(o.get("discount_wording", ""))}); prepaid {term};'
+            f' renewal {esc(o.get("currency"))} {esc(o.get("renewal_price"))}/mo ({esc(o.get("renewal_wording", ""))});'
+            f' {esc(o.get("spec", ""))} · observed {esc(o.get("fetched_at", ""))}</li>'
+        )
+    return f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>'
+
+
 def main():
     global CONFIG
     CONFIG = read_config()
@@ -137,6 +152,25 @@ def main():
         price = offer.get("price")
         price_text = f"{currency} {price}/month"
         description = offer.get("description") or f"{offer.get('provider')} {offer.get('title')}: {price_text}. Check current terms on the official source."
+        if offer.get("intro_price") and offer.get("renewal_price"):
+            # The official page publishes this as a discounted first-term price with a separate
+            # renewal rate, so the card states the whole basis instead of calling it a public price.
+            term_note = esc(offer.get("term", "")) + (" (inferred — " + esc(offer.get("term_evidence", "")) + ")" if offer.get("term_is_inferred") else "")
+            cards.append(
+                f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · First-term price · {esc(offer.get("term", ""))} prepaid · {esc(offer.get("discount", ""))}</p>'
+                f'<h2>{esc(offer.get("title"))}</h2>'
+                f'<p class="price">{esc(currency)} {esc(offer.get("intro_price"))}/mo first term</p>'
+                f'<ul>'
+                f'<li><strong>First-term price:</strong> {esc(currency)} {esc(offer.get("intro_price"))}/mo — {esc(offer.get("discount_wording", ""))}</li>'
+                f'<li><strong>Prepaid term:</strong> {term_note}</li>'
+                f'<li><strong>Renewal price:</strong> {esc(currency)} {esc(offer.get("renewal_price"))}/mo ({esc(offer.get("renewal_wording", ""))})</li>'
+                f'<li><strong>Specs:</strong> {esc(offer.get("spec", ""))}</li>'
+                f'<li><strong>How the monthly rate is calculated (official wording):</strong> “{esc(offer.get("pricing_note", ""))}”</li>'
+                f'</ul>'
+                f'<p class="source">Observed {esc(offer.get("fetched_at", ""))} · <a href="{esc(offer.get("source_url", ""))}">Official source</a></p>'
+                f'<a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>'
+            )
+            continue
         cards.append(f'<article class="card"><p class="eyebrow">{esc(offer.get("provider"))} · Official public price</p><h2>{esc(offer.get("title"))}</h2><p class="price">{esc(price_text)}</p><p>{esc(description)} <a href="{esc(offer.get("source_url", ""))}">Official source</a></p><p class="source">Observed {esc(offer.get("fetched_at", ""))}</p><a class="button" href="{esc(offer.get("offer_url", offer.get("source_url", "")))}" rel="nofollow noopener">Check provider</a></article>')
     # Providers read but with no usable price are shown in the same card structure, with the
     # official source URL and the exact time the page was read.
@@ -177,7 +211,7 @@ def main():
             else:
                 lis = "<li>No verifiable price captured yet.</li>"
         else:
-            lis = "".join(f'<li>{esc(o.get("title"))}: {esc(o.get("currency"))} {esc(o.get("price"))}/month · observed {esc(o.get("fetched_at"))}</li>' for o in related)
+            lis = "".join(plan_line(o) for o in related)
         detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p><p><a href="/compare">Back to provider comparison</a></p>'
         offer_nodes = [{"@type": "Offer", "url": o["source_url"], "price": o["price"], "priceCurrency": o["currency"]} for o in related if o.get("price") and o.get("currency") and o.get("source_url")]
         product = {"@context": "https://schema.org", "@type": "Service", "name": f"{p['name']} VPS", "url": p["source"], "provider": {"@type": "Organization", "name": p["name"], "url": p["home"]}}
@@ -273,6 +307,7 @@ def main():
 CSS = """*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}header{display:flex;justify-content:space-between;align-items:center;padding:18px max(5vw,24px);background:#0b1220;color:#fff}a{color:#2362a6}header a{color:#fff;text-decoration:none;margin-left:18px}.brand{font-weight:800;font-size:1.15rem}main{max-width:1080px;margin:auto;padding:32px 24px}.hero{padding:34px;border-radius:20px;background:linear-gradient(125deg,#0e1d38,#185e79);color:white}.hero a{color:#c4ecff}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:.3em 0}.eyebrow,.updated,.source{font-size:.86rem;opacity:.8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #e1e7ef;border-radius:14px;padding:22px;box-shadow:0 4px 18px #0c20300c}.card h2{margin:.3em 0}.price{font-size:1.5rem;font-weight:750;color:#087b62}.button{display:inline-block;background:#0a775d;color:#fff;padding:9px 15px;border-radius:8px;text-decoration:none}.source{overflow-wrap:anywhere}.provider-list{line-height:2.2}footer{padding:28px max(5vw,24px);background:#e9eef4;color:#45536a;font-size:.9rem}.foot-nav{margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid #d6deea}.foot-nav a{margin-right:18px;color:#2362a6;text-decoration:none}@media(max-width:600px){header{align-items:flex-start;gap:12px;flex-direction:column}header a{margin:0 14px 0 0}.hero{padding:24px}}.ad{margin:32px 0;padding:18px 22px;background:#fff8e6;border:1px dashed #d9a441;border-radius:14px}.ad-label{margin:0 0 8px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#8a6d1f}.ad-card h2{margin:.2em 0 .4em;font-size:1.15rem}.ad-card p{margin:0 0 12px}"""
 
 CSS += "\nimg{max-width:100%;height:auto}main,section,.card{min-width:0}main{overflow-wrap:anywhere}nav{display:flex;flex-wrap:wrap;gap:8px}nav a{display:inline-flex;align-items:center;min-height:44px}.grid{grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))}form{grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr))}input,button{min-width:0;max-width:100%}\n"
+CSS += "\n.card ul{margin:10px 0;padding-left:20px}.card ul li{margin:2px 0;overflow-wrap:anywhere}\n"
 
 if __name__ == "__main__":
     main()
