@@ -1,0 +1,110 @@
+{
+  "origin": "Every number is a project-selected synthetic test constant in fictional currency units, not an official Azure price, forecast or observed bill. No VM or plan was purchased.",
+  "scope": "One eligible meter, one plan, one hour, no reservations, no negotiated discounts or billing allocation delays. Not a complete Azure billing engine.",
+  "formula": {
+    "covered_units": "min(usage, commitment / savings_rate)",
+    "excess_units": "usage - covered_units",
+    "unused_commitment": "commitment - covered_units * savings_rate",
+    "total_model_cost": "commitment + excess_units * paygo_rate",
+    "paygo_baseline": "usage * paygo_rate"
+  },
+  "fixtures": [
+    {
+      "id": "A",
+      "inputs": {
+        "commitment": 2,
+        "usage": 1,
+        "savings_rate": 1,
+        "paygo_rate": 2
+      },
+      "expected": {
+        "covered_units": 1,
+        "excess_units": 0,
+        "unused_commitment": 1,
+        "total_model_cost": 2,
+        "paygo_baseline": 2
+      }
+    },
+    {
+      "id": "B",
+      "inputs": {
+        "commitment": 2,
+        "usage": 3,
+        "savings_rate": 1,
+        "paygo_rate": 2
+      },
+      "expected": {
+        "covered_units": 2,
+        "excess_units": 1,
+        "unused_commitment": 0,
+        "total_model_cost": 4,
+        "paygo_baseline": 6
+      }
+    },
+    {
+      "id": "C",
+      "inputs": {
+        "commitment": 2,
+        "usage": 2,
+        "savings_rate": 1,
+        "paygo_rate": 2
+      },
+      "expected": {
+        "covered_units": 2,
+        "unused_commitment": 0,
+        "total_model_cost": 2,
+        "paygo_baseline": 4
+      }
+    },
+    {
+      "id": "D",
+      "inputs": {
+        "commitment": 2,
+        "usage": 0,
+        "savings_rate": 1,
+        "paygo_rate": 2
+      },
+      "expected": {
+        "covered_units": 0,
+        "unused_commitment": 2,
+        "total_model_cost": 2,
+        "paygo_baseline": 0
+      }
+    },
+    {
+      "id": "E",
+      "inputs": {
+        "commitment": 2,
+        "usage": 3,
+        "savings_rate": 0.5,
+        "paygo_rate": 2
+      },
+      "expected": {
+        "covered_units": 3,
+        "unused_commitment": 0.5,
+        "total_model_cost": 2,
+        "paygo_baseline": 6
+      }
+    }
+  ],
+  "official_rule_evidence": [
+    {
+      "id": "overview",
+      "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/savings-plan/savings-plan-overview",
+      "retrieved_at": "2026-10-11T01:03:31.534033+00:00",
+      "sha256": "16db40afb8c6f6aff4ceb99e64ecac4467ab9f045e38808f1df09fed65387a6a",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-11-overview.html",
+      "robots_url": "https://learn.microsoft.com/robots.txt",
+      "robots_sha256": "960054479af442fe1599ec890c8902fbe29786aa3fb948781042050063b4f327"
+    },
+    {
+      "id": "allocation",
+      "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/savings-plan/discount-application",
+      "retrieved_at": "2026-10-11T01:03:31.952056+00:00",
+      "sha256": "417d419dd1f412e0a0a6319adb46fbc9895b9f5dd4a1d1ac504399652ec6e815",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-11-allocation.html",
+      "robots_url": "https://learn.microsoft.com/robots.txt",
+      "robots_sha256": "960054479af442fe1599ec890c8902fbe29786aa3fb948781042050063b4f327"
+    }
+  ]
+}

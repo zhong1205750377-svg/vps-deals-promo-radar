@@ -13,3 +13,6 @@ img{max-width:100%;height:auto}main,section,.card{min-width:0}main{overflow-wrap
 
 /* Daily shift 2026-10-10: visible keyboard focus and figure captions */
 main a:focus-visible,header a:focus-visible,footer a:focus-visible{outline:3px solid #185e79;outline-offset:4px;border-radius:3px}figcaption{max-width:72ch;line-height:1.5;padding:8px 0}
+
+/* Daily shift 2026-10-11: reduce long prose width and clarify table rows */
+main section>p{max-width:74ch} main table tbody tr:nth-child(even){background:#f2f7fa} main figure img{height:auto;max-width:100%}
