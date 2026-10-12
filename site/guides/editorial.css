@@ -14,3 +14,6 @@ main a:focus-visible,header a:focus-visible,footer a:focus-visible{outline:3px s
 
 /* Daily shift 2026-10-11: reduce long prose width and clarify table rows */
 main section>p{max-width:74ch} main table tbody tr:nth-child(even){background:#f2f7fa} main figure img{height:auto;max-width:100%}
+
+/* Daily shift 2026-10-12: reduce long prose width and clarify table rows */
+main table th{vertical-align:top;text-align:left} main table td{vertical-align:top} main .table-scroll{border-radius:10px}
