@@ -17,3 +17,6 @@ main section>p{max-width:74ch} main table tbody tr:nth-child(even){background:#f
 
 /* Daily shift 2026-10-12: reduce long prose width and clarify table rows */
 main table th{vertical-align:top;text-align:left} main table td{vertical-align:top} main .table-scroll{border-radius:10px}
+
+/* Daily shift 2026-10-13: reduce long prose width and clarify table rows */
+main .table-scroll{overflow-x:auto} main table th,main table td{padding:12px 14px} main a{ text-underline-offset:3px}
