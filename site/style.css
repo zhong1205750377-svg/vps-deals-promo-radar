@@ -27,3 +27,6 @@ main .table-scroll{overflow-x:auto} main table th,main table td{padding:12px 14p
 
 /* Daily shift 2026-10-14: reduce long prose width and clarify table rows */
 main .answer{border-left:4px solid #185e79;padding-left:20px} main .answer p{line-height:1.7}
+
+/* Daily shift 2026-10-15: reduce long prose width and clarify table rows */
+main section{scroll-margin-top:24px} main table{font-size:.95rem} main figure{margin:28px 0}

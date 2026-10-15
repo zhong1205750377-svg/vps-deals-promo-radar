@@ -1,0 +1,117 @@
+{
+  "origin": "All flags and selected route/tier combinations are project-authored synthetic examples, not a deployed VM, tested RDP connection, regional availability check or purchased gateway.",
+  "fixtures": [
+    {
+      "id": "A",
+      "inputs": {
+        "provider": "azure",
+        "route": "direct_public",
+        "vm_running": true,
+        "public_ip": true,
+        "rdp_source_allowed": true
+      },
+      "expected": "public route fields recorded; connection and price untested"
+    },
+    {
+      "id": "B",
+      "inputs": {
+        "provider": "azure",
+        "route": "direct_public",
+        "vm_running": true,
+        "public_ip": false,
+        "rdp_source_allowed": true
+      },
+      "expected": "no target public IP for this route"
+    },
+    {
+      "id": "C",
+      "inputs": {
+        "provider": "azure",
+        "route": "direct_public",
+        "vm_running": true,
+        "public_ip": true,
+        "rdp_source_allowed": null
+      },
+      "expected": "public route evidence incomplete"
+    },
+    {
+      "id": "D",
+      "inputs": {
+        "provider": "azure",
+        "route": "bastion",
+        "mode": "browser",
+        "sku": "Developer",
+        "region_available": true
+      },
+      "expected": "free Developer tier scope; other resource costs unknown"
+    },
+    {
+      "id": "E",
+      "inputs": {
+        "provider": "azure",
+        "route": "bastion",
+        "mode": "native",
+        "sku": "Developer",
+        "region_available": true
+      },
+      "expected": "native client feature mismatch"
+    },
+    {
+      "id": "F",
+      "inputs": {
+        "provider": "azure",
+        "route": "bastion",
+        "mode": "browser",
+        "sku": "Developer",
+        "region_available": null
+      },
+      "expected": "Developer availability unconfirmed"
+    },
+    {
+      "id": "G",
+      "inputs": {
+        "provider": "azure",
+        "route": "bastion",
+        "mode": "browser",
+        "sku": "Standard",
+        "region_available": true,
+        "gateway_in_quote": false
+      },
+      "expected": "priced gateway scope missing from quote"
+    },
+    {
+      "id": "H",
+      "inputs": {
+        "provider": "azure",
+        "route": "bastion",
+        "mode": "native",
+        "sku": "Standard",
+        "region_available": true,
+        "gateway_in_quote": true
+      },
+      "expected": "gateway quote scope recorded; actual total uncomputed"
+    }
+  ],
+  "formula": "Select the explicitly documented access route first. Check direct-public prerequisites or Bastion tier/client scope. Quote inclusion is an independent field and cannot be inferred from connectivity. No monetary output.",
+  "official_rule_evidence": [
+    {
+      "id": "overview",
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/windows/connect-rdp",
+      "retrieved_at": "2026-10-15T01:02:02.738053+00:00",
+      "sha256": "d8d087c861e0d87b57f86f195ecfdaf59edecb96b1a43997b0381bb13a9dd30c",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-15-overview.html",
+      "robots_url": "https://learn.microsoft.com/robots.txt",
+      "robots_sha256": "960054479af442fe1599ec890c8902fbe29786aa3fb948781042050063b4f327"
+    },
+    {
+      "id": "allocation",
+      "url": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview",
+      "retrieved_at": "2026-10-15T01:02:02.819811+00:00",
+      "sha256": "981e263a8159adfa54abe4020c775f928a00541e497c2a2fe632cd76abad9825",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-15-allocation.html",
+      "robots_url": "https://learn.microsoft.com/robots.txt",
+      "robots_sha256": "960054479af442fe1599ec890c8902fbe29786aa3fb948781042050063b4f327"
+    }
+  ],
+  "limits": "Partial Azure-specific quote screen, not an end-to-end connection validator, OS licence check, security configuration tool or full bill calculator."
+}
