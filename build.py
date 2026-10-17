@@ -44,44 +44,78 @@ def esc(x):
     return html.escape(str(x), quote=True)
 
 
-# Real Admitad affiliate link for is*hosting VPS (offer 173159), joined to ad space
-# "VPS Price Watch" (website 3007089). Verified: 302 -> ishosting.com with admitad attribution.
-AD_URL = "https://xcdus.com/g/t7pdcms1vh9f1175b8bbf6378a678b/"
-AD_BLOCK = (
-    '<section class="ad" aria-label="Advertisement">'
-    '<p class="ad-label">Sponsored</p>'
-    '<div class="ad-card">'
-    '<h2>is*hosting VPS — 40+ countries</h2>'
-    '<p>Want a VPS outside the usual big brands? is*hosting runs VPS in 40+ locations with '
-    'flexible configurations and hourly billing.</p>'
-    f'<a class="button" href="{AD_URL}" rel="nofollow sponsored noopener" target="_blank">'
-    'View is*hosting plans</a>'
-    '</div></section>'
-)
-ADDITIONAL_AD_BLOCKS = (
-    '<section class="ad" aria-label="Advertisement">'
-    '<p class="ad-label">Sponsored</p>'
-    '<div class="ad-card">'
-    '<h2>HyperHost</h2>'
-    '<a class="button" href="https://rcpsj.com/g/4y24lnxl7f9f1175b8bb7f67b8171e/" rel="nofollow sponsored noopener" target="_blank">'
-    'View HyperHost plans</a>'
-    '</div></section>'
-    '<section class="ad" aria-label="Advertisement">'
-    '<p class="ad-label">Sponsored</p>'
-    '<div class="ad-card">'
-    '<h2>Godlike.Host</h2>'
-    '<a class="button" href="https://yjfca.com/g/n4h0en61qn9f1175b8bb52f0388f55/" rel="nofollow sponsored noopener" target="_blank">'
-    'View Godlike.Host plans</a>'
-    '</div></section>'
-    '<section class="ad" aria-label="Advertisement">'
-    '<p class="ad-label">Sponsored</p>'
-    '<div class="ad-card">'
-    '<h2>ProHoster</h2>'
-    '<a class="button" href="https://ntzgd.com/g/gaetfoqpj79f1175b8bb934d4157fe/" rel="nofollow sponsored noopener" target="_blank">'
-    'View ProHoster plans</a>'
-    '</div></section>'
-)
-SPONSORED_BLOCKS = AD_BLOCK + ADDITIONAL_AD_BLOCKS
+# Sponsored placements. Every link below is a real Admitad affiliate link generated inside our
+# Admitad ad space "VPS Price Watch" (website 3007089, publisher 2589124). Each one was verified
+# to return HTTP 302 straight to the advertiser's own domain with Admitad attribution attached
+# (utm_source=admitad / admitad_uid). Checked 2026-10-17.
+#
+# Ad copy is taken from the wording on each advertiser's own page (title / meta description of
+# the landing URL the affiliate link resolves to), not invented. See _adm_materials / advertiser
+# pages for the source of each line.
+SPONSORED_PARTNERS = [
+    {
+        "name": "is*hosting",
+        "offer_id": 173159,
+        "url": "https://xcdus.com/g/t7pdcms1vh9f1175b8bbf6378a678b/",
+        "resolves_to": "https://ishosting.com/en",
+        "headline": "is*hosting — KVM VPS on NVMe, 40+ locations",
+        "desc": "KVM virtual servers with NVMe storage, unlimited traffic and a 1 Gbps port, available in 40+ locations.",
+        "cta": "View is*hosting VPS plans",
+    },
+    {
+        "name": "HyperHost",
+        "offer_id": 105262,
+        "url": "https://rcpsj.com/g/4y24lnxl7f9f1175b8bb7f67b8171e/",
+        "resolves_to": "https://hyperhost.ua/",
+        "headline": "HyperHost — managed VDS/VPS in Ukraine and Europe",
+        "desc": "VPS and VDS with free backups, NVMe storage and a 99.9% uptime guarantee.",
+        "cta": "View HyperHost plans",
+    },
+    {
+        "name": "Godlike.Host",
+        "offer_id": 182254,
+        "url": "https://yjfca.com/g/n4h0en61qn9f1175b8bb52f0388f55/",
+        "resolves_to": "https://godlike.host/minecraft-server-host-admitad/",
+        "headline": "Godlike.Host — game server hosting",
+        "desc": "Minecraft Java and Bedrock server hosting from $1/GB RAM.",
+        "cta": "View Godlike.Host plans",
+    },
+    {
+        "name": "ProHoster",
+        "offer_id": 132842,
+        "url": "https://ntzgd.com/g/gaetfoqpj79f1175b8bb934d4157fe/",
+        "resolves_to": "https://prohoster.info/aff.php?aff=75",
+        "headline": "ProHoster — Windows and Linux VPS/VDS",
+        "desc": "Windows and Linux virtual servers with full access, hosted in Europe.",
+        "cta": "View ProHoster plans",
+    },
+]
+ADS_UPDATED = "2026-10-17"
+
+
+def sponsored_grid():
+    """Render the approved sponsored placements as one labelled, disclosed block."""
+    cards = []
+    for p in SPONSORED_PARTNERS:
+        domain = re.sub(r"^https?://(www\.)?", "", p["resolves_to"]).split("/")[0]
+        cards.append(
+            '<article class="ad-card">'
+            f'<p class="ad-label">Sponsored</p>'
+            f'<h2>{esc(p["headline"])}</h2>'
+            f'<p>{esc(p["desc"])}</p>'
+            f'<a class="button" href="{esc(p["url"])}" rel="nofollow sponsored noopener" target="_blank">{esc(p["cta"])}</a>'
+            f'<p class="ad-source">Paid listing \u00b7 links to {esc(domain)} \u00b7 Admitad offer {esc(p["offer_id"])}</p>'
+            '</article>'
+        )
+    return (
+        '<section class="sponsored" aria-label="Sponsored listings">'
+        '<h2>Sponsored VPS and hosting providers</h2>'
+        f'<p class="source">These are paid placements. We may earn a commission if you sign up through them. '
+        f'Sponsored listings are separate from the price observations above and do not affect them. '
+        f'Partnerships last checked {esc(ADS_UPDATED)}. See the <a href="/privacy">privacy policy</a>.</p>'
+        f'<div class="ad-grid">{"".join(cards)}</div>'
+        '</section>'
+    )
 
 
 def page(title, description, canonical, body, jsonld, kind=None):
@@ -205,10 +239,10 @@ def main():
         for p in CONFIG["providers"]
     )
     desc = f"Current VPS prices observed on official provider pages. Source URLs and observation times are shown for each listing."
-    index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section>{SPONSORED_BLOCKS}<section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
+    index_body = f'<section class="hero"><p class="eyebrow">Independent VPS price tracker</p><h1>VPS deals, with sources attached.</h1><p>Compare public plan prices observed from provider pages. These are price observations, not guaranteed coupons or discounts. Always confirm the current terms at checkout.</p><p class="updated">Last fetch: {esc(data.get("fetched_at") or "not yet fetched")}</p></section><section><h2>Observed prices</h2><div class="grid">{"".join(cards)}</div></section>{sponsored_grid()}<section><h2>Official sources</h2><ul>{providers_html}</ul></section>'
     ld = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(o.get("title", "VPS"), o.get("price"), o.get("currency"), o.get("source_url", ""), i + 1) for i, o in enumerate(offers)]}
     (OUT / "index.html").write_text(page(f"{CONFIG['brand']} | VPS Prices", desc, base + "/", index_body, ld), encoding="utf-8")
-    compare_body = f"<section class=\"hero\"><p class=\"eyebrow\">Provider index</p><h1>Compare official VPS sources</h1><p>Browse each provider's public VPS page. Prices shown here come from the latest successful fetch.</p></section><ul class=\"provider-list\">{providers_html}</ul>{SPONSORED_BLOCKS}"
+    compare_body = f"<section class=\"hero\"><p class=\"eyebrow\">Provider index</p><h1>Compare official VPS sources</h1><p>Browse each provider's public VPS page. Prices shown here come from the latest successful fetch.</p></section><ul class=\"provider-list\">{providers_html}</ul>{sponsored_grid()}"
     (OUT / "compare.html").write_text(page(f"Compare VPS providers | {CONFIG['brand']}", desc, base + "/compare", compare_body, {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [item(p["name"], None, None, p["source"], i + 1) for i, p in enumerate(CONFIG["providers"])]}), encoding="utf-8")
     for p in CONFIG["providers"]:
         pid = re.sub(r"[^a-z0-9]+", "-", p["name"].lower()).strip("-")
@@ -223,7 +257,7 @@ def main():
                 lis = "<li>No verifiable price captured yet.</li>"
         else:
             lis = "".join(plan_line(o) for o in related)
-        detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p><p><a href="/compare">Back to provider comparison</a></p>'
+        detail = f'<section class="hero"><p class="eyebrow">Provider</p><h1>{esc(p["name"])} VPS</h1><p>Official source: <a href="{esc(p["source"])}">{esc(p["source"])}</a></p></section><h2>Latest observed prices</h2><ul>{lis}</ul><p><a class="button" href="{esc(p["source"])}" rel="nofollow noopener">Visit official page</a></p>{sponsored_grid()}<p><a href="/compare">Back to provider comparison</a></p>'
         offer_nodes = [{"@type": "Offer", "url": o["source_url"], "price": o["price"], "priceCurrency": o["currency"]} for o in related if o.get("price") and o.get("currency") and o.get("source_url")]
         product = {"@context": "https://schema.org", "@type": "Service", "name": f"{p['name']} VPS", "url": p["source"], "provider": {"@type": "Organization", "name": p["name"], "url": p["home"]}}
         if offer_nodes:
@@ -312,10 +346,23 @@ def main():
         entries = "".join('<url><loc>' + esc(base + '/guides/' + str(p.parent.relative_to(editorial)).replace('\\','/').replace('.', '').strip('/') + '/') + '</loc></url>\n' for p in editorial.rglob('index.html'))
         entries = entries.replace('/guides//', '/guides/')
         (OUT / "sitemap.xml").write_text(sm.replace('</urlset>', entries + '</urlset>'), encoding="utf-8")
+    coupon_pages = ROOT / "coupon-pages"
+    if coupon_pages.exists():
+        shutil.copytree(coupon_pages, OUT / "coupons", dirs_exist_ok=True)
+        sm = (OUT / "sitemap.xml").read_text(encoding="utf-8")
+        coupon_urls = [base + "/coupons/" + p.parent.relative_to(coupon_pages).as_posix().replace(".", "").strip("/") + "/" for p in coupon_pages.rglob("index.html")]
+        coupon_urls = [u.replace("/coupons//", "/coupons/") for u in coupon_urls]
+        entries = "".join("<url><loc>" + esc(u) + "</loc></url>\n" for u in coupon_urls)
+        (OUT / "sitemap.xml").write_text(sm.replace("</urlset>", entries + "</urlset>"), encoding="utf-8")
+        for hp in OUT.rglob("*.html"):
+            txt = hp.read_text(encoding="utf-8")
+            if 'href="/coupons/"' not in txt:
+                txt = txt.replace('<a href="/compare">Compare providers</a>', '<a href="/compare">Compare providers</a><a href="/coupons/">Coupons</a>').replace('<a href="/compare.html">Compare providers</a>', '<a href="/compare.html">Compare providers</a><a href="/coupons/">Coupons</a>')
+                hp.write_text(txt, encoding="utf-8")
     print(f"Built {len(urls)} pages for {len(CONFIG['providers'])} configured providers in {OUT}.")
 
 
-CSS = """*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}header{display:flex;justify-content:space-between;align-items:center;padding:18px max(5vw,24px);background:#0b1220;color:#fff}a{color:#2362a6}header a{color:#fff;text-decoration:none;margin-left:18px}.brand{font-weight:800;font-size:1.15rem}main{max-width:1080px;margin:auto;padding:32px 24px}.hero{padding:34px;border-radius:20px;background:linear-gradient(125deg,#0e1d38,#185e79);color:white}.hero a{color:#c4ecff}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:.3em 0}.eyebrow,.updated,.source{font-size:.86rem;opacity:.8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #e1e7ef;border-radius:14px;padding:22px;box-shadow:0 4px 18px #0c20300c}.card h2{margin:.3em 0}.price{font-size:1.5rem;font-weight:750;color:#087b62}.button{display:inline-block;background:#0a775d;color:#fff;padding:9px 15px;border-radius:8px;text-decoration:none}.source{overflow-wrap:anywhere}.provider-list{line-height:2.2}footer{padding:28px max(5vw,24px);background:#e9eef4;color:#45536a;font-size:.9rem}.foot-nav{margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid #d6deea}.foot-nav a{margin-right:18px;color:#2362a6;text-decoration:none}@media(max-width:600px){header{align-items:flex-start;gap:12px;flex-direction:column}header a{margin:0 14px 0 0}.hero{padding:24px}}.ad{margin:32px 0;padding:18px 22px;background:#fff8e6;border:1px dashed #d9a441;border-radius:14px}.ad-label{margin:0 0 8px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#8a6d1f}.ad-card h2{margin:.2em 0 .4em;font-size:1.15rem}.ad-card p{margin:0 0 12px}"""
+CSS = """*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}header{display:flex;justify-content:space-between;align-items:center;padding:18px max(5vw,24px);background:#0b1220;color:#fff}a{color:#2362a6}header a{color:#fff;text-decoration:none;margin-left:18px}.brand{font-weight:800;font-size:1.15rem}main{max-width:1080px;margin:auto;padding:32px 24px}.hero{padding:34px;border-radius:20px;background:linear-gradient(125deg,#0e1d38,#185e79);color:white}.hero a{color:#c4ecff}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:.3em 0}.eyebrow,.updated,.source{font-size:.86rem;opacity:.8}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #e1e7ef;border-radius:14px;padding:22px;box-shadow:0 4px 18px #0c20300c}.card h2{margin:.3em 0}.price{font-size:1.5rem;font-weight:750;color:#087b62}.button{display:inline-block;background:#0a775d;color:#fff;padding:9px 15px;border-radius:8px;text-decoration:none}.source{overflow-wrap:anywhere}.provider-list{line-height:2.2}footer{padding:28px max(5vw,24px);background:#e9eef4;color:#45536a;font-size:.9rem}.foot-nav{margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid #d6deea}.foot-nav a{margin-right:18px;color:#2362a6;text-decoration:none}@media(max-width:600px){header{align-items:flex-start;gap:12px;flex-direction:column}header a{margin:0 14px 0 0}.hero{padding:24px}}.ad{margin:32px 0;padding:18px 22px;background:#fff8e6;border:1px dashed #d9a441;border-radius:14px}.ad-label{margin:0 0 8px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#8a6d1f}.ad-card h2{margin:.2em 0 .4em;font-size:1.15rem}.ad-card p{margin:0 0 12px}.sponsored{margin:32px 0;padding:20px 22px;background:#fff8e6;border:1px dashed #d9a441;border-radius:16px}.sponsored>h2{margin:.1em 0 .3em;font-size:1.25rem}.ad-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(235px,100%),1fr));gap:14px;margin-top:16px}.sponsored .ad-card{background:#fff;border:1px solid #ecd9ad;border-radius:12px;padding:16px}.sponsored .ad-card h2{margin:.2em 0 .4em;font-size:1.02rem}.ad-source{margin:10px 0 0;font-size:.78rem;opacity:.75;overflow-wrap:anywhere}"""
 
 CSS += "\nimg{max-width:100%;height:auto}main,section,.card{min-width:0}main{overflow-wrap:anywhere}nav{display:flex;flex-wrap:wrap;gap:8px}nav a{display:inline-flex;align-items:center;min-height:44px}.grid{grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))}form{grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr))}input,button{min-width:0;max-width:100%}\n"
 CSS += "\n.card ul{margin:10px 0;padding-left:20px}.card ul li{margin:2px 0;overflow-wrap:anywhere}\n"

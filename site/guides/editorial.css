@@ -11,3 +11,18 @@
 
 /* Daily shift 2026-10-10: visible keyboard focus and figure captions */
 main a:focus-visible,header a:focus-visible,footer a:focus-visible{outline:3px solid #185e79;outline-offset:4px;border-radius:3px}figcaption{max-width:72ch;line-height:1.5;padding:8px 0}
+
+/* Daily shift 2026-10-11: reduce long prose width and clarify table rows */
+main section>p{max-width:74ch} main table tbody tr:nth-child(even){background:#f2f7fa} main figure img{height:auto;max-width:100%}
+
+/* Daily shift 2026-10-12: reduce long prose width and clarify table rows */
+main table th{vertical-align:top;text-align:left} main table td{vertical-align:top} main .table-scroll{border-radius:10px}
+
+/* Daily shift 2026-10-13: reduce long prose width and clarify table rows */
+main .table-scroll{overflow-x:auto} main table th,main table td{padding:12px 14px} main a{ text-underline-offset:3px}
+
+/* Daily shift 2026-10-14: reduce long prose width and clarify table rows */
+main .answer{border-left:4px solid #185e79;padding-left:20px} main .answer p{line-height:1.7}
+
+/* Daily shift 2026-10-15: reduce long prose width and clarify table rows */
+main section{scroll-margin-top:24px} main table{font-size:.95rem} main figure{margin:28px 0}

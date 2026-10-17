@@ -1,0 +1,129 @@
+{
+  "origin": "All elapsed-day values are project-selected synthetic constants, not real invoices, account events or submitted requests. No VPS was purchased and no refund was sought.",
+  "official_inputs": {
+    "transaction_window_days": 30,
+    "repeat_refund_days": 180,
+    "legal_operator": "more than 180 from initiation",
+    "help_summary_operator": "until 180 have passed from completion",
+    "source_evidence": [
+      {
+        "id": "overview",
+        "url": "https://www.hostinger.com/legal/refund-policy",
+        "retrieved_at": "2026-10-12T01:29:19.421465+00:00",
+        "sha256": "9f13b76c705405493dd44a56d23dd5d8fb9f9e855eee0d4be13bfb9b509ce549",
+        "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-12-overview.html",
+        "robots_url": "https://www.hostinger.com/robots.txt",
+        "robots_sha256": "2e065ef4de0043a84678a78ab6f2781841d32ad0a9cc52962e0010048fad19ab"
+      },
+      {
+        "id": "allocation",
+        "url": "https://www.hostinger.com/support/9088216-what-is-hostinger-refund-policy/",
+        "retrieved_at": "2026-10-12T01:29:19.738944+00:00",
+        "sha256": "994e8ab016ede34cee17343638fd55ff93ff33d26d139198b37ece8e5bb21f1e",
+        "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-12-allocation.html",
+        "robots_url": "https://www.hostinger.com/robots.txt",
+        "robots_sha256": "2e065ef4de0043a84678a78ab6f2781841d32ad0a9cc52962e0010048fad19ab"
+      }
+    ]
+  },
+  "formula": "For prior refunds, legal timing flag = initiation_age_days > 180; help-summary timing flag = completion_age_days >= 180. Disagreement yields review, never approval. At exact 30-day transaction boundary the model requires review rather than deciding policy clock precision.",
+  "fixtures": [
+    {
+      "id": "A",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": false,
+        "crypto": false,
+        "transaction_age_days": 10,
+        "prior_refund": false
+      },
+      "expected": "screen_pass_not_approval"
+    },
+    {
+      "id": "B",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": false,
+        "crypto": false,
+        "transaction_age_days": 10,
+        "prior_refund": true,
+        "initiation_age_days": 181,
+        "completion_age_days": 179
+      },
+      "expected": "document_clock_disagreement_review"
+    },
+    {
+      "id": "C",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": false,
+        "crypto": false,
+        "transaction_age_days": 10,
+        "prior_refund": true,
+        "initiation_age_days": 180,
+        "completion_age_days": 180
+      },
+      "expected": "document_clock_disagreement_review"
+    },
+    {
+      "id": "D",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": false,
+        "crypto": false,
+        "transaction_age_days": 10,
+        "prior_refund": true,
+        "initiation_age_days": 181,
+        "completion_age_days": 181
+      },
+      "expected": "screen_pass_not_approval"
+    },
+    {
+      "id": "E",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": false,
+        "crypto": false,
+        "transaction_age_days": 31,
+        "prior_refund": false
+      },
+      "expected": "outside_transaction_window"
+    },
+    {
+      "id": "F",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": false,
+        "crypto": false,
+        "transaction_age_days": 30,
+        "prior_refund": false
+      },
+      "expected": "transaction_boundary_review"
+    },
+    {
+      "id": "G",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": false,
+        "crypto": false,
+        "transaction_age_days": 10,
+        "prior_refund": true,
+        "initiation_age_days": 181,
+        "completion_age_days": null
+      },
+      "expected": "unresolved_prior_clocks"
+    },
+    {
+      "id": "H",
+      "inputs": {
+        "product": "kvm_vps",
+        "upgrade": true,
+        "crypto": false,
+        "transaction_age_days": 10,
+        "prior_refund": false
+      },
+      "expected": "excluded_upgrade"
+    }
+  ],
+  "limits": "A partial documentation screen, not legal advice, a cash refund amount or a complete eligibility engine. Provider and account evidence remain necessary."
+}

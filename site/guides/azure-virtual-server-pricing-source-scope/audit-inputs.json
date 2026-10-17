@@ -1,0 +1,79 @@
+{
+  "origin": "Every row is synthetic metadata selected by the project, not an actual API price, calculator session, billing profile or invoice.",
+  "fixtures": [
+    {
+      "id": "A",
+      "inputs": {
+        "source": "retail_catalog",
+        "currency": "USD"
+      },
+      "expected": "public USD retail rate"
+    },
+    {
+      "id": "B",
+      "inputs": {
+        "source": "retail_catalog",
+        "currency": "EUR"
+      },
+      "expected": "non-USD reference rate"
+    },
+    {
+      "id": "C",
+      "inputs": {
+        "source": "calculator",
+        "agreement_linked": false
+      },
+      "expected": "retail estimate, not invoice"
+    },
+    {
+      "id": "D",
+      "inputs": {
+        "source": "calculator",
+        "agreement_linked": null
+      },
+      "expected": "unresolved agreement scope"
+    },
+    {
+      "id": "E",
+      "inputs": {
+        "source": "calculator",
+        "agreement_linked": true,
+        "account_matches": true,
+        "profile_selected": true
+      },
+      "expected": "agreement-linked estimate, not invoice"
+    },
+    {
+      "id": "F",
+      "inputs": {
+        "source": "calculator",
+        "agreement_linked": true,
+        "account_matches": false,
+        "profile_selected": true
+      },
+      "expected": "different account scope"
+    }
+  ],
+  "formula": "Classify source before currency or agreement flags. An authenticated account-linked estimate remains an estimate, never an observed charge. Missing agreement evidence stays unresolved.",
+  "official_rule_evidence": [
+    {
+      "id": "overview",
+      "url": "https://learn.microsoft.com/en-us/rest/api/cost-management/retail-prices/azure-retail-prices",
+      "retrieved_at": "2026-10-14T01:06:21.291133+00:00",
+      "sha256": "ff7d39a27838c9d5ed5269e51eb6eb78039ac60a697a32ea1fd961f315110f6a",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-14-overview.html",
+      "robots_url": "https://learn.microsoft.com/robots.txt",
+      "robots_sha256": "960054479af442fe1599ec890c8902fbe29786aa3fb948781042050063b4f327"
+    },
+    {
+      "id": "allocation",
+      "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator",
+      "retrieved_at": "2026-10-14T01:06:21.501565+00:00",
+      "sha256": "5cf1ffba232e3dbcda19b3a53f546bee58ce538eb64de7223de8b20ec3f11765",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-14-allocation.html",
+      "robots_url": "https://learn.microsoft.com/robots.txt",
+      "robots_sha256": "960054479af442fe1599ec890c8902fbe29786aa3fb948781042050063b4f327"
+    }
+  ],
+  "limits": "No Azure account login, no API price query, no private billing data, no purchase and no invented discount percentage."
+}
