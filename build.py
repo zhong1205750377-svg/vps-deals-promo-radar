@@ -312,6 +312,19 @@ def main():
         entries = "".join('<url><loc>' + esc(base + '/guides/' + str(p.parent.relative_to(editorial)).replace('\\','/').replace('.', '').strip('/') + '/') + '</loc></url>\n' for p in editorial.rglob('index.html'))
         entries = entries.replace('/guides//', '/guides/')
         (OUT / "sitemap.xml").write_text(sm.replace('</urlset>', entries + '</urlset>'), encoding="utf-8")
+    coupon_pages = ROOT / "coupon-pages"
+    if coupon_pages.exists():
+        shutil.copytree(coupon_pages, OUT / "coupons", dirs_exist_ok=True)
+        sm = (OUT / "sitemap.xml").read_text(encoding="utf-8")
+        coupon_urls = [base + "/coupons/" + p.parent.relative_to(coupon_pages).as_posix().replace(".", "").strip("/") + "/" for p in coupon_pages.rglob("index.html")]
+        coupon_urls = [u.replace("/coupons//", "/coupons/") for u in coupon_urls]
+        entries = "".join("<url><loc>" + esc(u) + "</loc></url>\n" for u in coupon_urls)
+        (OUT / "sitemap.xml").write_text(sm.replace("</urlset>", entries + "</urlset>"), encoding="utf-8")
+        for hp in OUT.rglob("*.html"):
+            txt = hp.read_text(encoding="utf-8")
+            if 'href="/coupons/"' not in txt:
+                txt = txt.replace('<a href="/compare">Compare providers</a>', '<a href="/compare">Compare providers</a><a href="/coupons/">Coupons</a>').replace('<a href="/compare.html">Compare providers</a>', '<a href="/compare.html">Compare providers</a><a href="/coupons/">Coupons</a>')
+                hp.write_text(txt, encoding="utf-8")
     print(f"Built {len(urls)} pages for {len(CONFIG['providers'])} configured providers in {OUT}.")
 
 
