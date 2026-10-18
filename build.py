@@ -353,6 +353,13 @@ def main():
         coupon_urls = [base + "/coupons/" + p.parent.relative_to(coupon_pages).as_posix().replace(".", "").strip("/") + "/" for p in coupon_pages.rglob("index.html")]
         coupon_urls = [u.replace("/coupons//", "/coupons/") for u in coupon_urls]
         entries = "".join("<url><loc>" + esc(u) + "</loc></url>\n" for u in coupon_urls)
+        for meta_path in coupon_pages.rglob("facts.json"):
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            modified = meta.get("date_modified")
+            if modified:
+                meta_url = base + "/coupons/" + meta_path.parent.relative_to(coupon_pages).as_posix().strip("/") + "/"
+                old_entry = "<url><loc>" + esc(meta_url) + "</loc></url>"
+                entries = entries.replace(old_entry, "<url><loc>" + esc(meta_url) + "</loc><lastmod>" + esc(modified) + "</lastmod></url>")
         (OUT / "sitemap.xml").write_text(sm.replace("</urlset>", entries + "</urlset>"), encoding="utf-8")
         for hp in OUT.rglob("*.html"):
             txt = hp.read_text(encoding="utf-8")

@@ -1,0 +1,43 @@
+{
+  "keyword": "cloudways coupon",
+  "monthly_searches": 1000,
+  "volume_source": "User group return, 2026-10-18; not independently verified",
+  "checked_at": "2026-10-18T14:42+08:00",
+  "date_modified": "2026-10-18",
+  "facts": [
+    {
+      "offer": "SUMMER404: 40% off hosting for 4 months",
+      "conditions": "The official offer link contains this code and says it is already applied. For new users who sign up and upgrade from a free trial to a paid plan; not available to existing customers. The promotion names all hosting plans.",
+      "source": "https://www.cloudways.com/en/promo-code.php"
+    },
+    {
+      "offer": "Published hosting starting prices",
+      "conditions": "Flexible: USD $6.6 per month (listed starting price $11). Autonomous: USD $59.4 per month (listed starting price $99). These are the activity page's starting prices, not a quote for every configuration. The discount lasts 4 months.",
+      "source": "https://www.cloudways.com/en/promo-code.php"
+    },
+    {
+      "offer": "Renewals and the end of the introductory period",
+      "conditions": "The official FAQ describes the discount as applying to the initial promotional period of a first-time purchase, with standard pricing afterwards. Do not treat this as a permanent or existing-customer renewal discount.",
+      "source": "https://www.cloudways.com/en/promo-code.php"
+    },
+    {
+      "offer": "Offer expiry: not published",
+      "conditions": "No calendar expiry date was published on the activity page checked. An unpublished date does not mean the offer is permanent. Check the official offer before upgrading.",
+      "source": "https://www.cloudways.com/en/promo-code.php"
+    },
+    {
+      "offer": "Flexible free trial: 3 days, no credit card",
+      "conditions": "The pricing page offers a 3-day Flexible trial without a credit card. Its trial FAQ says there is no obligation and users can cancel anytime. This is not a claim that every product has the same trial.",
+      "source": "https://www.cloudways.com/en/pricing.php"
+    },
+    {
+      "offer": "Taxes excluded from listed prices",
+      "conditions": "The official pricing page states that listed prices exclude applicable taxes. Confirm the final total and selected configuration before payment.",
+      "source": "https://www.cloudways.com/en/pricing.php"
+    }
+  ],
+  "blocked_source": {
+    "url": "https://support.cloudways.com/en/",
+    "reason": "Cloudflare security verification; no refund-policy facts used"
+  }
+}
