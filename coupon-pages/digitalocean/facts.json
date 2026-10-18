@@ -1,0 +1,101 @@
+{
+  "keyword": "digitalocean coupon",
+  "monthly_searches": 320,
+  "volume_source": "User task INPUT 2026-10-18; not independently verified",
+  "date_modified": "2026-10-18",
+  "checked_at": "2026-10-18T15:14+08:00",
+  "offers": [
+    {
+      "offer": "$5 Managed Agents free-trial credit",
+      "conditions": "The Managed Agents page lists a Free Trial with a $5 credit. Its footnote limits the trial to new DigitalOcean customers; existing customers can start on a paid plan. Use the official Start trial link. This is a Managed Agents offer, not a verified general-purpose Droplet coupon.",
+      "sources": [
+        [
+          "https://www.digitalocean.com/products/managed-agents",
+          "Official Managed Agents trial"
+        ]
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "offer": "Droplets start at $4/month",
+      "conditions": "This is the starting price printed on the general pricing page, not a promotional discount. The selected configuration determines the price.",
+      "sources": [
+        [
+          "https://www.digitalocean.com/pricing",
+          "Official pricing"
+        ]
+      ]
+    },
+    {
+      "offer": "Managed Agents trial-credit expiry: not published",
+      "conditions": "The Managed Agents trial section checked did not publish a credit-expiry date or duration. An unpublished date does not mean permanent validity. The general pricing FAQ uses a 90-day credit as an example; we do not assign that example to this trial.",
+      "sources": [
+        [
+          "https://www.digitalocean.com/products/managed-agents",
+          "Official trial scope"
+        ],
+        [
+          "https://www.digitalocean.com/pricing",
+          "Official credit FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "Charges after credit is used or expires",
+      "conditions": "The general pricing FAQ says the card is charged after free credit has been used or after its expiration period. Check the offer and billing details on your own account before using paid resources.",
+      "sources": [
+        [
+          "https://www.digitalocean.com/pricing",
+          "Official credit FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "Stopping bundled CPU Droplet billing",
+      "conditions": "The official billing documentation says billing starts at creation and ends when the Droplet is destroyed; powered-off bundled CPU Droplets are still billed. Associated snapshots, volumes and volume snapshots are not destroyed by default, so review them separately.",
+      "sources": [
+        [
+          "https://docs.digitalocean.com/products/droplets/details/pricing/",
+          "Official Droplet billing"
+        ],
+        [
+          "https://docs.digitalocean.com/products/droplets/how-to/destroy/",
+          "Official destruction instructions"
+        ]
+      ]
+    },
+    {
+      "offer": "Taxes may apply",
+      "conditions": "The pricing FAQ says DigitalOcean is required to apply taxes in some countries and links to its country-specific tax documentation. Do not assume the displayed starting price is the final invoice total.",
+      "sources": [
+        [
+          "https://www.digitalocean.com/pricing",
+          "Official tax FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "Refund and termination terms",
+      "conditions": "The pricing FAQ says refunds are not offered and directs users with extenuating circumstances to support. Section 12 of the Terms says paid fees are non-refundable except as otherwise provided there or expressly agreed; outstanding fees become due on termination.",
+      "sources": [
+        [
+          "https://www.digitalocean.com/pricing",
+          "Official refund FAQ"
+        ],
+        [
+          "https://www.digitalocean.com/legal/terms-of-service-agreement",
+          "Official Terms, section 12"
+        ]
+      ]
+    }
+  ],
+  "reusable_coupon_code": null,
+  "unavailable_official_pages": [
+    {
+      "url": "https://www.digitalocean.com/try/free-trial",
+      "status": 404,
+      "use": "No facts or old credit amount taken from this unavailable page"
+    }
+  ]
+}
