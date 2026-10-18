@@ -1,0 +1,118 @@
+{
+  "keyword": "siteground coupon",
+  "monthly_searches": 70,
+  "volume_source": "User task INPUT 2026-10-18; not independently verified",
+  "date_modified": "2026-10-18",
+  "checked_at": "2026-10-18T15:53+08:00",
+  "offers": [
+    {
+      "offer": "StartUp introductory promotion: 83% savings",
+      "conditions": "The official United States / English plan page prints \u201cSave 83%\u201d for StartUp. The displayed offer is prepaid for 12 months. SiteGround says its promotional discount is already included in signup; no separate coupon code is required. Renewal pricing is separate.",
+      "sources": [
+        [
+          "https://www.siteground.com/web-hosting.htm",
+          "Official plan promotion"
+        ],
+        [
+          "https://www.siteground.com/kb/siteground-promo-code",
+          "Official automatic-discount policy"
+        ]
+      ]
+    },
+    {
+      "offer": "GrowBig introductory promotion: 83% savings",
+      "conditions": "The official United States / English plan page prints \u201cSave 83%\u201d for GrowBig. The displayed offer is prepaid for 12 months. SiteGround says its promotional discount is already included in signup; no separate coupon code is required. Renewal pricing is separate.",
+      "sources": [
+        [
+          "https://www.siteground.com/web-hosting.htm",
+          "Official plan promotion"
+        ],
+        [
+          "https://www.siteground.com/kb/siteground-promo-code",
+          "Official automatic-discount policy"
+        ]
+      ]
+    },
+    {
+      "offer": "GoGeek introductory promotion: 82% savings",
+      "conditions": "The official United States / English plan page prints \u201cSave 82%\u201d for GoGeek. The displayed offer is prepaid for 12 months. SiteGround says its promotional discount is already included in signup; no separate coupon code is required. Renewal pricing is separate.",
+      "sources": [
+        [
+          "https://www.siteground.com/web-hosting.htm",
+          "Official plan promotion"
+        ],
+        [
+          "https://www.siteground.com/kb/siteground-promo-code",
+          "Official automatic-discount policy"
+        ]
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "offer": "Displayed introductory and renewal prices",
+      "conditions": "StartUp: $2.99/mo, renews at $17.99/mo. GrowBig: $4.99/mo, renews at $29.99/mo. GoGeek: $7.99/mo, renews at $44.99/mo. Each displayed plan says prepaid for 12 months. These are monthly-equivalent price labels, not a promise of month-to-month payment. Review the selected term and final order.",
+      "sources": [
+        [
+          "https://www.siteground.com/web-hosting.htm",
+          "Official US plan prices"
+        ]
+      ]
+    },
+    {
+      "offer": "Promotion expiry: not published",
+      "conditions": "The plan promotion checked did not publish a calendar end date. An unpublished deadline does not mean the offer is permanent. The 12-month prepayment term is not a promotion-expiry date.",
+      "sources": [
+        [
+          "https://www.siteground.com/web-hosting.htm",
+          "Official current plans"
+        ]
+      ]
+    },
+    {
+      "offer": "No free hosting-trial account",
+      "conditions": "The official hosting-trial article says SiteGround does not offer free trial hosting accounts. Its 30-day shared-hosting money-back guarantee is a refund policy, not free upfront hosting.",
+      "sources": [
+        [
+          "https://www.siteground.com/kb/offer-free-trial",
+          "Official hosting-trial policy"
+        ]
+      ]
+    },
+    {
+      "offer": "Initial hosting refund windows",
+      "conditions": "The refund policy states a full refund within 30 days of activation for shared hosting and within 14 days for cloud hosting. Submit cancellation through the Client Area; exclusions apply. Do not apply the shared-hosting window to every product.",
+      "sources": [
+        [
+          "https://www.siteground.com/kb/do_i_get_a_refund",
+          "Official refund conditions"
+        ]
+      ]
+    },
+    {
+      "offer": "Renewal refund conditions",
+      "conditions": "For refundable services, request cancellation within 30 days of the renewal payment. The policy provides a full refund if the renewal term has not started, or a partial refund less the first month of the renewal term if it has started.",
+      "sources": [
+        [
+          "https://www.siteground.com/kb/do_i_get_a_refund",
+          "Official renewal-refund policy"
+        ]
+      ]
+    },
+    {
+      "offer": "Refund exclusions and domain charges",
+      "conditions": "Domain name fees, paid support and third-party services are not covered by the money-back guarantee. Domain fees may remain due on cancellation even if initially waived as a promotion. Check these exclusions before ordering.",
+      "sources": [
+        [
+          "https://www.siteground.com/kb/do_i_get_a_refund",
+          "Official refund exclusions"
+        ]
+      ]
+    }
+  ],
+  "reusable_coupon_code": null,
+  "official_no_code_policy": "https://www.siteground.com/kb/siteground-promo-code",
+  "unavailable_official_pages": [],
+  "source_region": "United States / English on web-hosting.htm; original displayed dollar prices, no currency conversion",
+  "legal_index_redirect": "US terms index redirected to world.siteground.com; public US KB refund policy used for published refund facts"
+}

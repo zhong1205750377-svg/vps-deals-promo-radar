@@ -1,0 +1,175 @@
+{
+  "keyword": "vultr coupon",
+  "monthly_searches": 50,
+  "volume_source": "User task INPUT 2026-10-18; not independently verified",
+  "date_modified": "2026-10-18",
+  "checked_at": "2026-10-18T17:23+08:00",
+  "offers": [
+    {
+      "offer": "VULTRMATCH: first-deposit match up to $100 USD",
+      "conditions": "Vultr lists a dollar-for-dollar match of the first deposit, capped at $100 USD. New customers only; selected products only; cannot be combined with another offer. The official FAQ requires a linked valid credit card or PayPal and limits promotions to one per user. Confirm account eligibility before deploying paid resources.",
+      "sources": [
+        [
+          "https://www.vultr.com/coupons/",
+          "Officially listed code"
+        ],
+        [
+          "https://www.vultr.com/match/",
+          "Official match details"
+        ],
+        [
+          "https://www.vultr.com/resources/faq/#addpromocode",
+          "Official eligibility and code entry"
+        ]
+      ]
+    },
+    {
+      "offer": "FLYTWOHUNDRED: $200 promotional credit",
+      "conditions": "The official coupons page lists this code and amount, and its linked promotion page advertises the same credit. New customers only; selected products only; cannot be combined with another offer. The official FAQ requires a linked valid credit card or PayPal and limits promotions to one per user. Confirm account eligibility before deploying paid resources.",
+      "sources": [
+        [
+          "https://www.vultr.com/coupons/",
+          "Officially listed code"
+        ],
+        [
+          "https://www.vultr.com/promo/try200/",
+          "Official credit landing page"
+        ],
+        [
+          "https://www.vultr.com/resources/faq/#addpromocode",
+          "Official eligibility and code entry"
+        ]
+      ]
+    },
+    {
+      "offer": "FLY300VULTR: $300 promotional credit",
+      "conditions": "The official coupons page lists this code and amount, and its linked promotion page advertises the same credit. New customers only; selected products only; cannot be combined with another offer. The official FAQ requires a linked valid credit card or PayPal and limits promotions to one per user. Confirm account eligibility before deploying paid resources.",
+      "sources": [
+        [
+          "https://www.vultr.com/coupons/",
+          "Officially listed code"
+        ],
+        [
+          "https://www.vultr.com/promo/try300/",
+          "Official credit landing page"
+        ],
+        [
+          "https://www.vultr.com/resources/faq/#addpromocode",
+          "Official eligibility and code entry"
+        ]
+      ]
+    },
+    {
+      "offer": "250VULTRFLY: $250 promotional credit",
+      "conditions": "The official coupons page lists this code and amount, and its linked promotion page advertises the same credit. New customers only; selected products only; cannot be combined with another offer. The official FAQ requires a linked valid credit card or PayPal and limits promotions to one per user. Confirm account eligibility before deploying paid resources.",
+      "sources": [
+        [
+          "https://www.vultr.com/coupons/",
+          "Officially listed code"
+        ],
+        [
+          "https://www.vultr.com/promo/try250/",
+          "Official credit landing page"
+        ],
+        [
+          "https://www.vultr.com/resources/faq/#addpromocode",
+          "Official eligibility and code entry"
+        ]
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "offer": "Redeeming an official code",
+      "conditions": "The official FAQ directs customers to redeem a valid code in the customer portal's Gift Code section. A linked valid credit card or PayPal is required for promotion eligibility. This page records public official listings; it is not a completed redemption or account-eligibility test.",
+      "sources": [
+        [
+          "https://www.vultr.com/resources/faq/#addpromocode",
+          "Official promotional-code FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "VULTRMATCH credit: expiry and drawdown",
+      "conditions": "The match FAQ says the promotional match credit expires 12 months after issuance. Usage is paid 50/50 from promotional credit and real funds. Existing customers and duplicate accounts are not eligible. These match-specific rules are not assigned to the other codes.",
+      "sources": [
+        [
+          "https://www.vultr.com/match/",
+          "Official match FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "Other credit expiries and campaign cutoff",
+      "conditions": "The general FAQ says promo credits expire. The $200, $250 and $300 landing pages checked did not publish a specific credit lifetime; no calendar campaign cutoff was published in the checked coupons listing. The match page says its offer is limited-time without giving a calendar deadline. An unpublished date does not mean permanent validity.",
+      "sources": [
+        [
+          "https://www.vultr.com/coupons/",
+          "Official coupons listing"
+        ],
+        [
+          "https://www.vultr.com/resources/faq/#addpromocode",
+          "Official credit-expiry notice"
+        ],
+        [
+          "https://www.vultr.com/match/",
+          "Official limited-time notice"
+        ]
+      ]
+    },
+    {
+      "offer": "Hourly charges and minimum billing unit",
+      "conditions": "The official FAQ says servers are billed hourly, with a minimum billing unit of one hour, and accumulated charges are invoiced on the first of each month. Billing caps depend on product category; a promotional credit does not make every deployed resource free indefinitely.",
+      "sources": [
+        [
+          "https://www.vultr.com/resources/faq/#billingoverview",
+          "Official server-billing FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "Stopping an instance does not end its charges",
+      "conditions": "Stopped instances continue to reserve resources and remain billable until destroyed. The official FAQ instructs customers to use DESTROY in the customer portal to stop accumulating charges for that virtual machine. This is a billing explanation; no resources were created or destroyed for this page.",
+      "sources": [
+        [
+          "https://www.vultr.com/resources/faq/#stoppedinstancecharges",
+          "Official stopped-instance FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "Taxes are excluded from listed prices",
+      "conditions": "Vultr says it collects applicable VAT, consumption tax or sales tax in several countries. Listed website prices exclude tax; tax is added separately on the invoice.",
+      "sources": [
+        [
+          "https://www.vultr.com/resources/faq/#vat",
+          "Official tax FAQ"
+        ]
+      ]
+    },
+    {
+      "offer": "Refunds and prepaid amounts",
+      "conditions": "The official FAQ says Vultr does not offer refunds. The Terms also limit refunds of prepaid fees and rule out prorated subscription refunds, subject to applicable law. Do not treat a deposit or promotional credit as a refundable cash balance.",
+      "sources": [
+        [
+          "https://www.vultr.com/resources/faq/#refunds",
+          "Official refund FAQ"
+        ],
+        [
+          "https://www.vultr.com/legal/tos/",
+          "Official payment and cancellation terms"
+        ]
+      ]
+    }
+  ],
+  "official_codes": [
+    "VULTRMATCH",
+    "FLYTWOHUNDRED",
+    "FLY300VULTR",
+    "250VULTRFLY"
+  ],
+  "redemption_tested": false,
+  "unavailable_official_pages": [],
+  "earlier_security_challenge": "Resolved; public official pages read via current in-app browser. Fetch-service 403 was not treated as current browser state.",
+  "expiry_scope": "12 months only verified for match credit; other exact lifetimes not published on checked landing pages"
+}
