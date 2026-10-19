@@ -1,0 +1,13 @@
+{
+  "resource": "https://vpspricewatch.com",
+  "authorization_servers": [
+    "https://vpspricewatch.com"
+  ],
+  "scopes_supported": [
+    "content:read"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "resource_documentation": "https://vpspricewatch.com/auth.md"
+}

@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://vpspricewatch.com/api/content",
+      "service-desc": [
+        {
+          "href": "https://vpspricewatch.com/ai/openapi.json",
+          "type": "application/vnd.oai.openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://vpspricewatch.com/ai/",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://vpspricewatch.com/api/health",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

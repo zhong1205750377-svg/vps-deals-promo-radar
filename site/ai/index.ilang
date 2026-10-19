@@ -1,0 +1,11 @@
+::ILANG
+[TYPE:index][SITE:vpspricewatch.com][MODE:read-only]
+::RESOURCE{directory|url:https://vpspricewatch.com/ai/}
+::RESOURCE{content_api|url:https://vpspricewatch.com/api/content}
+::RESOURCE{api_spec|url:https://vpspricewatch.com/ai/openapi.json}
+::RESOURCE{api_catalog|url:https://vpspricewatch.com/.well-known/api-catalog}
+::RESOURCE{mcp|url:https://vpspricewatch.com/mcp}
+::RESOURCE{agent_card|url:https://vpspricewatch.com/.well-known/agent-card.json}
+::RESOURCE{skills|url:https://vpspricewatch.com/.well-known/agent-skills/index.json}
+::RESOURCE{auth|url:https://vpspricewatch.com/auth.md}
+::BOUNDARY{never:checkout or private data access}

@@ -177,6 +177,8 @@ def main():
         sitemap_path.write_text(sitemap, encoding="utf-8")
         from agent_readiness import generate
         generate(OUT)
+        from agent_gap import generate as generate_gap
+        generate_gap(OUT)
         print("Built preserved public site and new coupon pages; locked pages unchanged.")
         return
     global CONFIG

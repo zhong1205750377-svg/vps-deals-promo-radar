@@ -1,0 +1,40 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "VPS Price Watch content finder",
+  "version": "1.0.0",
+  "description": "Deterministic search of this site’s published public page snapshots. Not a generative adviser or purchase agent.",
+  "url": "https://vpspricewatch.com/a2a",
+  "preferredTransport": "JSONRPC",
+  "supportedInterfaces": [
+    {
+      "url": "https://vpspricewatch.com/a2a",
+      "transport": "JSONRPC"
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "find-published-content",
+      "name": "Find published content",
+      "description": "Return up to ten relevant page links and excerpts for a text query.",
+      "tags": [
+        "read-only",
+        "hosting",
+        "domains"
+      ],
+      "examples": [
+        "namesilo",
+        "vultr"
+      ]
+    }
+  ]
+}

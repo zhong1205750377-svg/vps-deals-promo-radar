@@ -1,0 +1,19 @@
+{
+  "serverInfo": {
+    "name": "vps-price-watch-read-only",
+    "version": "1.0.0"
+  },
+  "description": "Read-only search of public published content; no checkout or external fetching.",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://vpspricewatch.com/mcp"
+  },
+  "endpoint": "https://vpspricewatch.com/mcp",
+  "capabilities": {
+    "tools": {}
+  },
+  "authentication": {
+    "required": false
+  },
+  "documentationUrl": "https://vpspricewatch.com/ai/"
+}

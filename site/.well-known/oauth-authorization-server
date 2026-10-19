@@ -1,0 +1,30 @@
+{
+  "issuer": "https://vpspricewatch.com",
+  "token_endpoint": "https://vpspricewatch.com/oauth/token",
+  "registration_endpoint": "https://vpspricewatch.com/oauth/register",
+  "jwks_uri": "https://vpspricewatch.com/.well-known/jwks.json",
+  "grant_types_supported": [
+    "client_credentials"
+  ],
+  "response_types_supported": [],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post"
+  ],
+  "scopes_supported": [
+    "content:read"
+  ],
+  "service_documentation": "https://vpspricewatch.com/auth.md",
+  "agent_auth": {
+    "skill": "https://vpspricewatch.com/auth.md",
+    "register_uri": "https://vpspricewatch.com/oauth/register",
+    "identity_types_supported": [
+      "anonymous"
+    ],
+    "anonymous": {
+      "credential_types_supported": [
+        "oauth2_client_credentials"
+      ],
+      "claim_uri": "https://vpspricewatch.com/oauth/register"
+    }
+  }
+}
