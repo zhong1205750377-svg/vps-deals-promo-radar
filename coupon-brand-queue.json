@@ -44,8 +44,8 @@
       "official_source": "https://www.namesilo.com/discounts-and-promotions",
       "checked_bjt": "2026-10-19",
       "query": "namesilo promo code",
-      "status": "pushed_pending_git_integration_authorization",
-      "offer_verified": false,
+      "status": "published",
+      "offer_verified": true,
       "http_status": 200,
       "final_url": "https://www.namesilo.com/discounts-and-promotions",
       "title": "Domain Registration Coupons, Promotions, Discounts",
@@ -54,7 +54,10 @@
       "official_occupancy": 2,
       "large_occupancy": 5,
       "commit": "068fd60",
-      "intended_url": "https://vpspricewatch.com/coupons/namesilo/"
+      "intended_url": "https://vpspricewatch.com/coupons/namesilo/",
+      "url": "https://vpspricewatch.com/coupons/namesilo/",
+      "published_date": "2026-10-19",
+      "deployment": "62cd49f3"
     },
     {
       "brand": "Gandi",
