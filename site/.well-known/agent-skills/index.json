@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "read-official-offers",
+      "type": "skill-md",
+      "description": "Read public hosting and domain offer evidence with source and review dates.",
+      "url": "/.well-known/agent-skills/read-official-offers/SKILL.md",
+      "digest": "sha256:6443bd62a8f99b16e41c0e9c1a25f9e62ad880b6bdbdd80587897da5060fdec0"
+    }
+  ]
+}

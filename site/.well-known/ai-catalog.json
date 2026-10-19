@@ -1,0 +1,19 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "VPS Price Watch",
+    "identifier": "did:web:vpspricewatch.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:vpspricewatch.com:skill:read-official-offers",
+      "displayName": "Read published offer evidence",
+      "type": "text/markdown",
+      "url": "https://vpspricewatch.com/.well-known/agent-skills/read-official-offers/SKILL.md",
+      "representativeQueries": [
+        "Find official offer eligibility and review dates",
+        "Read published hosting and domain promotions"
+      ]
+    }
+  ]
+}

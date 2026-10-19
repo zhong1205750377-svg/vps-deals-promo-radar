@@ -175,6 +175,8 @@ def main():
                 entry = "<url><loc>" + loc + "</loc>" + ("<lastmod>" + modified + "</lastmod>" if modified else "") + "</url>"
                 sitemap = sitemap.replace("</urlset>", entry + "</urlset>")
         sitemap_path.write_text(sitemap, encoding="utf-8")
+        from agent_readiness import generate
+        generate(OUT)
         print("Built preserved public site and new coupon pages; locked pages unchanged.")
         return
     global CONFIG

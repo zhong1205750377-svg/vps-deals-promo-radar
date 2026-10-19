@@ -1,3 +1,9 @@
 User-agent: *
 Allow: /
 Sitemap: https://vpspricewatch.com/sitemap.xml
+
+# Public search and retrieval preferences; no training preference declared.
+User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes
+Agentmap: https://vpspricewatch.com/.well-known/ai-catalog.json

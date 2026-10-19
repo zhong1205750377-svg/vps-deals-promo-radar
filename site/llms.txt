@@ -1,0 +1,14 @@
+# VPS Price Watch
+
+Independent VPS and hosting price and official-offer reference. Check each page’s review date and official provider terms; displayed offers are not a checkout guarantee.
+
+## Content
+- [Offers](https://vpspricewatch.com/)
+- [Provider comparisons](https://vpspricewatch.com/compare)
+- [Brand offers](https://vpspricewatch.com/coupons/)
+- [Guides](https://vpspricewatch.com/guides/)
+- [All canonical URLs](https://vpspricewatch.com/sitemap.xml)
+- [Expanded content](https://vpspricewatch.com/llms-full.txt)
+
+## Access
+Public read-only pages need no account or token. Request Accept: text/markdown for a text representation. We do not operate checkout, agent registration, an MCP server or an A2A service.
