@@ -154,6 +154,29 @@ def plan_line(o):
 
 
 def main():
+    # Immutable live snapshot prevents scheduled price refreshes from rewriting locked pages.
+    preserved = ROOT / "preserved-site"
+    if preserved.exists():
+        shutil.copytree(preserved, OUT, dirs_exist_ok=True)
+        sitemap_path = OUT / "sitemap.xml"
+        sitemap = sitemap_path.read_text(encoding="utf-8")
+        base = read_config()["settings"].get("base_url", "https://vpspricewatch.com").rstrip("/")
+        for src in sorted((ROOT / "coupon-pages").glob("*/index.html")):
+            brand = src.parent.name
+            if (preserved / "coupons" / brand / "index.html").exists():
+                continue
+            dest = OUT / "coupons" / brand
+            dest.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dest / "index.html")
+            loc = base + "/coupons/" + brand + "/"
+            if "<loc>" + loc + "</loc>" not in sitemap:
+                meta = src.parent / "facts.json"
+                modified = json.loads(meta.read_text(encoding="utf-8")).get("date_modified") if meta.exists() else None
+                entry = "<url><loc>" + loc + "</loc>" + ("<lastmod>" + modified + "</lastmod>" if modified else "") + "</url>"
+                sitemap = sitemap.replace("</urlset>", entry + "</urlset>")
+        sitemap_path.write_text(sitemap, encoding="utf-8")
+        print("Built preserved public site and new coupon pages; locked pages unchanged.")
+        return
     global CONFIG
     CONFIG = read_config()
     data_path = ROOT / "data/offers.json"

@@ -1,0 +1,194 @@
+{
+  "origin": "All records are project-selected synthetic strings and CPU counts, not purchasable plans, measured performance or official prices.",
+  "fixtures": [
+    {
+      "id": "A",
+      "left": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "right": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "dedicated",
+        "generation": "fixture-generation"
+      },
+      "expected": {
+        "missing": [],
+        "differences": [
+          "allocation"
+        ],
+        "result": "different quote fields"
+      }
+    },
+    {
+      "id": "B",
+      "left": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "right": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": null,
+        "generation": "fixture-generation"
+      },
+      "expected": {
+        "missing": [
+          "allocation"
+        ],
+        "differences": [],
+        "result": "unknown fields"
+      }
+    },
+    {
+      "id": "C",
+      "left": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "right": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "expected": {
+        "missing": [],
+        "differences": [],
+        "result": "matching labels, performance untested"
+      }
+    },
+    {
+      "id": "D",
+      "left": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "right": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 4,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "expected": {
+        "missing": [],
+        "differences": [
+          "vcpu_count"
+        ],
+        "result": "different quote fields"
+      }
+    },
+    {
+      "id": "E",
+      "left": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "right": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": null
+      },
+      "expected": {
+        "missing": [
+          "generation"
+        ],
+        "differences": [],
+        "result": "unknown fields"
+      }
+    },
+    {
+      "id": "F",
+      "left": {
+        "provider": "synthetic-provider",
+        "product": "virtual-machine",
+        "region": "test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "right": {
+        "provider": "other-synthetic-provider",
+        "product": "virtual-machine",
+        "region": "other-test-region",
+        "plan_family": "fixture-family",
+        "vcpu_count": 2,
+        "allocation": "shared",
+        "generation": "fixture-generation"
+      },
+      "expected": {
+        "missing": [],
+        "differences": [
+          "provider",
+          "region"
+        ],
+        "result": "different quote fields"
+      }
+    }
+  ],
+  "formula": "For each required field f: missing if either value is unknown; difference if both known and unequal. Matching fields do not imply matching throughput or identify a best provider.",
+  "official_rule_evidence": [
+    {
+      "id": "overview",
+      "url": "https://docs.digitalocean.com/products/droplets/concepts/choosing-a-plan/",
+      "retrieved_at": "2026-10-13T01:06:43.920957+00:00",
+      "sha256": "26dc66504e5e4e2b5ccd5b46af92b48b99d844ec18c897a8e8650b5d7495419e",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-13-overview.html",
+      "robots_url": "https://docs.digitalocean.com/robots.txt",
+      "robots_sha256": "a5190b4d45ad0e406a33cb411d64bc50d670888fa01fb7613e8aed2354ccf9c1"
+    },
+    {
+      "id": "allocation",
+      "url": "https://docs.digitalocean.com/products/droplets/details/features/",
+      "retrieved_at": "2026-10-13T01:06:45.045004+00:00",
+      "sha256": "4ca738c458e83af3b1e43fd33c645643a44e83f730a140206dc40b6c07490f24",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-13-allocation.html",
+      "robots_url": "https://docs.digitalocean.com/robots.txt",
+      "robots_sha256": "a5190b4d45ad0e406a33cb411d64bc50d670888fa01fb7613e8aed2354ccf9c1"
+    }
+  ],
+  "limits": "No VM rented, no CPU benchmark run, no provider ranking and no measured cost-per-performance result."
+}

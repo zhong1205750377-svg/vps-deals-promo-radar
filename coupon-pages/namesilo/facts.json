@@ -1,0 +1,80 @@
+{
+  "keyword": "namesilo promo code",
+  "date_modified": "2026-10-19",
+  "checked": "2026-10-19T14:23+08:00",
+  "source_urls": [
+    "https://www.namesilo.com/discounts-and-promotions",
+    "https://www.namesilo.com/support/v2/articles/ordering/promotion-coupons"
+  ],
+  "offers": [
+    [
+      ".COM registration",
+      "$8.75",
+      "The card also describes a Discount Program offer for Tiers 2–6, with a separate “as low as $8.00” statement. Do not apply that tier price to every buyer.",
+      "October 31, 2026"
+    ],
+    [
+      ".NET registration",
+      "$8.75",
+      "The card also describes a Discount Program offer for Tiers 2–6, with a separate “as low as $8.00” statement. Qualification must be checked separately.",
+      "October 31, 2026"
+    ],
+    [
+      ".COM transfer",
+      "$10.80",
+      "The promotion explicitly includes a one-year extension to the current expiry date. This is a transfer price, not a new-registration quote.",
+      "October 31, 2026"
+    ],
+    [
+      ".NET transfer",
+      "$11.35",
+      "The card is marked TRANSFER. Its price cannot be used as the .NET registration price.",
+      "October 31, 2026"
+    ],
+    [
+      ".LIVE registration",
+      "$3.49",
+      "First-year standard registration only.",
+      "December 3, 2026"
+    ],
+    [
+      ".ART registration",
+      "$3.19",
+      "First-year standard registration only; the card separately advertises 75% off premium registrations. That exception is specific to this offer.",
+      "December 31, 2026"
+    ]
+  ],
+  "conditions": [
+    [
+      "Direct codes versus affiliate codes",
+      "The official support page distinguishes directly offered coupons from affiliate-created coupons and currently lists no active direct coupons. This page does not publish an affiliate code without its own official evidence.",
+      "https://www.namesilo.com/support/v2/articles/ordering/promotion-coupons"
+    ],
+    [
+      "Premium is a separate eligibility field",
+      "Most promotions exclude premium domains/TLDs. The .ART card supplies a specific premium-registration exception. Read the exception on that card rather than extending it to every suffix.",
+      "https://www.namesilo.com/discounts-and-promotions"
+    ],
+    [
+      "Discount Program does not automatically stack",
+      "The official introduction says most displayed prices are retail prices and may not qualify for further Discount Program reductions. The separate .COM and .NET tier notes must be read with that warning.",
+      "https://www.namesilo.com/discounts-and-promotions"
+    ],
+    [
+      "Quantity limits are conditional",
+      "The introduction says registrations have no quantity limit unless otherwise indicated. That is not a guarantee that every future offer is unlimited; inspect the chosen card for an exception.",
+      "https://www.namesilo.com/discounts-and-promotions"
+    ],
+    [
+      "Registration and renewal are different transactions",
+      "Renewal prices may differ from promotional registration prices. No renewal, original or struck-through price is reproduced in this table.",
+      "https://www.namesilo.com/discounts-and-promotions"
+    ]
+  ],
+  "tests": {
+    "com_difference": 2.0500000000000007,
+    "net_difference": 2.5999999999999996,
+    "tier_difference": 0.75
+  },
+  "not_paid_or_redemption_test": true
+}

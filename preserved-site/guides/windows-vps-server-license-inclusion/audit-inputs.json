@@ -1,0 +1,72 @@
+{
+  "origin": "All six cases are explicitly authored synthetic evidence fixtures, not provider offers or customer licence records. No monetary licence amounts supplied.",
+  "fixtures": [
+    {
+      "id": "A",
+      "mode": "unknown",
+      "scope_matches": true,
+      "preinstalled": true,
+      "expected": "unresolved_inclusion"
+    },
+    {
+      "id": "B",
+      "mode": "included",
+      "scope_matches": true,
+      "expected": "included_claim_documented"
+    },
+    {
+      "id": "C",
+      "mode": "separate",
+      "scope_matches": true,
+      "charge_evidence": true,
+      "expected": "separate_charge_documented"
+    },
+    {
+      "id": "D",
+      "mode": "bring_your_own",
+      "scope_matches": true,
+      "eligibility_evidence": null,
+      "expected": "unresolved_eligibility"
+    },
+    {
+      "id": "E",
+      "mode": "included",
+      "scope_matches": false,
+      "expected": "unresolved_scope"
+    },
+    {
+      "id": "F",
+      "mode": "bring_your_own",
+      "scope_matches": true,
+      "eligibility_evidence": true,
+      "expected": "customer_license_route_documented"
+    }
+  ],
+  "official_evidence": [
+    {
+      "id": "ovh",
+      "url": "https://us.ovhcloud.com/vps/os/vps-windows/",
+      "retrieved_at": "2026-10-09T01:05:53.448123+00:00",
+      "sha256": "a65bd8f4813e3f3877a6a46fb25166e91ee2bdf9de6122d14e69436f3ae9beec",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-09-ovh.html",
+      "robots_url": "https://us.ovhcloud.com/robots.txt",
+      "robots_sha256": "102908c635a36fd6760b622a358c8339c6636efe5719210b2e09906ab54cf22e"
+    },
+    {
+      "id": "microsoft",
+      "url": "https://learn.microsoft.com/en-us/windows-server/get-started/azure-hybrid-benefit",
+      "retrieved_at": "2026-10-09T01:05:53.511273+00:00",
+      "sha256": "546c0097ee2f8a1687663d917b85ae224ea662cd3ed57d7c426557cc840ba3ea",
+      "raw_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\work\\benchmark-evidence\\2026-10-09-microsoft.html",
+      "robots_url": "https://learn.microsoft.com/robots.txt",
+      "robots_sha256": "960054479af442fe1599ec890c8902fbe29786aa3fb948781042050063b4f327"
+    }
+  ],
+  "observed_sample": {
+    "provider": "OVHcloud US Windows landing page",
+    "preinstallation": "documented",
+    "quote_specific_license_inclusion": "not established by this capture",
+    "customer_checkout": "not accessed"
+  },
+  "limits": "Evidence labels are not legal eligibility confirmation, actual checkout amounts or licensing advice."
+}
