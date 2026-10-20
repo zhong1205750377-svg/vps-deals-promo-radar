@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "completed_at": "2026-10-20T09:38:50.315806+08:00",
+  "article": "https://vpspricewatch.com/coupons/gandi/",
+  "new_article_count_in_this_followup": 0,
+  "mainline": "Existing today publication reused, not republished as a second article",
+  "t1": {
+    "result": "Gandi表头/隔行底色、行距及手机排版已发布",
+    "evidence": "verification.json",
+    "rollback": "rollback/"
+  },
+  "t2": {
+    "result": "已读固定GetDeploying VPS比较页并保存结构观察；当次Gandi动态前三仍一站安全验证未读",
+    "evidence": "getdeploying-compute.txt",
+    "limitation": "不宣称所有前三均未覆盖"
+  },
+  "t3": {
+    "result": "弹药清单JSON/MD追加，官方材料与用户材料分列；明日GreenGeeks官网快照已存",
+    "limitation": "未有新群机器人完整回传，不冒称群咒语已跑"
+  },
+  "t4": {
+    "result": "Gandi四组FAQ均保留官方来源，问句为项目自拟"
+  },
+  "t5": {
+    "result": "Gandi两图、NameSilo旧文一图已公网验证；61秒有音画讲解视频已公开",
+    "video": "https://youtu.be/HFpKU3evElA"
+  },
+  "audit": {
+    "original_words": 508,
+    "original_body_words": 1065,
+    "additive_caption_words": 36,
+    "total_body_words": 1101,
+    "formula": "508 / (1065 + additive_caption_words)",
+    "ratio": 0.46139872842870117,
+    "scope": "Original document-field audit and synthetic cases; no paid test; only two dynamic competitor bodies read."
+  },
+  "tomorrow": "GreenGeeks，先核占位和当期优惠，未过闸不写",
+  "automation": "vps-prices-28 ACTIVE daily09:00 updated to require all six tracks",
+  "status": "executed_with_declared_evidence_limits"
+}

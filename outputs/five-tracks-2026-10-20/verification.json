@@ -1,0 +1,69 @@
+{
+  "public_checks": [
+    {
+      "path": "/coupons/gandi/",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "4495d28ca1c26ee48985a4dc3b1ec698517c7d5debcd33fdc854df73cc2cfcf3"
+    },
+    {
+      "path": "/coupons/namesilo/",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "eacb8fe7521f82199b56ac0a43884af55dc139ed8ce073ec21d4297cad1daf1d"
+    },
+    {
+      "path": "/coupons/gandi/offer-scope.svg",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "75169be3ec4916c9b8a93d6334db1233540c843ee78fb1d8368dc649c8472d25"
+    },
+    {
+      "path": "/coupons/gandi/offer-dates.svg",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "d89f9e7fb262518990b7694f027a65fe5d37661d0273d77214065d031c726fb8"
+    },
+    {
+      "path": "/coupons/namesilo/offer-checklist.svg",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "6110edc338dfbff2f83a8562784855dd184172dde16f709529f83b16c9a88c83"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "2e3fdf73ce2565152c52ae816d694524765935b12a69e8dcac49dc0cfcc88976"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "0a35e7609a60941bfd8f535a0f0bcc68bc4f1e16a3114090d640c1c6cb6eb7f4"
+    },
+    {
+      "path": "/coupons/hostinger/",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "569ab1891b5897fe364b329cd9ec039b2ffb73c3f80e90bb47ee570560aedc95"
+    },
+    {
+      "path": "/coupons/digitalocean/",
+      "status": 200,
+      "matches_built": true,
+      "sha256": "0b3d5a1206c34fc6a7604fd6f67c52203b76361d84f04f7fe1f3f816fae1c88c"
+    }
+  ],
+  "existing_words_unchanged": true,
+  "locked_pages_match_built": true,
+  "new_article_count": 0,
+  "deployment": "13b62b3b",
+  "mobile": {
+    "viewport": 390,
+    "document_width": 375,
+    "horizontal_page_overflow": false,
+    "gandi_images_loaded": 2,
+    "evidence": "gandi-mobile-diagrams.png"
+  }
+}

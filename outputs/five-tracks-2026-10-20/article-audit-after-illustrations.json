@@ -1,0 +1,9 @@
+{
+  "original_words": 508,
+  "original_body_words": 1065,
+  "additive_caption_words": 36,
+  "total_body_words": 1101,
+  "formula": "508 / (1065 + additive_caption_words)",
+  "ratio": 0.46139872842870117,
+  "scope": "Original document-field audit and synthetic cases; no paid test; only two dynamic competitor bodies read."
+}
