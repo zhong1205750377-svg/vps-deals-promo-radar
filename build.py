@@ -168,6 +168,12 @@ def main():
             dest = OUT / "coupons" / brand
             dest.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src, dest / "index.html")
+            # Coupon illustrations are public assets; keep source evidence JSON private.
+            for asset in src.parent.rglob("*"):
+                if asset.is_file() and asset.suffix.lower() in {".svg", ".png", ".jpg", ".jpeg", ".webp"}:
+                    target = dest / asset.relative_to(src.parent)
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(asset, target)
             loc = base + "/coupons/" + brand + "/"
             if "<loc>" + loc + "</loc>" not in sitemap:
                 meta = src.parent / "facts.json"
