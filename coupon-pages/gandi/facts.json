@@ -1,0 +1,156 @@
+{
+  "date_modified": "2026-10-20",
+  "checked_at": "2026-10-20T09:10+08:00",
+  "sources": [
+    "https://www.gandi.net/en-US/discounts",
+    "https://docs.gandi.net/en/billing/means_of_payment/promo_codes.html"
+  ],
+  "official_rows": [
+    [
+      ".online registration",
+      "$1.99",
+      "1 year; selected United States / USD / A-rate view",
+      "January 1, 2027"
+    ],
+    [
+      ".alsace registration",
+      "$10.99",
+      "1 year; offer-specific end date",
+      "December 31, 2026"
+    ],
+    [
+      ".me registration",
+      "$7.99",
+      "1 year; not a quoted renewal or transfer price",
+      "January 1, 2027"
+    ],
+    [
+      ".io registration",
+      "$31.99",
+      "1 year; not a premium-domain guarantee",
+      "January 1, 2027"
+    ],
+    [
+      "New web hosting subscription",
+      "50% discount",
+      "Official page advertises this for new web hosting subscriptions; it is not a store-wide domain coupon",
+      "not published"
+    ]
+  ],
+  "terms": [
+    [
+      "Display context",
+      "The reviewed page selects United States, USD, excluding VAT and A rates.",
+      "https://www.gandi.net/en-US/discounts"
+    ],
+    [
+      "Promotion changes",
+      "The official introduction says registries may change the rates or duration of annual promotions.",
+      "https://www.gandi.net/en-US/discounts"
+    ],
+    [
+      "Premium and already-discounted products",
+      "The billing guide excludes premium domains and products already on sale at a reduced price from promo-code use.",
+      "https://docs.gandi.net/en/billing/means_of_payment/promo_codes.html"
+    ],
+    [
+      "Product restriction",
+      "A product excluded by a code cannot use it; the guide gives a hosting-code/domain-purchase example.",
+      "https://docs.gandi.net/en/billing/means_of_payment/promo_codes.html"
+    ],
+    [
+      "Use and balance restrictions",
+      "Only one code per item and order. Codes cannot be exchanged for cash or used to fund a prepaid account; used or expired codes generate errors.",
+      "https://docs.gandi.net/en/billing/means_of_payment/promo_codes.html"
+    ]
+  ],
+  "no_public_code_verified": true,
+  "gate": {
+    "date_bjt": "2026-10-20",
+    "brand": "Gandi",
+    "query": "gandi promo code",
+    "official": 3,
+    "large": 7,
+    "decision": "do",
+    "results": [
+      {
+        "position": 1,
+        "domain": "simplycodes.com",
+        "class": "large"
+      },
+      {
+        "position": 2,
+        "domain": "goodsearch.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "worthepenny.com",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "gandi.net",
+        "class": "official"
+      },
+      {
+        "position": 5,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 6,
+        "domain": "dontpayfull.com",
+        "class": "large"
+      },
+      {
+        "position": 7,
+        "domain": "valuecom.com",
+        "class": "large"
+      },
+      {
+        "position": 8,
+        "domain": "gandi.net",
+        "class": "official"
+      },
+      {
+        "position": 9,
+        "domain": "tenereteam.com",
+        "class": "large"
+      },
+      {
+        "position": 10,
+        "domain": "gandi.net",
+        "class": "official"
+      }
+    ],
+    "evidence": "Raw controlled-browser snapshots in this folder; first nine eligible web results plus the next page, excluding AI/PAA/video results. IONOS needed two further web results after excluding YouTube.",
+    "gate_rule": "N>3 OR (N<3 AND M>=6) skips, as explicitly preserved in latest run instructions; N=3 does not satisfy either skip clause.",
+    "classification": "Broad coupon catalogues and hosting review media are large; specialist Affiliate.Watch, CouponsKiss, InsideHost and ReviewHell classified other, consistent with earlier CouponsKiss treatment."
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/gandi/",
+    "target_keyword": "gandi promo code",
+    "original_words": 508,
+    "total_body_words": 1065,
+    "formula": "original_words / total_body_words",
+    "ratio": 0.47699530516431926,
+    "original_section": "document-checks: original synthetic field audit; no paid or redemption tests",
+    "comparison_scope": "Only two accessible loaded competitor bodies; SimplyCodes safety challenge was not bypassed. No claim that all three omit a detail.",
+    "details": {
+      "premium_exclusion": {
+        "goodsearch": false,
+        "worthepenny": false
+      },
+      "already_discounted_exclusion": {
+        "goodsearch": "generic stacking discussion, not this provider-specific exclusion",
+        "worthepenny": false
+      },
+      "prepaid_account_exclusion": {
+        "goodsearch": false,
+        "worthepenny": false
+      }
+    },
+    "published": false
+  }
+}
