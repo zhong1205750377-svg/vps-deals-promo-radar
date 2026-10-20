@@ -1,5 +1,5 @@
 {
-  "date_bjt": "2026-10-19",
+  "date_bjt": "2026-10-20",
   "source_policy": "Actual accessible official product/pricing pages; no coupon claimed until official offer terms read.",
   "ready_count": 31,
   "brands": [
@@ -63,15 +63,22 @@
       "brand": "Gandi",
       "domain": "gandi.net",
       "category": "domains",
-      "official_source": "https://www.gandi.net/en/domain",
+      "official_source": "https://www.gandi.net/en-US/discounts",
       "checked_bjt": "2026-10-19",
       "query": "gandi promo code",
-      "status": "queued_gate_pending",
-      "offer_verified": false,
+      "status": "published",
+      "offer_verified": true,
       "http_status": 200,
       "final_url": "https://www.gandi.net/en/domain",
       "title": "Buy a domain name: choose from over 750 domain endings - Gandi.net",
-      "evidence": "coupon-loop-2026-10-19\\gandi.net.html"
+      "evidence": "coupon-loop-2026-10-20/facts.json",
+      "gate_date": "2026-10-20",
+      "official_occupancy": 3,
+      "large_occupancy": 7,
+      "url": "https://vpspricewatch.com/coupons/gandi/",
+      "published_date": "2026-10-20",
+      "deployment": "9b89c084",
+      "benchmark_note": "SimplyCodes challenge not bypassed; two other public bodies read; no all-three uniqueness claim"
     },
     {
       "brand": "Hover",
@@ -80,12 +87,15 @@
       "official_source": "https://www.hover.com/domains",
       "checked_bjt": "2026-10-19",
       "query": "hover promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.hover.com/domains",
       "title": "Domain Names | Buy Domains &amp; Email At Hover.com",
-      "evidence": "coupon-loop-2026-10-19\\hover.com.html"
+      "evidence": "coupon-loop-2026-10-19\\hover.com.html",
+      "gate_date": "2026-10-20",
+      "official_occupancy": 1,
+      "large_occupancy": 8
     },
     {
       "brand": "IONOS",
@@ -94,12 +104,15 @@
       "official_source": "https://www.ionos.com/servers/vps",
       "checked_bjt": "2026-10-19",
       "query": "ionos promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.ionos.com/servers/vps",
       "title": "VPS Hosting | Virtual Private Servers | Starting at $4/month",
-      "evidence": "coupon-loop-2026-10-19\\ionos.com.html"
+      "evidence": "coupon-loop-2026-10-19\\ionos.com.html",
+      "gate_date": "2026-10-20",
+      "official_occupancy": 1,
+      "large_occupancy": 8
     },
     {
       "brand": "ScalaHosting",
@@ -108,12 +121,15 @@
       "official_source": "https://www.scalahosting.com/",
       "checked_bjt": "2026-10-19",
       "query": "scalahosting promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.scalahosting.com/",
       "title": "Cloud Hosting Services That Adapt to Your Needs | ScalaHosting",
-      "evidence": "coupon-loop-2026-10-19\\scalahosting.com.html"
+      "evidence": "coupon-loop-2026-10-19\\scalahosting.com.html",
+      "gate_date": "2026-10-20",
+      "official_occupancy": 1,
+      "large_occupancy": 7
     },
     {
       "brand": "Hostwinds",
@@ -122,12 +138,15 @@
       "official_source": "https://www.hostwinds.com/",
       "checked_bjt": "2026-10-19",
       "query": "hostwinds promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.hostwinds.com/",
       "title": "Web Hosting, VPS, Cloud &amp; Dedicated Servers | Hostwinds",
-      "evidence": "coupon-loop-2026-10-19\\hostwinds.com.html"
+      "evidence": "coupon-loop-2026-10-19\\hostwinds.com.html",
+      "gate_date": "2026-10-20",
+      "official_occupancy": 1,
+      "large_occupancy": 7
     },
     {
       "brand": "GreenGeeks",
