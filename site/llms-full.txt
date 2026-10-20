@@ -412,6 +412,8 @@ Offer end: not published. An unpublished end date is not a promise of permanence
 | Product restriction | A product excluded by a code cannot use it; the guide gives a hosting-code/domain-purchase example. | [Official source](https://docs.gandi.net/en/billing/means_of_payment/promo_codes.html) | 2026-10-20 | 
 | Use and balance restrictions | Only one code per item and order. Codes cannot be exchanged for cash or used to fund a prepaid account; used or expired codes generate errors. | [Official source](https://docs.gandi.net/en/billing/means_of_payment/promo_codes.html) | 2026-10-20 | 
 
+Keep the offer and the code separate. Original document-based diagram; official sources and review date are listed below.An expiry belongs to its own offer. Original document-based diagram; official sources and review date are listed below.
+
 ## Check the transaction before looking for a code
 
 We converted the official exclusions into four hypothetical cart records and checked each record against the documented conditions. These are synthetic document tests, not purchases, successful redemptions or a measurement of checkout acceptance. The result tells a reader which published restriction to investigate; it does not supply a code or establish eligibility for a particular account.
