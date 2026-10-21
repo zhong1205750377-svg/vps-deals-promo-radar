@@ -1,0 +1,29 @@
+{
+  "url": "https://vpspricewatch.com/coupons/chemicloud/",
+  "target_keyword": "chemicloud promo code",
+  "date_modified": "2026-10-21",
+  "reviewed_at": "2026-10-21T09:15+08:00",
+  "official_source": "https://chemicloud.com/deals-coupons",
+  "offers": [
+    {
+      "code": "WPLAUNCH",
+      "product": "Managed WordPress Hosting",
+      "benefit": "First month for $1",
+      "cycle": "monthly",
+      "customer_scope": "Modal: new and existing customers; general FAQ describes new purchases, not automatic renewal eligibility",
+      "expiry": "not published",
+      "evidence": "chemicloud-official-code-wplaunch.txt"
+    },
+    {
+      "code": "RESELL25",
+      "product": "Reseller Hosting",
+      "benefit": "25% off first three months",
+      "cycle": "monthly",
+      "expiry": "not published",
+      "evidence": "chemicloud-official-code-reseller.txt"
+    }
+  ],
+  "page_originality": "Synthetic finite-window route audit; no purchase/redemption tests",
+  "gap_id": "chemicloud-monthly-promotion-window-routing",
+  "not_duplicate_reason": "Finite discount windows and billing-cycle evidence, not premium/already-reduced product exclusions, refund clocks or generic total-cost formula."
+}
