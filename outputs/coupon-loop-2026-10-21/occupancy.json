@@ -1,0 +1,130 @@
+[
+  {
+    "date_bjt": "2026-10-21",
+    "brand": "GreenGeeks",
+    "query": "greengeeks promo code",
+    "official": 0,
+    "large": 6,
+    "decision": "skip",
+    "results": [
+      {
+        "position": 1,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position": 2,
+        "domain": "simplycodes.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "hostdean.com",
+        "class": "other"
+      },
+      {
+        "position": 4,
+        "domain": "wp-tweaks.com",
+        "class": "other"
+      },
+      {
+        "position": 5,
+        "domain": "hostingadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 6,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 7,
+        "domain": "isitwp.com",
+        "class": "large"
+      },
+      {
+        "position": 8,
+        "domain": "b2evolution.net",
+        "class": "other"
+      },
+      {
+        "position": 9,
+        "domain": "insidehost.net",
+        "class": "other"
+      },
+      {
+        "position": 10,
+        "domain": "wpbeginner.com",
+        "class": "large"
+      }
+    ],
+    "evidence": "Actual Chrome Google gl=us hl=en pws=0 snapshots page1/page2",
+    "exclusions": "Ads, AI/PAA, YouTube video result excluded. Identical chemicloud.discount result repeated at pagination boundary counted once.",
+    "classification": "Broad coupon catalogues and established multi-topic hosting media classed large. Specialist HostDean, WP-Tweaks, b2evolution, InsideHost, Host.Promo, brand-specific chemicloud.discount and HostingExplorers kept other; no traffic estimates used.",
+    "footer": "Unknown recorded; regional request parameters retained per user instruction"
+  },
+  {
+    "date_bjt": "2026-10-21",
+    "brand": "ChemiCloud",
+    "query": "chemicloud promo code",
+    "official": 1,
+    "large": 5,
+    "decision": "do",
+    "results": [
+      {
+        "position": 1,
+        "domain": "chemicloud.com",
+        "class": "official"
+      },
+      {
+        "position": 2,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "simplycodes.com",
+        "class": "large"
+      },
+      {
+        "position": 5,
+        "domain": "host.promo",
+        "class": "other"
+      },
+      {
+        "position": 6,
+        "domain": "techjury.net",
+        "class": "large"
+      },
+      {
+        "position": 7,
+        "domain": "saver.com",
+        "class": "large"
+      },
+      {
+        "position": 8,
+        "domain": "insidehost.net",
+        "class": "other"
+      },
+      {
+        "position": 9,
+        "domain": "chemicloud.discount",
+        "class": "other"
+      },
+      {
+        "position": 10,
+        "domain": "hostingexplorers.com",
+        "class": "other"
+      }
+    ],
+    "evidence": "Actual Chrome Google gl=us hl=en pws=0 snapshots page1/page2",
+    "exclusions": "Ads, AI/PAA, YouTube video result excluded. Identical chemicloud.discount result repeated at pagination boundary counted once.",
+    "classification": "Broad coupon catalogues and established multi-topic hosting media classed large. Specialist HostDean, WP-Tweaks, b2evolution, InsideHost, Host.Promo, brand-specific chemicloud.discount and HostingExplorers kept other; no traffic estimates used.",
+    "footer": "Unknown recorded; regional request parameters retained per user instruction"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "path": "/coupons/chemicloud/",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "47505edfa9f1fdc080869f85fb1b46c64eb91bae7b4f9eb8551354fc1658fe8e"
+  },
+  {
+    "path": "/coupons/chemicloud/monthly-windows.svg",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "fe8696ccdb4bdcbfad5d579f1078528cc20e625b73a07ff4e7d183a60e856d79"
+  },
+  {
+    "path": "/coupons/chemicloud/purchase-context.svg",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "ebf281a9857c13cb725925a9d451d9b2de720b9c29d28b0afc7a5b2666194017"
+  },
+  {
+    "path": "/coupons/cloudways/",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "0d6cf2237d266e25952e3e82bcd81b5e7027bf4322d98dc892ff67bd25a0015f"
+  },
+  {
+    "path": "/coupons/cloudways/review-fields.svg",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "445ade045cf1f32353a8aff1b25413f220d5cc552e49dd3ba474f3f388d22ef0"
+  },
+  {
+    "path": "/",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "0a35e7609a60941bfd8f535a0f0bcc68bc4f1e16a3114090d640c1c6cb6eb7f4"
+  },
+  {
+    "path": "/coupons/hostinger/",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "569ab1891b5897fe364b329cd9ec039b2ffb73c3f80e90bb47ee570560aedc95"
+  },
+  {
+    "path": "/coupons/digitalocean/",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "0b3d5a1206c34fc6a7604fd6f67c52203b76361d84f04f7fe1f3f816fae1c88c"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "matches_built": true,
+    "sha256": "3f57fd7ea10c63539381783f52a50b98036a0ebd519674fd4d16c5bca92cee42"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "type": "Synthetic document routing only",
+  "official_inputs": "https://chemicloud.com/deals-coupons",
+  "cases": [
+    {
+      "product": "managed_wp",
+      "cycle": "monthly",
+      "month": 1,
+      "expected": "first_month_offer",
+      "actual": "first_month_offer"
+    },
+    {
+      "product": "managed_wp",
+      "cycle": "monthly",
+      "month": 2,
+      "expected": "later_amount_unknown",
+      "actual": "later_amount_unknown"
+    },
+    {
+      "product": "reseller",
+      "cycle": "monthly",
+      "month": 3,
+      "expected": "inside_three_month_window",
+      "actual": "inside_three_month_window"
+    },
+    {
+      "product": "reseller",
+      "cycle": "monthly",
+      "month": 4,
+      "expected": "outside_described_window",
+      "actual": "outside_described_window"
+    },
+    {
+      "product": "reseller",
+      "cycle": "annual",
+      "month": 1,
+      "expected": "monthly_offer_not_established",
+      "actual": "monthly_offer_not_established"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-21",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
+  "article": "https://vpspricewatch.com/coupons/chemicloud/",
+  "target_keyword": "chemicloud promo code",
+  "official_occupancy": 1,
+  "large_occupancy": 5,
+  "top3": [
+    "chemicloud.com",
+    "hostadvice.com",
+    "websiteplanet.com"
+  ],
+  "benchmark_limit": "HostAdvice challenge not bypassed; no all-three omission claim",
+  "originality": {
+    "url": "https://vpspricewatch.com/coupons/chemicloud/",
+    "original_words": 505,
+    "total_body_words": 1071,
+    "formula": "original_words / total_body_words",
+    "ratio": 0.4715219421101774,
+    "original_section": "window-audit",
+    "scope": "Original finite-window routing synthesis, not copied provider wording or purchase tests",
+    "comparison_scope": "Top1 official source and top3 WebsitePlanet loaded; top2 HostAdvice security verification stopped. No claim that all three omit a detail.",
+    "gap_id": "chemicloud-monthly-promotion-window-routing",
+    "published": true
+  },
+  "t1": {
+    "result": "Answer-first page design, table hierarchy, responsive 390px no page overflow",
+    "evidence": "mobile-verification.json"
+  },
+  "t2": {
+    "result": "Fixed GetDeploying VPS scope structure and dynamic official/WebsitePlanet evidence reviewed; HostAdvice blocked",
+    "evidence": "structure-observation.md"
+  },
+  "t3": {
+    "result": "Official materials and five authored questions archived, KnownHost source prepared",
+    "group_query_data": "Not received; not fabricated"
+  },
+  "t4": {
+    "result": "Five sourced FAQ published",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two new illustrations, additive Cloudways illustration, public narrated video",
+    "video": "https://youtu.be/qjz1ye6q0Xg",
+    "evidence": "video-check.json"
+  },
+  "tomorrow": "KnownHost pending occupancy and fresh official offer review",
+  "rollback": "rollback/",
+  "deployment": "60209b01",
+  "source_commit": "08f5642",
+  "published_at_bjt": "2026-10-21T09:17:25+08:00"
+}

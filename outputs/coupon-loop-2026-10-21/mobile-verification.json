@@ -1,0 +1,9 @@
+{
+  "width": 390,
+  "document_width": 375,
+  "horizontal_page_overflow": false,
+  "two_images_loaded": true,
+  "first_screen": "mobile-first-screen.png",
+  "diagram_screenshot": "mobile-diagrams.png",
+  "scope": "Remote public browser and mobile viewport, not a physical phone mobile-data test"
+}
