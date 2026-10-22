@@ -633,6 +633,86 @@ October domain, email and SSL codes; renewal exclusions.
 
 ---
 
+Source: https://vpspricewatch.com/coupons/inmotion/
+
+InMotion Hosting promo code
+
+# Use SAVE50 for the Cloud offer, not as a blanket hosting promise
+
+The official banner shows SAVE50 for half off the first month of Cloud plans, ending October 30, 2026. The VPS and Dedicated cards are separate offers. Keep the code, product scope and date together; confirm the VPS management scope before treating its card as a managed-service quote.
+
+[Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) · Last checked and updated: 2026-10-22T09:01+08:00
+
+## Official promotions by route
+
+| Offer | Conditions and stated end | Official source | Reviewed | 
+| SAVE50: half off the first month | Official banner labels the offer for Cloud plans. Published end: October 30, 2026; the statement does not identify a timezone. | [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) | 2026-10-22 | 
+| VPS card: official 44% saving label | Card describes managed VPS plans in the first year and displays a starting amount of $9.99/mo. The card destination and footer labels differ; see the source-route audit. | [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) | 2026-10-22 | 
+| Dedicated Aspire card: official 30% saving label | Card describes the introductory Aspire plan for the first year and displays a starting amount of $35.00/mo. | [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) | 2026-10-22 | 
+
+## Price context and unresolved fields
+
+| Field | What the reviewed source establishes | Official source | Reviewed | 
+| Management scope | The VPS card targets /vps-hosting. The footer labels that path Self-Managed VPS Hosting and separately links Managed VPS Hosting to /managed-vps-hosting. Confirm the selected plan scope rather than treating the card label as a guarantee. | [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) | 2026-10-22 | 
+| Offer-specific expiry | October 30, 2026 belongs to the Cloud banner. No fixed end date is reproduced for the VPS or Dedicated card because their reviewed statements did not publish one. | [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) | 2026-10-22 | 
+| Price context | Starting amounts are copied from the current official coupon cards. No original, struck-through or renewal amount is reproduced, and no checkout total or tax amount is inferred. | [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) | 2026-10-22 | 
+| Redemption status | SAVE50 was read from the official banner. No code was submitted with an order, and no purchase or support test was performed. | [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) | 2026-10-22 | An offer label and a link are separate. Original visual audit, reviewed 2026-10-22.Keep a code with its own official claim. Original visual audit, reviewed 2026-10-22.
+
+## Our offer-to-destination evidence ledger
+
+We checked the wording on the official coupon page against the links presented on that same page. This is a source-routing audit, not a hosting purchase or a test of support delivery. The inputs are visible labels, target paths and the claim attached to each offer. Our output marks what a reader can establish from those inputs, and what still needs confirmation before an order.
+
+### A management label cannot replace destination evidence
+
+The VPS coupon card describes managed VPS plans, but its button targets the VPS-hosting path. In the footer of the reviewed document, that same path carries a self-managed label, while the separately labelled managed VPS item uses a different path. We retain all three observations instead of silently choosing whichever description sounds better. This is a naming inconsistency within the reviewed page; it does not prove which management service a particular order includes.
+
+In our ledger, the card wording is one field and the target path is another. A reader comparing a management-inclusive quote should not turn the card adjective into evidence that every service reached through that path includes administration. The practical next check is to match the selected plan's own management description with the order. We do not invent an administration fee, subtract support costs, or announce that the provider supplied the wrong product.
+
+### Keep the banner route independent from the coupon cards
+
+The cloud banner supplies an actual code, an introductory benefit and an explicit calendar end date. The product cards below use their own offer descriptions and redemption links. A shared page location is not a statement that the banner code applies to every card. Our ledger therefore attaches the code only to the cloud claim observed in the banner. It does not add the banner reduction to an already advertised card amount or call the result an official price.
+
+This separates an observed code from an inferred combination. The same distinction matters for the end date. We record the banner's calendar date only beside that banner offer; we do not copy it into the VPS or dedicated-server rows. Those rows may have their own terms, but the reviewed card text does not establish a common expiry. Leaving a field unpublished is more faithful than borrowing a nearby date.
+
+### Do not invent the timezone behind a calendar date
+
+The banner provides an end date without a timezone in the statement we reviewed. Our record preserves that limitation. We do not convert it into a countdown, manufacture an exact closing second, or promise that a shopper in another timezone has a particular number of hours left. The review timestamp tells readers when we saw the statement; it is a different field from the provider's expiry.
+
+These checks can be repeated without registering an account. Open the cited official page, identify the VPS card and its link, compare the two footer management labels, then read the cloud banner separately. The audit does not claim that a code was redeemed or that any checkout amount, management service or renewal outcome was tested.
+
+All audit inputs: [Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon), checked 2026-10-22.
+
+## Questions to resolve before ordering
+
+### Is there an actual official code on the reviewed page?
+
+Yes. The Cloud banner shows SAVE50 for half off the first month of Cloud plans and states an end date of October 30, 2026.
+
+[Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) · Reviewed 2026-10-22
+
+### Can I apply that banner date to the VPS offer?
+
+The reviewed source does not establish that. The banner and product cards have separate claims, so this review keeps their expiry fields separate.
+
+[Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) · Reviewed 2026-10-22
+
+### Does the VPS card alone establish management service in my order?
+
+No. Its wording and the page footer use different management labels for the same destination path. Check the selected plan and order scope before relying on management-inclusive pricing.
+
+[Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) · Reviewed 2026-10-22
+
+### What exact time does the banner offer end?
+
+The reviewed banner publishes a calendar date but does not identify a timezone or closing time. We do not supply an invented timestamp.
+
+[Official coupon page](https://www.inmotionhosting.com/inmotion-hosting-coupon) · Reviewed 2026-10-22
+
+[See the other provider offer records](https://vpspricewatch.com/coupons/) or return to the [VPS and hosting directory](https://vpspricewatch.com/).
+
+
+---
+
 Source: https://vpspricewatch.com/coupons/namecheap/
 
 # Namecheap promo code

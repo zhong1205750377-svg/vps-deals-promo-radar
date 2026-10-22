@@ -1,0 +1,43 @@
+{
+  "url": "https://vpspricewatch.com/coupons/inmotion/",
+  "date_modified": "2026-10-22",
+  "target_keyword": "inmotion hosting promo code",
+  "gap_id": "inmotion-offer-label-destination-provenance",
+  "source": "https://www.inmotionhosting.com/inmotion-hosting-coupon",
+  "reviewed_at": "2026-10-22T09:01+08:00",
+  "offers": [
+    [
+      "SAVE50: half off the first month",
+      "Official banner labels the offer for Cloud plans. Published end: October 30, 2026; the statement does not identify a timezone."
+    ],
+    [
+      "VPS card: official 44% saving label",
+      "Card describes managed VPS plans in the first year and displays a starting amount of $9.99/mo. The card destination and footer labels differ; see the source-route audit."
+    ],
+    [
+      "Dedicated Aspire card: official 30% saving label",
+      "Card describes the introductory Aspire plan for the first year and displays a starting amount of $35.00/mo."
+    ]
+  ],
+  "terms": [
+    [
+      "Management scope",
+      "The VPS card targets /vps-hosting. The footer labels that path Self-Managed VPS Hosting and separately links Managed VPS Hosting to /managed-vps-hosting. Confirm the selected plan scope rather than treating the card label as a guarantee."
+    ],
+    [
+      "Offer-specific expiry",
+      "October 30, 2026 belongs to the Cloud banner. No fixed end date is reproduced for the VPS or Dedicated card because their reviewed statements did not publish one."
+    ],
+    [
+      "Price context",
+      "Starting amounts are copied from the current official coupon cards. No original, struck-through or renewal amount is reproduced, and no checkout total or tax amount is inferred."
+    ],
+    [
+      "Redemption status",
+      "SAVE50 was read from the official banner. No code was submitted with an order, and no purchase or support test was performed."
+    ]
+  ],
+  "source_evidence": "inmotion-official.txt",
+  "originality_scope": "Source label/destination consistency audit; not another billing-window, refund or code-exclusion page",
+  "comparison_limit": "HostAdvice safety challenge not bypassed; only official and WebsitePlanet bodies read, no all-three omission claim"
+}
