@@ -1,0 +1,368 @@
+[
+  {
+    "date_bjt": "2026-10-22",
+    "brand": "KnownHost",
+    "official": 1,
+    "large": 6,
+    "decision": "skip",
+    "results": [
+      {
+        "position": 1,
+        "domain": "simplycodes.com",
+        "class": "large"
+      },
+      {
+        "position": 2,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "usatoday.com",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "reddit.com",
+        "class": "other"
+      },
+      {
+        "position": 5,
+        "domain": "techjury.net",
+        "class": "large"
+      },
+      {
+        "position": 6,
+        "domain": "knownhost.com",
+        "class": "official"
+      },
+      {
+        "position": 7,
+        "domain": "wethrift.com",
+        "class": "large"
+      },
+      {
+        "position": 8,
+        "domain": "wp-tweaks.com",
+        "class": "other"
+      },
+      {
+        "position": 9,
+        "domain": "colormango.com",
+        "class": "large"
+      },
+      {
+        "position": 10,
+        "domain": "host.promo",
+        "class": "other"
+      }
+    ],
+    "evidence": "Controlled Chrome raw snapshots in this directory; ads, AI Overview, PAA and nested links excluded",
+    "classification": "Broad coupon catalogues and established hosting media classed large. Specialist Host.Promo, WP-Tweaks, HostingExplorers, InsideHost and WPKube kept other; social/community links kept other. No traffic estimates."
+  },
+  {
+    "date_bjt": "2026-10-22",
+    "brand": "FastComet",
+    "official": 1,
+    "large": 6,
+    "decision": "skip",
+    "results": [
+      {
+        "position": 1,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 2,
+        "domain": "simplycodes.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "worthepenny.com",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "techjury.net",
+        "class": "large"
+      },
+      {
+        "position": 5,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position": 6,
+        "domain": "facebook.com",
+        "class": "other"
+      },
+      {
+        "position": 7,
+        "domain": "hostingexplorers.com",
+        "class": "other"
+      },
+      {
+        "position": 8,
+        "domain": "insidehost.net",
+        "class": "other"
+      },
+      {
+        "position": 9,
+        "domain": "bloggerspassion.com",
+        "class": "large"
+      },
+      {
+        "position": 10,
+        "domain": "fastcomet.com",
+        "class": "official"
+      }
+    ],
+    "evidence": "Controlled Chrome raw snapshots in this directory; ads, AI Overview, PAA and nested links excluded",
+    "classification": "Broad coupon catalogues and established hosting media classed large. Specialist Host.Promo, WP-Tweaks, HostingExplorers, InsideHost and WPKube kept other; social/community links kept other. No traffic estimates."
+  },
+  {
+    "date_bjt": "2026-10-22",
+    "brand": "HostArmada",
+    "official": 0,
+    "large": 8,
+    "decision": "skip",
+    "results": [
+      {
+        "position": 1,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 2,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "techjury.net",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "cybernews.com",
+        "class": "large"
+      },
+      {
+        "position": 5,
+        "domain": "wpkube.com",
+        "class": "other"
+      },
+      {
+        "position": 6,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 7,
+        "domain": "bitcatcha.com",
+        "class": "large"
+      },
+      {
+        "position": 8,
+        "domain": "startupworld.com",
+        "class": "large"
+      },
+      {
+        "position": 9,
+        "domain": "wethrift.com",
+        "class": "large"
+      },
+      {
+        "position": 10,
+        "domain": "wp-tweaks.com",
+        "class": "other"
+      }
+    ],
+    "evidence": "Controlled Chrome raw snapshots in this directory; ads, AI Overview, PAA and nested links excluded",
+    "classification": "Broad coupon catalogues and established hosting media classed large. Specialist Host.Promo, WP-Tweaks, HostingExplorers, InsideHost and WPKube kept other; social/community links kept other. No traffic estimates."
+  },
+  {
+    "date_bjt": "2026-10-22",
+    "brand": "Verpex",
+    "official": 2,
+    "large": 6,
+    "decision": "skip",
+    "results": [
+      {
+        "position": 1,
+        "domain": "verpex.com",
+        "class": "official"
+      },
+      {
+        "position": 2,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "techjury.net",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position": 5,
+        "domain": "simplycodes.com",
+        "class": "large"
+      },
+      {
+        "position": 6,
+        "domain": "wethrift.com",
+        "class": "large"
+      },
+      {
+        "position": 7,
+        "domain": "verpex.com",
+        "class": "official"
+      },
+      {
+        "position": 8,
+        "domain": "host.promo",
+        "class": "other"
+      },
+      {
+        "position": 9,
+        "domain": "hostingexplorers.com",
+        "class": "other"
+      },
+      {
+        "position": 10,
+        "domain": "dontpayfull.com",
+        "class": "large"
+      }
+    ],
+    "evidence": "Controlled Chrome raw snapshots in this directory; ads, AI Overview, PAA and nested links excluded",
+    "classification": "Broad coupon catalogues and established hosting media classed large. Specialist Host.Promo, WP-Tweaks, HostingExplorers, InsideHost and WPKube kept other; social/community links kept other. No traffic estimates."
+  },
+  {
+    "date_bjt": "2026-10-22",
+    "brand": "AccuWebHosting",
+    "official": 1,
+    "large": 9,
+    "decision": "skip",
+    "results": [
+      {
+        "position": 1,
+        "domain": "accuwebhosting.com",
+        "class": "official"
+      },
+      {
+        "position": 2,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "simplycodes.com",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "wethrift.com",
+        "class": "large"
+      },
+      {
+        "position": 5,
+        "domain": "valuecom.com",
+        "class": "large"
+      },
+      {
+        "position": 6,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 7,
+        "domain": "worthepenny.com",
+        "class": "large"
+      },
+      {
+        "position": 8,
+        "domain": "dealaid.org",
+        "class": "large"
+      },
+      {
+        "position": 9,
+        "domain": "hostingadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 10,
+        "domain": "dontpayfull.com",
+        "class": "large"
+      }
+    ],
+    "evidence": "Actual controlled Chrome snapshots, page1 plus first page2 eligible result where needed; ads/AI/PAA/nested links excluded",
+    "classification": "StudentBeans broad student-discount platform classed large; WPism, WebHostingCat and HostDean niche publications classed other."
+  },
+  {
+    "date_bjt": "2026-10-22",
+    "brand": "InMotion Hosting",
+    "official": 1,
+    "large": 5,
+    "decision": "do",
+    "results": [
+      {
+        "position": 1,
+        "domain": "inmotionhosting.com",
+        "class": "official"
+      },
+      {
+        "position": 2,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position": 3,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position": 4,
+        "domain": "tomsguide.com",
+        "class": "large"
+      },
+      {
+        "position": 5,
+        "domain": "studentbeans.com",
+        "class": "large"
+      },
+      {
+        "position": 6,
+        "domain": "webhostingcat.com",
+        "class": "other"
+      },
+      {
+        "position": 7,
+        "domain": "cybernews.com",
+        "class": "large"
+      },
+      {
+        "position": 8,
+        "domain": "hostdean.com",
+        "class": "other"
+      },
+      {
+        "position": 9,
+        "domain": "reddit.com",
+        "class": "other"
+      },
+      {
+        "position": 10,
+        "domain": "wpism.com",
+        "class": "other"
+      }
+    ],
+    "evidence": "Actual controlled Chrome snapshots, page1 plus first page2 eligible result where needed; ads/AI/PAA/nested links excluded",
+    "classification": "StudentBeans broad student-discount platform classed large; WPism, WebHostingCat and HostDean niche publications classed other."
+  }
+]

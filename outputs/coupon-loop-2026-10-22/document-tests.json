@@ -1,0 +1,24 @@
+{
+  "type": "Synthetic document consistency checks, not purchase tests",
+  "cases": [
+    {
+      "card": "VPS",
+      "label": "managed",
+      "href": "/vps-hosting",
+      "footer_same_href_label": "self-managed",
+      "expected": "management_scope_unresolved"
+    },
+    {
+      "offer": "Cloud banner",
+      "code": "SAVE50",
+      "end": "2026-10-30",
+      "timezone": null,
+      "expected": "calendar_date_only"
+    },
+    {
+      "offer": "VPS card",
+      "banner_end_applies": false,
+      "expected": "do_not_copy_banner_expiry"
+    }
+  ]
+}

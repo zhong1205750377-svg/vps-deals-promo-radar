@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/coupons/inmotion/",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/coupons/inmotion/official-routes.svg",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/coupons/inmotion/promotion-provenance.svg",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/coupons/dreamhost/",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/coupons/dreamhost/source-fields.svg",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/coupons/hostinger/",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/coupons/digitalocean/",
+    "status": 200,
+    "matches_built": true
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "matches_built": true
+  }
+]

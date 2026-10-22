@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-22",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
+  "article": "https://vpspricewatch.com/coupons/inmotion/",
+  "target_keyword": "inmotion hosting promo code",
+  "official": 1,
+  "large": 5,
+  "skipped": [
+    {
+      "brand": "KnownHost",
+      "official": 1,
+      "large": 6
+    },
+    {
+      "brand": "FastComet",
+      "official": 1,
+      "large": 6
+    },
+    {
+      "brand": "HostArmada",
+      "official": 0,
+      "large": 8
+    },
+    {
+      "brand": "Verpex",
+      "official": 2,
+      "large": 6
+    },
+    {
+      "brand": "AccuWebHosting",
+      "official": 1,
+      "large": 9
+    }
+  ],
+  "top3": [
+    "inmotionhosting.com",
+    "websiteplanet.com",
+    "hostadvice.com"
+  ],
+  "read_limit": "HostAdvice safety challenge stopped; no all-three omission claim",
+  "t1": {
+    "result": "Answer-first page, left accent and section borders; 390px public check no page overflow",
+    "evidence": "mobile-first.png"
+  },
+  "t2": {
+    "result": "Fixed GetDeploying scope/update structure reviewed; dynamic official and WebsitePlanet loaded; HostAdvice blocked",
+    "evidence": [
+      "fixed-getdeploying.txt",
+      "inmotion-official.txt",
+      "inmotion-top2-websiteplanet.txt",
+      "inmotion-top3-hostadvice.txt"
+    ]
+  },
+  "t3": {
+    "result": "Roster updated with official research and tomorrow Netcup homepage; no new group results fabricated"
+  },
+  "t4": {
+    "result": "Four sourced authored FAQ published",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "New article two original diagrams; old DreamHost additive diagram; public narrated video",
+    "video": "https://youtu.be/0nL9CL--I9w",
+    "evidence": "video-check.json"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/inmotion/",
+    "original_words": 509,
+    "total_body_words": 1054,
+    "formula": "original_words / total_body_words",
+    "ratio": 0.4829222011385199,
+    "original_section": "route-audit",
+    "published": true,
+    "scope": "Source label/destination consistency audit; not another billing-window, refund or code-exclusion page",
+    "comparison_limit": "HostAdvice safety challenge not bypassed; only official and WebsitePlanet bodies read, no all-three omission claim"
+  },
+  "deployment": "b585f4bc",
+  "source_commit": "b09b723",
+  "rollback": "rollback/; previous public deployment 60209b01",
+  "tomorrow": "Netcup pending actual Google gate and current official offer evidence",
+  "completed_at": "2026-10-22T09:06:51.717239+08:00"
+}
