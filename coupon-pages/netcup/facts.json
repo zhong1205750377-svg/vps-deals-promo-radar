@@ -1,0 +1,47 @@
+{
+  "url": "https://vpspricewatch.com/coupons/netcup/",
+  "date_modified": "2026-10-23",
+  "target_keyword": "netcup promo code",
+  "gap_id": "netcup-newsletter-deals-eligibility-intersection",
+  "sources": [
+    "https://www.netcup.com/en/newsletter",
+    "https://www.netcup.com/en/deals"
+  ],
+  "reviewed_at": "2026-10-23T09:03+08:00",
+  "offers": [
+    [
+      "Newsletter welcome voucher: \u20ac5",
+      "Subscribe through the official newsletter form. No reusable public code string was verified. Product restrictions apply.",
+      "https://www.netcup.com/en/newsletter"
+    ]
+  ],
+  "terms": [
+    [
+      "Product exclusions",
+      "Newsletter form excludes domains, VPS ARM, VPS Lite and merchandise. It also directs readers to additional product-page information.",
+      "https://www.netcup.com/en/newsletter"
+    ],
+    [
+      "Additional deals restriction",
+      "The deals voucher FAQ additionally excludes hourly based plans. It permits vouchers on promotional products in general, subject to its conditions.",
+      "https://www.netcup.com/en/deals"
+    ],
+    [
+      "Order boundary",
+      "One voucher per order; order value must be higher than the voucher amount. Vouchers are non-transferable and cannot be redeemed for cash.",
+      "https://www.netcup.com/en/newsletter"
+    ],
+    [
+      "Subscription requirement",
+      "Registration is possible once per email address. The form requests email, first name and newsletter consent.",
+      "https://www.netcup.com/en/newsletter"
+    ],
+    [
+      "Expiry and current prices",
+      "Fixed voucher expiry: not published in the reviewed statement; this does not mean permanent. No plan price is reproduced here.",
+      "https://www.netcup.com/en/newsletter"
+    ]
+  ],
+  "comparison_scope": "Official newsletter page is itself top2; no claim all top3 lack official conditions. Added original cross-document worksheet not copied prose.",
+  "originality_scope": "Rule intersection, strict comparison and identity-vs-product separation; synthetic document checks, not redemption tests"
+}
