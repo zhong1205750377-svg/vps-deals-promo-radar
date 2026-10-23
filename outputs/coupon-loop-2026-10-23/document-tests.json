@@ -1,0 +1,22 @@
+{
+  "type": "Synthetic rule-boundary checks, not purchases",
+  "cases": [
+    {
+      "order_eur": 5,
+      "voucher_eur": 5,
+      "passes_amount_only": false
+    },
+    {
+      "order_eur": 6,
+      "voucher_eur": 5,
+      "passes_amount_only": true
+    }
+  ],
+  "excluded_by_deals": [
+    "domains",
+    "hourly based plans",
+    "VPS ARM",
+    "VPS Lite",
+    "merchandise"
+  ]
+}

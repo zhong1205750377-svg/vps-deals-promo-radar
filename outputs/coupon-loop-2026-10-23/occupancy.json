@@ -1,0 +1,69 @@
+[
+  {
+    "brand": "Netcup",
+    "query": "netcup promo code",
+    "date": "2026-10-23",
+    "official": 1,
+    "large": 1,
+    "decision": "do",
+    "rows": [
+      {
+        "position": 1,
+        "domain": "netcup.codes",
+        "classification": "other"
+      },
+      {
+        "position": 2,
+        "domain": "netcup.com",
+        "classification": "official"
+      },
+      {
+        "position": 3,
+        "domain": "github.com",
+        "classification": "other"
+      },
+      {
+        "position": 4,
+        "domain": "netcup.gifts",
+        "classification": "other"
+      },
+      {
+        "position": 5,
+        "domain": "netcupvoucher.com",
+        "classification": "other"
+      },
+      {
+        "position": 6,
+        "domain": "reddit.com",
+        "classification": "other"
+      },
+      {
+        "position": 7,
+        "domain": "couponchief.com",
+        "classification": "large"
+      },
+      {
+        "position": 8,
+        "domain": "netcup.codes",
+        "classification": "other"
+      },
+      {
+        "position": 9,
+        "domain": "netcup.best",
+        "classification": "other"
+      },
+      {
+        "position": 10,
+        "domain": "en.netcup.nllk.net",
+        "classification": "other"
+      }
+    ],
+    "pagination_note": "Page one exposes nine independent organic results; excluded AI citation links, ads and nested links. Tenth observed organic result is first result on linked Page 2; pagination start=10 retained in raw evidence. Do not claim all ten on one screen.",
+    "top3": [
+      "netcup.codes",
+      "netcup.com",
+      "github.com"
+    ],
+    "classification_note": "GitHub repository and Reddit community are other, not coupon/media editorial; couponchief multi-brand large coupon site."
+  }
+]

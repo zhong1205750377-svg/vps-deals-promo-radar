@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://vpspricewatch.com/coupons/netcup/",
+    "status": 200,
+    "sha256": "1a26e7e1a8294426b0dbdb7e0d07b3905ec2ef599ebd640a83c38dec7e47431d",
+    "bytes": 11974
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "sha256": "da148b92059780db26b9c0c9a30bb332e71865a6ae528be585edd93f476b810f",
+    "bytes": 3064
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/netcup/voucher-routes.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/netcup/strict-threshold.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/siteground/review-boundary.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "matches_local": true
+  }
+]

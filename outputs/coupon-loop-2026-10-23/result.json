@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-23",
+  "status": "published_and_six_tracks_executed_with_declared_scope",
+  "article": "https://vpspricewatch.com/coupons/netcup/",
+  "target_keyword": "netcup promo code",
+  "official": 1,
+  "large": 1,
+  "skipped": [],
+  "top3": [
+    "netcup.codes",
+    "netcup.com",
+    "github.com"
+  ],
+  "read_limit": "Ten observed independent organic results across pagination; page1 exposes nine, page2 first used as tenth observed, not a verified rank10. No all-three omission claim.",
+  "t1": {
+    "result": "Top accent answer card and separated FAQ; 390px no page overflow",
+    "evidence": "mobile-first.png"
+  },
+  "t2": {
+    "result": "动态前三：netcup.codes按产品列码，官方newsletter用订阅表和展开条件，GitHub为自动更新的码清单。本站不搬第三方码，新增跨newsletter与deals FAQ的交集/差异矩阵和严格金额边界；官方本身在前三，不声称前三都没有官方条件。固定GetDeploying /vps页面已保存，借鉴规格与来源层次；不分析排名成因。Google第一页实际9条独立自然结果，第十观察项来自链接的第二页首项，原始分页start=10保留，不声称同屏10条或无缺失排名。",
+    "evidence": [
+      "netcup-serp-1.txt",
+      "netcup-serp-2.txt",
+      "top1.txt",
+      "official-newsletter-expanded.txt",
+      "top3.txt",
+      "fixed-getdeploying.txt"
+    ]
+  },
+  "t3": {
+    "result": "Official research archived and Hetzner material ready; no new group-bot runs or real-person quotes claimed"
+  },
+  "t4": {
+    "result": "Four sourced authored FAQ live",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two new original diagrams, additive SiteGround diagram preserving wording, public narrated video verified playing",
+    "video": "https://youtu.be/3-QfMxSND6I"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/netcup/",
+    "original_words": 499,
+    "total_body_words": 941,
+    "formula": "499 / 941",
+    "ratio": 0.5302869287991498,
+    "original_section": "eligibility-audit",
+    "published": true,
+    "scope": "Rule intersection, strict comparison and identity-vs-product separation; synthetic document checks, not redemption tests"
+  },
+  "deployment": "842a52fb",
+  "source_commit": "32b6cf0",
+  "rollback": "rollback/; previous deployment b585f4bc",
+  "tomorrow": "Hetzner; gate and current offer pending",
+  "completed_at": "2026-10-23T09:11:33.625949+08:00"
+}
