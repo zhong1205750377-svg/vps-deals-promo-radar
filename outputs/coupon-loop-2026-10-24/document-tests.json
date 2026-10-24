@@ -1,0 +1,15 @@
+{
+  "type": "Synthetic document consistency tests, not redemptions",
+  "cases": [
+    {
+      "upper": "HetznerPromo26/4",
+      "lower": "HetznerPromo26/3",
+      "expected": "conflict_unresolved"
+    },
+    {
+      "admission_rule": "referral_or_cloud_not_both",
+      "allocation_rule": "specific_before_general",
+      "expected": "allocation_not_permission"
+    }
+  ]
+}

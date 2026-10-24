@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-24",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
+  "article": "https://vpspricewatch.com/coupons/hetzner/",
+  "target_keyword": "hetzner promo code",
+  "official": 1,
+  "large": 5,
+  "top3": [
+    "coolify.io",
+    "costgoat.com",
+    "reddit.com"
+  ],
+  "read_limit": "动态前三Coolify以合作码和步骤说明组织，CostGoat以码和节省方式组织；Reddit网络安全拦截未绕过，不声称已读三页。固定GetDeploying规格/来源结构已存。本站增加同一官方页上下代码逐字一致性审计、两种时间字段和入码/余额排序分层，不复制竞品。Google第一页9条独立自然结果，链接第二页第一条作为第十观察项，非声称引擎rank10；完整范围见occupancy.json。",
+  "t1": {
+    "result": "Code wrapping, answer accent and FAQ cards; 390px no overflow",
+    "evidence": "mobile-first.png"
+  },
+  "t2": {
+    "result": "动态前三Coolify以合作码和步骤说明组织，CostGoat以码和节省方式组织；Reddit网络安全拦截未绕过，不声称已读三页。固定GetDeploying规格/来源结构已存。本站增加同一官方页上下代码逐字一致性审计、两种时间字段和入码/余额排序分层，不复制竞品。Google第一页9条独立自然结果，链接第二页第一条作为第十观察项，非声称引擎rank10；完整范围见occupancy.json。",
+    "evidence": [
+      "top1.txt",
+      "top2.txt",
+      "top3.txt",
+      "fixed-getdeploying.txt"
+    ]
+  },
+  "t3": {
+    "result": "Official research and tomorrow OVHcloud material archived; no new group results or real-person quotes claimed"
+  },
+  "t4": {
+    "result": "Four sourced questions live",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two new diagrams; additive Vultr diagram preserving body words; free narrated public video verified",
+    "video": "https://youtu.be/f-fN_G-fap4"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/hetzner/",
+    "original_words": 518,
+    "total_body_words": 986,
+    "formula": "518 / 986",
+    "ratio": 0.5253549695740365,
+    "original_section": "consistency-audit",
+    "published": true,
+    "scope": "Literal source-location consistency and admission-versus-allocation distinction; no account or invoice experiment"
+  },
+  "deployment": "a23e7e26",
+  "source_commit": "ff69748",
+  "rollback": "rollback/; previous deployment 842a52fb",
+  "tomorrow": "OVHcloud pending gate and current official offer",
+  "completed_at": "2026-10-24T09:13:35.692975+08:00"
+}

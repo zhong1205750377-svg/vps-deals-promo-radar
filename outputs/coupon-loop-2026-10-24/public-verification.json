@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://vpspricewatch.com/coupons/hetzner/",
+    "status": 200,
+    "sha256": "76de648d0785d55231b605060627e06fe5e5175ea1c5344b4487b101881e9f56",
+    "bytes": 12877
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "sha256": "d13f6354d74676bd4b3cdc2b3ba17890789107ceb993b42621504cbd2c42c2f5",
+    "bytes": 3157
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/hetzner/code-observations.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/hetzner/three-clocks.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/vultr/evidence-boundary.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "matches_local": true
+  }
+]

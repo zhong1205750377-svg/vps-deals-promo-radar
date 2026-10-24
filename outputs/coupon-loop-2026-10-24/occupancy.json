@@ -1,0 +1,73 @@
+[
+  {
+    "brand": "Hetzner",
+    "official": 1,
+    "large": 5,
+    "decision": "do",
+    "query": "hetzner promo code",
+    "date": "2026-10-24",
+    "rows": [
+      {
+        "position_observed": 1,
+        "domain": "coolify.io",
+        "class": "other"
+      },
+      {
+        "position_observed": 2,
+        "domain": "costgoat.com",
+        "class": "other"
+      },
+      {
+        "position_observed": 3,
+        "domain": "reddit.com",
+        "class": "other"
+      },
+      {
+        "position_observed": 4,
+        "domain": "hetzner.valuecom.com",
+        "class": "large"
+      },
+      {
+        "position_observed": 5,
+        "domain": "websiteplanet.com",
+        "class": "large"
+      },
+      {
+        "position_observed": 6,
+        "domain": "docs.hetzner.com",
+        "class": "official"
+      },
+      {
+        "position_observed": 7,
+        "domain": "hotdeals.com",
+        "class": "large"
+      },
+      {
+        "position_observed": 8,
+        "domain": "reddit.com",
+        "class": "other"
+      },
+      {
+        "position_observed": 9,
+        "domain": "hostadvice.com",
+        "class": "large"
+      },
+      {
+        "position_observed": 10,
+        "domain": "wethrift.com",
+        "class": "large"
+      }
+    ],
+    "pagination": "Nine independent organic results page1; tenth observed from linked page2 first. Not a claim of engine rank10. Exclude all ads, AI citations, PAA and nested links.",
+    "top3": [
+      "coolify.io",
+      "costgoat.com",
+      "reddit.com"
+    ]
+  },
+  {
+    "brand": "OVHcloud",
+    "decision": "research_only_not_gate",
+    "reason": "Read nine visible organic results, no full gate or writing; Hetzner gate completed across pagination."
+  }
+]
