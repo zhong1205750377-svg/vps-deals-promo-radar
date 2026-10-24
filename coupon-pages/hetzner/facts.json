@@ -1,0 +1,47 @@
+{
+  "url": "https://vpspricewatch.com/coupons/hetzner/",
+  "date_modified": "2026-10-24",
+  "target_keyword": "hetzner promo code",
+  "gap_id": "hetzner-code-location-consistency-and-admission",
+  "sources": [
+    "https://www.hetzner.com/promo-code",
+    "https://docs.hetzner.com/general/billing-and-account-management/billing-at-hetzner/promo-code/"
+  ],
+  "reviewed_at": "2026-10-24T09:07+08:00",
+  "offers": [
+    [
+      "\u20ac50 starting credit for new customers",
+      "Official landing page advertises all Hetzner products. Upper block shows HetznerPromo26/4; lower block shows HetznerPromo26/3. The mismatch is unresolved; no redemption was tested.",
+      "https://www.hetzner.com/promo-code"
+    ]
+  ],
+  "terms": [
+    [
+      "Redemption and validity",
+      "Landing page: redeem within the first 14 days after account creation; valid until the end of the current billing month. No exact closing timezone is stated in the reviewed headline.",
+      "https://www.hetzner.com/promo-code"
+    ],
+    [
+      "Billing period",
+      "Documentation says a promo code applies from the current billing period, not the previous one, and credits or discounts are applied to future invoices.",
+      "https://docs.hetzner.com/general/billing-and-account-management/billing-at-hetzner/promo-code/"
+    ],
+    [
+      "Combination restriction",
+      "Documentation permits either a referral code or a cloud promo code, not both. Each code can be used once per account.",
+      "https://docs.hetzner.com/general/billing-and-account-management/billing-at-hetzner/promo-code/"
+    ],
+    [
+      "Allocation order",
+      "For cloud products, specific cloud credits are used before general Hetzner credits; the documentation then orders credits by shortest remaining validity.",
+      "https://docs.hetzner.com/general/billing-and-account-management/billing-at-hetzner/promo-code/"
+    ],
+    [
+      "Account evidence",
+      "The documented overview has Valid until, For product, Name, Amount and remaining fields. Codes are account-linked and non-transferable.",
+      "https://docs.hetzner.com/general/billing-and-account-management/billing-at-hetzner/promo-code/"
+    ]
+  ],
+  "comparison_limit": "Reddit network security block stopped; Coolify and CostGoat bodies read. No all-three omission claim.",
+  "originality_scope": "Literal source-location consistency and admission-versus-allocation distinction; no account or invoice experiment"
+}
