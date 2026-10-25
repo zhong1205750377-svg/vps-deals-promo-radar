@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "status": "article_published_five_tracks_partial_browser_disconnected",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
   "article": "https://vpspricewatch.com/coupons/squarespace/",
   "official": 3,
   "large": 6,
@@ -16,30 +16,38 @@
   },
   "deployment": "e4b6d43c",
   "t1": {
-    "done": "Visual changes live, rollback saved",
-    "pending": "Mobile-width browser verification"
+    "done": "Visual changes live; public 390px viewport verified, document width375, both diagrams loaded",
+    "evidence": [
+      "mobile-first.png",
+      "mobile-images.json"
+    ]
   },
   "t2": {
     "done": "Official, WIRED and fixed GetDeploying reviewed",
     "read_limit": "USA Today browser site-safety blocked; stopped"
   },
   "t3": {
-    "done": "Official material and authored FAQ archived; no fabricated group results",
-    "pending": "Tomorrow Duda body capture"
+    "done": "Official material and authored FAQ archived; tomorrow Duda official pricing/trial material captured through official browser accessibility tree",
+    "evidence": "tomorrow-duda-ax.txt",
+    "source_distinction": "No group-bot run, new search-volume data or real-person quotation claimed"
   },
   "t4": {
     "done": "Four sourced FAQ live"
   },
   "t5": {
-    "done": "Two original new-page SVGs, additive Namecheap SVG, free narrated video generated",
-    "pending": "YouTube draft/public state unknown after file selection; inspect before retry"
+    "done": "Two original new-page SVGs, additive Namecheap SVG, narrated video from existing draft now public and playback verified",
+    "video": "https://youtu.be/-Qpn9TYu3_g",
+    "reused_existing_draft": true,
+    "evidence": [
+      "youtube-existing-draft.txt",
+      "youtube-published.txt",
+      "youtube-public-watch.txt",
+      "video-check.json"
+    ]
   },
-  "remaining": [
-    "Official controlled Chrome connection",
-    "Mobile-width verification",
-    "Inspect existing YouTube draft by filename/title; finish metadata/publication and verify playback",
-    "Capture tomorrow Duda official content"
-  ],
+  "remaining": [],
   "source_commit": "45cb552",
-  "rollback": "rollback/; previous deployment a23e7e26"
+  "rollback": "rollback/; previous deployment a23e7e26",
+  "completed_at": "2026-10-25T17:12:55.175689+08:00",
+  "read_limit": "USA Today site-safety policy blocked; no alternate access attempted. Top-three body coverage remains limited to official and WIRED. Mobile test is controlled390px, not a physical cellular test."
 }
