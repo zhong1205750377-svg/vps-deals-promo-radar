@@ -1,0 +1,145 @@
+[
+  {
+    "brand": "OVHcloud",
+    "decision": "skip_threshold_already_exceeded",
+    "observed_results": 9,
+    "official_lower_bound": 1,
+    "large_lower_bound": 7,
+    "evidence": "ovhcloud-serp.txt",
+    "note": "Incomplete ten-position count; safe rejection only, never a positive gate."
+  },
+  {
+    "brand": "Webflow",
+    "decision": "skip_threshold_already_exceeded",
+    "official_lower_bound": 1,
+    "large_lower_bound": 6,
+    "evidence": [
+      "webflow-serp.txt",
+      "webflow-serp-2.txt"
+    ],
+    "note": "Exclude video block and nested links; second page media raises large count to six. Safe rejection only."
+  },
+  {
+    "brand": "Framer",
+    "decision": "hold_classification_uncertain",
+    "evidence": [
+      "framer-serp-resumed.txt",
+      "framer-serp-resumed-2.txt"
+    ],
+    "note": "Eight independent non-video first-page results plus next two; classification of Efficient App as large media uncertain, not a positive gate and no invented count."
+  },
+  {
+    "brand": "Wix",
+    "decision": "skip_threshold_already_exceeded",
+    "official_lower_bound": 2,
+    "large_lower_bound": 7,
+    "evidence": [
+      "wix-serp.txt",
+      "wix-serp-2.txt"
+    ],
+    "rows": [
+      [
+        "couponfollow.com",
+        "large"
+      ],
+      [
+        "wix.com",
+        "official"
+      ],
+      [
+        "reddit.com",
+        "other"
+      ],
+      [
+        "support.wix.com",
+        "official"
+      ],
+      [
+        "studentbeans.com",
+        "large"
+      ],
+      [
+        "techradar.com",
+        "large"
+      ],
+      [
+        "gizmodo.com",
+        "large"
+      ],
+      [
+        "simplycodes.com",
+        "large"
+      ],
+      [
+        "demandsage.com",
+        "large"
+      ],
+      [
+        "websiteplanet.com",
+        "large"
+      ]
+    ],
+    "note": "Ten independent non-video observations across pagination, not engine rank labels."
+  },
+  {
+    "brand": "Squarespace",
+    "query": "squarespace promo code",
+    "official": 3,
+    "large": 6,
+    "decision": "do",
+    "rows": [
+      {
+        "observed_position": 1,
+        "domain": "squarespace.com",
+        "class": "official"
+      },
+      {
+        "observed_position": 2,
+        "domain": "wired.com",
+        "class": "large"
+      },
+      {
+        "observed_position": 3,
+        "domain": "usatoday.com",
+        "class": "large"
+      },
+      {
+        "observed_position": 4,
+        "domain": "reddit.com",
+        "class": "other"
+      },
+      {
+        "observed_position": 5,
+        "domain": "support.squarespace.com",
+        "class": "official"
+      },
+      {
+        "observed_position": 6,
+        "domain": "squarespace.com",
+        "class": "official"
+      },
+      {
+        "observed_position": 7,
+        "domain": "sitebuilderreport.com",
+        "class": "large"
+      },
+      {
+        "observed_position": 8,
+        "domain": "studentbeans.com",
+        "class": "large"
+      },
+      {
+        "observed_position": 9,
+        "domain": "studentbeans.com",
+        "class": "large"
+      },
+      {
+        "observed_position": 10,
+        "domain": "websitebuilderexpert.com",
+        "class": "large"
+      }
+    ],
+    "rule_applied": "official>3 OR (official<3 AND large>=6); exactly3 official passes this latest gate",
+    "pagination": "Eight independent non-video observations page1; linked page2 first two observations appended; duplicate URL at different rendered position counted by position, not unique domain. Not engine-rank labels."
+  }
+]

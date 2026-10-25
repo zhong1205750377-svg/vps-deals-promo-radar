@@ -1,0 +1,16 @@
+{
+  "type": "Synthetic document-rule tests, not checkout",
+  "cases": [
+    {
+      "base": 100,
+      "base_source": "fictional test constant",
+      "rate": 0.1,
+      "rate_source": "https://www.squarespace.com/coupons",
+      "automatic_saving": 15,
+      "automatic_source": "fictional test constant",
+      "code_saving": 10,
+      "selected_saving": 15,
+      "formula": "max(automatic_saving, base * rate)"
+    }
+  ]
+}

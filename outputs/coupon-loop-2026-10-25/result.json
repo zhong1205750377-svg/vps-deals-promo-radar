@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-25",
+  "status": "article_published_five_tracks_partial_browser_disconnected",
+  "article": "https://vpspricewatch.com/coupons/squarespace/",
+  "official": 3,
+  "large": 6,
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/squarespace/",
+    "original_words": 516,
+    "total_body_words": 1002,
+    "formula": "516 / 1002",
+    "ratio": 0.5149700598802395,
+    "original_section": "decision-worksheet",
+    "published": true,
+    "scope": "Product-route vs code scope, missing-field evidence classification and max-saving synthetic calculation, not checkout tests"
+  },
+  "deployment": "e4b6d43c",
+  "t1": {
+    "done": "Visual changes live, rollback saved",
+    "pending": "Mobile-width browser verification"
+  },
+  "t2": {
+    "done": "Official, WIRED and fixed GetDeploying reviewed",
+    "read_limit": "USA Today browser site-safety blocked; stopped"
+  },
+  "t3": {
+    "done": "Official material and authored FAQ archived; no fabricated group results",
+    "pending": "Tomorrow Duda body capture"
+  },
+  "t4": {
+    "done": "Four sourced FAQ live"
+  },
+  "t5": {
+    "done": "Two original new-page SVGs, additive Namecheap SVG, free narrated video generated",
+    "pending": "YouTube draft/public state unknown after file selection; inspect before retry"
+  },
+  "remaining": [
+    "Official controlled Chrome connection",
+    "Mobile-width verification",
+    "Inspect existing YouTube draft by filename/title; finish metadata/publication and verify playback",
+    "Capture tomorrow Duda official content"
+  ],
+  "source_commit": "45cb552",
+  "rollback": "rollback/; previous deployment a23e7e26"
+}
