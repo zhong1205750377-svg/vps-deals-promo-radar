@@ -1,0 +1,52 @@
+{
+  "url": "https://vpspricewatch.com/coupons/squarespace/",
+  "date_modified": "2026-10-25",
+  "target_keyword": "squarespace promo code",
+  "gap_id": "squarespace-checkout-context-and-discount-selection",
+  "sources": [
+    "https://www.squarespace.com/coupons",
+    "https://support.squarespace.com/hc/en-us/articles/206566697-Redeem-an-offer-code-for-Squarespace"
+  ],
+  "reviewed_at": "2026-10-25T16:27+08:00",
+  "offers": [
+    [
+      "GIMME10: official 10% discount",
+      "Annual website plan; first purchase only. Enter the literal code at checkout. A fixed end date is not published in the reviewed coupon statement.",
+      "https://www.squarespace.com/coupons"
+    ],
+    [
+      "Official student offer: 50% off",
+      "Official coupon FAQ limits the education benefit to eligible current students, the first year and annual plans; follow the official school-verification route.",
+      "https://www.squarespace.com/coupons"
+    ]
+  ],
+  "terms": [
+    [
+      "Offer-code selection",
+      "Offer codes cannot combine with one another or with an automatic discount. The guide says the discount saving more is applied.",
+      "https://support.squarespace.com/hc/en-us/articles/206566697-Redeem-an-offer-code-for-Squarespace"
+    ],
+    [
+      "Payment scope",
+      "The guide limits an offer-code discount to the initial payment and excludes recurring payments and renewal payments.",
+      "https://support.squarespace.com/hc/en-us/articles/206566697-Redeem-an-offer-code-for-Squarespace"
+    ],
+    [
+      "First-period change",
+      "The guide says a promo code may be applied when changing the plan or billing cycle during the subscription\u2019s first billing period. This general route does not override a specific code\u2019s eligibility.",
+      "https://support.squarespace.com/hc/en-us/articles/206566697-Redeem-an-offer-code-for-Squarespace"
+    ],
+    [
+      "Missing input field",
+      "A promo-code field may be absent when another discount has been automatically applied.",
+      "https://support.squarespace.com/hc/en-us/articles/206566697-Redeem-an-offer-code-for-Squarespace"
+    ],
+    [
+      "Unpublished fields",
+      "No fixed GIMME10 expiry is reproduced because none was published in the reviewed statement. This does not mean permanent. No subscription price or checkout total is quoted.",
+      "https://www.squarespace.com/coupons"
+    ]
+  ],
+  "comparison_limit": "Official and Wired read; USA Today safety blocked, no all-three omission claim",
+  "originality_scope": "Product-route vs code scope, missing-field evidence classification and max-saving synthetic calculation, not checkout tests"
+}
