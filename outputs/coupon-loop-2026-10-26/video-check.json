@@ -1,0 +1,29 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "format": {
+    "duration": "71.912562"
+  },
+  "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\outputs\\coupon-loop-2026-10-26\\render-credit-routing.mp4",
+  "uploaded": true,
+  "synthetic_narration": true,
+  "sources": [
+    "https://render.com/migration-credits",
+    "https://render.com/startups",
+    "https://render.com/startups/offers"
+  ],
+  "url": "https://youtu.be/rTADjULsA9g",
+  "visibility": "public",
+  "public_page_verified": true,
+  "playback_seconds_observed": 8
+}

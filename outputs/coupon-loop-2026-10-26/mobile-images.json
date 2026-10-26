@@ -1,0 +1,14 @@
+{
+  "documentWidth": 375,
+  "images": [
+    {
+      "loaded": true,
+      "src": "credit-route.svg"
+    },
+    {
+      "loaded": true,
+      "src": "beneficiary.svg"
+    }
+  ],
+  "width": 390
+}

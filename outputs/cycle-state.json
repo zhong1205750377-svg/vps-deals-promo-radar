@@ -1,0 +1,79 @@
+{
+  "cycle": 1,
+  "start_date": "2026-10-05",
+  "first_report_due": "2026-11-02",
+  "keyword": "VPS prices",
+  "top3": [
+    "getdeploying.com",
+    "vpspricetracker.com",
+    "comparevps.com"
+  ],
+  "indexed_baseline": null,
+  "indexed_baseline_status": "unreadable",
+  "report_timezone": "owner decision pending; preserve source timezone",
+  "automation_id": "vps-prices-28",
+  "published_unique_urls": [
+    "https://vpspricewatch.com/guides/compare-vps-prices-billing-terms/",
+    "https://vpspricewatch.com/guides/vps-prices-seven-day-backups/",
+    "https://vpspricewatch.com/guides/cheap-vps-price-change-evidence/",
+    "https://vpspricewatch.com/guides/vultr-pricing-stop-destroy-retained-resources/",
+    "https://vpspricewatch.com/guides/windows-vps-server-license-inclusion/",
+    "https://vpspricewatch.com/guides/vps-server-outbound-transfer-scope/",
+    "https://vpspricewatch.com/guides/azure-vm-pricing-hourly-commitment/",
+    "https://vpspricewatch.com/guides/hostinger-vps-pricing-refund-clocks/",
+    "https://vpspricewatch.com/guides/best-vps-server-cpu-allocation/",
+    "https://vpspricewatch.com/guides/azure-virtual-server-pricing-source-scope/",
+    "https://vpspricewatch.com/guides/cheap-windows-vps-rdp-access-scope/",
+    "https://vpspricewatch.com/coupons/hostinger/",
+    "https://vpspricewatch.com/coupons/namecheap/",
+    "https://vpspricewatch.com/coupons/cloudways/",
+    "https://vpspricewatch.com/coupons/digitalocean/",
+    "https://vpspricewatch.com/coupons/siteground/",
+    "https://vpspricewatch.com/coupons/dreamhost/",
+    "https://vpspricewatch.com/coupons/vultr/",
+    "https://vpspricewatch.com/coupons/namesilo/",
+    "https://vpspricewatch.com/coupons/gandi/",
+    "https://vpspricewatch.com/coupons/chemicloud/",
+    "https://vpspricewatch.com/coupons/inmotion/",
+    "https://vpspricewatch.com/coupons/netcup/",
+    "https://vpspricewatch.com/coupons/hetzner/",
+    "https://vpspricewatch.com/coupons/squarespace/",
+    "https://vpspricewatch.com/coupons/render/"
+  ],
+  "comparison_change_date": "2026-10-06",
+  "keyword_batch_file": "目标词批次.json",
+  "daily_shift_roster": "弹药清单.json",
+  "daily_shift_log": "daily-log.md",
+  "next_publication_gate": {
+    "status": "position_gate_queue",
+    "queue": "品牌日更30队列.json",
+    "next_candidate": "UpCloud"
+  },
+  "coupon_brand_task": {
+    "date": "2026-10-17",
+    "scope": "User separately authorized two coupon-family pages; legacy daily keyword batch remains exhausted",
+    "published": [
+      "https://vpspricewatch.com/coupons/hostinger/",
+      "https://vpspricewatch.com/coupons/namecheap/"
+    ],
+    "commit": "00762cd"
+  },
+  "latest_index_snapshot": {
+    "read_date_bjt": "2026-10-18",
+    "report_date": "2026-10-12",
+    "indexed": 21,
+    "not_indexed": 11,
+    "evidence": "2026-10-18-gsc-index-counts.json",
+    "baseline_missing_preserved": true
+  },
+  "latest_coupon_publication": {
+    "date_bjt": "2026-10-26",
+    "brand": "Render",
+    "url": "https://vpspricewatch.com/coupons/render/",
+    "published": true,
+    "public_http_status": 200,
+    "official": 1,
+    "large": 5,
+    "deployment": "da32b91d"
+  }
+}

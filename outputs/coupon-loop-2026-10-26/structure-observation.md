@@ -1,0 +1,1 @@
+动态前三：SimplyCodes使用社区代码卡、验证活动和FAQ；Render官方目录按伙伴服务分类；TenereTeam当前正文混入音乐服务，不能作Render云优惠依据。三份已载入样本未见本站的受益服务/申请/架构审查/迁移完成/发放状态联合台账。仅对已载入样本作此观察，不代表全站。固定GetDeploying旧/vps为404，已沿真实导航读/reference/compute-prices，学习规格、日期与来源分列结构，不抄句子。Google九条第一页加第二页首条形成十条非视频观察，不冒称引擎rank10。

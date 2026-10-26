@@ -1,0 +1,172 @@
+[
+  {
+    "brand": "Duda",
+    "domains": [
+      "websiteplanet.com",
+      "simplycodes.com",
+      "valuecom.com",
+      "promocode.ninja",
+      "techjury.net",
+      "duda.co",
+      "startupworld.com",
+      "saver.com",
+      "dontpayfull.com"
+    ],
+    "official_lower_bound": 1,
+    "large_lower_bound": 6,
+    "decision": "skip_threshold_lower_bound",
+    "note": "Nine independent organic entries visible; six clearly large coupon/media entries already exceed threshold; no exact ten claim."
+  },
+  {
+    "brand": "Dorik",
+    "domains": [
+      "techjury.net",
+      "aitoolsaver.com",
+      "tenereteam.com",
+      "dorik.com",
+      "colormango.com",
+      "freelance-stack.io",
+      "valuecom.com",
+      "discovermybusiness.co",
+      "joinsecret.com",
+      "fahimai.com"
+    ],
+    "official": 1,
+    "large": 6,
+    "classes": [
+      "media",
+      "other",
+      "large_coupon",
+      "official",
+      "large_coupon",
+      "large_deal_platform",
+      "large_coupon",
+      "other",
+      "large_deal_platform",
+      "other"
+    ],
+    "decision": "skip",
+    "note": "Ten independent nonvideo organic observations across pagination, not claimed engine ranks1-10; Freelance Stack and JoinSecret are broad SaaS deal platforms."
+  },
+  {
+    "brand": "Webnode",
+    "domains": [
+      "websiteplanet.com",
+      "couponfollow.com",
+      "techjury.net",
+      "valuecom.com",
+      "orangeoffer.com",
+      "wethrift.com",
+      "tenereteam.com",
+      "webnode.com",
+      "proxy.coupons"
+    ],
+    "official_lower_bound": 1,
+    "large_lower_bound": 7,
+    "decision": "skip_threshold_lower_bound",
+    "note": "Nine entries; threshold already exceeded."
+  },
+  {
+    "brand": "Jimdo",
+    "domains": [
+      "jimdo.com",
+      "simplycodes.com",
+      "techjury.net",
+      "worthepenny.com",
+      "startupworld.com",
+      "saver.com",
+      "joinsecret.com",
+      "envirogadget.com",
+      "valuecom.com"
+    ],
+    "official_lower_bound": 1,
+    "large_lower_bound": 7,
+    "decision": "skip_threshold_lower_bound",
+    "note": "Nine independent entries; threshold already exceeded."
+  },
+  {
+    "brand": "Weebly",
+    "domains": [
+      "websiteplanet.com",
+      "simplycodes.com",
+      "cybernews.com",
+      "valuecom.com",
+      "techjury.net",
+      "tenereteam.com",
+      "studentbeans.com",
+      "couponskiss.com",
+      "goodsearch.com"
+    ],
+    "official_lower_bound": 0,
+    "large_lower_bound": 8,
+    "decision": "skip_threshold_lower_bound",
+    "note": "Nine entries; threshold exceeded."
+  },
+  {
+    "brand": "Tilda",
+    "domains": [
+      "help.tilda.cc",
+      "tenereteam.com",
+      "wethrift.com",
+      "tilda.cc",
+      "substack.com",
+      "hotdeals.com",
+      "tilda.cc",
+      "tilda.education",
+      "tilda.ws"
+    ],
+    "official_lower_bound": 4,
+    "large_lower_bound": 3,
+    "decision": "skip_threshold_lower_bound",
+    "note": "At least four clearly official entries, excluding uncertain tilda.ws host; nine visible independent organic entries."
+  },
+  {
+    "brand": "SITE123",
+    "domains": [
+      "websiteplanet.com",
+      "simplycodes.com",
+      "cybernews.com",
+      "techjury.net",
+      "namobot.com",
+      "colormango.com",
+      "site123.com",
+      "mybestwebsitebuilder.com",
+      "affiliatebooster.com"
+    ],
+    "official_lower_bound": 1,
+    "large_lower_bound": 6,
+    "decision": "skip_threshold_lower_bound",
+    "note": "Nine organic entries; threshold exceeded."
+  },
+  {
+    "brand": "Render",
+    "domains": [
+      "simplycodes.com",
+      "render.com",
+      "tenereteam.com",
+      "reddit.com",
+      "hotdeals.com",
+      "wethrift.com",
+      "host.promo",
+      "facebook.com",
+      "f6s.com",
+      "joincheckmate.com"
+    ],
+    "classes": [
+      "large_coupon",
+      "official",
+      "large_coupon",
+      "other",
+      "large_coupon",
+      "large_coupon",
+      "other",
+      "other",
+      "other",
+      "large_coupon"
+    ],
+    "official": 1,
+    "large": 5,
+    "decision": "do",
+    "note": "Ten independent nonvideo organic observations across pagination, not claimed engine ranks1-10; unrelated Render homonyms retained as observed, not filtered to improve counts."
+  }
+]

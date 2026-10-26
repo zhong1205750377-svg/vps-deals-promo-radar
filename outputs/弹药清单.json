@@ -1,0 +1,402 @@
+{
+  "created_date": "2026-10-08",
+  "main_keyword": "vps prices",
+  "top3": [
+    "getdeploying.com",
+    "vpspricetracker.com",
+    "comparevps.com"
+  ],
+  "provenance_policy": "User supplied batch and priorities are separate from operator research. User pasted command names, not complete group-returned research reports. Never mislabel project-authored questions as real-person quotes or official queries.",
+  "user_inputs": [
+    {
+      "id": "group-batch-2026-10-06",
+      "type": "用户提供的群里目标词批次",
+      "items": [
+        {
+          "keyword": "vps prices",
+          "user_supplied_volume": 880
+        },
+        {
+          "keyword": "cheap vps",
+          "user_supplied_volume": 5400
+        },
+        {
+          "keyword": "vps server",
+          "user_supplied_volume": 3600
+        },
+        {
+          "keyword": "best vps server",
+          "user_supplied_volume": 2400
+        },
+        {
+          "keyword": "windows vps server",
+          "user_supplied_volume": 1900
+        },
+        {
+          "keyword": "azure virtual server pricing",
+          "user_supplied_volume": 1900
+        },
+        {
+          "keyword": "cheap windows vps",
+          "user_supplied_volume": 1600
+        },
+        {
+          "keyword": "vultr pricing",
+          "user_supplied_volume": 480
+        },
+        {
+          "keyword": "hostinger vps pricing",
+          "user_supplied_volume": 390
+        }
+      ],
+      "source": "本聊天2026-10-06用户批次；量未独立复核"
+    },
+    {
+      "id": "group-gaps-2026-10-06",
+      "type": "用户提供的优先缺口",
+      "items": [
+        "结账费用核对",
+        "短期使用及销毁后收费",
+        "报价变更证据"
+      ]
+    },
+    {
+      "id": "user-vultr-query-2026-10-07",
+      "type": "用户给的查询主题",
+      "items": [
+        "vultr pricing",
+        "vultr stopped instance billing"
+      ],
+      "source": "本聊天用户原文；第二个词未给量，不作为独立新页目标词"
+    },
+    {
+      "id": "group-volume-return-oct10",
+      "type": "用户回传群查词及批准下一词",
+      "file": "2026-10-10-群查词回传.json"
+    }
+  ],
+  "operator_research": [
+    {
+      "id": "official-vultr-lifecycle",
+      "file": "2026-10-08-article-audit.json",
+      "kind": "官方文档与原创审计",
+      "used_by": "https://vpspricewatch.com/guides/vultr-pricing-stop-destroy-retained-resources/"
+    },
+    {
+      "id": "real-stopped-question",
+      "file": "2026-10-07-vps-prices素材清单.md",
+      "kind": "已读Reddit提问，非群回传",
+      "quote_url": "https://www.reddit.com/r/hetzner/comments/14c0803/pricing_for_stopped_vps/"
+    },
+    {
+      "id": "official-windows-license",
+      "kind": "明天所需官方页面已读",
+      "url": "https://us.ovhcloud.com/vps/os/vps-windows/",
+      "observed": "Windows预装说明；未建立Windows许可是否包含在具体结账价中，不把预装当成已含许可费用"
+    },
+    {
+      "id": "windows-license-audit-oct9",
+      "kind": "官方页面与原创证据字段审计，非群回传",
+      "file": "2026-10-09-article-audit.json",
+      "used_by": "https://vpspricewatch.com/guides/windows-vps-server-license-inclusion/"
+    },
+    {
+      "id": "tomorrow-egress",
+      "kind": "官方带宽计费文档已读；明天补范围矩阵",
+      "url": "https://docs.digitalocean.com/platform/billing/bandwidth/"
+    },
+    {
+      "id": "droplet-routing-oct10",
+      "kind": "官方计费文档与原创路由模型，非群回传",
+      "file": "2026-10-10-article-audit.json",
+      "used_by": "https://vpspricewatch.com/guides/vps-server-outbound-transfer-scope/"
+    },
+    {
+      "id": "tomorrow-disk-burst",
+      "kind": "官方磁盘突发收费文档已读，不等同免费性能实测",
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/disk-bursting"
+    },
+    {
+      "id": "hourly-benefit-allocation-boundary",
+      "kind": "官方规则及原创合成逐小时模型；未付费，非群查询或真人原话",
+      "file": "2026-10-11-article-audit.json",
+      "used_by": "https://vpspricewatch.com/guides/azure-vm-pricing-hourly-commitment/"
+    },
+    {
+      "id": "refund-request-clock-evidence",
+      "kind": "官方规则及原创合成逐小时模型；未付费，非群查询或真人原话",
+      "file": "2026-10-12-article-audit.json",
+      "used_by": "https://vpspricewatch.com/guides/hostinger-vps-pricing-refund-clocks/"
+    },
+    {
+      "id": "tomorrow-cpu-scope",
+      "kind": "已读取官方CPU范围文档，非付费性能实验或群机器人查词",
+      "file": "2026-10-12-tomorrow-source.json",
+      "next_keyword": "best vps server"
+    },
+    {
+      "id": "matched-resource-worksheet",
+      "kind": "官方规则及原创合成逐小时模型；未付费，非群查询或真人原话",
+      "file": "2026-10-13-article-audit.json",
+      "used_by": "https://vpspricewatch.com/guides/best-vps-server-cpu-allocation/"
+    },
+    {
+      "id": "tomorrow-retail-rate-scope",
+      "kind": "官方公开零售价格文档已读，非实际合同账单或Google查询",
+      "file": "2026-10-13-tomorrow-source.json"
+    },
+    {
+      "id": "retail-rate-contract-scope",
+      "kind": "官方规则及原创合成逐小时模型；未付费，非群查询或真人原话",
+      "file": "2026-10-14-article-audit.json",
+      "used_by": "https://vpspricewatch.com/guides/azure-virtual-server-pricing-source-scope/"
+    },
+    {
+      "id": "tomorrow-rdp-access-scope",
+      "kind": "官方连接路径文档已读取；非实际RDP测试、许可实验或群查词",
+      "file": "2026-10-14-tomorrow-source.json"
+    },
+    {
+      "id": "rdp-access-path-quote-scope",
+      "kind": "官方规则及原创合成逐小时模型；未付费，非群查询或真人原话",
+      "file": "2026-10-15-article-audit.json",
+      "used_by": "https://vpspricewatch.com/guides/cheap-windows-vps-rdp-access-scope/"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-stopped-vultr",
+      "question": "Does a stopped Vultr instance still cost money?",
+      "origin": "根据用户查询主题自拟问句，非真人原话非Google官方查询",
+      "used_by": "https://vpspricewatch.com/guides/vultr-pricing-stop-destroy-retained-resources/",
+      "volume_validation": {
+        "status": "待验",
+        "monthly_searches": null,
+        "source": null,
+        "note": "未收到该具体问句的群机器人月搜回传"
+      }
+    },
+    {
+      "id": "q-windows-license-inclusion",
+      "question": "Does a Windows VPS server headline price establish that its Windows licence cost is included?",
+      "origin": "依据用户windows vps server批次词与费用核对方向自拟",
+      "planned_date": "2026-10-09",
+      "keyword": "windows vps server",
+      "gap_id": "included-license-cost-fields",
+      "volume_validation": {
+        "status": "待验",
+        "monthly_searches": null,
+        "source": null,
+        "note": "未收到该具体问句的群机器人月搜回传"
+      }
+    },
+    {
+      "id": "q-egress-scope",
+      "question": "Which outbound traffic counts against a VPS server transfer allowance?",
+      "origin": "用户vps server批次与费用核对方向下自拟；非真人原话非Google查询",
+      "planned_date": "2026-10-10",
+      "keyword": "vps server",
+      "gap_id": "included-egress-meter-scope",
+      "volume_validation": {
+        "status": "待验",
+        "monthly_searches": null,
+        "source": null,
+        "note": "未收到该具体问句的群机器人月搜回传"
+      }
+    },
+    {
+      "id": "disk-burst-feature-cost-route",
+      "gap_id": "disk-burst-feature-cost-route",
+      "question": "Does an Azure virtual server quote include on-demand disk bursting?",
+      "keyword": "azure virtual server pricing",
+      "planned_date": "2026-10-11",
+      "origin": "User batch and checkout-fee direction; project-authored question, not official query",
+      "status": "excluded_no_query_volume",
+      "priority": 1,
+      "sources": [
+        "https://learn.microsoft.com/en-us/azure/virtual-machines/disk-bursting"
+      ],
+      "gap_direction": "结账费用核对",
+      "distinct_from_previous": "Optional disk performance bursting charge route, not OS licence, traffic, generic ownership totals or server destruction",
+      "volume_validation": {
+        "status": "无数据，不写",
+        "monthly_searches": null,
+        "evidence": "2026-10-10-群查词回传.json"
+      }
+    },
+    {
+      "id": "azure-vm-pricing-approved-term",
+      "question": "azure vm pricing",
+      "keyword": "azure vm pricing",
+      "status": "used",
+      "volume_validation": {
+        "status": "已验",
+        "monthly_searches": 1900,
+        "region": "US",
+        "source": "用户回传群机器人查词",
+        "evidence": "2026-10-10-群查词回传.json",
+        "exact_query": "azure vm pricing",
+        "note": "仅该精确词已验；不得把量归到新自拟问句"
+      },
+      "date": "2026-10-11",
+      "used_by": "https://vpspricewatch.com/guides/azure-vm-pricing-hourly-commitment/",
+      "gap_id": "hourly-benefit-allocation-boundary"
+    }
+  ],
+  "missing_inputs": [
+    "未收到群里三条口令的完整结果；不能虚称已收到",
+    "Google官方长尾结果与量未读到"
+  ],
+  "updated_date": "2026-10-15",
+  "daily_updates": [
+    {
+      "date": "2026-10-20",
+      "user_material": "用户品牌优惠页与官方事实核查要求；非新群查词结果",
+      "official_sources": [
+        "https://www.gandi.net/en-US/discounts",
+        "https://docs.gandi.net/en/billing/means_of_payment/promo_codes.html"
+      ],
+      "used_today": [
+        "不同优惠各自到期",
+        "已打折与premium排除",
+        "hosting/domain产品限制"
+      ],
+      "question_origin": "项目据官方文档自拟，不是真人原话",
+      "questions": [
+        "Can I add a code to the displayed sale amount?",
+        "Does the hosting promotion apply to a domain registration?"
+      ],
+      "tomorrow": {
+        "candidate": "GreenGeeks",
+        "official_entry": "https://www.greengeeks.com/",
+        "status": "待占位闸门与当前官方证据，不是已安排可发布"
+      },
+      "group_spell_results": "未收到完整群回传；不虚称已运行群机器人"
+    },
+    {
+      "date": "2026-10-21",
+      "official_sources": [
+        "https://www.greengeeks.com/",
+        "https://www.greengeeks.com/vps-hosting/"
+      ],
+      "review_evidence": "coupon-loop-2026-10-21/official-source-status.json",
+      "official_research": "Current product cards and plan-specific scope saved from official HTML; no code invented",
+      "questions_file": "coupon-loop-2026-10-21/prepared-qa.json",
+      "user_material": "Existing user instruction to separate current offer facts from terms and product restrictions; no fresh group-search numbers",
+      "group_spell_results": "No group service available; not run",
+      "publication_gate": "Unreadable controlled browser; no occupancy count, no approved page writing",
+      "tomorrow": "Resume GreenGeeks gate first, reuse current saved official material only after rechecking date-sensitive facts"
+    },
+    {
+      "date": "2026-10-21",
+      "followup": "Browser restored; qualified ChemiCloud replaced skipped GreenGeeks",
+      "official_source": "https://chemicloud.com/deals-coupons",
+      "official_research": "WPLAUNCH and RESELL25 separately revealed and scoped to product, monthly billing and finite promotion window",
+      "questions": "coupon-loop-2026-10-21/qa.json",
+      "article": "https://vpspricewatch.com/coupons/chemicloud/",
+      "group_results": "No new group-bot volume or real-person result; not invented",
+      "user_material_used": "Existing user-specified official-only offer/terms structure; no user-provided ChemiCloud factual coupon data claimed",
+      "tomorrow": {
+        "brand": "KnownHost",
+        "official": "https://www.knownhost.com/",
+        "evidence": "coupon-loop-2026-10-21/tomorrow-knownhost-official.txt",
+        "candidate_only": true,
+        "next_check": "Current promotions and Google occupancy before writing"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "official_source": "https://www.inmotionhosting.com/inmotion-hosting-coupon",
+      "article": "https://vpspricewatch.com/coupons/inmotion/",
+      "research": "Cloud banner SAVE50 date and VPS card/footer label-destination mismatch; source-route audit, not a paid test",
+      "questions_file": "coupon-loop-2026-10-22/qa.json",
+      "question_origin": "operator-authored, not group search or real-person quotation",
+      "user_material": "User-required official-source coupon structure and evidence boundaries used; no user-provided InMotion price facts claimed",
+      "group_results": "No new group-bot query results or volume data received",
+      "tomorrow": {
+        "candidate": "Netcup",
+        "official": "https://www.netcup.com/en",
+        "evidence": "coupon-loop-2026-10-22/tomorrow-netcup-official.txt",
+        "status": "Official homepage material saved; no claim that /en/deals loaded, and gate/offer validation still required"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "sources": [
+        "https://www.netcup.com/en/newsletter",
+        "https://www.netcup.com/en/deals"
+      ],
+      "article": "https://vpspricewatch.com/coupons/netcup/",
+      "research": "Expanded newsletter and deals FAQ exclusion intersection; strict amount test and email-registration boundary",
+      "questions_file": "coupon-loop-2026-10-23/qa.json",
+      "origin": "official research and operator-authored questions; not group or real-person quotes",
+      "user_material_used": "User-required official-source coupon scope, offer/terms separation and no fabricated code rules applied; no new group keyword results claimed",
+      "tomorrow": {
+        "candidate": "Hetzner",
+        "official": "https://www.hetzner.com/cloud/",
+        "evidence": "coupon-loop-2026-10-23/tomorrow-hetzner.txt",
+        "status": "Homepage material saved; must pass current gate and verify actual offer before writing"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "article": "https://vpspricewatch.com/coupons/hetzner/",
+      "sources": [
+        "https://www.hetzner.com/promo-code",
+        "https://docs.hetzner.com/general/billing-and-account-management/billing-at-hetzner/promo-code/"
+      ],
+      "research": "Upper/lower official code mismatch, account-age vs billing-month window, code admission vs balance allocation",
+      "questions_file": "coupon-loop-2026-10-24/qa.json",
+      "origin": "official research and operator-authored questions, not group or real-person quotes",
+      "user_material_used": "User official-only, exact literal codes and fact/condition separation requirements; no new group keyword results claimed",
+      "tomorrow": {
+        "candidate": "OVHcloud",
+        "official": "https://us.ovhcloud.com/deals/",
+        "evidence": "coupon-loop-2026-10-24/tomorrow-ovhcloud.txt",
+        "status": "Official deals page material saved, full gate and offer validation still required"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "article": "https://vpspricewatch.com/coupons/squarespace/",
+      "sources": [
+        "https://www.squarespace.com/coupons",
+        "https://support.squarespace.com/hc/en-us/articles/206566697-Redeem-an-offer-code-for-Squarespace"
+      ],
+      "research": "GIMME10 scope vs general product redemption routes; automatic-discount maximum selection; missing-field evidence classification",
+      "questions_file": "coupon-loop-2026-10-25/qa.json",
+      "origin": "official research and operator-authored questions; no new group results or real-person quotations",
+      "tomorrow": {
+        "candidate": "Duda",
+        "official": "https://www.duda.co/pricing",
+        "evidence": "coupon-loop-2026-10-25/tomorrow-duda-ax.txt",
+        "verified_material": [
+          "14-day trial; no credit card required",
+          "Trial includes White Label features per FAQ",
+          "Annual plans charged upfront; eCommerce and Bookings may require additional purchase"
+        ],
+        "status": "Official material ready; tomorrow live SERP gate and current-offer recheck still required",
+        "question_origin": "operator-authored, official-research based"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "article": "https://vpspricewatch.com/coupons/render/",
+      "sources": [
+        "https://render.com/migration-credits",
+        "https://render.com/startups",
+        "https://render.com/startups/offers"
+      ],
+      "origin": "Official research and operator-authored questions; no new group results or real-person quotes",
+      "user_material_used": "User instructions: literal official proof, benefit/terms separation and no inferred coupon code; no user-supplied Render search volume claimed",
+      "questions_file": "coupon-loop-2026-10-26/qa.json",
+      "research": "Beneficiary, admission, architecture review, migration completion and issuance ledger; startup clock kept separate",
+      "tomorrow": {
+        "candidate": "UpCloud",
+        "official": "https://upcloud.com/pricing/",
+        "evidence": "coupon-loop-2026-10-26/tomorrow-upcloud.txt",
+        "status": "Official pricing body saved; current promotion and gate still pending"
+      }
+    }
+  ]
+}

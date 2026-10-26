@@ -1,0 +1,31 @@
+{
+  "type": "Synthetic document-state tests, not account tests",
+  "cases": [
+    {
+      "case": "partner benefit for hosting",
+      "beneficiary": "partner software",
+      "result": "different service"
+    },
+    {
+      "case": "enterprise application only",
+      "migration_complete": false,
+      "reviewed": false,
+      "issued": "unconfirmed"
+    },
+    {
+      "case": "migration done without award confirmation",
+      "migration_complete": true,
+      "reviewed": false,
+      "issued": "unconfirmed"
+    },
+    {
+      "case": "startup timing applied to migration",
+      "result": "reject cross-program clock"
+    }
+  ],
+  "sources": [
+    "https://render.com/migration-credits",
+    "https://render.com/startups",
+    "https://render.com/startups/offers"
+  ]
+}

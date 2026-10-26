@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-26",
+  "status": "published_and_six_tracks_executed_with_declared_search_scope",
+  "article": "https://vpspricewatch.com/coupons/render/",
+  "target_keyword": "render promo code",
+  "official": 1,
+  "large": 5,
+  "top3": [
+    "simplycodes.com",
+    "render.com",
+    "tenereteam.com"
+  ],
+  "search_scope": "动态前三：SimplyCodes使用社区代码卡、验证活动和FAQ；Render官方目录按伙伴服务分类；TenereTeam当前正文混入音乐服务，不能作Render云优惠依据。三份已载入样本未见本站的受益服务/申请/架构审查/迁移完成/发放状态联合台账。仅对已载入样本作此观察，不代表全站。固定GetDeploying旧/vps为404，已沿真实导航读/reference/compute-prices，学习规格、日期与来源分列结构，不抄句子。Google九条第一页加第二页首条形成十条非视频观察，不冒称引擎rank10。",
+  "t1": {
+    "result": "Actual contrast fix after mobile visual check; final390 no overflow",
+    "evidence": [
+      "mobile-first.png",
+      "mobile-first-fixed.png",
+      "mobile-images.json"
+    ],
+    "rollback": "rollback/render-before-contrast.html",
+    "note": "Browser-wide viewport failed on a stale own tab; documented official per-tab CDP device emulation used for developer responsive QA and cleared afterward."
+  },
+  "t2": {
+    "result": "动态前三：SimplyCodes使用社区代码卡、验证活动和FAQ；Render官方目录按伙伴服务分类；TenereTeam当前正文混入音乐服务，不能作Render云优惠依据。三份已载入样本未见本站的受益服务/申请/架构审查/迁移完成/发放状态联合台账。仅对已载入样本作此观察，不代表全站。固定GetDeploying旧/vps为404，已沿真实导航读/reference/compute-prices，学习规格、日期与来源分列结构，不抄句子。Google九条第一页加第二页首条形成十条非视频观察，不冒称引擎rank10。",
+    "evidence": [
+      "benchmark-simplycodes.txt",
+      "render-offers.txt",
+      "benchmark-tenere.txt",
+      "fixed-getdeploying-compute.txt"
+    ]
+  },
+  "t3": {
+    "result": "Official research, sourced next-day material and replenishment saved; no group execution or real-person quote claimed",
+    "remaining_pending_gate": 32
+  },
+  "t4": {
+    "result": "Four original questions with official-source answers",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two new diagrams, additive old Cloudways illustration preserving all original words, free narrated video publicly verified",
+    "video": "https://youtu.be/rTADjULsA9g"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/render/",
+    "original_words": 534,
+    "total_body_words": 1040,
+    "formula": "534 / 1040",
+    "ratio": 0.5134615384615384,
+    "original_section": "credit-routing",
+    "published": true,
+    "scope": "Original beneficiary/admission/issuance ledger and four synthetic eligibility-state cases; not application or redemption tests"
+  },
+  "deployment": "da32b91d",
+  "source_commit": "be47407",
+  "rollback": "rollback/ and prior deployment e4b6d43c",
+  "tomorrow": "UpCloud: gate and current official promotion verification pending",
+  "remaining": [],
+  "completed_at": "2026-10-26T09:27:19.408513+08:00"
+}
