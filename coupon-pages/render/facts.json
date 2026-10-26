@@ -1,0 +1,63 @@
+{
+  "url": "https://vpspricewatch.com/coupons/render/",
+  "date_modified": "2026-10-26",
+  "target_keyword": "render promo code",
+  "gap_id": "render-credit-beneficiary-and-issuance-routing",
+  "sources": [
+    "https://render.com/migration-credits",
+    "https://render.com/startups",
+    "https://render.com/startups/offers"
+  ],
+  "reviewed_at": "2026-10-26T09:13+08:00",
+  "offers": [
+    [
+      "Enterprise migration: up to $10K in credits",
+      "Application and architecture review for production business workloads. Individual amount varies; issuance follows completed migration and team review. No reusable public code was verified.",
+      "https://render.com/migration-credits"
+    ],
+    [
+      "Prototype startup tier: $500 in credits",
+      "New customer; seed funding of at least $25K; less than 4 years operating; raised less than $50M; Series A or earlier. Application and approval required.",
+      "https://render.com/startups"
+    ]
+  ],
+  "terms": [
+    [
+      "Migration exclusions",
+      "Personal/non-production projects, test workloads, incomplete information and unverifiable spend estimates may not qualify. The FAQ directs pre-seed and seed-stage startups to the startup program.",
+      "https://render.com/migration-credits"
+    ],
+    [
+      "No automatic award on application",
+      "The solutions team reviews the application and schedules an architecture review. Credits are not issued automatically when the form is sent.",
+      "https://render.com/migration-credits"
+    ],
+    [
+      "Startup credit window",
+      "The startup page states that all credits are valid for 1 year from approval. This statement is not assigned to enterprise migration credits.",
+      "https://render.com/startups"
+    ],
+    [
+      "Partner directory scope",
+      "The directory lists offers from partner software providers. These are not presented here as discounts on Render hosting.",
+      "https://render.com/startups/offers"
+    ],
+    [
+      "Dates and prices not established",
+      "No fixed enterprise campaign closing date or guaranteed individual award is quoted. An unpublished closing date does not mean permanent. This page does not quote hosting prices.",
+      "https://render.com/migration-credits"
+    ]
+  ],
+  "official_quotes": [
+    {
+      "source": "https://render.com/migration-credits",
+      "quote": "We do not issue credits automatically at the time of application."
+    },
+    {
+      "source": "https://render.com/startups",
+      "quote": "All credits are valid for 1-year from time of approval"
+    }
+  ],
+  "comparison_scope": "All three loaded samples: SimplyCodes, official partner directory, TenereTeam. No full-site or universal uniqueness claim.",
+  "originality_scope": "Original beneficiary/admission/issuance ledger and four synthetic eligibility-state cases; not application or redemption tests"
+}

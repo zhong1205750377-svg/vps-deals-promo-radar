@@ -1012,6 +1012,86 @@ The reviewed newsletter form states once per email address. It does not establis
 
 ---
 
+Source: https://vpspricewatch.com/coupons/render/
+
+Render promo code
+
+# No public code verified: use the official credit application routes
+
+Render currently advertises up to $10K in enterprise migration credits through an application, not a reusable public coupon verified by this review. Production business workloads need assessment; credits are issued after completed migration and team review. Startups have a separate eligibility route. A fixed enterprise offer closing date is not published in the reviewed material.
+
+[Read the official migration offer](https://render.com/migration-credits) · Last checked and updated: 2026-10-26T09:13+08:00
+
+## Official credit offers
+
+| Offer | Admission and benefit conditions | Official source | Reviewed | 
+| Enterprise migration: up to $10K in credits | Application and architecture review for production business workloads. Individual amount varies; issuance follows completed migration and team review. No reusable public code was verified. | [Official source](https://render.com/migration-credits) | 2026-10-26 | 
+| Prototype startup tier: $500 in credits | New customer; seed funding of at least $25K; less than 4 years operating; raised less than $50M; Series A or earlier. Application and approval required. | [Official source](https://render.com/startups) | 2026-10-26 | 
+
+## Approval, timing and scope
+
+| Term | What the source establishes | Official source | Reviewed | 
+| Migration exclusions | Personal/non-production projects, test workloads, incomplete information and unverifiable spend estimates may not qualify. The FAQ directs pre-seed and seed-stage startups to the startup program. | [Official source](https://render.com/migration-credits) | 2026-10-26 | 
+| No automatic award on application | The solutions team reviews the application and schedules an architecture review. Credits are not issued automatically when the form is sent. | [Official source](https://render.com/migration-credits) | 2026-10-26 | 
+| Startup credit window | The startup page states that all credits are valid for 1 year from approval. This statement is not assigned to enterprise migration credits. | [Official source](https://render.com/startups) | 2026-10-26 | 
+| Partner directory scope | The directory lists offers from partner software providers. These are not presented here as discounts on Render hosting. | [Official source](https://render.com/startups/offers) | 2026-10-26 | 
+| Dates and prices not established | No fixed enterprise campaign closing date or guaranteed individual award is quoted. An unpublished closing date does not mean permanent. This page does not quote hosting prices. | [Official source](https://render.com/migration-credits) | 2026-10-26 | An application is not an issued credit. Original document-based diagram.Follow the service receiving the benefit. Original document-based diagram.
+
+## Our credit-routing ledger: identify the beneficiary before the amount
+
+We built a document ledger that joins the migration application, startup eligibility and partner-offer directory. Each record has a service receiving the benefit, an admission route, a decision event and an issuance event. This organization is our own analysis of the linked sources. It is not a submitted application, an approved account, a successfully redeemed code or a prediction of the credit a particular company will receive.
+
+### Use a beneficiary test to keep different products apart
+
+Start with the service you intend to pay for. A partner offer displayed on the Render website can reduce a bill for that partner's software without reducing a Render hosting bill. We label such a record partner software, even when Render publishes the directory. The publishing domain establishes who described the offer; it does not change which service the benefit buys. Likewise, a promotion for another product sharing the word Render cannot be assigned to this cloud platform without a matching official statement.
+
+Our first synthetic case is a reader seeking hosting credit who encounters a partner-software benefit. The ledger returns a different beneficiary, not an eligible hosting discount. A second case has a production business moving infrastructure and reading the enterprise migration page. That returns the relevant application route, but still not an award. These cases use fictional reader circumstances and document classifications; they do not measure a checkout or test an account.
+
+### Keep application, review and issuance as separate states
+
+The migration FAQ connects credit issuance to a completed migration reviewed with the team. Our ledger therefore has distinct states for an application sent, an architecture review arranged, a possible offer determined and a migration completed. A reader at the first state cannot fill the last state merely because the page advertises a maximum. This prevents an estimated promotional ceiling from becoming a fictional balance in a budget.
+
+For a third hypothetical case, assume that an application exists but the infrastructure has not moved. The issuance field stays unconfirmed. For a fourth case, assume that migration has finished but there is no team review or individual award information. That field also stays unconfirmed. The rule is deliberately conservative: completed migration and team review are documented prerequisites, while our analysis has no authority to grant a credit or calculate its value.
+
+### Do not transfer one program's clock to another
+
+The startup page measures its credit validity from approval. The enterprise page describes a different issuance event after migration. Our ledger stores the program beside its clock, so an approval-based startup window cannot silently become the expiry of an enterprise migration offer. Where the reviewed enterprise material does not provide a fixed public closing date, that date remains unpublished. A review timestamp records when we read the page, not when a visitor's benefit expires.
+
+Finally, early-stage startup routing is an eligibility question, not a smaller version of the enterprise maximum. We record the startup route separately and leave its funding, customer and partner requirements attached to it. Moving a reader between routes requires checking those fields again. The completed worksheet thus answers which evidence to collect next without adding unrelated credit amounts together or promising admission to either program.
+
+Ledger inputs: [migration program and expanded FAQs](https://render.com/migration-credits), [startup tiers](https://render.com/startups), and [partner offers](https://render.com/startups/offers), reviewed 2026-10-26.
+
+## Questions before applying
+
+### Can I enter a verified public Render promo code from this page?
+
+No reusable public code was verified in the official pages reviewed. The current documented routes here require application and approval rather than a literal coupon string.
+
+[Official source](https://render.com/migration-credits) · Reviewed 2026-10-26
+
+### Does submitting the migration form put credits on an account?
+
+No. The FAQ says issuance follows completed migration and team review; it is not automatic at application.
+
+[Official source](https://render.com/migration-credits) · Reviewed 2026-10-26
+
+### Can an early-stage startup assume the enterprise offer applies?
+
+No. The enterprise FAQ routes pre-seed and seed-stage startups to the separate startup program, whose own eligibility must be checked.
+
+[Official source](https://render.com/startups) · Reviewed 2026-10-26
+
+### Does the startup one-year window establish the enterprise expiry?
+
+No. The startup page supplies that approval-based validity rule for its credits. It does not establish a closing date for the separate enterprise offer.
+
+[Official source](https://render.com/startups) · Reviewed 2026-10-26
+
+[Other official offer records](https://vpspricewatch.com/coupons/) · [VPS Price Watch home](https://vpspricewatch.com/).
+
+
+---
+
 Source: https://vpspricewatch.com/coupons/siteground/
 
 # SiteGround coupon
