@@ -1,0 +1,51 @@
+{
+  "url": "https://vpspricewatch.com/coupons/ramnode/",
+  "date_modified": "2026-10-27",
+  "target_keyword": "ramnode promo code",
+  "gap_id": "ramnode-credit-match-funding-source-ledger",
+  "sources": [
+    "https://clientarea.ramnode.com/promo.php"
+  ],
+  "reviewed_at": "2026-10-27T09:05+08:00",
+  "offers": [
+    [
+      "CLOUD25: extra 25% Cloud Credit",
+      "Add at least $5 in Cloud Credit through the official promotion route. Limited to one use per customer. No fixed campaign end date is published.",
+      "https://clientarea.ramnode.com/promo.php"
+    ]
+  ],
+  "terms": [
+    [
+      "Existing customers",
+      "Add credit and open a support ticket with subject CLOUD25.",
+      "https://clientarea.ramnode.com/promo.php"
+    ],
+    [
+      "Matching time",
+      "The official page says matching credit will be added within 24 hours.",
+      "https://clientarea.ramnode.com/promo.php"
+    ],
+    [
+      "Funding exclusion",
+      "Moving general account credit to cloud does not qualify.",
+      "https://clientarea.ramnode.com/promo.php"
+    ],
+    [
+      "Eligible service",
+      "Only Cloud KVM and VDS; the page explicitly excludes OpenVZ VPS.",
+      "https://clientarea.ramnode.com/promo.php"
+    ],
+    [
+      "Unpublished expiry and prices",
+      "A fixed closing date is not published; that does not mean permanent. No server plan price is quoted here.",
+      "https://clientarea.ramnode.com/promo.php"
+    ]
+  ],
+  "official_quotes": [
+    "Limited to one use per customer.",
+    "Does not apply for moving general account credit to cloud.",
+    "Only for Cloud (KVM, VDS) service. Does not apply for OpenVZ VPS."
+  ],
+  "comparison_limit": "WorthEPenny Cloudflare verification stopped; official and TenereTeam read, no all-three omission claim",
+  "originality_scope": "Funding source, minimum boundary and bonus-versus-combined-credit denominators; synthetic document examples, not deposits or redemption"
+}
