@@ -1,0 +1,64 @@
+[
+  {
+    "brand": "UpCloud",
+    "domains": [
+      "techjury.net",
+      "resourify.com",
+      "hostadvice.com",
+      "upcloud.com",
+      "worthepenny.com",
+      "affmaven.com",
+      "websiteplanet.com",
+      "host.promo",
+      "newcoupons.info",
+      "couponchief.com"
+    ],
+    "classes": [
+      "media",
+      "other",
+      "media",
+      "official",
+      "large_coupon",
+      "media",
+      "media",
+      "other",
+      "other",
+      "large_coupon"
+    ],
+    "official": 1,
+    "large": 6,
+    "decision": "skip",
+    "scope": "Ten independent organic nonmodule observations across pagination, not claimed engine rank1-10."
+  },
+  {
+    "brand": "RamNode",
+    "domains": [
+      "ramnode.com",
+      "worthepenny.com",
+      "tenereteam.com",
+      "couponswift.com",
+      "hostingcouponspot.com",
+      "tophostcoupon.com",
+      "gist.github.com",
+      "hostadvice.com",
+      "ramnode.webflow.io",
+      "hostingpromocode.net"
+    ],
+    "classes": [
+      "official",
+      "large_coupon",
+      "large_coupon",
+      "large_coupon",
+      "other",
+      "other",
+      "other",
+      "media",
+      "other",
+      "other"
+    ],
+    "official": 1,
+    "large": 4,
+    "decision": "do",
+    "scope": "Ten independent nonmodule organic observations across pagination; not engine ranks1-10."
+  }
+]

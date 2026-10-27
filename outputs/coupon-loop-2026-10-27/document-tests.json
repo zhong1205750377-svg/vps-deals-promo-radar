@@ -1,0 +1,30 @@
+{
+  "type": "Synthetic document-rule cases, not purchases",
+  "cases": [
+    {
+      "added": 4.99,
+      "source": "synthetic boundary input",
+      "amount_pass": false
+    },
+    {
+      "added": 5,
+      "source": "synthetic boundary input; threshold official",
+      "amount_pass": true
+    },
+    {
+      "added": 5,
+      "funding": "general account transfer",
+      "eligible": false
+    },
+    {
+      "added": 10,
+      "rate": 0.25,
+      "bonus": 2.5,
+      "combined": 12.5,
+      "bonus_over_combined": 0.2,
+      "formula": "bonus=added*rate;combined=added+bonus;ratio=bonus/combined",
+      "source": "Official rate and minimum; fictional eligible addition; not server price"
+    }
+  ],
+  "source": "https://clientarea.ramnode.com/promo.php"
+}

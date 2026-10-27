@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://vpspricewatch.com/coupons/ramnode/",
+    "status": 200,
+    "sha256": "a81b4e12d5b1c0531752514fa57fdf7d1d7476da05ea200de52eda22da9aa77a",
+    "bytes": 11870
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "sha256": "7bbe3cf8af4ddf9cc950379511ff81b4c60aa9536720587d67415e8b9a2c6a7a",
+    "bytes": 3439
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/ramnode/bonus-base.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/ramnode/credit-process.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/siteground/scope-ledger.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "matches_local": true
+  }
+]

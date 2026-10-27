@@ -1,0 +1,26 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "format": {
+    "duration": "73.731020"
+  },
+  "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\outputs\\coupon-loop-2026-10-27\\ramnode-credit-match.mp4",
+  "uploaded": true,
+  "synthetic_narration": true,
+  "sources": [
+    "https://clientarea.ramnode.com/promo.php"
+  ],
+  "url": "https://youtu.be/dBQrjWMT4GE",
+  "visibility": "public",
+  "public_page_verified": true
+}

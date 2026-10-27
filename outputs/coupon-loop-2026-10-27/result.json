@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-27",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
+  "article": "https://vpspricewatch.com/coupons/ramnode/",
+  "target_keyword": "ramnode promo code",
+  "official": 1,
+  "large": 4,
+  "top3": [
+    "ramnode.com",
+    "worthepenny.com",
+    "tenereteam.com"
+  ],
+  "read_limit": "当次官方页以码、充值示例及排除条款组织；TenereTeam以折扣卡、首单标签和历史图表组织。WorthEPenny安全验证停止，无全前三未覆盖主张。本站增加原始充值/转账操作与服务范围分列台账、最低金额边界和两种分母计算，非充值实测。固定GetDeploying规格与来源分列已读。搜索十项为第一页九条及分页首条独立观察，不冒称引擎rank10。",
+  "t1": {
+    "result": "Green answer panel, clear ledger section dividers; mobile390 verified",
+    "evidence": [
+      "mobile-first.png",
+      "mobile-images.json"
+    ],
+    "rollback": "rollback/"
+  },
+  "t2": {
+    "result": "当次官方页以码、充值示例及排除条款组织；TenereTeam以折扣卡、首单标签和历史图表组织。WorthEPenny安全验证停止，无全前三未覆盖主张。本站增加原始充值/转账操作与服务范围分列台账、最低金额边界和两种分母计算，非充值实测。固定GetDeploying规格与来源分列已读。搜索十项为第一页九条及分页首条独立观察，不冒称引擎rank10。",
+    "evidence": [
+      "official-promo.txt",
+      "benchmark-worth-blocked.txt",
+      "benchmark-tenere.txt",
+      "fixed-getdeploying.txt"
+    ]
+  },
+  "t3": {
+    "result": "Official material and next-day BuyVM body archived; no new group or real-person claims"
+  },
+  "t4": {
+    "result": "Four sourced FAQ live",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two new diagrams; additive SiteGround diagram preserves original wording; free narrated public video verified",
+    "video": "https://youtu.be/dBQrjWMT4GE"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/ramnode/",
+    "original_words": 506,
+    "total_body_words": 893,
+    "formula": "506 / 893",
+    "ratio": 0.5666293393057111,
+    "original_section": "bonus-ledger",
+    "published": true,
+    "scope": "Funding source, minimum boundary and bonus-versus-combined-credit denominators; synthetic document examples, not deposits or redemption"
+  },
+  "deployment": "1a25b680",
+  "source_commit": "d71c6e1",
+  "rollback": "rollback/; previous deployment da32b91d",
+  "tomorrow": "BuyVM pending gate and current official evidence",
+  "remaining": [],
+  "completed_at": "2026-10-27T09:11:29.761617+08:00"
+}

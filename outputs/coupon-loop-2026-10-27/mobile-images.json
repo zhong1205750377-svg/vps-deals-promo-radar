@@ -1,0 +1,14 @@
+{
+  "documentWidth": 375,
+  "images": [
+    {
+      "loaded": true,
+      "src": "bonus-base.svg"
+    },
+    {
+      "loaded": true,
+      "src": "credit-process.svg"
+    }
+  ],
+  "width": 390
+}

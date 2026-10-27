@@ -397,6 +397,23 @@
         "evidence": "coupon-loop-2026-10-26/tomorrow-upcloud.txt",
         "status": "Official pricing body saved; current promotion and gate still pending"
       }
+    },
+    {
+      "date": "2026-10-27",
+      "article": "https://vpspricewatch.com/coupons/ramnode/",
+      "sources": [
+        "https://clientarea.ramnode.com/promo.php"
+      ],
+      "origin": "Official research and project-authored questions, not group results or real-person quotes",
+      "user_material_used": "Official-only literal code and benefit/condition separation requirements; no new user-group keyword volume supplied",
+      "questions_file": "coupon-loop-2026-10-27/qa.json",
+      "research": "Credit match denominator, minimum amount, funding source and service exclusions",
+      "tomorrow": {
+        "candidate": "BuyVM",
+        "official": "https://buyvm.net/",
+        "evidence": "coupon-loop-2026-10-27/tomorrow-buyvm.txt",
+        "status": "Official homepage body archived; full gate and current offer verification still required"
+      }
     }
   ]
 }
