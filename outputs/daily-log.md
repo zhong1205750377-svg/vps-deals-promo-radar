@@ -90,3 +90,5 @@
 2026-10-26｜Render 官方1大站5通过 https://vpspricewatch.com/coupons/render/｜T1首屏浅紫底深色文字与条款卡片，修复手机实看发现的对比度问题，最终390无横向溢出、两图加载｜T2当次三页及固定GetDeploying规格比较已读，保留搜索分页观察限制｜T3官方素材与32个待过闸官网队列归档，UpCloud明日备料；无新群结果｜T4四组有出处问答｜T5新页两图旧Cloudways补图原句未改，71.9秒免费讲解https://youtu.be/rTADjULsA9g公开播放8秒已核｜原创534/1040=51.35%，文档核查非申请或兑换实测｜部署da32b91d｜明天UpCloud先过闸。
 
 2026-10-27｜RamNode 官方1大站4通过 https://vpspricewatch.com/coupons/ramnode/｜跳过UpCloud官方1大站6｜T1绿色首屏与台账分隔样式，已留回滚，390宽度无溢出、两图加载｜T2官方与TenereTeam及固定GetDeploying已读，WorthEPenny安全验证停止，无前三全读主张｜T3官方材料归档，BuyVM明日备料，无新群回传｜T4四个有出处FAQ｜T5新页两图旧SiteGround补图原句不改，73.7秒免费讲解https://youtu.be/dBQrjWMT4GE已公开播放核验｜原创506/893=56.66%，非充值或兑换实测｜部署1a25b680｜明天BuyVM先过闸。
+
+2026-10-28｜Gname官方自营2大站4通过 https://vpspricewatch.com/coupons/gname/，另有Name.com自营1位单列｜跳过BuyVM官方0大站7、Name.com官方2大站7、Sav官方0大站7｜T1新页数量台账分隔与清晰首屏，留回滚，390无溢出两图加载｜T2Gname、Name.com及固定GetDeploying已读，WorthEPenny安全验证停止，不冒称前三全读｜T3官方素材归档，NameBright官网HTTP正文已备，浏览器超时已记，无新群回传｜T4四个有出处FAQ｜T5新页两图旧DreamHost补图原句保留，82秒免费讲解https://youtu.be/eVXTGdG9Y8M公开播放已核｜原创533/976=54.61%，非购买实测｜部署9d8b166e｜明天NameBright先过闸。

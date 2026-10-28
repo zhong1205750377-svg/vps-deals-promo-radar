@@ -1,0 +1,27 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "format": {
+    "duration": "82.021451"
+  },
+  "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\outputs\\coupon-loop-2026-10-28\\gname-quantity-ledger.mp4",
+  "uploaded": true,
+  "synthetic_narration": true,
+  "sources": [
+    "https://www.gname.com/us/coupons",
+    "https://www.gname.com/us/coupons/291.html"
+  ],
+  "url": "https://youtu.be/eVXTGdG9Y8M",
+  "visibility": "public",
+  "public_page_verified": true
+}

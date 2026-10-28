@@ -1,7 +1,7 @@
 {
-  "date_bjt": "2026-10-27",
+  "date_bjt": "2026-10-28",
   "source_policy": "Actual accessible official product/pricing pages; no coupon claimed until official offer terms read.",
-  "ready_count": 30,
+  "ready_count": 26,
   "brands": [
     {
       "brand": "Porkbun",
@@ -901,13 +901,48 @@
       "official_source": "https://buyvm.net/",
       "checked_bjt": "2026-10-26",
       "query": "buyvm promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://buyvm.net/",
       "title": "BuyVM - Affordable Hosting with a touch of Insanity",
       "evidence": "coupon-loop-2026-10-26/queue-buyvm_net.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-10-28",
+      "gate_reading": {
+        "brand": "BuyVM",
+        "domains": [
+          "tenereteam.com",
+          "envirogadget.com",
+          "hostingcouponspot.com",
+          "startupworld.com",
+          "saver.com",
+          "thewebhostingdir.com",
+          "lowendbox.com",
+          "proxycoupons.com",
+          "github.com",
+          "hostingcharges.in"
+        ],
+        "classes": [
+          "large_coupon",
+          "large_coupon",
+          "other",
+          "large_coupon",
+          "large_coupon",
+          "other",
+          "media",
+          "large_coupon",
+          "other",
+          "media"
+        ],
+        "official": 0,
+        "large": 7,
+        "decision": "skip",
+        "scope": "Ten independent natural results on first page; ads and modules excluded."
+      },
+      "gate_evidence": "coupon-loop-2026-10-28/occupancy.json",
+      "official_occupancy": 0,
+      "large_occupancy": 7
     },
     {
       "brand": "Name.com",
@@ -916,13 +951,50 @@
       "official_source": "https://www.name.com/",
       "checked_bjt": "2026-10-26",
       "query": "name.com promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.name.com/",
       "title": "Domain Names, Registration, Websites &amp; Hosting | name.com",
       "evidence": "coupon-loop-2026-10-26/queue-name_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-10-28",
+      "gate_reading": {
+        "brand": "Name.com",
+        "domains": [
+          "name.com",
+          "couponfollow.com",
+          "retailmenot.com",
+          "name.com",
+          "simplycodes.com",
+          "couponchief.com",
+          "worthepenny.com",
+          "tldes.com",
+          "hostadvice.com",
+          "valuecom.com"
+        ],
+        "official": 2,
+        "large": 7,
+        "decision": "skip",
+        "scope": "Ten independent first-page organic entries.",
+        "classes": [
+          "official",
+          "large_coupon",
+          "large_coupon",
+          "official",
+          "large_coupon",
+          "large_coupon",
+          "large_coupon",
+          "other",
+          "media",
+          "large_coupon"
+        ],
+        "observed_bjt": "2026-10-28",
+        "position_definition": "Independent natural result positions; no ads, modules or sitelinks"
+      },
+      "gate_evidence": "coupon-loop-2026-10-28/occupancy.json",
+      "official_occupancy": 2,
+      "large_occupancy": 7
     },
     {
       "brand": "Sav",
@@ -931,13 +1003,50 @@
       "official_source": "https://www.sav.com/",
       "checked_bjt": "2026-10-26",
       "query": "sav promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://sav.com/",
       "title": "Domain Names &amp; Free AI Website Builder | Sav.com",
       "evidence": "coupon-loop-2026-10-26/queue-sav_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-10-28",
+      "gate_reading": {
+        "brand": "Sav",
+        "domains": [
+          "simplycodes.com",
+          "domainoffer.net",
+          "worthepenny.com",
+          "valuecom.com",
+          "tenereteam.com",
+          "instagram.com",
+          "wethrift.com",
+          "couponcabin.com",
+          "grabon.in",
+          "facebook.com"
+        ],
+        "official": 0,
+        "large": 7,
+        "decision": "skip",
+        "note": "Homonym results retained as observed; not treated as Sav.com offers.",
+        "classes": [
+          "large_coupon",
+          "other",
+          "large_coupon",
+          "large_coupon",
+          "large_coupon",
+          "other",
+          "large_coupon",
+          "large_coupon",
+          "large_coupon",
+          "other"
+        ],
+        "observed_bjt": "2026-10-28",
+        "position_definition": "Independent natural result positions; no ads, modules or sitelinks"
+      },
+      "gate_evidence": "coupon-loop-2026-10-28/occupancy.json",
+      "official_occupancy": 0,
+      "large_occupancy": 7
     },
     {
       "brand": "Gname",
@@ -946,13 +1055,54 @@
       "official_source": "https://www.gname.com/",
       "checked_bjt": "2026-10-26",
       "query": "gname promo code",
-      "status": "queued_gate_pending",
-      "offer_verified": false,
+      "status": "published",
+      "offer_verified": true,
       "http_status": 200,
       "final_url": "https://www.gname.com/",
       "title": "GNAME | Buy Domain Names, Websites, Hosting, Cloud Products",
-      "evidence": "coupon-loop-2026-10-26/queue-gname_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "evidence": "coupon-loop-2026-10-28/facts.json",
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-10-28",
+      "gate_reading": {
+        "brand": "Gname",
+        "domains": [
+          "worthepenny.com",
+          "name.com",
+          "gname.com",
+          "tldes.com",
+          "facebook.com",
+          "couponfollow.com",
+          "hostdean.com",
+          "simplycodes.com",
+          "reddit.com",
+          "gname.com"
+        ],
+        "official": 2,
+        "other_provider_official": 1,
+        "large": 4,
+        "decision": "do",
+        "note": "Own Gname domain positions3,10; other provider Name.com position2 listed separately. Ten independent natural entries; sponsored block excluded.",
+        "classes": [
+          "large_coupon",
+          "other_provider_official",
+          "official",
+          "other",
+          "other",
+          "large_coupon",
+          "media",
+          "large_coupon",
+          "other",
+          "official"
+        ],
+        "observed_bjt": "2026-10-28",
+        "position_definition": "Independent natural result positions; no ads, modules or sitelinks"
+      },
+      "gate_evidence": "coupon-loop-2026-10-28/occupancy.json",
+      "official_occupancy": 2,
+      "large_occupancy": 4,
+      "published_date": "2026-10-28",
+      "url": "https://vpspricewatch.com/coupons/gname/",
+      "deployment": "9d8b166e"
     },
     {
       "brand": "NameBright",
@@ -1935,5 +2085,5 @@
       "error": "TooManyRedirects"
     }
   ],
-  "remaining_untried": 30
+  "remaining_untried": 26
 }

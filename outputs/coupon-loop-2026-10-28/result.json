@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-28",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
+  "article": "https://vpspricewatch.com/coupons/gname/",
+  "target_keyword": "gname promo code",
+  "official": 2,
+  "other_provider_official": 1,
+  "large": 4,
+  "top3": [
+    "worthepenny.com",
+    "name.com",
+    "gname.com"
+  ],
+  "read_limit": "当次前三为WorthEPenny（安全验证停止）、Name.com官方促销（别的注册商，不能做Gname事实源）和Gname官方券目录。本站核目录与注册券详情的数量区间、操作类型、时间和佣金条件，原创边界计算，非购买实测。不声称全前三独家。固定GetDeploying规格与来源分列已读。今天Google各候选保存第一页十条自然结果，广告及模块排除。",
+  "t1": {
+    "result": "Quantity ledger separators and answer panel; mobile390 no overflow",
+    "evidence": [
+      "mobile-first.png",
+      "mobile-images.json"
+    ],
+    "rollback": "rollback/"
+  },
+  "t2": {
+    "result": "当次前三为WorthEPenny（安全验证停止）、Name.com官方促销（别的注册商，不能做Gname事实源）和Gname官方券目录。本站核目录与注册券详情的数量区间、操作类型、时间和佣金条件，原创边界计算，非购买实测。不声称全前三独家。固定GetDeploying规格与来源分列已读。今天Google各候选保存第一页十条自然结果，广告及模块排除。",
+    "evidence": [
+      "benchmark-worth.txt",
+      "benchmark-namecom.txt",
+      "official-coupons.txt",
+      "fixed-getdeploying.txt"
+    ]
+  },
+  "t3": {
+    "result": "Official Gname research, self-authored questions and next-day NameBright homepage body archived; browser timeout declared; no group or real-person claims"
+  },
+  "t4": {
+    "result": "Four sourced FAQ live",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two original new diagrams; additive DreamHost diagram preserves original words; free narrated video publicly verified",
+    "video": "https://youtu.be/eVXTGdG9Y8M"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/gname/",
+    "original_words": 533,
+    "total_body_words": 976,
+    "formula": "533 / 976",
+    "ratio": 0.5461065573770492,
+    "original_section": "quantity-ledger",
+    "published": true,
+    "scope": "Original quantity/operation/validity ledger with tier-boundary document calculations; no coupon purchase or checkout."
+  },
+  "deployment": "9d8b166e",
+  "source_commit": "4162775",
+  "rollback": "rollback/; previous deployment 1a25b680",
+  "tomorrow": "NameBright: gate and current offer still pending",
+  "remaining": [],
+  "completed_at": "2026-10-28T09:17:20.758674+08:00"
+}

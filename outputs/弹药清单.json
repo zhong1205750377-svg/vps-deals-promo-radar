@@ -414,6 +414,24 @@
         "evidence": "coupon-loop-2026-10-27/tomorrow-buyvm.txt",
         "status": "Official homepage body archived; full gate and current offer verification still required"
       }
+    },
+    {
+      "date": "2026-10-28",
+      "article": "https://vpspricewatch.com/coupons/gname/",
+      "sources": [
+        "https://www.gname.com/us/coupons",
+        "https://www.gname.com/us/coupons/291.html"
+      ],
+      "origin": "Official research and project-authored questions, not group results or real-person quotes",
+      "user_material_used": "User official-only literal proof, no invented free code, original/renewal-price exclusion and offer/terms separation requirements; no new Gname volume supplied",
+      "questions_file": "coupon-loop-2026-10-28/qa.json",
+      "research": "Quantity row vs catalogue display, registration vs other operations, nonrefund window and reseller commission exclusion",
+      "tomorrow": {
+        "candidate": "NameBright",
+        "official": "https://www.namebright.com/",
+        "evidence": "coupon-loop-2026-10-28/tomorrow-namebright-text.txt",
+        "status": "Official homepage content via public HTTP saved; browser navigation timed out. No current coupon or gate eligibility claimed."
+      }
     }
   ]
 }

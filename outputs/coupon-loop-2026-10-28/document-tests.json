@@ -1,0 +1,31 @@
+{
+  "type": "Synthetic document-rule cases, not purchases",
+  "cases": [
+    {
+      "quantity": 2,
+      "unit": 10.6,
+      "subtotal": 21.2
+    },
+    {
+      "quantity": 199,
+      "unit": 10.6,
+      "subtotal": 2109.4
+    },
+    {
+      "quantity": 200,
+      "unit": 10.5,
+      "subtotal": 2100
+    },
+    {
+      "quantity": 500,
+      "unit": 10.4,
+      "subtotal": 5200
+    },
+    {
+      "quantity": 1000,
+      "unit": 10.3,
+      "subtotal": 10300
+    }
+  ],
+  "source": "https://www.gname.com/us/coupons"
+}

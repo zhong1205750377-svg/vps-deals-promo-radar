@@ -1,0 +1,14 @@
+{
+  "documentWidth": 375,
+  "images": [
+    {
+      "loaded": true,
+      "src": "quantity-rows.svg"
+    },
+    {
+      "loaded": true,
+      "src": "coupon-validity.svg"
+    }
+  ],
+  "width": 390
+}

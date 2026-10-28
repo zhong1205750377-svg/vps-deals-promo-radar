@@ -1,0 +1,133 @@
+[
+  {
+    "brand": "BuyVM",
+    "domains": [
+      "tenereteam.com",
+      "envirogadget.com",
+      "hostingcouponspot.com",
+      "startupworld.com",
+      "saver.com",
+      "thewebhostingdir.com",
+      "lowendbox.com",
+      "proxycoupons.com",
+      "github.com",
+      "hostingcharges.in"
+    ],
+    "classes": [
+      "large_coupon",
+      "large_coupon",
+      "other",
+      "large_coupon",
+      "large_coupon",
+      "other",
+      "media",
+      "large_coupon",
+      "other",
+      "media"
+    ],
+    "official": 0,
+    "large": 7,
+    "decision": "skip",
+    "scope": "Ten independent natural results on first page; ads and modules excluded."
+  },
+  {
+    "brand": "Name.com",
+    "domains": [
+      "name.com",
+      "couponfollow.com",
+      "retailmenot.com",
+      "name.com",
+      "simplycodes.com",
+      "couponchief.com",
+      "worthepenny.com",
+      "tldes.com",
+      "hostadvice.com",
+      "valuecom.com"
+    ],
+    "official": 2,
+    "large": 7,
+    "decision": "skip",
+    "scope": "Ten independent first-page organic entries.",
+    "classes": [
+      "official",
+      "large_coupon",
+      "large_coupon",
+      "official",
+      "large_coupon",
+      "large_coupon",
+      "large_coupon",
+      "other",
+      "media",
+      "large_coupon"
+    ],
+    "observed_bjt": "2026-10-28",
+    "position_definition": "Independent natural result positions; no ads, modules or sitelinks"
+  },
+  {
+    "brand": "Sav",
+    "domains": [
+      "simplycodes.com",
+      "domainoffer.net",
+      "worthepenny.com",
+      "valuecom.com",
+      "tenereteam.com",
+      "instagram.com",
+      "wethrift.com",
+      "couponcabin.com",
+      "grabon.in",
+      "facebook.com"
+    ],
+    "official": 0,
+    "large": 7,
+    "decision": "skip",
+    "note": "Homonym results retained as observed; not treated as Sav.com offers.",
+    "classes": [
+      "large_coupon",
+      "other",
+      "large_coupon",
+      "large_coupon",
+      "large_coupon",
+      "other",
+      "large_coupon",
+      "large_coupon",
+      "large_coupon",
+      "other"
+    ],
+    "observed_bjt": "2026-10-28",
+    "position_definition": "Independent natural result positions; no ads, modules or sitelinks"
+  },
+  {
+    "brand": "Gname",
+    "domains": [
+      "worthepenny.com",
+      "name.com",
+      "gname.com",
+      "tldes.com",
+      "facebook.com",
+      "couponfollow.com",
+      "hostdean.com",
+      "simplycodes.com",
+      "reddit.com",
+      "gname.com"
+    ],
+    "official": 2,
+    "other_provider_official": 1,
+    "large": 4,
+    "decision": "do",
+    "note": "Own Gname domain positions3,10; other provider Name.com position2 listed separately. Ten independent natural entries; sponsored block excluded.",
+    "classes": [
+      "large_coupon",
+      "other_provider_official",
+      "official",
+      "other",
+      "other",
+      "large_coupon",
+      "media",
+      "large_coupon",
+      "other",
+      "official"
+    ],
+    "observed_bjt": "2026-10-28",
+    "position_definition": "Independent natural result positions; no ads, modules or sitelinks"
+  }
+]

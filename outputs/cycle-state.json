@@ -39,7 +39,8 @@
     "https://vpspricewatch.com/coupons/hetzner/",
     "https://vpspricewatch.com/coupons/squarespace/",
     "https://vpspricewatch.com/coupons/render/",
-    "https://vpspricewatch.com/coupons/ramnode/"
+    "https://vpspricewatch.com/coupons/ramnode/",
+    "https://vpspricewatch.com/coupons/gname/"
   ],
   "comparison_change_date": "2026-10-06",
   "keyword_batch_file": "目标词批次.json",
@@ -48,7 +49,7 @@
   "next_publication_gate": {
     "status": "position_gate_queue",
     "queue": "品牌日更30队列.json",
-    "next_candidate": "BuyVM"
+    "next_candidate": "NameBright"
   },
   "coupon_brand_task": {
     "date": "2026-10-17",
@@ -68,13 +69,13 @@
     "baseline_missing_preserved": true
   },
   "latest_coupon_publication": {
-    "date_bjt": "2026-10-27",
-    "brand": "RamNode",
-    "url": "https://vpspricewatch.com/coupons/ramnode/",
+    "date_bjt": "2026-10-28",
+    "brand": "Gname",
+    "url": "https://vpspricewatch.com/coupons/gname/",
     "published": true,
     "public_http_status": 200,
-    "official": 1,
+    "official": 2,
     "large": 4,
-    "deployment": "1a25b680"
+    "deployment": "9d8b166e"
   }
 }

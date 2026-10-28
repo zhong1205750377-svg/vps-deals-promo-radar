@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://vpspricewatch.com/coupons/gname/",
+    "status": 200,
+    "sha256": "4e3f31576f5e7e447aecc9d55745f7563b8eb273718101367c7bab28edaa39bd",
+    "bytes": 12758
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "sha256": "5dc2a0b977b90f69a94f15a3917f055d48adf8f9297c6b2cb2fc88327f989c87",
+    "bytes": 3530
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/gname/quantity-rows.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/gname/coupon-validity.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/dreamhost/coupon-scope-matrix.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "matches_local": true
+  }
+]
