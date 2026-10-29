@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-29",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
+  "article": "https://vpspricewatch.com/coupons/namebright/",
+  "target_keyword": "namebright promo code",
+  "official": 2,
+  "large": 1,
+  "other_provider_official": 1,
+  "top3": [
+    "tldes.com",
+    "namebright.com",
+    "domaininvesting.com"
+  ],
+  "read_limit": "当次前三TLDES、NameBright和DomainInvesting正文均已读取。TLDES按注册/续费/转移列静态价格，无付款页签选择状态；DomainInvesting为2025-07-09历史新闻，含两种付款路线但不含本次当前页签复核及故意错配测试；NameBright官方展示Credit Card/Pre-Funded Account页签和操作列，是事实源。新增的是留存两页签注册格子的状态绑定、缺状态拒报与跨操作拒配三例，不能声称官方自己没有付款条件。固定GetDeploying遭安全拦截停止；VPSPriceTracker已读，借鉴先筛条件再看数的组织。未复制第三方码或历史价。",
+  "t1": {
+    "result": "New-page audit panel hierarchy, mobile spacing and two loaded diagrams verified",
+    "rollback": "rollback/",
+    "evidence": [
+      "visual-change.json",
+      "mobile-first.png",
+      "mobile-diagram.png",
+      "mobile-images.json"
+    ]
+  },
+  "t2": {
+    "result": "当次前三TLDES、NameBright和DomainInvesting正文均已读取。TLDES按注册/续费/转移列静态价格，无付款页签选择状态；DomainInvesting为2025-07-09历史新闻，含两种付款路线但不含本次当前页签复核及故意错配测试；NameBright官方展示Credit Card/Pre-Funded Account页签和操作列，是事实源。新增的是留存两页签注册格子的状态绑定、缺状态拒报与跨操作拒配三例，不能声称官方自己没有付款条件。固定GetDeploying遭安全拦截停止；VPSPriceTracker已读，借鉴先筛条件再看数的组织。未复制第三方码或历史价。",
+    "evidence": [
+      "top1-tldes.txt",
+      "namebright-official-home.txt",
+      "top3-domaininvesting.txt",
+      "fixed-getdeploying.txt",
+      "fixed-vpspricetracker.txt"
+    ]
+  },
+  "t3": {
+    "result": "Official payment states, terms and real historical question archived; user provenance policy used; no group bot or volume claimed; tomorrow Cloudflare official material saved"
+  },
+  "t4": {
+    "result": "Three sourced FAQ in live article",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two original new diagrams; old Vultr additive diagram keeps original words; free narrated video public and played",
+    "video": "https://youtu.be/b2aEVwNCbj4"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/namebright/",
+    "original_words": 523,
+    "total_body_words": 974,
+    "formula": "523 / 974",
+    "ratio": 0.5369609856262834,
+    "original_section": "payment-state",
+    "published": true,
+    "scope": "Original state-key selection and wrong-tab/operation/ending tests, public document observations not checkout.",
+    "paragraph_counts": [
+      {
+        "paragraph": 1,
+        "words": 73,
+        "kind": "Original evidence selection method / synthetic mismatch reasoning, not official factual paraphrase"
+      },
+      {
+        "paragraph": 2,
+        "words": 68,
+        "kind": "Original evidence selection method / synthetic mismatch reasoning, not official factual paraphrase"
+      },
+      {
+        "paragraph": 3,
+        "words": 72,
+        "kind": "Original evidence selection method / synthetic mismatch reasoning, not official factual paraphrase"
+      },
+      {
+        "paragraph": 4,
+        "words": 64,
+        "kind": "Original evidence selection method / synthetic mismatch reasoning, not official factual paraphrase"
+      },
+      {
+        "paragraph": 5,
+        "words": 69,
+        "kind": "Original evidence selection method / synthetic mismatch reasoning, not official factual paraphrase"
+      },
+      {
+        "paragraph": 6,
+        "words": 69,
+        "kind": "Original evidence selection method / synthetic mismatch reasoning, not official factual paraphrase"
+      },
+      {
+        "paragraph": 7,
+        "words": 73,
+        "kind": "Original evidence selection method / synthetic mismatch reasoning, not official factual paraphrase"
+      }
+    ]
+  },
+  "deployment": "10a91299",
+  "source_commit": "b908a9b",
+  "rollback": "rollback/; previous deployment 9d8b166e",
+  "tomorrow": "Cloudflare, gate and current offer verification pending",
+  "remaining": [],
+  "completed_at": "2026-10-29T09:11:25.122517+08:00"
+}

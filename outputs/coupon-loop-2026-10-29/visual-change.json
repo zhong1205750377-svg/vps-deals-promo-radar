@@ -1,0 +1,10 @@
+{
+  "change": "New page original state-audit panel has blue hierarchy, spaced subheadings and mobile padding; no locked page edits",
+  "rollback": "rollback/namebright-before-visual.html",
+  "mobile_pending": false,
+  "mobile_evidence": [
+    "mobile-first.png",
+    "mobile-diagram.png",
+    "mobile-images.json"
+  ]
+}

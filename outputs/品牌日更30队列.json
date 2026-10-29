@@ -1,7 +1,7 @@
 {
-  "date_bjt": "2026-10-28",
+  "date_bjt": "2026-10-29",
   "source_policy": "Actual accessible official product/pricing pages; no coupon claimed until official offer terms read.",
-  "ready_count": 26,
+  "ready_count": 25,
   "brands": [
     {
       "brand": "Porkbun",
@@ -1111,13 +1111,52 @@
       "official_source": "https://www.namebright.com/",
       "checked_bjt": "2026-10-26",
       "query": "namebright promo code",
-      "status": "queued_gate_pending",
-      "offer_verified": false,
+      "status": "published",
+      "offer_verified": true,
       "http_status": 200,
       "final_url": "https://www.namebright.com/",
       "title": "NameBright — Discover Your Next Great Domain",
-      "evidence": "coupon-loop-2026-10-26/queue-namebright_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "evidence": "coupon-loop-2026-10-29/facts.json",
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "published_date": "2026-10-29",
+      "url": "https://vpspricewatch.com/coupons/namebright/",
+      "deployment": "10a91299",
+      "gate_date": "2026-10-29",
+      "gate_reading": {
+        "brand": "NameBright",
+        "domains": [
+          "tldes.com",
+          "namebright.com",
+          "domaininvesting.com",
+          "domainoffer.net",
+          "namepros.com",
+          "domainhostcoupon.com",
+          "reddit.com",
+          "name.com",
+          "namebright.com",
+          "namepros.com"
+        ],
+        "classes": [
+          "other",
+          "official",
+          "media",
+          "other",
+          "other",
+          "other",
+          "other",
+          "other_provider_official",
+          "official",
+          "other"
+        ],
+        "official": 2,
+        "large": 1,
+        "other_provider_official": 1,
+        "decision": "do",
+        "scope": "Ten first-page independent organic positions, sitelinks and modules excluded."
+      },
+      "gate_evidence": "coupon-loop-2026-10-29/occupancy.json",
+      "official_occupancy": 2,
+      "large_occupancy": 1
     },
     {
       "brand": "Cloudflare",
@@ -2085,5 +2124,5 @@
       "error": "TooManyRedirects"
     }
   ],
-  "remaining_untried": 26
+  "remaining_untried": 25
 }

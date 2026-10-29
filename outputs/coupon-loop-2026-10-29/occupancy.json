@@ -1,0 +1,34 @@
+[
+  {
+    "brand": "NameBright",
+    "domains": [
+      "tldes.com",
+      "namebright.com",
+      "domaininvesting.com",
+      "domainoffer.net",
+      "namepros.com",
+      "domainhostcoupon.com",
+      "reddit.com",
+      "name.com",
+      "namebright.com",
+      "namepros.com"
+    ],
+    "classes": [
+      "other",
+      "official",
+      "media",
+      "other",
+      "other",
+      "other",
+      "other",
+      "other_provider_official",
+      "official",
+      "other"
+    ],
+    "official": 2,
+    "large": 1,
+    "other_provider_official": 1,
+    "decision": "do",
+    "scope": "Ten first-page independent organic positions, sitelinks and modules excluded."
+  }
+]

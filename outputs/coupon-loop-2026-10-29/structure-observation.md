@@ -1,0 +1,1 @@
+当次前三TLDES、NameBright和DomainInvesting正文均已读取。TLDES按注册/续费/转移列静态价格，无付款页签选择状态；DomainInvesting为2025-07-09历史新闻，含两种付款路线但不含本次当前页签复核及故意错配测试；NameBright官方展示Credit Card/Pre-Funded Account页签和操作列，是事实源。新增的是留存两页签注册格子的状态绑定、缺状态拒报与跨操作拒配三例，不能声称官方自己没有付款条件。固定GetDeploying遭安全拦截停止；VPSPriceTracker已读，借鉴先筛条件再看数的组织。未复制第三方码或历史价。

@@ -1,0 +1,68 @@
+{
+  "kind": "Synthetic document-evidence selection tests; not checkout tests",
+  "sources": [
+    "namebright-pricing-card.txt",
+    "namebright-pricing-prefund.txt"
+  ],
+  "input_values": "Current official Register cells; tab and column labels preserved",
+  "rule": "Require tab, matching ending and operation; never default to lowest headline",
+  "cases": [
+    {
+      "inputs": [
+        "Credit Card",
+        "com",
+        "Register"
+      ],
+      "expected": 10.99,
+      "actual": 10.99
+    },
+    {
+      "inputs": [
+        "Pre-Funded Account",
+        "com",
+        "Register"
+      ],
+      "expected": 10.44,
+      "actual": 10.44
+    },
+    {
+      "inputs": [
+        null,
+        "com",
+        "Register"
+      ],
+      "expected": "unresolved",
+      "actual": "unresolved"
+    },
+    {
+      "inputs": [
+        "Credit Card",
+        "com",
+        "Register",
+        "Renew"
+      ],
+      "expected": "reject_operation",
+      "actual": "reject_operation"
+    },
+    {
+      "inputs": [
+        "Credit Card",
+        "com",
+        "Register",
+        null,
+        "net"
+      ],
+      "expected": "reject_ending",
+      "actual": "reject_ending"
+    },
+    {
+      "inputs": [
+        "Credit Card",
+        "net",
+        "Register"
+      ],
+      "expected": 12.49,
+      "actual": 12.49
+    }
+  ]
+}

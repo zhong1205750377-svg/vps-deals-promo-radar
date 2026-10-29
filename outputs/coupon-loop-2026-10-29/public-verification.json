@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://vpspricewatch.com/coupons/namebright/",
+    "status": 200,
+    "sha256": "9867276e726e580fc9de67543624f0cb2c50d2c21455f2788ee1ae49814a0756",
+    "bytes": 12705
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "sha256": "b1a412eb71174db0c2b8041dd2b93329dd1811f9b4e81dae977b2d181363407a",
+    "bytes": 3626
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/namebright/payment-tabs.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/namebright/cell-checks.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/vultr/payment-scope-check.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "matches_local": true
+  }
+]

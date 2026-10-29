@@ -1,0 +1,28 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "format": {
+    "duration": "82.361497"
+  },
+  "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\outputs\\coupon-loop-2026-10-29\\namebright-payment-tabs.mp4",
+  "uploaded": true,
+  "synthetic_narration": true,
+  "sources": [
+    "https://www.namebright.com/pricing",
+    "https://www.namebright.com/terms"
+  ],
+  "url": "https://youtu.be/b2aEVwNCbj4",
+  "visibility": "public",
+  "public_page_verified": true,
+  "observed_playback": "0:06 / 1:22"
+}

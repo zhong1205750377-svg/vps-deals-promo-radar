@@ -1,0 +1,4 @@
+2026-10-29｜NameBright官方自营2大站1通过 https://vpspricewatch.com/coupons/namebright/，Name.com另一自营1位单列；当天跳过无｜T1新页付款状态审计蓝色层级与手机留白，回滚已存，390宽无溢出两图加载｜T2当次前三全部读，固定GetDeploying安全拦截停止、VPSPriceTracker已读，增加状态绑定与错配拒报测试｜T3官方双页签材料及真人历史疑问归档，用户官方取证要求用于当篇，无新群回传；Cloudflare明日官方计划页已备｜T4三组有据FAQ｜T5新页两图、旧Vultr补图保留原句，82.36秒免费讲解https://youtu.be/b2aEVwNCbj4已公开播放核验｜原创523/974=53.70%，文档测试非购买实测｜部署10a91299｜明天Cloudflare先过闸核优惠。
+
+当次前三TLDES、NameBright和DomainInvesting正文均已读取。TLDES按注册/续费/转移列静态价格，无付款页签选择状态；DomainInvesting为2025-07-09历史新闻，含两种付款路线但不含本次当前页签复核及故意错配测试；NameBright官方展示Credit Card/Pre-Funded Account页签和操作列，是事实源。新增的是留存两页签注册格子的状态绑定、缺状态拒报与跨操作拒配三例，不能声称官方自己没有付款条件。固定GetDeploying遭安全拦截停止；VPSPriceTracker已读，借鉴先筛条件再看数的组织。未复制第三方码或历史价。
+只做远程公网与390宽度核验，不冒称实体手机蜂窝流量。

@@ -1,0 +1,14 @@
+{
+  "documentWidth": 375,
+  "images": [
+    {
+      "loaded": true,
+      "src": "payment-tabs.svg"
+    },
+    {
+      "loaded": true,
+      "src": "cell-checks.svg"
+    }
+  ],
+  "width": 390
+}

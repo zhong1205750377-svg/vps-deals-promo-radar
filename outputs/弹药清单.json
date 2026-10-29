@@ -432,6 +432,32 @@
         "evidence": "coupon-loop-2026-10-28/tomorrow-namebright-text.txt",
         "status": "Official homepage content via public HTTP saved; browser navigation timed out. No current coupon or gate eligibility claimed."
       }
+    },
+    {
+      "date": "2026-10-29",
+      "article": "https://vpspricewatch.com/coupons/namebright/",
+      "sources": [
+        "https://www.namebright.com/",
+        "https://www.namebright.com/pricing",
+        "https://www.namebright.com/terms"
+      ],
+      "origin": "Official document research and project-authored questions; no new group results or volume",
+      "user_material_used": "User official-only/current-price/no-code-invention and offer-versus-terms requirements applied to actual article; no NameBright search volume invented",
+      "questions_file": "coupon-loop-2026-10-29/qa.json",
+      "research": "Observed selected Credit Card and Pre-Funded Account registration cells; minimum funding and final checkout totals not established",
+      "real_person_material": {
+        "source": "https://domaininvesting.com/namebright-offering-6-29-6-59-com-registrations/#comment-159522",
+        "author_display": "Rob",
+        "post_date": "2025-07-09",
+        "paraphrase": "Asks how an initial promotion compares with ongoing renewal costs.",
+        "scope": "Historical real comment archived, not a current official offer or a new group response; no renewal amount republished."
+      },
+      "tomorrow": {
+        "candidate": "Cloudflare",
+        "official": "https://www.cloudflare.com/plans/",
+        "evidence": "coupon-loop-2026-10-29/tomorrow-cloudflare.txt",
+        "status": "Current official plans body read and saved; tomorrow needs gate and offer verification, not yet approved to publish"
+      }
     }
   ]
 }
