@@ -1,0 +1,51 @@
+{
+  "url": "https://vpspricewatch.com/coupons/namebright/",
+  "date_modified": "2026-10-29",
+  "target_keyword": "namebright promo code",
+  "gap_id": "namebright-selected-payment-tab-registration-cell",
+  "sources": [
+    "https://www.namebright.com/pricing",
+    "https://www.namebright.com/terms",
+    "https://www.namebright.com/"
+  ],
+  "reviewed_at": "2026-10-29",
+  "offers": [
+    [
+      "No reusable public promo code verified",
+      "No literal reusable code was found in the reviewed official homepage and pricing page. The documented route is pre-funded at-cost pricing, recorded separately below.",
+      "https://www.namebright.com/pricing"
+    ]
+  ],
+  "terms": [
+    [
+      "Pre-funding prerequisite",
+      "The pricing page says to pre-fund the account before buying .COM and .NET for at-cost pricing; its footnote requires a pre-funded account.",
+      "https://www.namebright.com/pricing"
+    ],
+    [
+      "Current .COM registration cells",
+      "Credit Card tab: $10.99 per year. Pre-Funded Account tab: $10.44 per year. These are the current Register cells, not a coupon percentage or a renewal quotation.",
+      "https://www.namebright.com/pricing"
+    ],
+    [
+      "Current .NET registration cells",
+      "Credit Card tab: $12.49 per year. Pre-Funded Account tab: $11.84 per year. Keep the selected payment route attached to the amount.",
+      "https://www.namebright.com/pricing"
+    ],
+    [
+      "Payment timing",
+      "The Fees clause requires payment when services are rendered, by credit card or a previously funded Account Balance.",
+      "https://www.namebright.com/terms"
+    ],
+    [
+      "Unestablished details",
+      "No campaign expiry or minimum funding amount was established in the reviewed pricing text. An unpublished expiry does not mean permanent availability. No all-inclusive checkout total is claimed.",
+      "https://www.namebright.com/pricing"
+    ]
+  ],
+  "official_quotes": [
+    "* At-cost pricing requires a pre-funded account."
+  ],
+  "originality_scope": "Original state-key selection and wrong-tab/operation/ending tests, public document observations not checkout.",
+  "comparison_limit": "All current top3 read; no independent payment-tab state audit found in third-party samples. Official page provides underlying facts. Fixed GetDeploying blocked; VPSPriceTracker read."
+}

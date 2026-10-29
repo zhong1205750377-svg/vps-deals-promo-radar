@@ -873,6 +873,81 @@ The reviewed banner publishes a calendar date but does not identify a timezone o
 
 ---
 
+Source: https://vpspricewatch.com/coupons/namebright/
+
+NameBright promo code
+
+# No reusable code verified: check the pre-funded pricing route
+
+NameBright publishes at-cost pricing for pre-funded accounts; no reusable public promo-code string was verified in the official pages reviewed. For .COM registration, its selected tables show $10.99 per year by Credit Card and $10.44 per year by Pre-Funded Account. Pre-funding is a condition, not a coupon to type. No fixed campaign expiry was established.
+
+[Check the official pricing tabs](https://www.namebright.com/pricing) · Last checked and updated: 2026-10-29T09:03+08:00
+
+## Public promo-code status
+
+| Offer status | Evidence and conditions | Official source | Reviewed | 
+| No reusable public promo code verified | No literal reusable code was found in the reviewed official homepage and pricing page. The documented route is pre-funded at-cost pricing, recorded separately below. | [Official source](https://www.namebright.com/pricing) | 2026-10-29 | 
+
+## Current registration prices and payment terms
+
+| Price or term | Scope and conditions | Official source | Reviewed | 
+| Pre-funding prerequisite | The pricing page says to pre-fund the account before buying .COM and .NET for at-cost pricing; its footnote requires a pre-funded account. | [Official source](https://www.namebright.com/pricing) | 2026-10-29 | 
+| Current .COM registration cells | Credit Card tab: $10.99 per year. Pre-Funded Account tab: $10.44 per year. These are the current Register cells, not a coupon percentage or a renewal quotation. | [Official source](https://www.namebright.com/pricing) | 2026-10-29 | 
+| Current .NET registration cells | Credit Card tab: $12.49 per year. Pre-Funded Account tab: $11.84 per year. Keep the selected payment route attached to the amount. | [Official source](https://www.namebright.com/pricing) | 2026-10-29 | 
+| Payment timing | The Fees clause requires payment when services are rendered, by credit card or a previously funded Account Balance. | [Official source](https://www.namebright.com/terms) | 2026-10-29 | 
+| Unestablished details | No campaign expiry or minimum funding amount was established in the reviewed pricing text. An unpublished expiry does not mean permanent availability. No all-inclusive checkout total is claimed. | [Official source](https://www.namebright.com/pricing) | 2026-10-29 | 
+
+## Match the selected payment tab to the registration cell
+
+Start with the selected tab, rather than the smallest number visible on the screen. Our original audit retained two snapshots of the same official pricing page: one with Credit Card selected and one with Pre-Funded Account selected. It then joined each registration cell to its tab label and domain ending. This is a reproducible inspection of public page states. It is not a funded account, a coupon redemption or a completed domain order.
+
+### A quote needs a state, an ending and an operation
+
+The worksheet uses a three-part key: payment tab, domain ending and operation. For example, the observed Credit Card, dot-com, Register key returns the registration cell in that selected table. Changing only the tab selects a different observed cell. Leaving the tab blank returns an unresolved result, even when a cheaper headline remains visible above the table. That refusal is deliberate: a headline cannot fill a missing payment-state field.
+
+Our first synthetic test asks for a dot-com registration while identifying the payment route as Credit Card. The worksheet selects that route's registration amount. A second test keeps the ending and operation but specifies Pre-Funded Account. It selects the corresponding pre-funded registration amount. Neither output proves that an actual buyer has satisfied the account's funding requirements. The official footnote establishes a prerequisite; our document observation does not establish a person's account balance.
+
+### Reject a tempting cell from the wrong column
+
+The third test deliberately supplies a renewal cell as evidence for a registration request. The worksheet rejects the assignment because the operation label differs, even if the displayed amounts happen to match. Equality of two numbers does not make two services interchangeable. This guards against a common copying error in a compact pricing table: preserving the amount while losing the column that explains it.
+
+A fourth test presents the dot-net registration amount alongside a dot-com request. That assignment also fails. The reason is a domain-ending mismatch, not a judgment that one extension is cheaper or better. A fifth test omits the payment tab altogether and remains unresolved. These examples test our evidence-selection rule against intentionally incomplete or incompatible inputs. They do not test NameBright's checkout software or predict its response to an order.
+
+### Keep a public observation separate from account eligibility
+
+The public page demonstrates two selectable schedules and a pre-funding prerequisite. It does not show our own account qualifying for either schedule. We therefore leave minimum funding amount, available balance and an all-inclusive checkout total outside this worksheet. Those fields were not established by the reviewed pricing text. We do not replace unknown fees with zero or describe the difference between the two schedules as an official percentage-off coupon.
+
+To reproduce the audit, open the official pricing source, record the selected tab, and locate Register under the desired ending. Save the visible labels together with the amount and observation date before changing the tab. Repeat the observation for the other payment route. Use a fresh account-specific checkout for any actual purchasing decision. This method preserves the evidence needed to choose a cell without presenting a public document check as a purchase experiment.
+
+A registration amount belongs to a selected tab. Original document-based diagram.Three labels travel with the amount. Original document-based diagram.
+
+Worksheet input source: [NameBright current promotions](https://www.namebright.com/pricing), reviewed 2026-10-29.
+
+## Questions about the match
+
+### What should I do if I cannot find a NameBright promo code?
+
+The reviewed official route is pre-funded at-cost pricing rather than a verified reusable code. Open the pricing source and check the relevant payment tab before buying.
+
+[Official source](https://www.namebright.com/pricing) · Reviewed 2026-10-29
+
+### Can I quote the lowest headline for a Credit Card registration?
+
+The official table separates Credit Card and Pre-Funded Account. Read the Register cell in the selected payment tab; the at-cost footnote requires a pre-funded account.
+
+[Official source](https://www.namebright.com/pricing) · Reviewed 2026-10-29
+
+### Did this review fund an account or confirm a final checkout total?
+
+No. It observed public pricing states. Payment is due when services are rendered under the Fees clause, and no account was funded or order placed.
+
+[Official source](https://www.namebright.com/terms) · Reviewed 2026-10-29
+
+[Other official offer records](https://vpspricewatch.com/coupons/) · [VPS Price Watch home](https://vpspricewatch.com/).
+
+
+---
+
 Source: https://vpspricewatch.com/coupons/namecheap/
 
 # Namecheap promo code
