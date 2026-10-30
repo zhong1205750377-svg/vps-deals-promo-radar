@@ -1,0 +1,51 @@
+{
+  "url": "https://vpspricewatch.com/coupons/carrd/",
+  "date_modified": "2026-10-30",
+  "target_keyword": "carrd promo code",
+  "gap_id": "carrd-trial-element-budget-feature-subset",
+  "sources": [
+    "https://carrd.co/docs/pro/trial",
+    "https://carrd.co/pro"
+  ],
+  "reviewed_at": "2026-10-30",
+  "offers": [
+    [
+      "Seven-day Pro trial",
+      "The official documentation offers a subset of Pro features free for 7 days, with no payment or credit card information required. Use its official Start Pro Trial link.",
+      "https://carrd.co/docs/pro/trial"
+    ]
+  ],
+  "terms": [
+    [
+      "Trial element limit",
+      "The trial documentation lists up to 150 elements; the paid Pro comparison separately describes unlimited elements.",
+      "https://carrd.co/docs/pro/trial"
+    ],
+    [
+      "Included trial capabilities",
+      "The trial list includes custom domain URLs, contact/signup forms, advanced forms and widgets, among other listed capabilities. It is a subset, not a blanket promise of every paid feature.",
+      "https://carrd.co/docs/pro/trial"
+    ],
+    [
+      "Custom domain condition",
+      "Custom Domain URLs supports publishing to custom domains you own, with SSL support. This does not advertise a free domain registration.",
+      "https://carrd.co/docs/pro/trial"
+    ],
+    [
+      "Upgrade route",
+      "The documentation permits upgrading to a full Pro plan during or after the trial. No upgrade or payment was performed here.",
+      "https://carrd.co/docs/pro/trial"
+    ],
+    [
+      "Public code and expiry status",
+      "No reusable public code was verified in these official pages. No fixed campaign closing date was established; that does not mean permanent availability. Seven days is the trial duration, not a code expiry.",
+      "https://carrd.co/pro"
+    ]
+  ],
+  "official_quotes": [
+    "150 Element Limit"
+  ],
+  "originality_scope": "Original trial element budget and feature-subset experiment planning; synthetic boundaries, no trial or website activated.",
+  "comparison_limit": "TechJury and SimplyCodes bodies read; Reddit network security stopped. No all-three omission claim. Fixed VPSPriceTracker read.",
+  "official_redirect": "carrd.co redirects to carrd.com in the controlled browser; official branded documentation read"
+}
