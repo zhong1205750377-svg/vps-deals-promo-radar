@@ -1,0 +1,10 @@
+{
+  "change": "New trial budget section has warm contrast, inset reading panel, spaced subheadings and mobile padding",
+  "rollback": "rollback/carrd-before-visual.html",
+  "mobile_pending": false,
+  "mobile_evidence": [
+    "mobile-first.png",
+    "mobile-diagrams.png",
+    "mobile-images.json"
+  ]
+}

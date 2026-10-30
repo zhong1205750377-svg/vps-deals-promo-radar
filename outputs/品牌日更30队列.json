@@ -1,7 +1,7 @@
 {
-  "date_bjt": "2026-10-29",
+  "date_bjt": "2026-10-30",
   "source_policy": "Actual accessible official product/pricing pages; no coupon claimed until official offer terms read.",
-  "ready_count": 25,
+  "ready_count": 23,
   "brands": [
     {
       "brand": "Porkbun",
@@ -1165,13 +1165,48 @@
       "official_source": "https://www.cloudflare.com/",
       "checked_bjt": "2026-10-26",
       "query": "cloudflare promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.cloudflare.com/",
       "title": "Cloudflare: Build for the agent era",
       "evidence": "coupon-loop-2026-10-26/queue-cloudflare_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-10-30",
+      "gate_reading": {
+        "brand": "Cloudflare",
+        "domains": [
+          "cloudflare.com",
+          "resourify.com",
+          "tld-list.com",
+          "cloudflare.com",
+          "the-online.com",
+          "developers.cloudflare.com",
+          "cloudflare.com",
+          "cybernews.com",
+          "credits.metricly.co",
+          "techradar.com"
+        ],
+        "classes": [
+          "official",
+          "other",
+          "other",
+          "official",
+          "other",
+          "official",
+          "official",
+          "media",
+          "other",
+          "media"
+        ],
+        "official": 4,
+        "large": 2,
+        "decision": "skip",
+        "scope": "Ten first-page independent organic positions, modules excluded"
+      },
+      "gate_evidence": "coupon-loop-2026-10-30/occupancy.json",
+      "official_occupancy": 4,
+      "large_occupancy": 2
     },
     {
       "brand": "Carrd",
@@ -1180,13 +1215,51 @@
       "official_source": "https://carrd.co/pro",
       "checked_bjt": "2026-10-26",
       "query": "carrd promo code",
-      "status": "queued_gate_pending",
-      "offer_verified": false,
+      "status": "published",
+      "offer_verified": true,
       "http_status": 200,
       "final_url": "https://carrd.com/pro",
       "title": "Go Pro! - Carrd",
-      "evidence": "coupon-loop-2026-10-26/queue-carrd_co.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "evidence": "coupon-loop-2026-10-30/facts.json",
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-10-30",
+      "gate_reading": {
+        "brand": "Carrd",
+        "domains": [
+          "reddit.com",
+          "techjury.net",
+          "simplycodes.com",
+          "facebook.com",
+          "wethrift.com",
+          "linkedin.com",
+          "joinsecret.com",
+          "try.carrd.co",
+          "knowt.com",
+          "gamma.app"
+        ],
+        "classes": [
+          "forum",
+          "media",
+          "large_coupon",
+          "social",
+          "large_coupon",
+          "user_generated",
+          "large_deal",
+          "official",
+          "user_generated",
+          "user_generated"
+        ],
+        "official": 1,
+        "large": 4,
+        "decision": "do",
+        "scope": "Ten independent first-page organic results; Reddit sitelinks and sponsored dailydealreview excluded; user-generated pages not platform editorial media"
+      },
+      "gate_evidence": "coupon-loop-2026-10-30/occupancy.json",
+      "official_occupancy": 1,
+      "large_occupancy": 4,
+      "published_date": "2026-10-30",
+      "url": "https://vpspricewatch.com/coupons/carrd/",
+      "deployment": "dcbc52e8"
     },
     {
       "brand": "Typedream",
@@ -2124,5 +2197,5 @@
       "error": "TooManyRedirects"
     }
   ],
-  "remaining_untried": 25
+  "remaining_untried": 23
 }

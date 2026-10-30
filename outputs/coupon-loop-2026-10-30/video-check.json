@@ -1,0 +1,28 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_type": "audio"
+    }
+  ],
+  "format": {
+    "duration": "85.705624"
+  },
+  "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\javascript-ilang-type-command-course-ai\\outputs\\coupon-loop-2026-10-30\\carrd-trial-budget.mp4",
+  "uploaded": true,
+  "synthetic_narration": true,
+  "sources": [
+    "https://carrd.co/docs/pro/trial",
+    "https://carrd.co/pro"
+  ],
+  "url": "https://youtu.be/RX6Cm7H_0Z0",
+  "visibility": "public",
+  "public_page_verified": true,
+  "observed_playback": "0:03 / 1:25"
+}

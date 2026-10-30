@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://vpspricewatch.com/coupons/carrd/",
+    "status": 200,
+    "sha256": "b352447d748f15ba525e059b4706b6471feb5feffde6501fa84bf1f227492aaa",
+    "bytes": 12276
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "sha256": "464d4b1dee7ffed93b7ede79121bf2541438fdf6cb199545b2346c15dafa3ddc",
+    "bytes": 3717
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/carrd/trial-budget.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/carrd/trial-features.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/coupons/cloudways/trial-scope-map.svg",
+    "status": 200,
+    "matches_local": true
+  },
+  {
+    "url": "https://vpspricewatch.com/sitemap.xml",
+    "status": 200,
+    "matches_local": true
+  }
+]

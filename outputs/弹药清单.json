@@ -458,6 +458,27 @@
         "evidence": "coupon-loop-2026-10-29/tomorrow-cloudflare.txt",
         "status": "Current official plans body read and saved; tomorrow needs gate and offer verification, not yet approved to publish"
       }
+    },
+    {
+      "date": "2026-10-30",
+      "article": "https://vpspricewatch.com/coupons/carrd/",
+      "sources": [
+        "https://carrd.co/docs/pro/trial",
+        "https://carrd.co/pro"
+      ],
+      "origin": "Official research and operator-authored questions; no group-bot response or invented real-person quote",
+      "user_material_used": "Official-only/no invented coupon/offer-versus-terms discipline applied; no Carrd volume supplied or invented",
+      "questions_file": "coupon-loop-2026-10-30/qa.json",
+      "research": "Seven-day card-free trial, 150-element cap, feature subset and owned-domain prerequisite; no trial activated",
+      "tomorrow": {
+        "candidate": "Typedream",
+        "official": "https://typedream.com/pricing",
+        "evidence": [
+          "coupon-loop-2026-10-30/tomorrow-typedream.txt",
+          "coupon-loop-2026-10-30/tomorrow-typedream-pricing.txt"
+        ],
+        "status": "Official home and pricing bodies read; gate and current offer verification remain for tomorrow"
+      }
     }
   ]
 }

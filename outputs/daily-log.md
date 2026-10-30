@@ -94,3 +94,5 @@
 2026-10-28｜Gname官方自营2大站4通过 https://vpspricewatch.com/coupons/gname/，另有Name.com自营1位单列｜跳过BuyVM官方0大站7、Name.com官方2大站7、Sav官方0大站7｜T1新页数量台账分隔与清晰首屏，留回滚，390无溢出两图加载｜T2Gname、Name.com及固定GetDeploying已读，WorthEPenny安全验证停止，不冒称前三全读｜T3官方素材归档，NameBright官网HTTP正文已备，浏览器超时已记，无新群回传｜T4四个有出处FAQ｜T5新页两图旧DreamHost补图原句保留，82秒免费讲解https://youtu.be/eVXTGdG9Y8M公开播放已核｜原创533/976=54.61%，非购买实测｜部署9d8b166e｜明天NameBright先过闸。
 
 2026-10-29｜NameBright官方自营2大站1通过 https://vpspricewatch.com/coupons/namebright/，Name.com另一自营1位单列；当天跳过无｜T1新页付款状态审计蓝色层级与手机留白，回滚已存，390宽无溢出两图加载｜T2当次前三全部读，固定GetDeploying安全拦截停止、VPSPriceTracker已读，增加状态绑定与错配拒报测试｜T3官方双页签材料及真人历史疑问归档，用户官方取证要求用于当篇，无新群回传；Cloudflare明日官方计划页已备｜T4三组有据FAQ｜T5新页两图、旧Vultr补图保留原句，82.36秒免费讲解https://youtu.be/b2aEVwNCbj4已公开播放核验｜原创523/974=53.70%，文档测试非购买实测｜部署10a91299｜明天Cloudflare先过闸核优惠。
+
+2026-10-30｜Carrd官方自营1大站4通过 https://vpspricewatch.com/coupons/carrd/｜跳过Cloudflare官方4大站2｜T1当篇试用预算暖色分块与手机留白，留回滚，390无溢出两图加载｜T2TechJury、SimplyCodes和固定VPSPriceTracker已读，Reddit安全拦截停止，无全前三独家主张｜T3官方试用与Pro素材及3组自拟问题归档，无新群回传或真人引文；Typedream明日首页/定价正文已备｜T4三组有据FAQ｜T5新页两图旧Cloudways补图原句保留，85.71秒免费讲解https://youtu.be/RX6Cm7H_0Z0公开播放已核｜原创545/967=56.36%，非激活实测｜部署dcbc52e8｜明天Typedream先过闸核优惠。

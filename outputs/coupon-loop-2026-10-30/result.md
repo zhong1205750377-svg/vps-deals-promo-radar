@@ -1,0 +1,4 @@
+2026-10-30｜Carrd官方自营1大站4通过 https://vpspricewatch.com/coupons/carrd/｜跳过Cloudflare官方4大站2｜T1当篇试用预算暖色分块与手机留白，留回滚，390无溢出两图加载｜T2TechJury、SimplyCodes和固定VPSPriceTracker已读，Reddit安全拦截停止，无全前三独家主张｜T3官方试用与Pro素材及3组自拟问题归档，无新群回传或真人引文；Typedream明日首页/定价正文已备｜T4三组有据FAQ｜T5新页两图旧Cloudways补图原句保留，85.71秒免费讲解https://youtu.be/RX6Cm7H_0Z0公开播放已核｜原创545/967=56.36%，非激活实测｜部署dcbc52e8｜明天Typedream先过闸核优惠。
+
+TechJury按折扣卡/统计/FAQ组织，SimplyCodes按核验卡/策略/FAQ组织；两页加载正文未见本文150元素预算边界测试与域名所有权未决字段组合。Reddit网络安全阻断，立即停止，没有全前三独家主张。固定VPSPriceTracker已读，借鉴先限定筛选条件再展示结果。本文只用Carrd官方trial与pro页面，优惠码未获官方核实不采用；试用范围/有界元素预算/账户状态分开，不冒称激活实测。
+仅远程公网和390手机宽度检查，不冒称实体手机流量。

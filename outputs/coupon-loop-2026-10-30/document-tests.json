@@ -1,0 +1,31 @@
+{
+  "type": "Synthetic trial-planning rule tests, not Carrd account tests",
+  "official_input": "Trial element ceiling 150 from official trial documentation",
+  "formula": "remaining=150-proposed_elements; count_pass=0<=proposed_elements<=150",
+  "cases": [
+    {
+      "elements": 149,
+      "remaining": 1,
+      "expected": "within_count_only",
+      "actual": "within_count_only"
+    },
+    {
+      "elements": 150,
+      "remaining": 0,
+      "expected": "within_count_only",
+      "actual": "within_count_only"
+    },
+    {
+      "elements": 151,
+      "remaining": -1,
+      "expected": "over_trial_limit",
+      "actual": "over_trial_limit"
+    },
+    {
+      "elements": 150,
+      "custom_domain_required": true,
+      "owned_domain": null,
+      "actual": "domain_ownership_unresolved"
+    }
+  ]
+}

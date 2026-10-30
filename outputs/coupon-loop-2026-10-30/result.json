@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-30",
+  "status": "published_and_six_tracks_executed_with_declared_read_limit",
+  "article": "https://vpspricewatch.com/coupons/carrd/",
+  "target_keyword": "carrd promo code",
+  "official": 1,
+  "large": 4,
+  "top3": [
+    "reddit.com",
+    "techjury.net",
+    "simplycodes.com"
+  ],
+  "skipped": [
+    {
+      "brand": "Cloudflare",
+      "domains": [
+        "cloudflare.com",
+        "resourify.com",
+        "tld-list.com",
+        "cloudflare.com",
+        "the-online.com",
+        "developers.cloudflare.com",
+        "cloudflare.com",
+        "cybernews.com",
+        "credits.metricly.co",
+        "techradar.com"
+      ],
+      "classes": [
+        "official",
+        "other",
+        "other",
+        "official",
+        "other",
+        "official",
+        "official",
+        "media",
+        "other",
+        "media"
+      ],
+      "official": 4,
+      "large": 2,
+      "decision": "skip",
+      "scope": "Ten first-page independent organic positions, modules excluded"
+    }
+  ],
+  "read_limit": "TechJury按折扣卡/统计/FAQ组织，SimplyCodes按核验卡/策略/FAQ组织；两页加载正文未见本文150元素预算边界测试与域名所有权未决字段组合。Reddit网络安全阻断，立即停止，没有全前三独家主张。固定VPSPriceTracker已读，借鉴先限定筛选条件再展示结果。本文只用Carrd官方trial与pro页面，优惠码未获官方核实不采用；试用范围/有界元素预算/账户状态分开，不冒称激活实测。",
+  "t1": {
+    "result": "Warm audit panel hierarchy and mobile padding verified",
+    "rollback": "rollback/",
+    "evidence": [
+      "visual-change.json",
+      "mobile-first.png",
+      "mobile-diagrams.png",
+      "mobile-images.json"
+    ]
+  },
+  "t2": {
+    "result": "TechJury按折扣卡/统计/FAQ组织，SimplyCodes按核验卡/策略/FAQ组织；两页加载正文未见本文150元素预算边界测试与域名所有权未决字段组合。Reddit网络安全阻断，立即停止，没有全前三独家主张。固定VPSPriceTracker已读，借鉴先限定筛选条件再展示结果。本文只用Carrd官方trial与pro页面，优惠码未获官方核实不采用；试用范围/有界元素预算/账户状态分开，不冒称激活实测。",
+    "evidence": [
+      "top1-reddit.txt",
+      "top2-techjury.txt",
+      "top3-simplycodes.txt",
+      "fixed-vpspricetracker.txt"
+    ]
+  },
+  "t3": {
+    "result": "Official trial/Pro material and authored FAQ archived; no new group/real-person claims; Typedream homepage and pricing saved"
+  },
+  "t4": {
+    "result": "Three sourced FAQ live",
+    "evidence": "qa.json"
+  },
+  "t5": {
+    "result": "Two original new diagrams; additive Cloudways diagram preserves original words; narrated video publicly played",
+    "video": "https://youtu.be/RX6Cm7H_0Z0"
+  },
+  "audit": {
+    "url": "https://vpspricewatch.com/coupons/carrd/",
+    "original_words": 545,
+    "total_body_words": 967,
+    "formula": "545 / 967",
+    "ratio": 0.5635987590486039,
+    "original_section": "trial-budget",
+    "published": true,
+    "scope": "Original trial element budget and feature-subset experiment planning; synthetic boundaries, no trial or website activated.",
+    "paragraph_counts": [
+      64,
+      73,
+      72,
+      81,
+      69,
+      80,
+      70
+    ]
+  },
+  "deployment": "dcbc52e8",
+  "source_commit": "224c691",
+  "rollback": "rollback/; previous deployment 10a91299",
+  "tomorrow": "Typedream: gate and current offer not yet verified",
+  "remaining": [],
+  "completed_at": "2026-10-30T09:11:16.892109+08:00"
+}

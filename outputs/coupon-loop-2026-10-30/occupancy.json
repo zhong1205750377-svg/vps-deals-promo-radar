@@ -1,0 +1,64 @@
+[
+  {
+    "brand": "Cloudflare",
+    "domains": [
+      "cloudflare.com",
+      "resourify.com",
+      "tld-list.com",
+      "cloudflare.com",
+      "the-online.com",
+      "developers.cloudflare.com",
+      "cloudflare.com",
+      "cybernews.com",
+      "credits.metricly.co",
+      "techradar.com"
+    ],
+    "classes": [
+      "official",
+      "other",
+      "other",
+      "official",
+      "other",
+      "official",
+      "official",
+      "media",
+      "other",
+      "media"
+    ],
+    "official": 4,
+    "large": 2,
+    "decision": "skip",
+    "scope": "Ten first-page independent organic positions, modules excluded"
+  },
+  {
+    "brand": "Carrd",
+    "domains": [
+      "reddit.com",
+      "techjury.net",
+      "simplycodes.com",
+      "facebook.com",
+      "wethrift.com",
+      "linkedin.com",
+      "joinsecret.com",
+      "try.carrd.co",
+      "knowt.com",
+      "gamma.app"
+    ],
+    "classes": [
+      "forum",
+      "media",
+      "large_coupon",
+      "social",
+      "large_coupon",
+      "user_generated",
+      "large_deal",
+      "official",
+      "user_generated",
+      "user_generated"
+    ],
+    "official": 1,
+    "large": 4,
+    "decision": "do",
+    "scope": "Ten independent first-page organic results; Reddit sitelinks and sponsored dailydealreview excluded; user-generated pages not platform editorial media"
+  }
+]
