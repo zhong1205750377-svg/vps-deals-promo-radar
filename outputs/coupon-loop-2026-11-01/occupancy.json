@@ -1,0 +1,67 @@
+{
+  "official_count": 3,
+  "positions": [
+    {
+      "domain": "simplycodes.com",
+      "class": "large_coupon",
+      "position": 1
+    },
+    {
+      "domain": "joinsecret.com",
+      "class": "large_deal_marketplace",
+      "position": 2
+    },
+    {
+      "domain": "community.koyeb.com",
+      "class": "official",
+      "position": 3
+    },
+    {
+      "domain": "medium.com",
+      "class": "media",
+      "position": 4
+    },
+    {
+      "domain": "www.koyeb.com",
+      "class": "official",
+      "position": 5
+    },
+    {
+      "domain": "github.com",
+      "class": "other",
+      "position": 6
+    },
+    {
+      "domain": "srvrlss.io",
+      "class": "independent_review",
+      "position": 7
+    },
+    {
+      "domain": "freestuff.dev",
+      "class": "other",
+      "position": 8
+    },
+    {
+      "domain": "www.koyeb.com",
+      "class": "official",
+      "position": 9
+    },
+    {
+      "domain": "trustpilot.com",
+      "class": "review_platform_other",
+      "position": 10
+    }
+  ],
+  "region_parameters": {
+    "hl": "en",
+    "gl": "us",
+    "pws": 0
+  },
+  "large_coupon_media_count": 3,
+  "google_url": "https://www.google.com.hk/search?q=koyeb+promo+code&gl=us&hl=en&pws=0&num=100",
+  "date_bjt": "2026-11-01",
+  "query": "koyeb promo code",
+  "sample": "10 independent organic positions; ads and SERP modules excluded",
+  "decision": "gate_passed",
+  "note": "Gate only; writing held because two of the required top three pages could not be read safely."
+}

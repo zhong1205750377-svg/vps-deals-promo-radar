@@ -1,0 +1,581 @@
+Browser tab: 138024024, Title: "VPS Price Tracker: Rank and Compare VPS Hardware & Network", URL: "https://vpspricetracker.com/".
+0 AXWebArea VPS Price Tracker: Rank and Compare VPS Hardware & Network, URL: vpspricetracker.com/
+	1 container
+		2 link Description: VPS Price Tracker logo, Value: vpspricetracker.com/
+		3 text an independent Search Engine for VPSs ranked by price
+		4 link Description: Storage Box, Value: vpspricetracker.com/search?region=&virtualization_type=kvm+hv&os=linux&cpu_brand=intel&cpus_shared=1&cpus_dedicated=0&memory=512&disk_type=hdd&disk_size=2000&bandwidth=1000&port_speed=0.1&in_stock=true&reliable=true&preset
+		5 link Description: Seed Box, Value: vpspricetracker.com/search?region=&virtualization_type=kvm+hv&os=linux&cpu_brand=intel&cpus_shared=1&memory=1024&disk_type=hdd&disk_size=100&bandwidth=20000&port_speed=0.1&ipv4=true&in_stock=true&reliable=true&preset
+		6 link Description: Fast CPU, Value: vpspricetracker.com/search?region=&virtualization_type=kvm+hv&os=linux&cpu_brand=ryzen&cpus_shared=4&memory=2048&disk_type=ssd&disk_size=30&bandwidth=125&port_speed=0.1&in_stock=true&reliable=true&preset
+		7 link Description: High RAM, Value: vpspricetracker.com/search?region=&virtualization_type=kvm+hv&os=linux&cpu_brand=intel&cpus_shared=1&memory=16000&disk_type=hdd&disk_size=50&bandwidth=1000&port_speed=0.1&in_stock=true&reliable=true&preset
+		8 heading Search a VPS:, Value: 3
+			9 text Search a VPS:
+		10 container sidebar_search_form
+			11 container
+				12 container hardware tenancy
+					13 text Tenancy
+				14 pop up button (collapsed, settable) Tenancy, Help: hardware tenancy, Value: VPS, ID: domain, Secondary Actions: Expand
+					15 menu
+						16 (selected) VPS
+						17 bare metal
+				18 text Region
+				19 pop up button (collapsed, settable) Region, Value: Europe, ID: region, Secondary Actions: Expand
+					20 menu
+						21 Africa
+						22 Asia
+						23 (selected) Europe
+						24 Middle East
+						25 North America
+						26 Oceania
+						27 South America
+						28 any
+				29 container subordinate to Region
+					30 text Country
+				31 pop up button (collapsed, settable) Country, Help: subordinate to Region, Value: any, ID: country, Secondary Actions: Expand
+					32 menu
+						33 Albania
+						34 Austria
+						35 Belgium
+						36 Bulgaria
+						37 Cyprus
+						38 Czechia
+						39 Denmark
+						40 Estonia
+						41 Finland
+						42 France
+						43 Georgia
+						44 Germany
+						45 Greece
+						46 Hungary
+						47 Ireland
+						48 Italy
+						49 Latvia
+						50 Lithuania
+						51 Moldova
+						52 Netherlands
+						53 Norway
+						54 Poland
+						55 Portugal
+						56 Romania
+						57 Russia
+						58 Serbia
+						59 Slovakia
+						60 Slovenia
+						61 Spain
+						62 Sweden
+						63 Switzerland
+						64 UK
+						65 Ukraine
+						66 (selected) any
+				67 container name of city
+					68 text City
+				69 text field (settable) City, Help: name of city, ID: city
+				70 container how often the service renews; providers may offer discounts for longer payment terms
+					71 text Service duration
+				72 pop up button (collapsed, settable) Service duration, Help: how often the service renews; providers may offer discounts for longer payment terms, Value: prefer monthly, ID: period, Secondary Actions: Expand
+					73 menu
+						74 (selected) prefer monthly
+						75 prefer annual
+						76 monthly only
+						77 annual only
+				78 container container virtualization
+					79 text Virtualization
+				80 pop up button (collapsed, settable) Virtualization, Help: container virtualization, Value: KVM/HV, ID: virtualization_type, Secondary Actions: Expand
+					81 menu
+						82 (selected) KVM/HV
+						83 LXC/OVZ
+						84 any
+				85 container operating system
+					86 text Operating system
+				87 pop up button (collapsed, settable) Operating system, Help: operating system, Value: Linux, ID: os, Secondary Actions: Expand
+					88 menu
+						89 (selected) Linux
+						90 Windows
+						91 Custom ISO
+						92 any
+				93 container worst CPU class to search for
+					94 text CPU brand
+				95 pop up button (collapsed, settable) CPU brand, Help: worst CPU class to search for, Value: Intel, ID: cpu_brand, Secondary Actions: Expand
+					96 menu
+						97 (selected) Intel
+						98 Ryzen
+						99 Epyc
+						100 any
+				101 container minimum number of vCores – shared
+					102 text CPUs – shared
+				103 stepper (settable, integer) CPUs – shared, Help: minimum number of vCores – shared, Value: 1, ID: cpus_shared
+				104 container minimum number of vCores – dedicated
+					105 text CPUs – dedicated
+				106 stepper (settable, integer) CPUs – dedicated, Help: minimum number of vCores – dedicated, Value: 0, ID: cpus_dedicated
+				107 container minimum RAM size to search for
+					108 text RAM [MB]
+				109 stepper (settable, integer) RAM [MB], Help: minimum RAM size to search for, Value: 128, ID: memory
+				110 container worst storage class to search for
+					111 text Disk type
+				112 pop up button (collapsed, settable) Disk type, Help: worst storage class to search for, Value: HDD, ID: disk_type, Secondary Actions: Expand
+					113 menu
+						114 (selected) HDD
+						115 SSD
+						116 NVMe
+						117 any
+				118 container minimum storage size
+					119 text Disk size [GB]
+				120 stepper (settable, integer) Disk size [GB], Help: minimum storage size, Value: 2, ID: disk_size
+				121 container minimum monthly bandwidth
+					122 text Bandwidth per month [GB]
+				123 stepper (settable, integer) Bandwidth per month [GB], Help: minimum monthly bandwidth, Value: 125, ID: bandwidth
+				124 container minimum network speed
+					125 text Network speed [Gbps]
+				126 stepper (settable, integer) Network speed [Gbps], Help: minimum network speed, Value: 0, ID: port_speed
+				127 container 1 IPv4 address or more
+					128 text IPv4
+				129 checkbox (settable, integer) Description: IPv4, Help: 1 IPv4 address or more, Value: 0, ID: ipv4
+				130 container 1 IPv6 address or more
+					131 text IPv6
+				132 checkbox (settable, integer) Description: IPv6, Help: 1 IPv6 address or more, Value: 0, ID: ipv6
+				133 container include services with a shared IP behind NAT
+					134 text NAT
+				135 checkbox (settable, integer) Description: NAT, Help: include services with a shared IP behind NAT, Value: 0, ID: nat
+				136 container copyright takedown requests are toilet paper
+					137 text DMCA requests ignored
+				138 checkbox (settable, integer) Description: DMCA requests ignored, Help: copyright takedown requests are toilet paper, Value: 0, ID: dmca_ignore
+				139 container distribution of pornography is permitted
+					140 text Porn
+				141 checkbox (settable, integer) Description: Porn, Help: distribution of pornography is permitted, Value: 0, ID: porn
+				142 container support for BGP (fees may apply)
+					143 text BGP session
+				144 checkbox (settable, integer) Description: BGP session, Help: support for BGP (fees may apply), Value: 0, ID: bgp_session
+				145 container reverse DNS support
+					146 text rDNS
+				147 checkbox (settable, integer) Description: rDNS, Help: reverse DNS support, Value: 0, ID: rdns
+				148 checkbox (settable, integer) Description: Monero (XMR) payment, Value: 0, ID: monero_payment
+				149 container only show services currently in stock
+					150 text In stock
+				151 checkbox (settable, integer) Description: In stock, Help: Only show services currently in stock, Value: 1, ID: in_stock
+				152 container include or exclude services with known reliability issues
+					153 text Reliable
+				154 checkbox (settable, integer) Description: Reliable, Help: Include or exclude services with known reliability issues, Value: 1, ID: reliable
+			155 button Search
+		156 table
+			157 row The database contains 464,623 VPS configurations
+				158 cell
+					159 text Database size:
+				160 cell
+					161 text 464,623 VPSs
+			162 row The database was last updated 37 hours ago
+				163 cell
+					164 text Database update:
+				165 cell
+					166 text 37 hours ago
+		167 container cards_holder
+			168 heading The Largest VPS Directory and Comparator, Value: 1
+				169 text The Largest VPS Directory and Comparator
+			170 container
+				171 text VPS Price Tracker  is among the most comprehensive VPS lists from cheap to high-end cloud providers. With over 250,000 VPSs from nearly a hundred providers, this search engine collects and indexes a large database of offers, making it easy to compare and pick the best VPS for your needs. My mission is to help you find the perfect VPS that meets your specific needs and budget.
+			172 text The user-friendly interface allows you to search for VPSs based on a multitude of parameters, including CPU class, memory size, disk type, port speed and bandwidth, and a customized VPS list is compiled just for you with the results of your search. This level of customization ensures that you can find the ideal VPS that aligns with your requirements.
+			173 container
+				174 text Each VPS listing in the directory is presented in a compact product card, showcasing the most relevant information at a glance. This includes details such as monthly price, disk type and size, memory, CPU, and more. You can also view the complete data for each VPS, including whether it supports IPv4, IPv6, and various virtualization types from the  Info  page.
+			175 text VPS Price Tracker is designed to be the reference point for all your VPS needs. Whether you're a seasoned developer or just starting out, this comprehensive VPS directory will help you make an informed decision and find the perfect VPS for your project.
+			176 text Familiarize yourself with the search form on the sidebar and discover the ideal VPS for your needs. With this extensive database and powerful search engine, you're sure to find the perfect VPS that meets your requirements and budget.
+			177 heading Market Analysis of VPS Hosting Prices, Value: 2
+				178 text Market Analysis of VPS Hosting Prices
+			179 container
+				180 text VPS Price Tracker  automatically collects and analyzes the prices of 
+				181 link Description: 120 VPS service providers, Value: vpspricetracker.com/providers
+				182 text  compiling statistics every 24 hours. The following paragraphs analyze the current market prices and the availability of different classes of VPS servers across the circa 300,000 server configurations known to VPS Price Tracker.
+			183 heading Cheapest VPS with 2GB of RAM:, Value: 2
+				184 text Cheapest VPS with 2GB of RAM:
+			185 container
+				186 text Across all regional territories, operating systems, hypervisors and CPU models, the following are the cheapest VPSs with 2 or more GB of memory currently sold on the market as of October 2026. Discounts on yearly payment terms are incorporated in the price if available. You can ❯ 
+				187 link Description: execute this query, Value: vpspricetracker.com/search?period=prefer_year&virtualization_type=kvm+hv&memory=2000&in_stock=true&reliable=false
+				188 text  to tune the search facets.
+			189 container
+				190 heading DediRock — $10.88 / year, Value: 3
+					191 text DediRock  — $10.88 / year
+				192 image cpu
+				193 text    1 Intel Cores (shared)
+				194 image ram
+				195 text    2,048 MB RAM
+				196 image disk
+				197 text    30 GB SSD
+				198 image bandwidth
+				199 text    2,048 GB/month bandwidth
+				200 image rj45
+				201 text    1 Gbps port speed
+				202 image inet
+				203 text    IPv4
+				204 image city
+				205 text    Los Angeles California U.S.A. 🇺🇸
+				206 link Description: Info, Value: vpspricetracker.com/info/1876543/DediRock/Promo_VPS_Special_LA
+				207 link Description: Go, Value: vpspricetracker.com/offer/1876543/DediRock/Promo_VPS_Special_LA
+			208 container
+				209 heading HostBrr — $16.50 / year, Value: 3
+					210 text HostBrr  — $16.50 / year
+				211 image cpu
+				212 text    1 Ryzen Cores (shared)
+				213 image ram
+				214 text    2,048 MB RAM
+				215 image disk
+				216 text    30 GB NVMe
+				217 image bandwidth
+				218 text    5,000 GB/month bandwidth
+				219 image rj45
+				220 text    1 Gbps port speed
+				221 image inet
+				222 text    IPv6
+				223 image city
+				224 text    Falkenstein Germany 🇩🇪
+				225 link Description: Info, Value: vpspricetracker.com/info/82/HostBrr/DE_Performance_2GBrr_IPv6_Only
+				226 link Description: Go, Value: vpspricetracker.com/offer/82/HostBrr/DE_Performance_2GBrr_IPv6_Only
+			227 container
+				228 heading C-Servers — $22.99 / year, Value: 3
+					229 text C-Servers  — $22.99 / year
+				230 image cpu
+				231 text    2 Intel Cores (shared)
+				232 image ram
+				233 text    2,048 MB RAM
+				234 image disk
+				235 text    40 GB NVMe
+				236 image bandwidth
+				237 text    6,144 GB/month bandwidth
+				238 image rj45
+				239 text    2 Gbps port speed
+				240 image inet
+				241 text    IPv4 + IPv6
+				242 image city
+				243 text    Amsterdam Netherlands 🇳🇱
+				244 link Description: Info, Value: vpspricetracker.com/info/1941510/C_Servers/FullVPS_2048_Plus
+				245 link Description: Go, Value: vpspricetracker.com/offer/1941510/C_Servers/FullVPS_2048_Plus
+			246 heading Cheapest VPS with 4GB of RAM:, Value: 2
+				247 text Cheapest VPS with 4GB of RAM:
+			248 container
+				249 text This analysis rises the minimum memory size to 4 GB per VPS, enforcing no other requirements on the search filter except for the servers being currently in stock and available for sale. You can ❯ 
+				250 link Description: execute this query, Value: vpspricetracker.com/search?period=prefer_year&virtualization_type=kvm+hv&memory=4000&in_stock=true&reliable=false
+				251 text  to customize it.
+			252 container
+				253 heading Aeza — €23.88 / year, Value: 3
+					254 text Aeza  — 
+					255 text €23.88 / year
+				256 image cpu
+				257 text    1 Ryzen Cores (shared)
+				258 image ram
+				259 text    4,096 MB RAM
+				260 image disk
+				261 text    10 GB NVMe
+				262 image bandwidth
+				263 text    51,200 GB/month bandwidth
+				264 image rj45
+				265 text    0.3 Gbps port speed
+				266 image inet
+				267 text    IPv4 + IPv6
+				268 image city
+				269 text    Stockholm Sweden 🇸🇪
+				270 link Description: Info, Value: vpspricetracker.com/info/1010471/Aeza/SWE_PROMO
+				271 link Description: Go, Value: vpspricetracker.com/offer/1010471/Aeza/SWE_PROMO
+			272 container
+				273 heading HostBrr — $28.50 / year, Value: 3
+					274 text HostBrr  — $28.50 / year
+				275 image cpu
+				276 text    2 Ryzen Cores (shared)
+				277 image ram
+				278 text    4,096 MB RAM
+				279 image disk
+				280 text    60 GB NVMe
+				281 image bandwidth
+				282 text    7,500 GB/month bandwidth
+				283 image rj45
+				284 text    1 Gbps port speed
+				285 image inet
+				286 text    IPv6
+				287 image city
+				288 text    Falkenstein Germany 🇩🇪
+				289 link Description: Info, Value: vpspricetracker.com/info/156/HostBrr/DE_Performance_4GBrr_IPv6_Only
+				290 link Description: Go, Value: vpspricetracker.com/offer/156/HostBrr/DE_Performance_4GBrr_IPv6_Only
+			291 container Reliability problems were reported for this service
+				292 heading Rabisu — $28.68 / year, Value: 3
+					293 text Rabisu  — $28.68 / year
+				294 container
+					295 image cpu
+					296 text    2 Intel Cores (shared)
+				297 container
+					298 image ram
+					299 text    4,096 MB RAM
+				300 container
+					301 image disk
+					302 text    40 GB NVMe
+				303 container
+					304 image bandwidth
+					305 text    10,240 GB/month bandwidth
+				306 container
+					307 image rj45
+					308 text    1 Gbps port speed
+				309 container
+					310 image inet
+					311 text    IPv4
+				312 container
+					313 image city
+					314 text    Istanbul Turkey 🇹🇷
+				315 link Description: Info, Value: vpspricetracker.com/info/1847512/Rabisu/Ayd_n_VPS_x4
+				316 link Description: Go, Value: vpspricetracker.com/offer/1847512/Rabisu/Ayd_n_VPS_x4
+			317 heading Cheapest VPS with 4 Ryzen / Epyc cores:, Value: 2
+				318 text Cheapest VPS with 4 Ryzen / Epyc cores:
+			319 container
+				320 text These are the cheapest VPSs with 4 or more Ryzen or Epyc cores currently in the market, selected independently of other attributes like memory size or disk arrangement. The CPUs are filtered for  shared tenancy  instead of  dedicated tenancy  to reduce the overall cost. You can ❯ 
+				321 link Description: execute this query, Value: vpspricetracker.com/search?period=prefer_year&virtualization_type=kvm+hv&cpu_brand=ryzen&cpus_shared=4&in_stock=true&reliable=false
+				322 text  to modify its parameters.
+			323 container
+				324 heading AspireHosting — $49.95 / year, Value: 3
+					325 text AspireHosting  — $49.95 / year
+				326 image cpu
+				327 text    4 Epyc Cores (shared)
+				328 image ram
+				329 text    8,192 MB RAM
+				330 image disk
+				331 text    100 GB SSD
+				332 image bandwidth
+				333 text    3,000 GB/month bandwidth
+				334 image rj45
+				335 text    1 Gbps port speed
+				336 image inet
+				337 text    IPv4
+				338 image city
+				339 text    Miami Florida U.S.A. 🇺🇸
+				340 link Description: Info, Value: vpspricetracker.com/info/1850416/AspireHosting/Cloud_8GB_Summer_SALE
+				341 link Description: Go, Value: vpspricetracker.com/offer/1850416/AspireHosting/Cloud_8GB_Summer_SALE
+			342 container
+				343 heading HostBrr — $53.00 / year, Value: 3
+					344 text HostBrr  — $53.00 / year
+				345 image cpu
+				346 text    4 Ryzen Cores (shared)
+				347 image ram
+				348 text    8,192 MB RAM
+				349 image disk
+				350 text    125 GB NVMe
+				351 image bandwidth
+				352 text    10,000 GB/month bandwidth
+				353 image rj45
+				354 text    1 Gbps port speed
+				355 image inet
+				356 text    IPv6
+				357 image city
+				358 text    Falkenstein Germany 🇩🇪
+				359 link Description: Info, Value: vpspricetracker.com/info/431/HostBrr/DE_Performance_8GBrr_IPv6_Only
+				360 link Description: Go, Value: vpspricetracker.com/offer/431/HostBrr/DE_Performance_8GBrr_IPv6_Only
+			361 container
+				362 heading HostSailor — $71.40 / year, Value: 3
+					363 text HostSailor  — $71.40 / year
+				364 image cpu
+				365 text    4 Epyc Cores (shared)
+				366 image ram
+				367 text    2,048 MB RAM
+				368 image disk
+				369 text    256 GB HDD
+				370 image bandwidth
+				371 text    1,024 GB/month bandwidth
+				372 image rj45
+				373 text    1 Gbps port speed
+				374 image inet
+				375 text    IPv4 + IPv6
+				376 image city
+				377 text    Netherlands 🇳🇱
+				378 link Description: Info, Value: vpspricetracker.com/info/996718/HostSailor/Seaman_Storage_KVM
+				379 link Description: Go, Value: vpspricetracker.com/offer/996718/HostSailor/Seaman_Storage_KVM
+			380 heading Cheap Windows VPS List for RDP, Value: 2
+				381 text Cheap Windows VPS List for RDP
+			382 container
+				383 text Many providers offer Windows Server as a pre-installed operating system image on their VPSs, and some even offer Windows 11 Home and Pro editions. Pre-installed in this context means that the VPS is delivered to you ready to use, with Windows all set to go as a remote desktop VPS. Most providers currently in our database offer an evaluation Windows VPS with a  BYOL  clause ( Bring Your Own License ), which means that you have 180 days of free evaluation period, after which a license key needs to be purchased. There are also VPSs that come with a licensed copy of Windows and include the licensing costs in the monthly price of the service, and usually are a few dollars more expensive. But the cheapest of all options is to upload a Windows 11 image onto your VPS and install it manually on any providers that support installation from ISO images. Let's explore some options.
+			384 heading VPSs with Windows Server (Evaluation):, Value: 2
+				385 text VPSs with Windows Server (Evaluation):
+			386 text These are some European services currently found in the database that offer Windows Server pre-installed on the VPS. All these options have the BYOL clause that permits a free evaluation for 180 days, after which a Windows license key must be bought.
+			387 container
+				388 heading Time-Host — ₽399.00 / month, Value: 3
+					389 text Time-Host  — ₽399.00 / month
+				390 image cpu
+				391 text    2 Intel Cores (shared)
+				392 image ram
+				393 text    2,048 MB RAM
+				394 image disk
+				395 text    40 GB SSD
+				396 image bandwidth
+				397 text    10,240 GB/month bandwidth
+				398 image rj45
+				399 text    0.2 Gbps port speed
+				400 image inet
+				401 text    IPv4
+				402 image city
+				403 text    Moscow Russia 🇷🇺
+				404 link Description: Info, Value: vpspricetracker.com/info/134579/Time_Host/KVM_3_SSD_in_Russia_Moscow
+				405 link Description: Go, Value: vpspricetracker.com/offer/134579/Time_Host/KVM_3_SSD_in_Russia_Moscow
+			406 container
+				407 heading AspireHosting — $4.50 / month, Value: 3
+					408 text AspireHosting  — $4.50 / month
+				409 image cpu
+				410 text    2 Epyc Cores (shared)
+				411 image ram
+				412 text    2,048 MB RAM
+				413 image disk
+				414 text    30 GB NVMe
+				415 image bandwidth
+				416 text    2,048 GB/month bandwidth
+				417 image rj45
+				418 text    1 Gbps port speed
+				419 image inet
+				420 text    IPv4
+				421 image city
+				422 text    Frankfurt Germany 🇩🇪
+				423 link Description: Info, Value: vpspricetracker.com/info/1876617/AspireHosting/Cloud_Premium_Frankfurt_2GB
+				424 link Description: Go, Value: vpspricetracker.com/offer/1876617/AspireHosting/Cloud_Premium_Frankfurt_2GB
+			425 container
+				426 heading Time-Host — ₽414.00 / month, Value: 3
+					427 text Time-Host  — ₽414.00 / month
+				428 image cpu
+				429 text    2 Intel Cores (shared)
+				430 image ram
+				431 text    2,560 MB RAM
+				432 image disk
+				433 text    7 GB NVMe
+				434 image bandwidth
+				435 text    10,240 GB/month bandwidth
+				436 image rj45
+				437 text    0.2 Gbps port speed
+				438 image inet
+				439 text    IPv4
+				440 image city
+				441 text    Moscow Russia 🇷🇺
+				442 link Description: Info, Value: vpspricetracker.com/info/134583/Time_Host/KVM_MINI_NVMe_in_Russia_Moscow
+				443 link Description: Go, Value: vpspricetracker.com/offer/134583/Time_Host/KVM_MINI_NVMe_in_Russia_Moscow
+			444 heading VPSs with Windows Server (Licensed):, Value: 2
+				445 text VPSs with Windows Server (Licensed):
+			446 text These instead are European VPSs with Windows Server already licensed and pre-installed. Clearly, the cost is mildly higher compared to the BYOL service.
+			447 container
+				448 heading SmartHost — $11.95 / month, Value: 3
+					449 text SmartHost  — $11.95 / month
+				450 image cpu
+				451 text    2 Intel Cores (shared)
+				452 image ram
+				453 text    2,048 MB RAM
+				454 image disk
+				455 text    20 GB NVMe
+				456 image bandwidth
+				457 text    1,000 GB/month bandwidth
+				458 image rj45
+				459 text    1 Gbps port speed
+				460 image inet
+				461 text    IPv4 + IPv6
+				462 image city
+				463 text    Frankfurt Germany 🇩🇪
+				464 link Description: Info, Value: vpspricetracker.com/info/1784/SmartHost/VPS_KVM_Windows_NVME_SSD
+				465 link Description: Go, Value: vpspricetracker.com/offer/1784/SmartHost/VPS_KVM_Windows_NVME_SSD
+			466 container
+				467 heading HostSailor — $13.99 / month, Value: 3
+					468 text HostSailor  — $13.99 / month
+				469 image cpu
+				470 text    2 Epyc Cores (shared)
+				471 image ram
+				472 text    2,048 MB RAM
+				473 image disk
+				474 text    50 GB NVMe
+				475 image bandwidth
+				476 text    2,048 GB/month bandwidth
+				477 image rj45
+				478 text    1 Gbps port speed
+				479 image inet
+				480 text    IPv4 + IPv6
+				481 image city
+				482 text    Netherlands 🇳🇱
+				483 link Description: Info, Value: vpspricetracker.com/info/223623/HostSailor/Sailor_KVM_NVMe
+				484 link Description: Go, Value: vpspricetracker.com/offer/223623/HostSailor/Sailor_KVM_NVMe
+			485 container
+				486 heading SmartHost — $14.45 / month, Value: 3
+					487 text SmartHost  — $14.45 / month
+				488 image cpu
+				489 text    2 Intel Cores (shared)
+				490 image ram
+				491 text    2,048 MB RAM
+				492 image disk
+				493 text    20 GB NVMe
+				494 image bandwidth
+				495 text    2,000 GB/month bandwidth
+				496 image rj45
+				497 text    1 Gbps port speed
+				498 image inet
+				499 text    IPv4 + IPv6
+				500 image city
+				501 text    Frankfurt Germany 🇩🇪
+				502 link Description: Info, Value: vpspricetracker.com/info/2805/SmartHost/VPS_KVM_Windows_NVME_SSD
+				503 link Description: Go, Value: vpspricetracker.com/offer/2805/SmartHost/VPS_KVM_Windows_NVME_SSD
+			504 heading VPSs for Windows 11 (ISO installation):, Value: 2
+				505 text VPSs for Windows 11 (ISO installation):
+			506 text And these are some more VPSs that permit the installation of Windows 11 by uploading your own ISO image. You can search for more VPSs using the form on the sidebar. All results are dynamically generated from the database, and the prices are obtained by dividing the annual prices by 12. Note that not all providers may offer monthly billing terms.
+			507 container
+				508 heading SoftShellWeb — $3.75 / month, Value: 3
+					509 text SoftShellWeb  — 
+					510 text $3.75 / month
+				511 image cpu
+				512 text    2 Intel Cores (shared)
+				513 image ram
+				514 text    2,048 MB RAM
+				515 image disk
+				516 text    40 GB SSD
+				517 image bandwidth
+				518 text    250 GB/month bandwidth
+				519 image rj45
+				520 text    1 Gbps port speed
+				521 image inet
+				522 text    IPv4 + IPv6
+				523 image city
+				524 text    Taipei Taiwan 🇹🇼
+				525 link Description: Info, Value: vpspricetracker.com/info/215370/SoftShellWeb/Taiwan_W2
+				526 link Description: Go, Value: vpspricetracker.com/offer/215370/SoftShellWeb/Taiwan_W2
+			527 container
+				528 heading BageVM — $4.99 / month, Value: 3
+					529 text BageVM  — $4.99 / month
+				530 image cpu
+				531 text    2 Epyc Cores (shared)
+				532 image ram
+				533 text    2,048 MB RAM
+				534 image disk
+				535 text    30 GB NVMe
+				536 image bandwidth
+				537 text    8,192 GB/month bandwidth
+				538 image rj45
+				539 text    1.95 Gbps port speed
+				540 image inet
+				541 text    IPv4 + IPv6
+				542 image city
+				543 text    Hong Kong 🇭🇰
+				544 link Description: Info, Value: vpspricetracker.com/info/1717590/BageVM/Hong_Kong_Lite_STARTER
+				545 link Description: Go, Value: vpspricetracker.com/offer/1717590/BageVM/Hong_Kong_Lite_STARTER
+			546 container
+				547 heading SoftShellWeb — $5.00 / month, Value: 3
+					548 text SoftShellWeb  — 
+					549 text $5.00 / month
+				550 image cpu
+				551 text    4 Intel Cores (shared)
+				552 image ram
+				553 text    4,096 MB RAM
+				554 image disk
+				555 text    60 GB SSD
+				556 image bandwidth
+				557 text    375 GB/month bandwidth
+				558 image rj45
+				559 text    1 Gbps port speed
+				560 image inet
+				561 text    IPv4 + IPv6
+				562 image city
+				563 text    Taipei Taiwan 🇹🇼
+				564 link Description: Info, Value: vpspricetracker.com/info/215371/SoftShellWeb/Taiwan_W3
+				565 link Description: Go, Value: vpspricetracker.com/offer/215371/SoftShellWeb/Taiwan_W3
+			566 link Description: Read more articles, Value: vpspricetracker.com/blog/all-articles
+		567 text Sponsor Transparency:
+		568 text Some service providers listed here sponsor VPS Price Tracker by paying a commission for purchases initiated via this website. The existence of a sponsorship agreement is deliberately neutral to the position or prominence of the results, which are sorted by price order after currency conversion.
+		569 link Description: Help, Value: vpspricetracker.com/pub/txt/help.html
+		570 text  – 
+		571 link Description: Index, Value: vpspricetracker.com/providers
+		572 text  – 
+		573 link Description: Privacy Policy, Value: vpspricetracker.com/pub/txt/privacy_policy.html
+		574 text  – 
+		575 link Description: Contact, Value: vpspricetracker.com/pub/txt/contact.html
+		576 text  – 
+		577 button Language
+
+The focused UI element is 0 AXWebArea VPS Price Tracker: Rank and Compare VPS Hardware & Network, URL: vpspricetracker.com/

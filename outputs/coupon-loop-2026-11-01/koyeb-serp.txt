@@ -1,0 +1,153 @@
+Browser tab: 138024015, Title: "koyeb promo code - Google Search", URL: "https://www.google.com.hk/search?q=koyeb+promo+code&gl=us&hl=en&pws=0&num=100".
+0 AXWebArea koyeb promo code - Google Search, URL: google.com.hk/search?q=koyeb+promo+code&gl=us&hl=en&pws=0&num=100
+	1 container gsr
+		2 container
+			3 link Skip to main content
+				4 text Skip to main content
+			5 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196?hl=en
+		6 container searchform
+			7 container tsf
+				8 container
+					9 link Description: Halloween 2026, Value: google.com.hk/webhp?hl=en&ictx=2&sa=X&ved=2ahUKEwiThqHtyuWXAxW0e_UHHe40LWsQPXoECAYQBQ
+					10 combo box (collapsed) Description: Search, Value: koyeb promo code, ID: ti6dpd, Secondary Actions: Expand
+					11 button  Clear
+					12 button Search by voice
+					13 button Search by image
+					14 button Search
+			15 button Description: Settings, ID: og-te
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 link Description: Sign in, Value: accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.hk/search%3Fq%3Dkoyeb%2Bpromo%2Bcode%26gl%3Dus%26hl%3Den%26pws%3D0%26num%3D100&ec=futura_srp_og_si_72236_p
+		19 container cnt
+			20 container
+				21 container
+					22 content list
+						23 link (disabled) All
+							24 text All
+						25 link Description: Images, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDgYhb3ynqqByjLegzamxpjjQRvnfA:1793495356956&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfV7IrCC-uMahHi-o76ZNK2VNz_WgDx9SAOYb_nDrt7LUT9S0BFJ0ykPRYv6KfHn5Uda3LRN1d0BHv-kZ4P2op-rNVj9tmZB7EcT9ZSR5mgKc-rlrni46Rn4LSAU845sOtWnSHp6il8CrSjYrBHXd_Tki4OEoJRRD7F3MRJOqBxhPOlzpQ&q=koyeb+promo+code&sa=X&ved=2ahUKEwiThqHtyuWXAxW0e_UHHe40LWsQtKgLegQIFBAB
+						26 link Description: News, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDgYhb3ynqqByjLegzamxpjjQRvnfA:1793495356956&q=koyeb+promo+code&tbm=nws&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfV7IrCC-uMahHi-o76ZNK2VNz_WgDx9SAOYb_nDrt7LUT9S0BFJ0ykPRYv6KfHn5Uda3LRN1d0BHv-kZ4P2op-rNVj9tmZB7EcT9ZSR5mgKc-rlrni46Rn4LSAU845sOtWnSHp6il8CrSjYrBHXd_Tki4OEoJRRD7F3MRJOqBxhPOlzpQ&sa=X&ved=2ahUKEwiThqHtyuWXAxW0e_UHHe40LWsQ0pQJegQIGRAB
+						27 link Description: Videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDgYhb3ynqqByjLegzamxpjjQRvnfA:1793495356956&udm=vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfV7IrCC-uMahHi-o76ZNK2VNz_WgDx9SAOYb_nDrt7LUT9S0BFJ0ykPRYv6KfHn5Uda3LRN1d0BHv-kZ4P2op-rNVj9tmZB7EcT9ZSR5mgKc-rlrni46Rn4LSAU845sOtWnSHp6il8CrSjYrBHXd_Tki4OEoJRRD7F3MRJOqBxhPOlzpQ&q=koyeb+promo+code&sa=X&ved=2ahUKEwiThqHtyuWXAxW0e_UHHe40LWsQtKgLegQIGBAB
+						28 link Description: Forums, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDgYhb3ynqqByjLegzamxpjjQRvnfA:1793495356956&udm=forums&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfV7IrCC-uMahHi-o76ZNK2VNz_WgDx9SAOYb_nDrt7LUT9S0BFJ0ykPRYv6KfHn5Uda3LRN1d0BHv-kZ4P2op-rNVj9tmZB7EcT9ZSR5mgKc-rlrni46Rn4LSAU845sOtWnSHp6il8CrSjYrBHXd_Tki4OEoJRRD7F3MRJOqBxhPOlzpQ&q=koyeb+promo+code&sa=X&ved=2ahUKEwiThqHtyuWXAxW0e_UHHe40LWsQs6gLegQIFRAB
+						29 link Description: Shopping, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDgYhb3ynqqByjLegzamxpjjQRvnfA:1793495356956&udm=28&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfV7IrCC-uMahHi-o76ZNK2VNz_WgDx9SAOYb_nDrt7LUT9S0BFJ0ykPRYv6KfHn5Uda3LRN1d0BHv-kZ4P2op-rNVj9tmZB7EcT9ZSR5mgKc-rlrni46Rn4LSAU845sOtWnSHp6il8CrSjYrBHXd_Tki4OEoJRRD7F3MRJOqBxhPOlzpQ&q=koyeb+promo+code&ved=1t:220175&ictx=111
+						30 link Description: Short videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDgYhb3ynqqByjLegzamxpjjQRvnfA:1793495356956&udm=short_vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfV7IrCC-uMahHi-o76ZNK2VNz_WgDx9SAOYb_nDrt7LUT9S0BFJ0ykPRYv6KfHn5Uda3LRN1d0BHv-kZ4P2op-rNVj9tmZB7EcT9ZSR5mgKc-rlrni46Rn4LSAU845sOtWnSHp6il8CrSjYrBHXd_Tki4OEoJRRD7F3MRJOqBxhPOlzpQ&q=koyeb+promo+code&sa=X&ved=2ahUKEwiThqHtyuWXAxW0e_UHHe40LWsQs6gLegQIFxAB
+						31 button (collapsed) More filters, Secondary Actions: Expand
+							32 container More filters
+								33 text More
+					34 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			35 heading Search Results, Value: 1
+				36 text Search Results
+			37 container center_col
+				38 container gevUs
+					39 container rso
+						40 container
+							41 heading Web results, Value: 2
+								42 text Web results
+							43 link Description: Koyeb Promo Codes - 20% Off Sitewide Coupons Oct 2026 SimplyCodes https://simplycodes.com › ... › Website Tooling, Value: google.com.hk/goto?url=CAESYgHrOzAVj7kk6YNLZAoTglnX3tqmrC0eYbW2H3n0-Nht3ezzo8Ih7V8CxPsYvKJE9_IN7tKr-98ynbIjgXFdcr0T1IUvGOgmPhWbJo21KLewjv-tVHSbTA3sBPJtGpBSa756
+							44 button About this result
+							45 container
+								46 text Find all Koyeb promo codes and savings opportunities,  tracked in real-time . Includes verified codes and single-use codes & more. Updated Oct 2026.
+						47 container
+							48 link Description: Koyeb Promo Code: be notified of the best deals for your startup joinsecret.com https://www.joinsecret.com › koyeb, Value: google.com.hk/goto?url=CAESWwHrOzAVGGpNilzbVYvJLQHt3p9G8fsS7g4erMeAKBD9tui9s0Rm0MsTjZF62QrGXHZrkLZFsdI2xwc2rBg6UW7TeCVjXNNub2T9ZvqP0SSYIMbDbmpiYv_NoGQ
+							49 button About this result
+							50 text Koyeb Promo code · 
+							51 text There is currently no promo code for this product
+							52 text  · General information · Koyeb features · Koyeb Reviews · Koyeb: Pros and Cons.
+							53 link Description: Read more, Value: google.com.hk/goto?url=CAESpgIB6zswFcbZYn-AkjAfg5ATIkP9mUEwBhKKV9n__3pWPeuTIfyrZhz_SdYoS6xlBECRjx05icJAVdBNiJdmiFP4TmfLOfewGMA_C0gjERWOJKq3JAr3DLPKTexP__QNjLHkPGLrMYQ15QF7SoZiAiWWjwCDeMA2wczPCOuzY4o_PM-zXJ-o6bdJqW6v_0q7viL0nCbkR5LaYNQaKFpfkV1zqJBqJ9BZoi5CAXU6i1cHvNamlsJzc4plgf0LPpZnmv8NupOuqWrgfOBZe64eoyJ8ShBS5BHWqasHl_c8nmYM-Jco9MRpGylT-N1V4_nfEIvVc6ZOS7gpifiuFhSfOsAyiXeCL61qbj3wT2uL3gHU-H9EUzKXmN_T-DRu_GV5LTGRwElNl8k
+						54 container
+							55 link Description: Regarding koyeb promo and billing Koyeb https://community.koyeb.com › regarding-koyeb-promo..., Value: google.com.hk/goto?url=CAESfwHrOzAVcjUzxcsVshrojDtvNd-PzpUMgn4nuFCklB4fP2mxko9C5vdwuSff_J29aGa2Osf_AFIaQNaeS6yjFiQ1EpgD_clatN86hPdijs85X9alHSXoilhZwZse8D7MgEaQlHdlFvE_Zx2g_iV6LWva5qA72xtASU3-_n0aN3o
+							56 button About this result
+							57 text No information is available for this page.
+							58 link Description: Learn why, Value: support.google.com/webmasters/answer/7489871?hl=en
+						59 container
+							60 link Value: …, Description: Zero-Cost SaaS: How I Deployed My Project with Koyeb.com Medium · Mehmet Cevheri Bozoğlan 8 months ago
+							61 button About this result
+							62 text There are no discount codes or referral links
+							63 text . I used Koyeb for my own project and wanted to share my experience. Koyeb Official Site: https:// ...
+						64 container
+							65 link Value: …, Description: Orbit Codes: Achieving 10x Faster Deployments and ... Koyeb https://www.koyeb.com › blog › orbit-codes-achieving-...
+							66 button About this result
+							67 text Mar 17, 2025  —  Discover how Orbit 
+							68 text Codes
+							69 text  optimized deployments, achieved seamless global scaling, and reduced costs by switching to 
+							70 text Koyeb
+							71 text .
+						72 container
+							73 link Description: koyeb-github-runner GitHub https://github.com › koyeb › koyeb-github-runner, Value: …
+							74 button About this result
+							75 text The 
+							76 text koyeb
+							77 text -github-runner repository contains the source 
+							78 text code
+							79 text  for the 
+							80 text koyeb
+							81 text /github-runner Docker image, which allows you to set up a GitHub runner on the 
+							82 text Koyeb
+							83 text  ...
+						84 container
+							85 link Value: …, Description: Koyeb Free Tier 2026: Pricing, Limits & Credit Card srvrlss.io https://www.srvrlss.io › provider › koyeb
+							86 button About this result
+							87 text The current plans are Starter at $0 per month plus compute, Pro at $29 per month plus compute, and Scale at $299 per month plus compute.
+						88 container
+							89 link Value: …, Description: Find free alternative to Koyeb for developers - 2026 Free Stuff .dev https://freestuff.dev › alternative › koyeb
+							90 button About this result
+							91 text List of free alternative to Koyeb for developers. 
+							92 text Free Offer: CPU 0.1 RAM
+							93 text . Free Run web apps, APIs, workers, and databases. No credit card required to get ...
+						94 container
+							95 link Description: Deploy to Koyeb button Koyeb https://www.koyeb.com › docs › build-and-deploy › de..., Value: …
+							96 button About this result
+							97 text May 27, 2026  —  The Deploy to 
+							98 text Koyeb
+							99 text  button lets you deploy applications from a GitHub repository or a Docker image with a single click.
+						100 container
+							101 link Value: …, Description: Read Customer Service Reviews of koyeb.com Trustpilot https://www.trustpilot.com › ... › Software Company
+							102 button About this result
+							103 text How many stars would you give 
+							104 text koyeb
+							105 text .com? Join the 9 people who've already contributed. Your experience matters.
+							106 image Rated 2.4 out of 5, (9) user reviews
+				107 container
+					108 container
+						109 heading People also search for, Value: 2
+							110 text People also search for
+						111 link Description: Koyeb promo code free, Value: …
+						112 link Description: Koyeb login, Value: …
+						113 link Description: Koyeb free trial, Value: …
+						114 link Description: Koyeb pricing, Value: …
+						115 link Description: Koyeb dashboard, Value: …
+						116 link Description: Koyeb sign up free, Value: …
+						117 link Description: Koyeb alternative free, Value: …
+						118 link Description: Koyeb create app, Value: …
+					119 heading Page Navigation, Value: 1
+						120 text Page Navigation
+					121 text 1
+					122 link Description: Page 2, Value: …
+					123 link Description: Page 3, Value: …
+					124 link Description: Page 4, Value: …
+					125 link Description: Page 5, Value: …
+					126 link Description: Page 6, Value: …
+					127 link Description: Page 7, Value: …
+					128 link Description: Page 8, Value: …
+					129 link Description: Page 9, Value: …
+					130 heading Next, Value: 2
+						131 link Description: Next, Value: …, ID: pnnext
+			132 container sfooter
+				133 heading Footer Links, Value: 1
+					134 text Footer Links
+				135 container fbar
+					136 container
+						137 button Unknown  - Can't determine location
+							138 container
+								139 text Unknown
+							140 container
+								141 text  -  Can't determine location
+						142 text  - 
+						143 button Update location
+							144 text Update location
+					145 container fsl
+						146 link Description: Help, Value: …
+						147 link Description: Send feedback, Value: …
+						148 link Description: Privacy, Value: …
+						149 link Description: Terms, Value: …
+
+The focused UI element is 0 AXWebArea koyeb promo code - Google Search, URL: google.com.hk/search?q=koyeb+promo+code&gl=us&hl=en&pws=0&num=100

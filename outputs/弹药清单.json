@@ -247,7 +247,7 @@
     "未收到群里三条口令的完整结果；不能虚称已收到",
     "Google官方长尾结果与量未读到"
   ],
-  "updated_date": "2026-10-15",
+  "updated_date": "2026-11-01",
   "daily_updates": [
     {
       "date": "2026-10-20",
@@ -479,6 +479,26 @@
         ],
         "status": "Official home and pricing bodies read; gate and current offer verification remain for tomorrow"
       }
+    },
+    {
+      "questions_file": "coupon-loop-2026-11-01/prepared-qa.json",
+      "sources": [
+        "https://www.koyeb.com/pricing",
+        "https://www.koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure",
+        "https://simplycodes.com/store/koyeb.com",
+        "https://vpspricetracker.com/"
+      ],
+      "user_material_used": "No new user volume or group return supplied. Applied official-source-only and no-invented-code rules.",
+      "article": null,
+      "tomorrow": {
+        "evidence": [],
+        "candidate": "Railway",
+        "official": "https://railway.com/",
+        "status": "Next untried queue brand after Koyeb was held because top-three pages were blocked by security challenges. Official entry URL is in queue; no current offer checked yet."
+      },
+      "date": "2026-11-01",
+      "research": "Official page displays startup credits up to $30,000; startup article says Standard and GPU instances, early-stage criteria and case-by-case review; pricing page shows Savings Plans up to 50% off on-demand with long-term reservations, and Pro/Scale listed prices plus compute. No public code was verifiable from official pages opened.",
+      "origin": "Official page review and operator-authored questions; no user-group bot response or real-person quote"
     }
   ]
 }

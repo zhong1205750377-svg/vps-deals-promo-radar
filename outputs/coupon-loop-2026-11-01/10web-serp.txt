@@ -1,0 +1,161 @@
+Browser tab: 138024010, Title: "10web promo code - Google Search", URL: "https://www.google.com.hk/search?q=10web+promo+code&gl=us&hl=en&pws=0&num=100".
+0 AXWebArea 10web promo code - Google Search, URL: google.com.hk/search?q=10web+promo+code&gl=us&hl=en&pws=0&num=100
+	1 container gsr
+		2 container
+			3 link Skip to main content
+				4 text Skip to main content
+			5 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196?hl=en
+		6 container searchform
+			7 container tsf
+				8 container
+					9 link Description: Halloween 2026, Value: google.com.hk/webhp?hl=en&ictx=2&sa=X&ved=2ahUKEwjJju7MyuWXAxXec_UHHfLGLL4QPXoECAYQBQ
+					10 combo box (collapsed) Description: Search, Value: 10web promo code, ID: ti6dpd, Secondary Actions: Expand
+					11 button  Clear
+					12 button Search by voice
+					13 button Search by image
+					14 button Search
+			15 button Description: Settings, ID: og-te
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 link Description: Sign in, Value: accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.hk/search%3Fq%3D10web%2Bpromo%2Bcode%26gl%3Dus%26hl%3Den%26pws%3D0%26num%3D100&ec=futura_srp_og_si_72236_p
+		19 container cnt
+			20 container
+				21 container
+					22 content list
+						23 link (disabled) All
+							24 text All
+						25 link Description: Shopping, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDjrW0Cs2m5MdxaFjx5XQKvtg2rioA:1793495289013&udm=28&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtI4mEOTA9x7NziKDLq9rfZZp_4aUGas3tnW2rtfhz1m5fYOx4Mo93BTzzvInavl8kuw_oEDlGcypbzXyeY7ykIPUJtW0olsstS3BnujC_ajnyBnS0mkeWAl1st_YBt0oWr5d55E5_mEBId2YGGRV8z9hsrQng&q=10web+promo+code&ved=1t:220175&ictx=111
+						26 link Description: Images, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDjrW0Cs2m5MdxaFjx5XQKvtg2rioA:1793495289013&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtI4mEOTA9x7NziKDLq9rfZZp_4aUGas3tnW2rtfhz1m5fYOx4Mo93BTzzvInavl8kuw_oEDlGcypbzXyeY7ykIPUJtW0olsstS3BnujC_ajnyBnS0mkeWAl1st_YBt0oWr5d55E5_mEBId2YGGRV8z9hsrQng&q=10web+promo+code&sa=X&ved=2ahUKEwjJju7MyuWXAxXec_UHHfLGLL4QtKgLegQIHhAB
+						27 link Description: News, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDjrW0Cs2m5MdxaFjx5XQKvtg2rioA:1793495289013&q=10web+promo+code&tbm=nws&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtI4mEOTA9x7NziKDLq9rfZZp_4aUGas3tnW2rtfhz1m5fYOx4Mo93BTzzvInavl8kuw_oEDlGcypbzXyeY7ykIPUJtW0olsstS3BnujC_ajnyBnS0mkeWAl1st_YBt0oWr5d55E5_mEBId2YGGRV8z9hsrQng&sa=X&ved=2ahUKEwjJju7MyuWXAxXec_UHHfLGLL4Q0pQJegQIHRAB
+						28 link Description: Videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDjrW0Cs2m5MdxaFjx5XQKvtg2rioA:1793495289013&udm=vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtI4mEOTA9x7NziKDLq9rfZZp_4aUGas3tnW2rtfhz1m5fYOx4Mo93BTzzvInavl8kuw_oEDlGcypbzXyeY7ykIPUJtW0olsstS3BnujC_ajnyBnS0mkeWAl1st_YBt0oWr5d55E5_mEBId2YGGRV8z9hsrQng&q=10web+promo+code&sa=X&ved=2ahUKEwjJju7MyuWXAxXec_UHHfLGLL4QtKgLegQIHBAB
+						29 link Description: Forums, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDjrW0Cs2m5MdxaFjx5XQKvtg2rioA:1793495289013&udm=forums&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtI4mEOTA9x7NziKDLq9rfZZp_4aUGas3tnW2rtfhz1m5fYOx4Mo93BTzzvInavl8kuw_oEDlGcypbzXyeY7ykIPUJtW0olsstS3BnujC_ajnyBnS0mkeWAl1st_YBt0oWr5d55E5_mEBId2YGGRV8z9hsrQng&q=10web+promo+code&sa=X&ved=2ahUKEwjJju7MyuWXAxXec_UHHfLGLL4Qs6gLegQIGhAB
+						30 link Description: Short videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDjrW0Cs2m5MdxaFjx5XQKvtg2rioA:1793495289013&udm=short_vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtI4mEOTA9x7NziKDLq9rfZZp_4aUGas3tnW2rtfhz1m5fYOx4Mo93BTzzvInavl8kuw_oEDlGcypbzXyeY7ykIPUJtW0olsstS3BnujC_ajnyBnS0mkeWAl1st_YBt0oWr5d55E5_mEBId2YGGRV8z9hsrQng&q=10web+promo+code&sa=X&ved=2ahUKEwjJju7MyuWXAxXec_UHHfLGLL4Qs6gLegQIGxAB
+						31 button (collapsed) More filters, Secondary Actions: Expand
+							32 container More filters
+								33 text More
+					34 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			35 heading Search Results, Value: 1
+				36 text Search Results
+			37 container center_col
+				38 container gevUs
+					39 container rso
+						40 container
+							41 heading Web results, Value: 2
+								42 text Web results
+							43 link Description: 10Web Coupon Code 2026: Get 20% Lifetime Discount Deal WPism https://wpism.com › Software Deals and Coupons, Value: google.com.hk/goto?url=CAESWgHrOzAVQv-AmQIbjTW95RL0_v1SJJfcagE1OpcNzlQu_nfCjHRqCOqoz3ZOIKStIdlPpBzTHFvkNKetV0N8Z91wucXI2bf0ZGwzfr2haNS4ve1z_Vi6UQ7EtA
+							44 button About this result
+							45 container
+								46 text Jul 7, 2026  —  Use our  exclusive 10Web coupon code – 'wpism ' to get 20% OFF on all pricing plans in addition to the 30% OFF on annual subscriptions.
+							47 container
+								48 image Rated 5.0 out of 5,
+								49 text  ·  Review by Pradeep Singh
+							50 content list
+								51 link Description: How to apply 10Web Coupon?, Value: google.com.hk/goto?url=CAESdAHrOzAVC-nlzr6T7txNjvrCfAzNR4bbnZMgbU45Rmoo8s7i4CNTxpRT8N7akAkTSYnWWcStFJy_LZh9odVJOI5gMJqcgUFbl4pUh4tjxGZ3dpzL60z7_AqEiQROOHPclp_gmgw6BxcSlsns6pyOrzKblyqG
+								52 link Description: 10Web Pricing Plans, Value: google.com.hk/goto?url=CAESbgHrOzAVPzPXnhdlI6l14nlZRQYs5HptnVPYAbu1S65lSX4ui-LRhvzkSEv__3SIhmVsbWcHPu0JhxsQ7-9ajYSnzhLWJpDsE2Vz4QI_nbbEVSJbG84JzI0H8Z5HNJaLswpZNtyXIkOHgk14qSxz
+								53 link Description: What is 10Web? General..., Value: google.com.hk/goto?url=CAESeQHrOzAVj2DBZMHf6WaZac9zQOCbAetq759E7ehYg-djIA3FvyXVNx-3Ri6XsxlJRVNXU1YqFy5o7eBE_xbnEm1UU2S4HizaNRpWd00r1NIbTvm0gQTDb1oRKJv29nUgtHSlgO51Zu_c8Jx2xfWT10zITXud3u1hJmI
+						54 container
+							55 link Description: 10Web Promo Code 20% OFF | November 2026 Valuecom https://10web.valuecom.com, Value: google.com.hk/goto?url=CAESVgHrOzAVzo2wuKENMwd3rJPsiDTn002kOJDP6QbnGaEvzGUd5kDH8-xEKek9UPWuZ8d3wyQxvd5pZ1cnB9phQnzyIDBDJlL2LI8bgBFGZ6W2NKGSfTkv
+							56 button About this result
+							57 text 10Web Promo Code
+							58 text  - Updated October 30, 2026 · 20% Off Storewide at 10Web · 10% Off Select Annual Plan for Members · 15% Off Your Order · 10% Off Everything.
+							59 link Description: Read more, Value: …
+						60 container
+							61 link Description: 10Web Promo Codes - 20% Off (3 Verified) Oct 2026 SimplyCodes https://simplycodes.com › ... › AI Business Tools, Value: google.com.hk/goto?url=CAESYQHrOzAVITAfhgccUjYtfswUvoBRC0w45ApgJXB6xBlZkqJGplRwoCpHnzVzGKFIVNog6e4mcp9vATguHMWmto9flykiafH0ufvYtoXc9moBonslushDXjGWvZHNs7ZXn3A
+							62 button About this result
+							63 text The best active 
+							64 text promo code
+							65 text  provides 20% Off Storewide at 
+							66 text 10Web
+							67 text . On average, 
+							68 text 10Web
+							69 text  provides 0.9 discount 
+							70 text coupon
+							71 text  each month. 
+							72 text 10Web
+							73 text  has 3 verified 
+							74 text codes
+							75 text , out of ...
+						76 container
+							77 link Value: …, Description: How Can I Use a 10Web Promo Code? 10Web Help Center https://help.10web.io › en-us › articles › 360027492752-...
+							78 button About this result
+							79 text 10Web does not issue coupon or promo codes
+							80 text , and checkout has no field where you can enter one. The promo code field was removed in May 2026.
+							81 link Description: Read more, Value: …
+						82 container
+							83 link Value: …, Description: 10Web Coupon Code 2026: Get 20% OFF Deal + 50% Annual pradeepsingh.com https://pradeepsingh.com › Software Deals
+							84 button About this result
+							85 text Jan 4, 2026  —  Claim 20% OFF on all 10Web Plans. Click 'Buy now' to apply the offer instantly. 
+							86 text Enter the 10Web coupon code 'wpism
+							87 text ' and click on apply.
+							88 image Rated 5.0 out of 5,
+							89 text  ·  Review by Pradeep Singh · ‎$10.00 · ‎Developer
+						90 container
+							91 link Description: 10Web Coupon Codes: The Official Answer 10Web https://10web.io › coupons, Value: …
+							92 button About this result
+							93 text 10Web has no coupon or promo codes
+							94 text , and checkout has no code field. See the real ways to pay less, straight from 10Web.
+						95 container
+							96 link Value: …, Description: (50% Off) 10Web Coupon Code September 2026 [Best Ai ... YouTube · New BlogLand 110+ views · 1 year ago
+							97 button About this result
+							98 button (50% Off) 10Web Coupon Code September 2026 [Best Ai ... by New BlogLand on YouTube. Play on Google. 1:41
+							99 text Get 50% Off with the latest 10Web Coupon Code  for September 2026! Build stunning websites effortlessly with 10Web's AI Website Builder.
+						100 container
+							101 link Value: …, Description: 10Web Promo Code 2026: Claim 20% OFF + Extra Deals StartGround https://startground.com › Deals › Marketing Software
+							102 button About this result
+							103 text Jun 21, 2026  — 
+							104 text Use our exclusive 10Web promo code “wpism”
+							105 text  to claim 20% OFF all plans, plus an additional 30% OFF on annual subscriptions. Code: wpism.
+							106 link Description: Read more, Value: …
+							107 content list
+								108 link Description: How to Apply 10Web Coupon..., Value: …
+								109 link Description: 10Web Overview and Features, Value: …
+						110 container
+							111 link Description: 50% Off Annual 10Web Promo Code October 2026 Host.Promo https://host.promo › hosts › 10web, Value: …
+							112 button About this result
+							113 text Apr 28, 2025  — 
+							114 text 10Web is offering a special promo code for October 2026
+							115 text : "50% Off Annual". Discover the latest deals, promos and discounts available this ...
+							116 image Rated 5.0 out of 5, (1) user reviews
+							117 content list
+								118 link Description: 10web, Value: …
+								119 link Description: 50% Off Annual, Value: …
+								120 link Description: 80.00 / 100 Ai Rating, Value: …
+						121 container
+							122 link Value: …, Description: 10web.io Promo Codes - 50% Off Coupon Code Oct 2026 DontPayFull https://www.dontpayfull.com › Business & Services
+							123 button About this result
+							124 text We found 21 active 
+							125 text 10web.io promo codes & deals for October 2026
+							126 text . Get the latest offers for 10web.io and save up to 50% off your order.
+				127 container
+					128 heading Page Navigation, Value: 1
+						129 text Page Navigation
+					130 text 1
+					131 link Description: Page 2, Value: …
+					132 link Description: Page 3, Value: …
+					133 link Description: Page 4, Value: …
+					134 link Description: Page 5, Value: …
+					135 link Description: Page 6, Value: …
+					136 link Description: Page 7, Value: …
+					137 link Description: Page 8, Value: …
+					138 heading Next, Value: 2
+						139 link Description: Next, Value: …, ID: pnnext
+			140 container sfooter
+				141 heading Footer Links, Value: 1
+					142 text Footer Links
+				143 container fbar
+					144 container
+						145 button Unknown  - Can't determine location
+							146 container
+								147 text Unknown
+							148 container
+								149 text  -  Can't determine location
+						150 text  - 
+						151 button Update location
+							152 text Update location
+					153 container fsl
+						154 link Description: Help, Value: …
+						155 link Description: Send feedback, Value: …
+						156 link Description: Privacy, Value: …
+						157 link Description: Terms, Value: …
+
+The focused UI element is 0 AXWebArea 10web promo code - Google Search, URL: google.com.hk/search?q=10web+promo+code&gl=us&hl=en&pws=0&num=100

@@ -1,0 +1,152 @@
+Browser tab: 138024012, Title: "cloudsigma promo code - Google Search", URL: "https://www.google.com.hk/search?q=cloudsigma+promo+code&gl=us&hl=en&pws=0&num=100".
+0 AXWebArea cloudsigma promo code - Google Search, URL: google.com.hk/search
+	1 container gsr
+		2 container
+			3 link Skip to main content
+				4 text Skip to main content
+			5 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196
+		6 container searchform
+			7 container tsf
+				8 container
+					9 link Description: Halloween 2026, Value: google.com.hk/webhp
+					10 combo box (collapsed) Description: Search, Value: cloudsigma promo code, ID: ti6dpd, Secondary Actions: Expand
+					11 button  Clear
+					12 button Search by voice
+					13 button Search by image
+					14 button Search
+			15 button Description: Settings, ID: og-te
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 link Description: Sign in, Value: accounts.google.com/ServiceLogin
+		19 container cnt
+			20 container
+				21 container
+					22 content list
+						23 link (disabled) All
+							24 text All
+						25 link Description: Shopping, Value: google.com.hk/search
+						26 link Description: Images, Value: google.com.hk/search
+						27 link Description: News, Value: google.com.hk/search
+						28 link Description: Forums, Value: google.com.hk/search
+						29 link Description: Videos, Value: google.com.hk/search
+						30 link Description: Short videos, Value: google.com.hk/search
+						31 button (collapsed) More filters, Secondary Actions: Expand
+							32 container More filters
+								33 text More
+					34 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			35 heading Search Results, Value: 1
+				36 text Search Results
+			37 container center_col
+				38 container gevUs
+					39 container rso
+						40 container
+							41 heading Web results, Value: 2
+								42 text Web results
+							43 link Value: google.com.hk/goto, Description: CloudSigma Coupon Codes | Promo Codes for 2026 HostAdvice https://hostadvice.com › hosting-company › cloudsigm...
+							44 button About this result
+							45 container
+								46 text Discover significant savings discounts with  CloudSigma coupon codes . Start saving today by utilizing a coupon and unlock the best deals available.
+								47 link Description: Read more, Value: google.com.hk/goto
+							48 image Rated 3.0 out of 5, (8) user reviews
+						49 container
+							50 link Value: google.com.hk/goto, Description: 45% OFF Cloudsigma Coupon Codes - September 2026 ... TenereTeam https://cloudsigma.tenereteam.com › coupons
+							51 button About this result
+							52 text These 10 Available Cloudsigma discount codes last updated TODAY can help you 
+							53 text save Upto 45% OFF
+							54 text . Buy cheaper with Cloudsigma coupons & promo codes NOW!
+							55 image Rated 4.3 out of 5, (10) user reviews
+						56 container
+							57 link Value: google.com.hk/goto, Description: 13 Verified Cloudsigma Free Trials & Deals | October 2026 EnviroGadget https://cloudsigma.envirogadget.com
+							58 button About this result
+							59 text Save on Cloud Infrastructure, Managed Cloud Solution with 
+							60 text 13 verified Cloudsigma Promo Codes
+							61 text , promo codes, and current deals. Offers are updated in October 2026
+						62 container
+							63 link Description: https://taas.cloudsigma.com/signup CloudSigma https://taas.cloudsigma.com › signup, Value: google.com.hk/goto
+							64 button About this result
+							65 text No information is available for this page.
+							66 link Description: Learn why, Value: support.google.com/webmasters/answer/7489871
+						67 container
+							68 link Value: google.com.hk/goto, Description: Accounts — CloudSigma API v2 documentation CloudSigma https://docs.cloudsigma.com › latest › accounts
+							69 button About this result
+							70 text Status 
+							71 text Codes
+							72 text : 200 OK … 
+							73 text promo
+							74 text  – 
+							75 text Promo code
+							76 text  for initial subscriptions and demo server (optional) 
+							77 text Codes
+							78 text : 200 OK – no error 401
+						79 container
+							80 link Description: Cloudsigma Reviews - Read Customer Reviews of ... TenereTeam https://cloudsigma.tenereteam.com, Value: google.com.hk/goto
+							81 button About this result
+							82 text Our 
+							83 text Cloudsigma coupon codes
+							84 text  can help you do just that! Over 10 customers have already used our coupons to save an average of $60 with Cloudsigma discount codes.
+							85 link Description: Read more, Value: google.com.hk/goto
+						86 container
+							87 link Description: CloudSigma WebApp CloudSigma https://fra.cloudsigma.com, Value: google.com.hk/goto
+							88 button About this result
+							89 text Cloud computing platform allows instant provisioning of flexible virtual servers and computing resources. Sign Up Sign Up ©2026 
+							90 text CloudSigma
+						91 container
+							92 link Value: google.com.hk/goto, Description: CloudSigma Company Overview, Contact Details & ... LeadIQ https://leadiq.com › ... › IT Services and IT Consulting
+							93 button About this result
+							94 text CloudSigma
+							95 text  offers a cloud-infrastructure platform delivered as a service for IT service providers, including system integrators, managed service…
+						96 container
+							97 link Description: CloudSigma — The Sovereign Cloud Platform for Service ... CloudSigma https://www.cloudsigma.com, Value: google.com.hk/goto
+							98 button About this result
+							99 text CloudSigma
+							100 text  is the sovereign cloud platform for service providers — launch branded, in-country IaaS and AI services in weeks on a global partner network.
+						101 container
+							102 link Description: CloudSigma | Zug Facebook · CloudSigma 2.8K+ followers, Value: google.com.hk/goto
+							103 button About this result
+							104 text Cloud
+							105 text Sigma wishes a hilarious Programmer's Day to all our amazing partners, customers, and employees! Let's celebrate with some byte-sized jokes, bug-free ...
+							106 link Description: Read more, Value: google.com.hk/goto
+							107 image Rated 3.7 out of 5, (14) user reviews
+				108 container
+					109 container
+						110 heading People also search for, Value: 2
+							111 text People also search for
+						112 link Description: Cloudsigma calculator, Value: google.com.hk/search
+						113 link Description: CloudSigma careers, Value: google.com.hk/search
+						114 link Description: Cloudsigma linkedin, Value: google.com.hk/search
+						115 link Description: How to get free VPS for lifetime, Value: google.com.hk/search
+						116 link Description: VPS hosting free trial, Value: google.com.hk/search
+					117 heading Page Navigation, Value: 1
+						118 text Page Navigation
+					119 text 1
+					120 link Description: Page 2, Value: google.com.hk/search
+					121 link Description: Page 3, Value: google.com.hk/search
+					122 link Description: Page 4, Value: google.com.hk/search
+					123 link Description: Page 5, Value: google.com.hk/search
+					124 link Description: Page 6, Value: google.com.hk/search
+					125 link Description: Page 7, Value: google.com.hk/search
+					126 link Description: Page 8, Value: google.com.hk/search
+					127 link Description: Page 9, Value: google.com.hk/search
+					128 link Description: Page 10, Value: google.com.hk/search
+					129 heading Next, Value: 2
+						130 link Description: Next, Value: google.com.hk/search, ID: pnnext
+			131 container sfooter
+				132 heading Footer Links, Value: 1
+					133 text Footer Links
+				134 container fbar
+					135 container
+						136 button Unknown  - Can't determine location
+							137 container
+								138 text Unknown
+							139 container
+								140 text  -  Can't determine location
+						141 text  - 
+						142 button Update location
+							143 text Update location
+					144 container fsl
+						145 link Description: Help, Value: support.google.com/websearch/
+						146 link Description: Send feedback, Value: google.com.hk/search
+						147 link Description: Privacy, Value: policies.google.com/privacy
+						148 link Description: Terms, Value: policies.google.com/terms
+
+The focused UI element is 0 AXWebArea cloudsigma promo code - Google Search, URL: google.com.hk/search

@@ -1,0 +1,24 @@
+[
+  {
+    "answer": "No public code was verified on the official pricing or startup pages reviewed; this does not establish that no private or partner code exists.",
+    "question": "Does Koyeb publish a public reusable promo code?",
+    "sources": [
+      "https://www.koyeb.com/pricing",
+      "https://www.koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure"
+    ]
+  },
+  {
+    "answer": "Koyeb describes the program for early-stage startups; its article lists partner-accelerator affiliation or $1M-$5M VC funding and says other applicants may be reviewed case by case. The article is dated 2024-06-21.",
+    "question": "Who can apply for Koyeb startup compute credits?",
+    "sources": [
+      "https://www.koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure"
+    ]
+  },
+  {
+    "answer": "No. The official pricing page lists Pro at $29/month plus compute and separately shows $10 included compute.",
+    "question": "Does Koyeb Pro include all compute usage in its monthly fee?",
+    "sources": [
+      "https://www.koyeb.com/pricing"
+    ]
+  }
+]

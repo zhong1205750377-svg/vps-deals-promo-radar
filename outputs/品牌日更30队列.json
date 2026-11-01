@@ -1,5 +1,5 @@
 {
-  "date_bjt": "2026-10-30",
+  "date_bjt": "2026-11-01",
   "source_policy": "Actual accessible official product/pricing pages; no coupon claimed until official offer terms read.",
   "ready_count": 23,
   "brands": [
@@ -1268,13 +1268,18 @@
       "official_source": "https://typedream.com/",
       "checked_bjt": "2026-10-26",
       "query": "typedream promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://typedream.com/",
       "title": "Typedream: AI Website Builder",
       "evidence": "coupon-loop-2026-10-26/queue-typedream_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-11-01",
+      "official_occupancy": 4,
+      "large_occupancy": 0,
+      "gate_evidence": "coupon-loop-2026-11-01/typedream-serp.txt",
+      "gate_note": "10 organic positions; official at positions 1,5,7,10; skipped because official >3."
     },
     {
       "brand": "Unbounce",
@@ -1388,13 +1393,18 @@
       "official_source": "https://10web.io/",
       "checked_bjt": "2026-10-26",
       "query": "10web promo code",
-      "status": "queued_gate_pending",
+      "status": "held_count_incomplete",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://10web.io/",
       "title": "Launch and Grow Your Business Online with 10Web",
       "evidence": "coupon-loop-2026-10-26/queue-10web_io.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-11-01",
+      "official_occupancy": 2,
+      "large_occupancy": null,
+      "gate_evidence": "coupon-loop-2026-11-01/10web-serp.txt",
+      "gate_note": "Only 9 organic positions visible after excluding the video module; not passed or counted as 10."
     },
     {
       "brand": "Pagecloud",
@@ -1403,13 +1413,18 @@
       "official_source": "https://www.pagecloud.com/",
       "checked_bjt": "2026-10-26",
       "query": "pagecloud promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.pagecloud.com/",
       "title": "Pagecloud | A website that works, without the work",
       "evidence": "coupon-loop-2026-10-26/queue-pagecloud_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-11-01",
+      "official_occupancy": 2,
+      "large_occupancy": 8,
+      "gate_evidence": "coupon-loop-2026-11-01/pagecloud-serp.txt",
+      "gate_note": "10 organic positions; official 2, large coupon/media 8; skipped."
     },
     {
       "brand": "CloudSigma",
@@ -1418,13 +1433,18 @@
       "official_source": "https://www.cloudsigma.com/",
       "checked_bjt": "2026-10-26",
       "query": "cloudsigma promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.cloudsigma.com/",
       "title": "CloudSigma â The Sovereign Cloud Platform for Service Providers",
       "evidence": "coupon-loop-2026-10-26/queue-cloudsigma_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-11-01",
+      "official_occupancy": 4,
+      "large_occupancy": 4,
+      "gate_evidence": "coupon-loop-2026-11-01/cloudsigma-serp.txt",
+      "gate_note": "10 organic positions; 4 self-owned official positions; skipped."
     },
     {
       "brand": "Cherry Servers",
@@ -1433,13 +1453,18 @@
       "official_source": "https://www.cherryservers.com/",
       "checked_bjt": "2026-10-26",
       "query": "cherry servers promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.cherryservers.com/",
       "title": "Cherry Servers Bare Metal Cloud Services - Raw &amp; Simple",
       "evidence": "coupon-loop-2026-10-26/queue-cherryservers_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-11-01",
+      "official_occupancy": 1,
+      "large_occupancy": 9,
+      "gate_evidence": "coupon-loop-2026-11-01/cherry-servers-serp.txt",
+      "gate_note": "10 organic positions; official 1, large coupon/media 9; skipped."
     },
     {
       "brand": "Scaleway",
@@ -1448,13 +1473,18 @@
       "official_source": "https://www.scaleway.com/en/",
       "checked_bjt": "2026-10-26",
       "query": "scaleway promo code",
-      "status": "queued_gate_pending",
+      "status": "skipped_jammed",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.scaleway.com/en/",
       "title": "European Cloud &amp; AI. | Scaleway",
       "evidence": "coupon-loop-2026-10-26/queue-scaleway_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-11-01",
+      "official_occupancy": 1,
+      "large_occupancy": 8,
+      "gate_evidence": "coupon-loop-2026-11-01/scaleway-serp.txt",
+      "gate_note": "10 organic positions; official 1, large coupon/media 8; skipped."
     },
     {
       "brand": "Koyeb",
@@ -1463,13 +1493,18 @@
       "official_source": "https://www.koyeb.com/",
       "checked_bjt": "2026-10-26",
       "query": "koyeb promo code",
-      "status": "queued_gate_pending",
+      "status": "held_competitor_read_blocked",
       "offer_verified": false,
       "http_status": 200,
       "final_url": "https://www.koyeb.com/",
       "title": "Koyeb: High-performance Infrastructure for APIs, Inference, and Databases",
       "evidence": "coupon-loop-2026-10-26/queue-koyeb_com.html",
-      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified"
+      "source_scope": "Official entry availability only; current promotion and browser gate not yet verified",
+      "gate_date": "2026-11-01",
+      "official_occupancy": 3,
+      "large_occupancy": 3,
+      "gate_evidence": "coupon-loop-2026-11-01/occupancy.json",
+      "gate_note": "Gate passed (official 3, large coupon/media 3); top-three review incomplete after security interstitials."
     },
     {
       "brand": "Railway",

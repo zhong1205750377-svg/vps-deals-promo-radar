@@ -1,0 +1,150 @@
+Browser tab: 138024011, Title: "pagecloud promo code - Google Search", URL: "https://www.google.com.hk/search?q=pagecloud+promo+code&gl=us&hl=en&pws=0&num=100".
+0 AXWebArea pagecloud promo code - Google Search, URL: google.com.hk/search?q=pagecloud+promo+code&gl=us&hl=en&pws=0&num=100
+	1 container gsr
+		2 container
+			3 link Skip to main content
+				4 text Skip to main content
+			5 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196?hl=en
+		6 container searchform
+			7 container tsf
+				8 container
+					9 link Description: Halloween 2026, Value: google.com.hk/webhp?hl=en&ictx=2&sa=X&ved=2ahUKEwi-sa_XyuWXAxWRn68BHZCYA88QPXoECAYQBQ
+					10 combo box (collapsed) Description: Search, Value: pagecloud promo code, ID: ti6dpd, Secondary Actions: Expand
+					11 button  Clear
+					12 button Search by voice
+					13 button Search by image
+					14 button Search
+			15 button Description: Settings, ID: og-te
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 link Description: Sign in, Value: accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.hk/search%3Fq%3Dpagecloud%2Bpromo%2Bcode%26gl%3Dus%26hl%3Den%26pws%3D0%26num%3D100&ec=futura_srp_og_si_72236_p
+		19 container cnt
+			20 container
+				21 container
+					22 content list
+						23 link (disabled) All
+							24 text All
+						25 link Description: Shopping, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDg-mE_btxeJ5_9KbCOcCCcNNfZzlA:1793495311054&udm=28&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRgtc0h3s1Z3ASvXUCDn61Q6oCel1JPKgoGiURh0hY-uxWc_A3WxPYjlhJ00DvfNiKVI1sBdWepiliyvcYVL2Fa50D441jFKQbZ0fh3cg6jhoj9aGgQxf5STWNi54kry0InQ79fwXraQevkae_pY2XnZpX2EDR8d_-D5kJ8hxoDuE4C8d3w&q=pagecloud+promo+code&ved=1t:220175&ictx=111
+						26 link Description: News, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDg-mE_btxeJ5_9KbCOcCCcNNfZzlA:1793495311054&q=pagecloud+promo+code&tbm=nws&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRgtc0h3s1Z3ASvXUCDn61Q6oCel1JPKgoGiURh0hY-uxWc_A3WxPYjlhJ00DvfNiKVI1sBdWepiliyvcYVL2Fa50D441jFKQbZ0fh3cg6jhoj9aGgQxf5STWNi54kry0InQ79fwXraQevkae_pY2XnZpX2EDR8d_-D5kJ8hxoDuE4C8d3w&sa=X&ved=2ahUKEwi-sa_XyuWXAxWRn68BHZCYA88Q0pQJegQIGBAB
+						27 link Description: Images, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDg-mE_btxeJ5_9KbCOcCCcNNfZzlA:1793495311054&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRgtc0h3s1Z3ASvXUCDn61Q6oCel1JPKgoGiURh0hY-uxWc_A3WxPYjlhJ00DvfNiKVI1sBdWepiliyvcYVL2Fa50D441jFKQbZ0fh3cg6jhoj9aGgQxf5STWNi54kry0InQ79fwXraQevkae_pY2XnZpX2EDR8d_-D5kJ8hxoDuE4C8d3w&q=pagecloud+promo+code&sa=X&ved=2ahUKEwi-sa_XyuWXAxWRn68BHZCYA88QtKgLegQIFxAB
+						28 link Description: Forums, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDg-mE_btxeJ5_9KbCOcCCcNNfZzlA:1793495311054&udm=forums&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRgtc0h3s1Z3ASvXUCDn61Q6oCel1JPKgoGiURh0hY-uxWc_A3WxPYjlhJ00DvfNiKVI1sBdWepiliyvcYVL2Fa50D441jFKQbZ0fh3cg6jhoj9aGgQxf5STWNi54kry0InQ79fwXraQevkae_pY2XnZpX2EDR8d_-D5kJ8hxoDuE4C8d3w&q=pagecloud+promo+code&sa=X&ved=2ahUKEwi-sa_XyuWXAxWRn68BHZCYA88Qs6gLegQIFRAB
+						29 link Description: Videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDg-mE_btxeJ5_9KbCOcCCcNNfZzlA:1793495311054&udm=vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRgtc0h3s1Z3ASvXUCDn61Q6oCel1JPKgoGiURh0hY-uxWc_A3WxPYjlhJ00DvfNiKVI1sBdWepiliyvcYVL2Fa50D441jFKQbZ0fh3cg6jhoj9aGgQxf5STWNi54kry0InQ79fwXraQevkae_pY2XnZpX2EDR8d_-D5kJ8hxoDuE4C8d3w&q=pagecloud+promo+code&sa=X&ved=2ahUKEwi-sa_XyuWXAxWRn68BHZCYA88QtKgLegQIFhAB
+						30 link Description: Short videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDg-mE_btxeJ5_9KbCOcCCcNNfZzlA:1793495311054&udm=short_vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRgtc0h3s1Z3ASvXUCDn61Q6oCel1JPKgoGiURh0hY-uxWc_A3WxPYjlhJ00DvfNiKVI1sBdWepiliyvcYVL2Fa50D441jFKQbZ0fh3cg6jhoj9aGgQxf5STWNi54kry0InQ79fwXraQevkae_pY2XnZpX2EDR8d_-D5kJ8hxoDuE4C8d3w&q=pagecloud+promo+code&sa=X&ved=2ahUKEwi-sa_XyuWXAxWRn68BHZCYA88Qs6gLegQIFBAB
+						31 button (collapsed) More filters, Secondary Actions: Expand
+							32 container More filters
+								33 text More
+					34 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			35 heading Search Results, Value: 1
+				36 text Search Results
+			37 container center_col
+				38 container gevUs
+					39 container rso
+						40 container
+							41 heading Web results, Value: 2
+								42 text Web results
+							43 link Description: Pagecloud Promo Codes – 11 Verified Offers | October 2026 startupworld.com https://pagecloud.startupworld.com, Value: google.com.hk/goto?url=CAESXgHrOzAVecO_b2eGkUuLkK07JrEX6gzpDvXfXWFxrJb97qjtLm-6gdKijM9em-PmZe8fXUlFMBhwmEj_UZHaTRvM1br5hbBz4tvEP5M5UvDUwDZDdUVVtV_KrBQPGBI
+							44 button About this result
+							45 container
+								46 text Pagecloud offers 0 coupon codes and 11 deals  as of October 2026. Today's top offer: Pagecloud Launch Plan for $22/Month. Codes are verified and updated daily. ...
+						47 container
+							48 link Description: 20% PageCloud Promo Code + 15% Discount On Grow Plan TechJury https://techjury.net › website-builder › pagecloud, Value: google.com.hk/goto?url=CAESagHrOzAVJRPepTumKo-o-Nlzk-KNk0bZdrpsibc9PD_MgdPKQ8xXZeqOrGHkN3wW8qiwSYPyLx7Mrby3gnXL8DFqCCQixV_7-8pLA4W_76s5MaOisrKTlkwD_sEds0PHt8_VkN-7u0U8QQw
+							49 button About this result
+							50 text Active PageCloud promotional codes
+							51 text  typically offer 20-30% savings on new subscriptions, with special seasonal campaigns reaching up to 45% off annual plans.
+						52 container
+							53 link Description: Pagecloud Coupons & Promo Codes (September 2026 ... Saver.com https://pagecloud.saver.com › Software › Website Builders, Value: google.com.hk/goto?url=CAESVwHrOzAV5Iixq0JsnGbi68lhl0y3JVt_brmNaKWxw61txfdc4nqs2KX4ajgpACnGN7Z8xLMP0rHIJ-TEcJL-TDYPWSCNfXt4tmXFUUwm-zEK4JVMxVNiNA
+							54 button About this result
+							55 text Save with 178 verified Pagecloud promo codes for September 2026. 
+							56 text Get 20% off your full access to Page Cloud Academy courses
+							57 text , Receive a 25% discount on all new ...
+						58 container
+							59 link Description: Pagecloud Promo Code - JoinSecret joinsecret.com https://www.joinsecret.com › pagecloud, Value: google.com.hk/goto?url=CAESXwHrOzAVN-FqSoQPRXYk10zibuNhW5Uv-MNffrLGYqobNB2--f18c4R7jtFmsS4G1qXWKYrIBjA9Pzh-99q46KrcX9y2DuywGy0aNYQcoGPXBCq084n3-zlIF_efFC3E
+							60 button About this result
+							61 text There is currently no promo code for this product
+							62 text  Leave your email to get notified when we have a new coupon code for Pagecloud Email saved
+						63 container
+							64 link Description: PageCloud coupon codes 25% | November 2026 NamoBOT https://pagecloud.namobot.com › Software, Value: google.com.hk/goto?url=CAESZgHrOzAVFB7vUZ0M2IAIbAjRv_n_MKIH_QvXw8WSOif-c498Y1x407rkSMLetdEDjbL0kHps3CGTR1BnhMC-CrAEfT-fFi9k3buo4vx5oR0lXd-VVKWR51f0td66FjPeQc_EvQ2UPQ
+							65 button About this result
+							66 text Take advantage of 92% verified 
+							67 text PageCloud promo codes
+							68 text . A 15% discount is available on the entire website with a special promo code from PageCloud. . Get Code 20 ...
+						69 container k04FTb
+							70 heading Sponsored Result, Value: 2
+								71 text Sponsored Result
+							72 container
+								73 link Description: 25% Off Pagecloud Coupon - Coupon Code #Verified refermate.com https://www.refermate.com › pagecloud › coupons, Value: google.com.hk/goto?url=CAESbAHrOzAVHuDmS2kU1dsKzClZhUKe34ftuxfGzn-evlO8FVUO6-dssXfcJwROza52tYtwGrTo3BlgAmjbddbgpKHXAcXy4z2U-EguoexEa7PCEJwgYVZjFmg48GddUEIt92byz1WN5V-Id3DFYA
+								74 container
+									75 button Why this ad?
+								76 text 25% Off Pagecloud. Save Extra by Earning Cash Back. Refermate Automatically Applies The Best Available Coupon Code At Checkout. Stack Cashback & Coupons. 54,000+ Partner Stores.
+								77 text 100K+ visits in past month
+							78 button Hide sponsored result
+								79 text Hide sponsored result
+						80 container
+							81 link Description: Your favorite tools. Your website. Pagecloud https://www.pagecloud.com › apps, Value: …
+							82 button About this result
+							83 text Your favorite tools. Your website. 
+							84 text Paste your provider's embed code
+							85 text  and ask your AI assistant to add it. Keep using the tools that work for your business.
+							86 link Description: Read more, Value: …
+						87 container
+							88 link Value: …, Description: 10 Verified Pagecloud Promo Codes & Deals | October 2026 EnviroGadget https://pagecloud.envirogadget.com
+							89 button About this result
+							90 text Today's top 
+							91 text offer
+							92 text : New Business Plan Subscriptions Save 20%. 
+							93 text Codes
+							94 text  are verified and updated daily. 15% OFF Refer a Friend, Earn Account Credit Referral
+						95 container
+							96 link Value: …, Description: Pagecloud Review (2026): Is It the Right Website Builder? LinkedIn · DroidCrunch 2 reactions · 1 year ago
+							97 button About this result
+							98 text Get the latest on 
+							99 text Pagecloud
+							100 text  (2025). Our review covers the flexible editor, pricing, features, e-commerce, alternatives & helps you decide if ...
+						101 container
+							102 link Description: Login Pagecloud https://app.pagecloud.com › login › onboarding, Value: …
+							103 button About this result
+							104 text Welcome to 
+							105 text Pagecloud
+							106 text ! Your space to craft custom websites and popups that represent your brand and grow your online presence. Create with our intuitive ...
+						107 container
+							108 link Value: …, Description: Pagecloud Review 2024: Pricing, Features & Alternatives Today Testing https://todaytesting.com › Blog News
+							109 button About this result
+							110 text Jan 22, 2026  — 
+							111 text Pagecloud Discount Code
+							112 text . View current offer. Get started. Integrations. CRM: HubSpot, Mailchimp (via app connectors) ...
+							113 link Description: Read more, Value: …
+				114 container
+					115 heading Page Navigation, Value: 1
+						116 text Page Navigation
+					117 text 1
+					118 link Description: Page 2, Value: …
+					119 link Description: Page 3, Value: …
+					120 link Description: Page 4, Value: …
+					121 link Description: Page 5, Value: …
+					122 link Description: Page 6, Value: …
+					123 link Description: Page 7, Value: …
+					124 link Description: Page 8, Value: …
+					125 link Description: Page 9, Value: …
+					126 link Description: Page 10, Value: …
+					127 heading Next, Value: 2
+						128 link Description: Next, Value: …, ID: pnnext
+			129 container sfooter
+				130 heading Footer Links, Value: 1
+					131 text Footer Links
+				132 container fbar
+					133 container
+						134 button Unknown  - Can't determine location
+							135 container
+								136 text Unknown
+							137 container
+								138 text  -  Can't determine location
+						139 text  - 
+						140 button Update location
+							141 text Update location
+					142 container fsl
+						143 link Description: Help, Value: …
+						144 link Description: Send feedback, Value: …
+						145 link Description: Privacy, Value: …
+						146 link Description: Terms, Value: …
+
+The focused UI element is 0 AXWebArea pagecloud promo code - Google Search, URL: google.com.hk/search?q=pagecloud+promo+code&gl=us&hl=en&pws=0&num=100

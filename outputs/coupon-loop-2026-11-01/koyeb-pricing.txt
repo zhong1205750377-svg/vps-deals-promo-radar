@@ -1,0 +1,724 @@
+Browser tab: 138024017, Title: "Pricing for intensive infractrucure - Koyeb", URL: "https://www.koyeb.com/pricing".
+0 AXWebArea Pricing for intensive infractrucure - Koyeb, URL: koyeb.com/pricing
+	1 container
+		2 link Description: Koyeb is joining Mistral AI to Build The Future of AI Infrastructure. Read More →, Value: koyeb.com/blog/koyeb-is-joining-mistral-ai-to-build-the-future-of-ai-infrastructure
+		3 button
+			4 image
+		5 link koyeb.com/
+		6 tab group
+			7 tab (selectable, settable, boolean) PRICING, Value: 0
+			8 tab (selectable, settable, boolean) DOCS, Value: 0
+			9 tab (selectable, settable, boolean) BLOG, Value: 0
+			10 tab (selectable, settable, boolean) TUTORIALS, Value: 0
+			11 tab (selectable, settable, boolean) CHANGELOG, Value: 0
+			12 tab (selectable, settable, boolean) DEPLOY, Value: 0
+			13 tab (selectable, settable, boolean) PARTNERS, Value: 0
+		14 link Description: LOGIN, Value: app.koyeb.com/auth/signin
+		15 link Description: SIGN UP, Value: app.koyeb.com/auth/signup
+		16 container
+			17 heading PRICING FOR INTENSIVE INFRASTRUCTURE, Value: 1
+				18 text PRICING FOR INTENSIVE INFRASTRUCTURE
+			19 text Only pay for what you use, by the second. Scale with your team and stay in control with autoscaling limits.
+			20 tab group
+				21 tab (selectable, settable, boolean) COMPUTE, Value: 0
+				22 tab (selectable, settable, boolean) POSTGRES, Value: 0
+			23 text SERVERLESS COMPUTE We automatically deploy your app in autoscaling, secure VMs on top of high-performance bare metal servers. /POPULAR INSTANCES
+			24 tab group
+				25 tab (selectable, settable, boolean) GPU, Value: 0
+				26 tab (selectable, settable, boolean) STANDARD, Value: 0
+				27 tab (selectable, settable, boolean) ECO, Value: 0
+			28 text RTX-A6000 vRAM 48GB $ 0.75  /hour $ 0.000208  /sec L40S vRAM 48GB $ 1.20  /hour $ 0.000333  /sec A100 vRAM 80GB $ 1.60  /hour $ 0.000444  /sec
+			29 image
+			30 text AUTOSCALING
+			31 image
+			32 text SCALE-TO-ZERO
+			33 image
+			34 text PER SECOND BILLING
+			35 link Description: GET STARTED, Value: app.koyeb.com/auth/signup
+			36 text TRUSTED BY THE MOST AMBITIOUS TEAMS
+			37 image
+			38 image
+			39 image
+			40 image
+			41 image
+			42 image
+			43 image
+			44 image
+			45 image
+			46 image
+			47 image
+			48 image
+			49 image
+			50 image
+			51 image
+			52 image
+			53 image
+			54 image
+			55 image
+			56 image
+			57 image
+			58 image
+			59 image
+			60 image
+			61 image
+			62 image
+			63 image
+			64 image
+			65 image
+			66 image
+		67 container
+			68 link Description: PLANS, Value: koyeb.com/pricing#plans
+			69 link Description: COMPUTE, Value: koyeb.com/pricing#compute
+			70 link Description: POSTGRES, Value: koyeb.com/pricing#postgres
+			71 link Description: FEATURES, Value: koyeb.com/pricing#features
+			72 link Description: Q&A, Value: koyeb.com/pricing#faq
+		73 container plans
+			74 heading DESIGNED FOR GROWTH, Value: 2
+				75 text DESIGNED FOR GROWTH
+			76 text Pay only for what you use. Add support plans and capacity.
+			77 container
+				78 text PRO $ 29 /mo +COMPUTE
+				79 image
+			80 text The best way to start, including team and support features for production apps.
+			81 text FEATURES
+			82 content list
+				83 container
+					84 image
+					85 text $10 included compute
+				86 container
+					87 image
+					88 text 10 users
+				89 container
+					90 image
+					91 text 100 services
+				92 container
+					93 image
+					94 text NVMe Volumes and Snapshots
+				95 container
+					96 image
+					97 text 5 concurrent builds
+				98 container
+					99 image
+					100 text E-mail support and chat
+			101 link Description: GET STARTED, Value: app.koyeb.com/auth/signup
+			102 container
+				103 text SCALE $ 299 /mo +COMPUTE
+			104 text Scale your infrastructure, team and support.
+			105 text FEATURES
+			106 content list
+				107 container
+					108 image
+					109 text $100 included compute
+				110 container
+					111 image
+					112 text 50 users
+				113 container
+					114 image
+					115 text 1000 services
+				116 container
+					117 image
+					118 text AWS Regions
+				119 container
+					120 image
+					121 text Slack cross-connect
+				122 container
+					123 image
+					124 text 99.9% uptime SLA
+			125 link Description: GET STARTED, Value: app.koyeb.com/auth/signup
+			126 container
+				127 text ENTERPRISE CUSTOM +COMPUTE
+			128 text Supercharged security and support features, starting at $1000/mo.
+			129 text FEATURES
+			130 content list
+				131 container
+					132 image
+					133 text Private dedicated locations
+				134 container
+					135 image
+					136 text Unlimited users
+				137 container
+					138 image
+					139 text SSO, RBAC, and Audit trail
+				140 container
+					141 image
+					142 text Custom RAM, CPU, and GPU
+				143 container
+					144 image
+					145 text ISO27001 and SOC2 Certifications
+				146 container
+					147 image
+					148 text 99.99% uptime SLA
+				149 container
+					150 image
+					151 text 24×7×365 premium support
+			152 link Description: CONTACT US, Value: tally.so/r/nGLjGo?utm_medium=www&utm_source=koyeb&utm_campaign=pricing_page
+			153 image
+			154 text EARLY STAGE STARTUP
+			155 text Get up to $30k in credits to accelerate your go-to-market with high-performance cloud infrastructure.
+			156 link Description: LEARN MORE, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure
+			157 image
+			158 text SAVING PLANS
+			159 text Long-term reservations get up to 50% off the on-demand price.
+			160 link Description: CONTACT US, Value: tally.so/r/nGLjGo
+			161 link Description: VIEW PRICING CALCULATOR, Value: koyeb.com/calculator
+		162 container compute
+			163 heading SERVERLESS COMPUTE, Value: 2
+				164 text SERVERLESS COMPUTE
+			165 text When you deploy an app, we automatically deploy inside of secure VMs running on high-performance bare metal servers. Activate autoscaling and we will scale your apps dynamically.
+			166 text Price per
+			167 pop up button (collapsed, settable) Value: Hour, Secondary Actions: Expand
+				168 menu
+					169 Month
+					170 (selected) Hour
+					171 Second
+			172 text USE GPU TO DEPLOY:
+			173 content list
+				174 container
+					175 image
+					176 text AUTOSCALING INFERENCE ENDPOINTS
+				177 container
+					178 image
+					179 text HIGH-PERFORMANCE FINE-TUNING
+				180 container
+					181 image
+					182 text PRODUCTION ENVIRONMENTS
+				183 container
+					184 image
+					185 text USING A GITHUB REPOSITORY OR PRE-BUILT CONTAINER
+			186 tab group
+				187 tab (selectable, settable, boolean) GPU, Value: 0
+				188 tab (selectable, settable, boolean) STANDARD, Value: 0
+				189 tab (selectable, settable, boolean) ECO, Value: 0
+			190 text INSTANCE TYPE
+			191 text VCPU
+			192 text RAM
+			193 text DISK
+			194 text PRICE
+			195 text RTX-4000-SFF-ADA
+			196 container
+				197 text 20GB  VRAM
+			198 text 6
+			199 text 44GB
+			200 text 240GB
+			201 text $ 0.50  /hr L4
+			202 container
+				203 text 24GB  VRAM
+			204 text 6
+			205 text 32GB
+			206 text 160GB
+			207 text $ 0.70  /hr RTX-A6000
+			208 container
+				209 text 48GB  VRAM
+			210 text 6
+			211 text 64GB
+			212 text 160GB
+			213 text $ 0.75  /hr L40S
+			214 container
+				215 text 48GB  VRAM
+			216 text 15
+			217 text 64GB
+			218 text 160GB
+			219 text $ 1.20  /hr A100
+			220 image
+			221 text POPULAR
+			222 container
+				223 text 80GB  VRAM
+			224 text 15
+			225 text 180GB
+			226 text 320GB
+			227 text $ 1.60  /hr A100 SXM
+			228 container
+				229 text 80GB  VRAM
+			230 text 15
+			231 text 180GB
+			232 text 320GB
+			233 text $ 2.15  /hr RTX-PRO-6000
+			234 container
+				235 text 96GB  VRAM
+			236 text 15
+			237 text 220GB
+			238 text 240GB
+			239 text $ 2.20  /hr H100
+			240 container
+				241 text 80GB  VRAM
+			242 text 15
+			243 text 180GB
+			244 text 320GB
+			245 text $ 2.50  /hr H200
+			246 container
+				247 text 141GB  VRAM
+			248 text 15
+			249 text 240GB
+			250 text 320GB
+			251 text $ 3.00  /hr 2x A100
+			252 container
+				253 text 160GB  VRAM
+			254 text 30
+			255 text 360GB
+			256 text 640GB
+			257 text $ 3.2  /hr 2x A100 SXM
+			258 container
+				259 text 160GB  VRAM
+			260 text 30
+			261 text 360GB
+			262 text 640GB
+			263 text $ 4.30  /hr 2x H100
+			264 container
+				265 text 160GB  VRAM
+			266 text 30
+			267 text 360GB
+			268 text 640GB
+			269 text $ 5.0  /hr B200
+			270 container
+				271 text 180GB  VRAM
+			272 text 15
+			273 text 240GB
+			274 text 320GB
+			275 text $ 5.50  /hr 2x H200
+			276 container
+				277 text 282GB  VRAM
+			278 text 30
+			279 text 480GB
+			280 text 640GB
+			281 text $ 6.0  /hr 4x A100
+			282 container
+				283 text 320GB  VRAM
+			284 text 60
+			285 text 720GB
+			286 text 1280GB
+			287 text $ 6.4  /hr 4x A100 SXM
+			288 container
+				289 text 320GB  VRAM
+			290 text 60
+			291 text 720GB
+			292 text 1280GB
+			293 text $ 8.6  /hr 4x H100
+			294 container
+				295 text 320GB  VRAM
+			296 text 60
+			297 text 720GB
+			298 text 1280GB
+			299 text $ 10.0  /hr 4x H200
+			300 container
+				301 text 564GB  VRAM
+			302 text 60
+			303 text 960GB
+			304 text 1280GB
+			305 text $ 12.0  /hr 8x A100
+			306 container
+				307 text 640GB  VRAM
+			308 text 120
+			309 text 1440GB
+			310 text 2560GB
+			311 text $ 12.8  /hr 8x A100 SXM
+			312 container
+				313 text 640GB  VRAM
+			314 text 120
+			315 text 1440GB
+			316 text 2560GB
+			317 text $ 17.2  /hr 8x H100
+			318 container
+				319 text 640GB  VRAM
+			320 text 120
+			321 text 1440GB
+			322 text 2560GB
+			323 text $ 20.0  /hr 8x H200
+			324 container
+				325 text 1128GB  VRAM
+			326 text 120
+			327 text 1920GB
+			328 text 2560GB
+			329 text $ 24.0  /hr N300s
+			330 container
+				331 text 24GB  VRAM
+			332 text 4
+			333 text 32GB
+			334 text 320GB
+			335 link Description: REQUEST ACCESS, Value: tally.so/r/npRak8
+			336 text 4x N300s
+			337 container
+				338 text 96GB  VRAM
+			339 text 16
+			340 text 128GB
+			341 text 320GB
+			342 link Description: REQUEST ACCESS, Value: tally.so/r/npRak8
+			343 button LOOKING FOR COMMITTED CAPACITY? LET'S CHAT
+				344 image
+				345 text LOOKING FOR COMMITTED CAPACITY? LET'S CHAT
+				346 image
+		347 container postgres
+			348 heading SERVERLESS POSTGRES, Value: 2
+				349 text SERVERLESS POSTGRES
+			350 text Fully managed, highly available, and scalable serverless Postgres databases billed by the second.
+			351 container
+				352 text Storage: $0.50/mo per GB
+			353 pop up button (collapsed, settable) Value: Always active (24/7), Secondary Actions: Expand
+				354 menu
+					355 (selected) Always active (24/7)
+					356 Dev/Staging/CI environments (4h/day)
+					357 Business hours (8h/day)
+			358 text KEY FEATURES
+			359 content list
+				360 container
+					361 image
+					362 text 100% POSTGRES COMPATIBLE
+				363 container
+					364 image
+					365 text AVAILABLE IN WASHINGTON, D.C. (US), FRANKFURT (GERMANY), OR SINGAPORE (ASIA)
+				366 container
+					367 image
+					368 text SCALE-TO-ZERO IN CASE OF INACTIVITY
+			369 text INSTANCE TYPE
+			370 text VCPU
+			371 text RAM
+			372 text STORAGE
+			373 text PRICE
+			374 text Free 5h
+			375 text 0.25
+			376 text 1 GB
+			377 text 1GB
+			378 container
+				379 text $ 0  /hr
+			380 container
+				381 text $ 0  /mo
+			382 text Small
+			383 text 0.25
+			384 text 1 GB
+			385 text ∞
+			386 container
+				387 text $ 0.04  /hr
+			388 container
+				389 text $ 29.76  /mo
+			390 text Medium
+			391 image
+			392 text POPULAR
+			393 text 0.5
+			394 text 2 GB
+			395 text ∞
+			396 container
+				397 text $ 0.08  /hr
+			398 container
+				399 text $ 59.52  /mo
+			400 text Large
+			401 text 1
+			402 text 4 GB
+			403 text ∞
+			404 container
+				405 text $ 0.16  /hr
+			406 container
+				407 text $ 119.04  /mo
+			408 text XLarge
+			409 text 2
+			410 text 8 GB
+			411 text ∞
+			412 container
+				413 text $ 0.32  /hr
+			414 container
+				415 text $ 238.08  /mo
+			416 text 2XLarge
+			417 text 4
+			418 text 16 GB
+			419 text ∞
+			420 container
+				421 text $ 0.64  /hr
+			422 container
+				423 text $ 476.16  /mo
+			424 text 3XLarge
+			425 text 8
+			426 text 32 GB
+			427 text ∞
+			428 container
+				429 text $ 1.28  /hr
+			430 container
+				431 text $ 952.32  /mo
+		432 container features
+			433 heading FEATURES, Value: 2
+				434 text FEATURES
+			435 text Start on-demand and scale with us.
+			436 container
+				437 text PRO $ 29 /mo +COMPUTE
+			438 container
+				439 text SCALE $ 299 /mo +COMPUTE
+			440 container
+				441 text ENTERPRISE CUSTOM +COMPUTE
+			442 text CORE
+			443 text User
+			444 text 10
+			445 text 50
+			446 text Unlimited
+			447 text Included Usage
+			448 text $10
+			449 text $100
+			450 text $500
+			451 text Web Services and APIs
+			452 image
+			453 image
+			454 image
+			455 text Workers
+			456 image
+			457 image
+			458 image
+			459 text CPU concurrency
+			460 text 100
+			461 text 1000
+			462 text Custom
+			463 text GPU concurrency
+			464 text 20
+			465 text 40
+			466 text Custom
+			467 text High-performance bare metal
+			468 image
+			469 image
+			470 image
+			471 image
+			472 text Horizontal scaling
+			473 image
+			474 image
+			475 image
+			476 image
+			477 text Autoscaling
+			478 image
+			479 image
+			480 image
+			481 image
+			482 text Infrastructure autohealing
+			483 image
+			484 image
+			485 image
+			486 text Serverless Postgres
+			487 image
+			488 image
+			489 image
+			490 text Volumes and Snapshots
+			491 image
+			492 image
+			493 image
+			494 image
+			495 text Deploy containers from any registry
+			496 image
+			497 image
+			498 image
+			499 text Zero-downtime deploys
+			500 image
+			501 image
+			502 image
+			503 text CLI, API, Terraform, and Pulumi
+			504 image
+			505 image
+			506 image
+			507 text BUILD
+			508 text Deploy on GitHub push
+			509 image
+			510 image
+			511 image
+			512 text Native build of core runtimes
+			513 image
+			514 image
+			515 image
+			516 image
+			517 text Build from Docker
+			518 image
+			519 image
+			520 image
+			521 text Automatic CI/CD
+			522 image
+			523 image
+			524 image
+			525 text Concurrent builds
+			526 text 5
+			527 text 20
+			528 text Custom
+			529 text GLOBAL DEPLOYMENT
+			530 text Available regions
+			531 text 7 regions in US, EU, and Asia
+			532 text 7 regions in US, EU, and Asia
+			533 text 50 on-demand regions
+			534 text AWS Regions
+			535 image
+			536 image
+			537 image
+			538 text Bring Your Own Cloud (BYOC)
+			539 image
+			540 image
+			541 image
+			542 text Custom Regions
+			543 image
+			544 image
+			545 image
+			546 text Dedicated Racks
+			547 image
+			548 image
+			549 image
+			550 text NETWORKING
+			551 text Included bandwidth
+			552 text 1TB/mo
+			553 text 1TB/mo
+			554 text Custom
+			555 text Additional bandwidth EU/US
+			556 text $0.02/GB
+			557 text $0.02/GB
+			558 text Custom
+			559 text Additional bandwidth Asia
+			560 text $0.04/GB
+			561 text $0.04/GB
+			562 text Custom
+			563 text Automatic HTTPS/TLS
+			564 image
+			565 image
+			566 image
+			567 text WebSockets
+			568 image
+			569 image
+			570 image
+			571 text HTTP/2 and HTTP/3
+			572 image
+			573 image
+			574 image
+			575 text Private networking
+			576 image
+			577 image
+			578 image
+			579 text Service discovery
+			580 image
+			581 image
+			582 image
+			583 text Custom domains
+			584 text 100
+			585 text Unlimited
+			586 text 500 INCLUDED
+			587 text Unlimited
+			588 text 500 INCLUDED
+			589 text Wildcard domains
+			590 image
+			591 image
+			592 image
+			593 text Global Load-Balancing
+			594 image
+			595 image
+			596 image
+			597 text Advanced networking with direct IP
+			598 image
+			599 image
+			600 image
+			601 text OBSERVABILITY
+			602 text Realtime metrics
+			603 text 7 days
+			604 text 7 days
+			605 text 7 days
+			606 text Realtime logs
+			607 text 7 days
+			608 text 7 days
+			609 text 30 days
+			610 text Logs Exporter
+			611 image
+			612 image
+			613 image
+			614 text Audit logs
+			615 image
+			616 image
+			617 image
+			618 text SECURITY AND COMPLIANCE
+			619 text DDoS Protection
+			620 image
+			621 image
+			622 image
+			623 text Encryption at rest and in transit
+			624 image
+			625 image
+			626 image
+			627 text Secrets management
+			628 image
+			629 image
+			630 image
+			631 text Single Sign-On (SSO)
+			632 image
+			633 image
+			634 image
+			635 text Role-based Access Control (RBAC)
+			636 image
+			637 image
+			638 image
+			639 text ISO27001 and SOC2 Certifications
+			640 image
+			641 image
+			642 image
+			643 text SUPPORT
+			644 text Community Platform
+			645 image
+			646 image
+			647 image
+			648 text Email
+			649 image
+			650 image
+			651 image
+			652 text Uptime SLA
+			653 image
+			654 text 99.9%
+			655 text 99.99%
+			656 text Private Slack support channel
+			657 image
+			658 image
+			659 image
+			660 text Priority support 24×7×365
+			661 image
+			662 image
+			663 image
+		664 container faq
+			665 heading FREQUENTLY ASKED QUESTIONS, Value: 2
+				666 text FREQUENTLY ASKED QUESTIONS
+			667 text How are processing and bandwidth charged?
+			668 text Once you've consumed your included monthly free credit, we start billing you on a pay-per-use basis. Processing is accounted per second and billing is rounded up to the nearest unit. We charge you at the end of the calendar month.
+			669 text How much do additional Services cost?
+			670 text Services are charged depending on the effective usage, starting at $0.000006/second. You define the price you want to pay when you choose the Instance size and the scale. If your app requires a $5.40 Instance and you want to launch 10 Instances, you'll pay $54 per month.
+			671 text What is outbound bandwidth?
+			672 text All the data we're sending toward end-users through our CDN and outside of our platform is counted as outbound bandwidth.
+			673 text We're carefully selecting our cloud service providers to get at $0.04/GB transferred. If you have huge volumes to transfer and this doesn't work, contact us to find solutions.
+			674 text Can I deploy with my own domain?
+			675 text Yes! You can use your own domain and we automatically provide SSL. We provide ten custom domain for free and each subsequent domain is $0.20/month.
+			676 text When can I cancel my subscription?
+			677 text Whenever you want! Your subscription will end immediately and you will receive a prorated credit for the subscription's unused time.
+		678 container
+			679 heading DEPLOY AI APPS TO PRODUCTION IN MINUTES, Value: 2
+				680 text DEPLOY AI APPS TO PRODUCTION IN MINUTES
+			681 link Description: GET STARTED, Value: app.koyeb.com/auth/signup
+			682 button TALK TO AN EXPERT
+				683 image
+				684 text TALK TO AN EXPERT
+				685 image
+		686 image
+		687 text HIGH-PERFORMANCE SERVERLESS INFRASTRUCTURE FOR AI. RUN INFERENCE, SANDBOXES, AND PRODUCTION WORKLOADS ON CPUS, GPUS, AND ACCELERATORS.
+		688 link Description: ALL SYSTEMS OPERATIONAL, Value: status.koyeb.com/
+		689 text PRODUCT
+		690 link Description: OVERVIEW, Value: koyeb.com/
+		691 link Description: PRICING, Value: koyeb.com/pricing
+		692 link Description: CHANGELOG, Value: koyeb.com/changelog
+		693 text RESOURCES
+		694 link Description: DOCUMENTATION, Value: koyeb.com/docs
+		695 link Description: TUTORIALS, Value: koyeb.com/tutorials
+		696 link Description: COMMUNITY, Value: community.koyeb.com/
+		697 link Description: API, Value: koyeb.com/docs/api
+		698 link Description: DEPLOY, Value: koyeb.com/deploy
+		699 link Description: STARTUP PROGRAM, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure
+		700 link Description: SYSTEM STATUS, Value: status.koyeb.com/
+		701 text COMPANY
+		702 link Description: BLOG, Value: koyeb.com/blog
+		703 link Description: CUSTOMER STORIES, Value: koyeb.com/customers
+		704 link Description: PARTNERS, Value: koyeb.com/partners
+		705 link Description: EVENTS, Value: lu.ma/koyeb
+		706 link Description: CAREERS, Value: koyeb.com/careers
+		707 link Description: COMPANY, Value: koyeb.com/about
+		708 link Description: TERMS OF SERVICE, Value: koyeb.com/docs/legal/terms
+		709 link Description: PRIVACY POLICY, Value: koyeb.com/docs/legal/data-processing-agreement
+		710 image
+		711 image
+		712 link linkedin.com/company/koyeb
+		713 link x.com/gokoyeb
+		714 link slack.koyeb.com/
+		715 text © Koyeb
+		716 container Notifications Alt+T
+			717 container 1
+				718 text This website uses cookies to measure and improve your experience. You can manage your cookie preferences below.
+				719 button Accept all
+				720 button Deny
+
+The focused UI element is 0 AXWebArea Pricing for intensive infractrucure - Koyeb, URL: koyeb.com/pricing

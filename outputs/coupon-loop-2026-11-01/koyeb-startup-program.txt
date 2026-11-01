@@ -1,0 +1,199 @@
+Browser tab: 138024018, Title: "Koyeb for Startups: Accelerate with Credits for High-Performance Infrastructure - Koyeb", URL: "https://www.koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure".
+0 AXWebArea Koyeb for Startups: Accelerate with Credits for High-Performance Infrastructure - Koyeb, URL: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure
+	1 container
+		2 link Description: Koyeb is joining Mistral AI to Build The Future of AI Infrastructure. Read More →, Value: koyeb.com/blog/koyeb-is-joining-mistral-ai-to-build-the-future-of-ai-infrastructure
+		3 button
+			4 image
+		5 link koyeb.com/
+		6 tab group
+			7 tab (selectable, settable, boolean) PRICING, Value: 0
+			8 tab (selectable, settable, boolean) DOCS, Value: 0
+			9 tab (selectable, settable, boolean) BLOG, Value: 0
+			10 tab (selectable, settable, boolean) TUTORIALS, Value: 0
+			11 tab (selectable, settable, boolean) CHANGELOG, Value: 0
+			12 tab (selectable, settable, boolean) DEPLOY, Value: 0
+			13 tab (selectable, settable, boolean) PARTNERS, Value: 0
+		14 link Description: LOGIN, Value: app.koyeb.com/auth/signin
+		15 link Description: SIGN UP, Value: app.koyeb.com/auth/signup
+		16 container
+			17 button What is Koyeb?
+				18 image
+				19 text What is Koyeb?
+				20 image
+			21 container
+				22 link Description: GO TO MARKET FASTER WITH KOYEB STARTUP PROGRAM, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure#go-to-market-faster-with-koyeb-startup-program
+				23 link Description: THE PROGRAM: PERKS TO ACCELERATE, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure#the-program-perks-to-accelerate
+				24 link Description: PROVIDE BLAZING-FAST EXPERIENCES AND RUN CLOSE TO YOUR USERS, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure#provide-blazing-fast-experiences-and-run-close-to-your-users
+				25 link Description: ELIGIBILITY CRITERIA, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure#eligibility-criteria
+				26 link Description: APPLY TO KOYEB STARTUP PROGRAM, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure#apply-to-koyeb-startup-program
+			27 link Description: ALL ARTICLES, Value: koyeb.com/blog
+			28 text JUN 21, 2024
+			29 text 4 MIN READ
+			30 heading KOYEB FOR STARTUPS: ACCELERATE WITH CREDITS FOR HIGH-PERFORMANCE INFRASTRUCTURE, Value: 1
+				31 text KOYEB FOR STARTUPS: ACCELERATE WITH CREDITS FOR HIGH-PERFORMANCE INFRASTRUCTURE
+			32 text It's the final day of our 
+			33 link Description: first Launch Week, Value: koyeb.com/blog/koyeb-launch-week
+			34 text  and we're concluding with an announcement to help you bring your ideas to market faster: 
+			35 text the Koyeb Startup Program with up to $30k of credits
+			36 text . TLDR: We know that your most precious asset is time and we want to help you focus on your business. You can apply 
+			37 link Description: here to join the program and claim credits, Value: tally.so/r/w4kzad
+			38 text  that can be used with our Standard CPU and GPU instances. For over 3 years, we've helped over 
+			39 link Description: 100,000 developers, startups, and businesses, Value: koyeb.com/customers
+			40 text  deploy and scale in production.
+			41 heading Go To Market Faster with Koyeb Startup Program, Value: 2, ID: go-to-market-faster-with-koyeb-startup-program
+				42 text Go To Market Faster with Koyeb Startup Program
+			43 text The program is designed to help early-stage startups accelerate their go-to-market with high-performance cloud infrastructure and the best developer experience. Startups globally lose precious time dealing with complex infrastructure when their most critical asset is time. Time-to-market is critical and we're here to help you deploy and iterate quickly.
+			44 heading The Program: Perks to Accelerate, Value: 3, ID: the-program-perks-to-accelerate
+				45 text The Program: Perks to Accelerate
+			46 text Startups can receive up to $30k of free compute credits. These credits can be used with our Standard and GPU instances. In addition to credits, the program offers:
+			47 content list
+				48 container
+					49 AXListMarker • 
+					50 text Seamless Onboarding : Get onboarded with our solutions engineer and start deploying your applications in minutes.
+				51 container
+					52 AXListMarker • 
+					53 text Startup Features : Deploy everything you need for your application in all of our regions. Startup accounts have access to extra resources, features, and regions.
+				54 container
+					55 AXListMarker • 
+					56 text Priority Support : Our support and engineering teams are here to help you with a dedicated Slack channel.
+				57 container
+					58 AXListMarker • 
+					59 text White-Glove Migration : If you are already running somewhere else, we'll help you migrate your applications to Koyeb.
+				60 container
+					61 AXListMarker • 
+					62 text Special Early Access to New Features : Get priority access to new features and products before they are released to the public.
+			63 text Ready to build, run, and scale apps, AI workloads, and inference on cloud infrastructure and GPUs with no-ops? 
+			64 link Description: Apply today!, Value: tally.so/r/w4kzad
+			65 text Koyeb Launch Week This is the fifth and final announcement for our first ever Koyeb Launch Week
+			66 link Description: SEE THE RECAP, Value: koyeb.com/blog/koyeb-launch-week
+			67 heading Provide Blazing-Fast Experiences and Run Close to Your Users, Value: 2, ID: provide-blazing-fast-experiences-and-run-close-to-your-users
+				68 text Provide Blazing-Fast Experiences and Run Close to Your Users
+			69 text Are you new here? Here is the fast-track:
+			70 content list
+				71 container
+					72 AXListMarker 1. 
+					73 text On Koyeb, you bring your code and your team to deploy your full stack applications, AI workloads, APIs, and databases globally on high-performance infrastructure in minutes.
+				74 container
+					75 AXListMarker 2. 
+					76 text Simply choose the 
+					77 link Description: regions, Value: koyeb.com/docs/reference/regions
+					78 text  where you want to deploy your applications and services and let Koyeb handle the rest. Learn how we automatically 
+					79 link Description: build, Value: koyeb.com/docs/build-and-deploy/build-from-git
+					80 text  and 
+					81 link Description: deploy, Value: koyeb.com/docs/reference/deployments
+					82 text  your applications. We accelerate traffic with our 
+					83 link Description: 255+ edge locations, Value: koyeb.com/docs/reference/edge-network
+					84 text .
+				85 container
+					86 AXListMarker 3. 
+					87 text You can scale your applications accross 
+					88 link Description: 6 core locations, Value: koyeb.com/docs/reference/regions
+					89 text  worldwide in a click, so your applications run close to your users and provide them blazing-fast experiences. Want to learn more about how requests for apps and services running on the platform are handled? Dive into our blog post on 
+					90 link Description: building a multi-region service mesh with Anycast, BGP, and mTLS, Value: koyeb.com/blog/building-a-multi-region-service-mesh-with-kuma-envoy-anycast-bgp-and-mtls
+					91 text .
+				92 container
+					93 AXListMarker 4. 
+					94 text We provide built-in 
+					95 link Description: high-availability, Value: koyeb.com/docs/run-and-scale/high-availability
+					96 text  and 
+					97 link Description: autohealing, Value: koyeb.com/docs/run-and-scale/health-checks
+					98 text  thanks to native and customizable health checks.
+			99 text Global deployments of AI and full stack apps Run your AI and full stack workloads worldwide on high-performance infrastructure and close to your users.
+			100 link Description: DEPLOY NOW, Value: app.koyeb.com/auth/signup
+			101 heading Eligibility Criteria, Value: 2, ID: eligibility-criteria
+				102 text Eligibility Criteria
+			103 text The Koyeb Startup Program is designed for seed-stage companies, and we’re currently onboarding startups that either:
+			104 content list
+				105 container
+					106 AXListMarker • 
+					107 text Are a part of a partner accelerator . We onboard new accelerator programs regularly, so if you are not affiliated with one of our current partner accelerators, we still encourage you to apply.
+				108 container
+					109 AXListMarker • 
+					110 text Raised between $1M and $5M from VCs .
+			111 text Not there yet?
+			112 text  We review applications on a case-by-case basis and are always looking to support promising startups. If you are a bootstrapped startup or just starting out, we encourage you to apply.
+			113 heading Apply to Koyeb Startup Program, Value: 2, ID: apply-to-koyeb-startup-program
+				114 text Apply to Koyeb Startup Program
+			115 text You can 
+			116 link Description: apply to the Koyeb Startup Program, Value: tally.so/r/w4kzad
+			117 text  today, and our Startup Program team will review your application and get back to you within the week. With Koyeb deploying and scaling full-stack applications is a matter of minutes. All you need to deploy is a simple git push or using containers. We take care to build, run, and scale your application and manage the underlying infrastructure for you, with zero configuration. To get started with Koyeb, you can 
+			118 link Description: sign up, Value: app.koyeb.com/auth/signup
+			119 text  today and start deploying your first Service. Wishing you and your apps blazing-fast deployments! 🚀
+			120 text Keep up with all the latest updates by joining our vibrant and 
+			121 link Description: friendly serverless community, Value: community.koyeb.com/
+			122 text  or follow us on X at 
+			123 link Description: @gokoyeb, Value: x.com/gokoyeb
+			124 text .
+			125 text /AUTHORS
+			126 image Yann Léger
+			127 image Edouard Bonlieu
+			128 image Bastien Chatelard
+			129 container
+				130 link Description: Yann Léger, Value: koyeb.com/blog/author/yann-leger
+				131 text , 
+				132 link Description: Edouard Bonlieu, Value: koyeb.com/blog/author/edouard-bonlieu
+				133 text , 
+				134 link Description: Bastien Chatelard, Value: koyeb.com/blog/author/bastien-chatelard
+			135 text /SHARE
+			136 content list
+				137 button Share on Twitter
+					138 text Share on Twitter
+					139 image
+				140 button Share on Facebook
+					141 text Share on Facebook
+					142 image
+				143 button Share on LinkedIn
+					144 text Share on LinkedIn
+					145 image
+				146 button Copy link
+					147 text Copy link
+					148 image
+			149 image
+			150 text Koyeb Startup Program
+			151 text Deploy with the best cloud infrastructure and developer experience. Apply for up to $30K in Koyeb Credits today!
+			152 link Description: APPLY NOW, Value: tally.so/r/w4kzad
+		153 container
+			154 heading DEPLOY AI APPS TO PRODUCTION IN MINUTES, Value: 2
+				155 text DEPLOY AI APPS TO PRODUCTION IN MINUTES
+			156 link Description: GET STARTED, Value: app.koyeb.com/auth/signup
+			157 button TALK TO AN EXPERT
+				158 image
+				159 text TALK TO AN EXPERT
+				160 image
+		161 image
+		162 text HIGH-PERFORMANCE SERVERLESS INFRASTRUCTURE FOR AI. RUN INFERENCE, SANDBOXES, AND PRODUCTION WORKLOADS ON CPUS, GPUS, AND ACCELERATORS.
+		163 link Description: ALL SYSTEMS OPERATIONAL, Value: status.koyeb.com/
+		164 text PRODUCT
+		165 link Description: OVERVIEW, Value: koyeb.com/
+		166 link Description: PRICING, Value: koyeb.com/pricing
+		167 link Description: CHANGELOG, Value: koyeb.com/changelog
+		168 text RESOURCES
+		169 link Description: DOCUMENTATION, Value: koyeb.com/docs
+		170 link Description: TUTORIALS, Value: koyeb.com/tutorials
+		171 link Description: COMMUNITY, Value: community.koyeb.com/
+		172 link Description: API, Value: koyeb.com/docs/api
+		173 link Description: DEPLOY, Value: koyeb.com/deploy
+		174 link Description: STARTUP PROGRAM, Value: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure
+		175 link Description: SYSTEM STATUS, Value: status.koyeb.com/
+		176 text COMPANY
+		177 link Description: BLOG, Value: koyeb.com/blog
+		178 link Description: CUSTOMER STORIES, Value: koyeb.com/customers
+		179 link Description: PARTNERS, Value: koyeb.com/partners
+		180 link Description: EVENTS, Value: lu.ma/koyeb
+		181 link Description: CAREERS, Value: koyeb.com/careers
+		182 link Description: COMPANY, Value: koyeb.com/about
+		183 link Description: TERMS OF SERVICE, Value: koyeb.com/docs/legal/terms
+		184 link Description: PRIVACY POLICY, Value: koyeb.com/docs/legal/data-processing-agreement
+		185 image
+		186 image
+		187 link linkedin.com/company/koyeb
+		188 link x.com/gokoyeb
+		189 link slack.koyeb.com/
+		190 text © Koyeb
+		191 container Notifications Alt+T
+			192 container 1
+				193 text This website uses cookies to measure and improve your experience. You can manage your cookie preferences below.
+				194 button Accept all
+				195 button Deny
+
+The focused UI element is 0 AXWebArea Koyeb for Startups: Accelerate with Credits for High-Performance Infrastructure - Koyeb, URL: koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure

@@ -1,0 +1,161 @@
+Browser tab: 138024008, Title: "typedream promo code - Google Search", URL: "https://www.google.com.hk/search?q=typedream+promo+code&gl=us&hl=en&pws=0&num=20".
+0 AXWebArea typedream promo code - Google Search, URL: google.com.hk/search?q=typedream+promo+code&gl=us&hl=en&pws=0&num=20
+	1 container gsr
+		2 container
+			3 link Skip to main content
+				4 text Skip to main content
+			5 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196?hl=en
+		6 container searchform
+			7 container tsf
+				8 container
+					9 link Description: Halloween 2026, Value: google.com.hk/webhp?hl=en&ictx=2&sa=X&ved=2ahUKEwj46a23yuWXAxXSQPUHHTktFoAQPXoECAYQBQ
+					10 combo box (collapsed) Description: Search, Value: typedream promo code, ID: ti6dpd, Secondary Actions: Expand
+					11 button  Clear
+					12 button Search by voice
+					13 button Search by image
+					14 button Search
+			15 button Description: Settings, ID: og-te
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 link Description: Sign in, Value: accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.hk/search%3Fq%3Dtypedream%2Bpromo%2Bcode%26gl%3Dus%26hl%3Den%26pws%3D0%26num%3D20&ec=futura_srp_og_si_72236_p
+		19 container cnt
+			20 container
+				21 container
+					22 content list
+						23 link (disabled) All
+							24 text All
+						25 link Description: Images, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDiyF3c3Vpw6Lg8Z3hJ24N1FlQXUwg:1793495243920&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVWJKALjCNlIJviHEZmQkH1v1IylBOpPm18D8DkH_-qmmUkXsVpeVUcc7F3ca1dEnoTx1uEgeTctP9059RuUwVCRZj-8NIWzsoIMAwG68rPXxp1Q6D1VNWC2zzwHhoS8w3_bstTyrtJrS-He4RjEf5wX3gYPEoPdGCRZmkzv5zwiCOdsDlw&q=typedream+promo+code&sa=X&ved=2ahUKEwj46a23yuWXAxXSQPUHHTktFoAQtKgLegQIGRAB
+						26 link Description: Videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDiyF3c3Vpw6Lg8Z3hJ24N1FlQXUwg:1793495243920&udm=vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVWJKALjCNlIJviHEZmQkH1v1IylBOpPm18D8DkH_-qmmUkXsVpeVUcc7F3ca1dEnoTx1uEgeTctP9059RuUwVCRZj-8NIWzsoIMAwG68rPXxp1Q6D1VNWC2zzwHhoS8w3_bstTyrtJrS-He4RjEf5wX3gYPEoPdGCRZmkzv5zwiCOdsDlw&q=typedream+promo+code&sa=X&ved=2ahUKEwj46a23yuWXAxXSQPUHHTktFoAQtKgLegQIGBAB
+						27 link Description: Shopping, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDiyF3c3Vpw6Lg8Z3hJ24N1FlQXUwg:1793495243920&udm=28&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVWJKALjCNlIJviHEZmQkH1v1IylBOpPm18D8DkH_-qmmUkXsVpeVUcc7F3ca1dEnoTx1uEgeTctP9059RuUwVCRZj-8NIWzsoIMAwG68rPXxp1Q6D1VNWC2zzwHhoS8w3_bstTyrtJrS-He4RjEf5wX3gYPEoPdGCRZmkzv5zwiCOdsDlw&q=typedream+promo+code&ved=1t:220175&ictx=111
+						28 link Description: Forums, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDiyF3c3Vpw6Lg8Z3hJ24N1FlQXUwg:1793495243920&udm=forums&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVWJKALjCNlIJviHEZmQkH1v1IylBOpPm18D8DkH_-qmmUkXsVpeVUcc7F3ca1dEnoTx1uEgeTctP9059RuUwVCRZj-8NIWzsoIMAwG68rPXxp1Q6D1VNWC2zzwHhoS8w3_bstTyrtJrS-He4RjEf5wX3gYPEoPdGCRZmkzv5zwiCOdsDlw&q=typedream+promo+code&sa=X&ved=2ahUKEwj46a23yuWXAxXSQPUHHTktFoAQs6gLegQIFhAB
+						29 link Description: News, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDiyF3c3Vpw6Lg8Z3hJ24N1FlQXUwg:1793495243920&q=typedream+promo+code&tbm=nws&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVWJKALjCNlIJviHEZmQkH1v1IylBOpPm18D8DkH_-qmmUkXsVpeVUcc7F3ca1dEnoTx1uEgeTctP9059RuUwVCRZj-8NIWzsoIMAwG68rPXxp1Q6D1VNWC2zzwHhoS8w3_bstTyrtJrS-He4RjEf5wX3gYPEoPdGCRZmkzv5zwiCOdsDlw&sa=X&ved=2ahUKEwj46a23yuWXAxXSQPUHHTktFoAQ0pQJegQIFRAB
+						30 link Description: Short videos, Value: google.com.hk/search?newwindow=1&sca_esv=14889c5c0bb81d79&gl=us&hl=en&pws=0&sxsrf=AKL5yDiyF3c3Vpw6Lg8Z3hJ24N1FlQXUwg:1793495243920&udm=short_vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVWJKALjCNlIJviHEZmQkH1v1IylBOpPm18D8DkH_-qmmUkXsVpeVUcc7F3ca1dEnoTx1uEgeTctP9059RuUwVCRZj-8NIWzsoIMAwG68rPXxp1Q6D1VNWC2zzwHhoS8w3_bstTyrtJrS-He4RjEf5wX3gYPEoPdGCRZmkzv5zwiCOdsDlw&q=typedream+promo+code&sa=X&ved=2ahUKEwj46a23yuWXAxXSQPUHHTktFoAQs6gLegQIFBAB
+						31 button (collapsed) More filters, Secondary Actions: Expand
+							32 container More filters
+								33 text More
+					34 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			35 heading Search Results, Value: 1
+				36 text Search Results
+			37 container center_col
+				38 container gevUs
+					39 container rso
+						40 container
+							41 heading Web results, Value: 2
+								42 text Web results
+							43 link Description: Typedream: AI Website Builder Typedream: AI Website Builder https://typedream.com, Value: google.com.hk/goto?url=CAESUQHrOzAVKZ6HYlkxt-4RaOjOdCAhwitlfar92eo36YVi3Hjj_V-gOnTUCejYV87w7AFaMNLITpgZezTfzkcMvr2Pk-kYcXNSg2yo8XwhCjvV8A
+							44 button About this result
+							45 container
+								46 text offer deals to audience. Build your site & sell online with one no-code tool.  Typedream  - No-code site builder, easy as Notion,
+							47 content list
+								48 link Description: Sites, Value: google.com.hk/goto?url=CAESVgHrOzAVc1gF-eevXUdQIfqknJEYT_eJSkcJeb0Y6b0jTWlxwxZjXN2wBhl5Nh70EyvIbA0q9uzxVlMQ4C9LCkqCmfAz9hnyr8oqnLV4QszprjssHPqO
+								49 link Description: Link in bio, Value: google.com.hk/goto?url=CAESWgHrOzAVHNz1gY5uvUwzaTJjPJX2ro3jPX524IwKW4c_dkumA3GfDM9Rj-DqLUZrzbexzi2U--kWd4EqDR17f0jT1YHKJ66tGJhqebHz7QwCSbYwEihCltin3w
+								50 link Description: Forms, Value: google.com.hk/goto?url=CAESVQHrOzAVq0FIsCwi3zn9glkCTwAxPO3qCQjJ2KkM5EPA5cfuqkUp2YdyJAzc6eyiv6HT9ekJfrN65cx7W1-hqC3WhZS1ARX7Q3lBjeQcUPCerT7mMbY
+								51 link Description: Blog, Value: google.com.hk/goto?url=CAESVgHrOzAV8p0wyjxHcvLAvf6-aBDhx_rqGK-asLqETMAF9q8uocMarB8H52jIOAuO8yV5iO6XZ7E1KLTdkUO2yccLkvH8QUnhtZc2MHc_hEVTJJmyg_Qi
+						52 container
+							53 link Description: TypeDream Promo Code: 10% off on any plan Freelance Stack https://www.freelance-stack.io › deals › typedream-disco..., Value: google.com.hk/goto?url=CAESgQEB6zswFfere-miSACYv7TSkEip4Fd1JdnGmy9kw8Pz0dB2viOXhNMdW3VHEeq6b3gSwYgSHsTMmpaaM4FQFpyyxdmhuw779yYiGDmp-VlT1VUKfC5EyqKgtZE_nnuanDPIAJ9VXrHpE0G_2c9prC17_SP5bUEWl_p3TRE2qgZzmSs
+							54 button About this result
+							55 text Our promo code verified with the software 
+							56 text TypeDream
+							57 text  Benefit from 10% off on any plan on TypeDream. largest discount promo code platform
+						58 container
+							59 link Value: …, Description: Typedream AI Website Builder - Reviews, Tutotial, Alternatives wowslider.com https://wowslider.com › ai-builder › typedream
+							60 button About this result
+							61 text Sep 25, 2025  — 
+							62 text Typedream
+							63 text  occasionally publishes discounts, seasonal promotions, and referral credits. 
+							64 text Promo codes
+							65 text  may appear on the official site, email ...
+							66 link Description: Read more, Value: …
+							67 image Rated 4.9 out of 5, (45) user reviews
+							68 text  ·  Free · ‎Business/Productivity
+						69 container
+							70 link Value: …, Description: Typedream Coupons & Promo Codes - GetCoupons4u getcoupons4u.com https://getcoupons4u.com › site › store › Typedream
+							71 button About this result
+							72 text Sale 10% Off Any Plan. 
+							73 text Receive 10% off your first online purchase
+							74 text . There are 3 verified promo codes you can use to get discounts at Typedream. You can use  ...
+						75 container
+							76 link Value: …, Description: New to Typedream Typedream: AI Website Builder https://typedream.com › help-center---new-to-typedream
+							77 button About this result
+							78 text Building Your First Website. This page is created to guide you through what you can build in 
+							79 text Typedream
+							80 text  and how to start building them.
+							81 link Description: Read more, Value: …
+						82 container
+							83 link Value: …, Description: 75% OFF Typedream Coupon Codes - August 2026 Promo ... TenereTeam https://typedream.tenereteam.com › coupons
+							84 button About this result
+							85 text These 33 Available 
+							86 text Typedream discount codes
+							87 text  last updated TODAY can help you save Upto 75% OFF. Buy cheaper with Typedream coupons & promo codes NOW!
+						88 container
+							89 link Description: Typedream Affiliate Typedream: AI Website Builder https://typedream.com › affiliate, Value: …
+							90 button About this result
+							91 text Become a 
+							92 text Typedream
+							93 text  Affiliate and earn 20% recurring commission! 
+							94 text offer
+							95 text  deals to audience … get monthly payouts via Paypal. No-
+							96 text code
+							97 text  is the future of web design.
+						98 container
+							99 link Description: Typedream: AI Website Builder typedream.app https://typedreamcom.typedream.app, Value: …
+							100 button About this result
+							101 text Create stunning landing pages with just 1 sentence with AI.
+						102 container
+							103 link Value: …, Description: 15% Typedream Coupon (2026) + 1 Free page Credits affiliateweapons.com https://affiliateweapons.com › Affiliate Tools
+							104 button About this result
+							105 text Discover the latest 
+							106 text Typedream coupons, promo codes, deals and discounts
+							107 text . Browse our verified Typedream deals and get maximum savings with AffiliateWeapons.
+						108 container
+							109 link Description: Explore sites built with Typedream | #MadewithTypedream Typedream https://typedream.com › showcases, Value: …
+							110 button About this result
+							111 text We quit our 9-5 to pursue our dreams, and we want to help others do the same. 
+							112 text Typedream
+							113 text  - No-code site builder, easy as Notion, pretty as Webflow |. Company.
+							114 link Description: Read more, Value: …
+				115 container
+					116 container
+						117 heading People also search for, Value: 2
+							118 text People also search for
+						119 link Description: Typedream AI, Value: …
+						120 link Description: Typedream pricing, Value: …
+						121 link Description: Typedream templates, Value: …
+						122 link Description: Beehiiv Typedream, Value: …
+						123 link Description: Typedream acquisition, Value: …
+						124 link Description: Webflow, Value: …
+						125 link Description: Wix, Value: …
+						126 link Description: Dorik website builder, Value: …
+					127 heading Page Navigation, Value: 1
+						128 text Page Navigation
+					129 text 1
+					130 link Description: Page 2, Value: …
+					131 link Description: Page 3, Value: …
+					132 link Description: Page 4, Value: …
+					133 link Description: Page 5, Value: …
+					134 link Description: Page 6, Value: …
+					135 link Description: Page 7, Value: …
+					136 link Description: Page 8, Value: …
+					137 link Description: Page 9, Value: …
+					138 heading Next, Value: 2
+						139 link Description: Next, Value: …, ID: pnnext
+			140 container sfooter
+				141 heading Footer Links, Value: 1
+					142 text Footer Links
+				143 container fbar
+					144 container
+						145 button Unknown  - Can't determine location
+							146 container
+								147 text Unknown
+							148 container
+								149 text  -  Can't determine location
+						150 text  - 
+						151 button Update location
+							152 text Update location
+					153 container fsl
+						154 link Description: Help, Value: support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+						155 link Description: Send feedback, Value: …
+						156 link Description: Privacy, Value: …
+						157 link Description: Terms, Value: …
+
+The focused UI element is 0 AXWebArea typedream promo code - Google Search, URL: google.com.hk/search?q=typedream+promo+code&gl=us&hl=en&pws=0&num=20

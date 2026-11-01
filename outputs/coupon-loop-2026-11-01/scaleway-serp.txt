@@ -1,0 +1,155 @@
+Browser tab: 138024014, Title: "scaleway promo code - Google Search", URL: "https://www.google.com.hk/search?q=scaleway+promo+code&gl=us&hl=en&pws=0&num=100".
+0 AXWebArea scaleway promo code - Google Search, URL: google.com.hk/search
+	1 container gsr
+		2 container
+			3 link Skip to main content
+				4 text Skip to main content
+			5 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196
+		6 container searchform
+			7 container tsf
+				8 container
+					9 link Description: Halloween 2026, Value: google.com.hk/webhp
+					10 combo box (collapsed) Description: Search, Value: scaleway promo code, ID: ti6dpd, Secondary Actions: Expand
+					11 button  Clear
+					12 button Search by voice
+					13 button Search by image
+					14 button Search
+			15 button Description: Settings, ID: og-te
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 link Description: Sign in, Value: accounts.google.com/ServiceLogin
+		19 container cnt
+			20 container
+				21 container
+					22 content list
+						23 link (disabled) All
+							24 text All
+						25 link Description: Shopping, Value: google.com.hk/search
+						26 link Description: Images, Value: google.com.hk/search
+						27 link Description: Forums, Value: google.com.hk/search
+						28 link Description: Videos, Value: google.com.hk/search
+						29 link Description: News, Value: google.com.hk/search
+						30 link Description: Short videos, Value: google.com.hk/search
+						31 button (collapsed) More filters, Secondary Actions: Expand
+							32 container More filters
+								33 text More
+					34 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			35 heading Search Results, Value: 1
+				36 text Search Results
+			37 container center_col
+				38 container gevUs
+					39 container rso
+						40 container
+							41 heading Web results, Value: 2
+								42 text Web results
+							43 link Value: google.com.hk/goto, Description: Scaleway Promo Code: €1000 to €36000 in credits Freelance Stack https://www.freelance-stack.io › deals › scaleway-discou...
+							44 button About this result
+							45 container
+								46 text Get access to our 950+ exclusive promo codes for €55 / year  💶. Our promo code verified with the software Scaleway Benefit from €1,000 to €36,000 in credits. We ...
+						47 container
+							48 link Description: $100 Free Trial Scaleway Promo Code October 2026 Host.Promo https://host.promo › hosts › scaleway, Value: google.com.hk/goto
+							49 button About this result
+							50 text Scaleway
+							51 text  is offering a special 
+							52 text promo code
+							53 text  for October 2026: "$100 Free Trial". Discover the latest deals, promos and discounts available this October 2026.
+							54 image Rated 4.5 out of 5,
+							55 text  ·  Review by Host.Promo
+						56 container
+							57 link Value: google.com.hk/goto, Description: Scaleway Vouchers & Discounts - 25% Off - WorthEPenny WorthEPenny https://scaleway.worthepenny.com › coupon
+							58 button About this result
+							59 text Use one of our coupons at checkout to enjoy up to 25% off your Scaleway order! 
+							60 text regular Scaleway code THANKYOU30
+							61 text , military members can grab 30% off. Today's ...
+						62 container
+							63 link Description: How to redeem a Scaleway voucher Scaleway https://www.scaleway.com › docs › billing › redeem-vo..., Value: google.com.hk/goto
+							64 button About this result
+							65 text Jun 2, 2025  —  To redeem a voucher, you need to create a Scaleway account. Click Add voucher. 
+							66 text Enter your voucher code, then click Add voucher
+							67 text .
+						68 container
+							69 link Value: google.com.hk/goto, Description: 15% Off Scaleway Promo Code (Tested on 36-Month Plans) TechJury https://techjury.net › devops › scaleway
+							70 button About this result
+							71 text Scaleway Promo Codes October 29, 2026: 
+							72 text 15% Off 36-Month Plans
+							73 text  • Hand-Tested Working Discount for a Full Range of Cloud Services.
+						74 container
+							75 link Description: Scaleway Coupon, Coupon Code - Valuecom Valuecom https://scaleway.valuecom.com, Value: google.com.hk/goto
+							76 button About this result
+							77 text Check our latest 
+							78 text Scaleway Coupon
+							79 text , 
+							80 text Coupon Code
+							81 text  to 75% off on your order. 15% off on 
+							82 text Scaleway
+							83 text  Ends. One tap, no email needed. items are accessible for $13 and up.
+						84 container
+							85 link Value: google.com.hk/goto, Description: Scaleway Promo Code for Startups – Save Up to €36000 XRaise https://xraise.ai › blog › scaleway-promo-code-for-start...
+							86 button About this result
+							87 text Jun 5, 2025  — 
+							88 text Get the latest Scaleway promo code in 2026
+							89 text  and unlock up to €36000 in startup cloud credits, plus eligibility and how to apply.
+						90 container
+							91 link Description: Scaleway Promo Code - JoinSecret joinsecret.com https://www.joinsecret.com › scaleway, Value: google.com.hk/goto
+							92 button About this result
+							93 text Scaleway Promo code · 
+							94 text There is currently no promo code for this product
+							95 text  · General information · Photos and videos · Scaleway features · Scaleway Reviews.
+							96 link Description: Read more, Value: google.com.hk/goto
+						97 container
+							98 link Description: Scaleway free credit FounderPass https://www.founderpass.com › partners › scaleway, Value: google.com.hk/goto
+							99 button About this result
+							100 text Get access to over €36000 of Scaleway free credit
+							101 text  as well as a €600 credit for any paid plan with our Scaleway coupon and discounts.
+							102 content list
+								103 link Description: Who are Scaleway, Value: google.com.hk/goto
+								104 link Description: Why do Scaleway give this..., Value: google.com.hk/goto
+						105 container
+							106 link Description: Scaleway Credits for Startups Aurelia Ventures https://aureliaventures.com › partners › scaleway, Value: google.com.hk/goto
+							107 button About this result
+							108 text EUR 1,000 voucher code
+							109 text  dedicated to Aurelia Ventures startups to test Scaleway products; Up to EUR 42k Cloud resources when admitted to the Startup Program ...
+							110 link Description: Read more, Value: google.com.hk/goto
+				111 container
+					112 container
+						113 heading People also search for, Value: 2
+							114 text People also search for
+						115 link Description: Scaleway promo code reddit, Value: google.com.hk/search
+						116 link Description: Scaleway free trial, Value: google.com.hk/search
+						117 link Description: Scaleway 100 free trial, Value: google.com.hk/search
+						118 link Description: Scaleway trial, Value: google.com.hk/search
+						119 link Description: Scaleway AI, Value: google.com.hk/search
+						120 link Description: Scaleway sign up, Value: google.com.hk/search
+						121 link Description: Scaleway Glacier pricing, Value: google.com.hk/search
+					122 heading Page Navigation, Value: 1
+						123 text Page Navigation
+					124 text 1
+					125 link Description: Page 2, Value: google.com.hk/search
+					126 link Description: Page 3, Value: google.com.hk/search
+					127 link Description: Page 4, Value: google.com.hk/search
+					128 link Description: Page 5, Value: google.com.hk/search
+					129 link Description: Page 6, Value: google.com.hk/search
+					130 link Description: Page 7, Value: google.com.hk/search
+					131 link Description: Page 8, Value: google.com.hk/search
+					132 heading Next, Value: 2
+						133 link Description: Next, Value: google.com.hk/search, ID: pnnext
+			134 container sfooter
+				135 heading Footer Links, Value: 1
+					136 text Footer Links
+				137 container fbar
+					138 container
+						139 button Unknown  - Can't determine location
+							140 container
+								141 text Unknown
+							142 container
+								143 text  -  Can't determine location
+						144 text  - 
+						145 button Update location
+							146 text Update location
+					147 container fsl
+						148 link Description: Help, Value: support.google.com/websearch/
+						149 link Description: Send feedback, Value: google.com.hk/search
+						150 link Description: Privacy, Value: policies.google.com/privacy
+						151 link Description: Terms, Value: policies.google.com/terms
+
+The focused UI element is 0 AXWebArea scaleway promo code - Google Search, URL: google.com.hk/search

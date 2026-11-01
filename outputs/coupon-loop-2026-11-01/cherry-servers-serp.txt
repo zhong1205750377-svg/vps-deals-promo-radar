@@ -1,0 +1,147 @@
+Browser tab: 138024013, Title: "cherry servers promo code - Google Search", URL: "https://www.google.com.hk/search?q=cherry+servers+promo+code&gl=us&hl=en&pws=0&num=100".
+0 AXWebArea cherry servers promo code - Google Search, URL: google.com.hk/search
+	1 container gsr
+		2 container
+			3 link Skip to main content
+				4 text Skip to main content
+			5 link Description: Accessibility help, Value: support.google.com/websearch/answer/181196
+		6 container searchform
+			7 container tsf
+				8 container
+					9 link Description: Halloween 2026, Value: google.com.hk/webhp
+					10 combo box (collapsed) Description: Search, Value: cherry servers promo code, ID: ti6dpd, Secondary Actions: Expand
+					11 button  Clear
+					12 button Search by voice
+					13 button Search by image
+					14 button Search
+			15 button Description: Settings, ID: og-te
+			16 button Share
+			17 button (collapsed) Description: Google apps, Secondary Actions: Expand
+			18 link Description: Sign in, Value: accounts.google.com/ServiceLogin
+		19 container cnt
+			20 container
+				21 container
+					22 content list
+						23 link (disabled) All
+							24 text All
+						25 link Description: Shopping, Value: google.com.hk/search
+						26 link Description: News, Value: google.com.hk/search
+						27 link Description: Images, Value: google.com.hk/search
+						28 link Description: Forums, Value: google.com.hk/search
+						29 link Description: Videos, Value: google.com.hk/search
+						30 link Description: Short videos, Value: google.com.hk/search
+						31 button (collapsed) More filters, Secondary Actions: Expand
+							32 container More filters
+								33 text More
+					34 button (collapsed) Tools, ID: hdtb-tls, Secondary Actions: Expand
+			35 heading Search Results, Value: 1
+				36 text Search Results
+			37 container center_col
+				38 container gevUs
+					39 container rso
+						40 container
+							41 heading Web results, Value: 2
+								42 text Web results
+							43 link Value: google.com.hk/goto, Description: Official Cherry Servers Coupons and Promo Codes Up to ... Cherry Servers https://www.cherryservers.com › promotions
+							44 button About this result
+							45 container
+								46 text Get up to 40% off on our dedicated server and VDS plans  with official Cherry Servers coupons and promo codes. 41% OFF this Autumn. Hourly billing, crypto ...
+						47 container
+							48 link Value: google.com.hk/goto, Description: Cherry Servers Promo Codes - $23 off (Verified) Oct 2026 SimplyCodes https://simplycodes.com › ... › Website Tooling
+							49 button About this result
+							50 text Cherry Servers promo codes
+							51 text  like 10% off sitewide apply to both monthly subscriptions and initial setups, but deeper discounts (up to 50%) typically favor annual ...
+							52 link Description: Read more, Value: google.com.hk/goto
+						53 container
+							54 link Description: Cherry Servers Coupons & Deals - 50% Off WorthEPenny https://trending.worthepenny.com › coupon, Value: google.com.hk/goto
+							55 button About this result
+							56 text Find the latest cherry servers coupons & deals for November 2026. 
+							57 text Use one of our coupons at checkout
+							58 text  to enjoy up to 50% off your Cherry Servers order!
+						59 container
+							60 link Value: google.com.hk/goto, Description: Active Cherry Servers Coupons, Promo Codes for Oct 2026 HostingCouponSpot https://hostingcouponspot.com › cherry-servers-coupons
+							61 button About this result
+							62 text Coupon – 10% discount for all Dedicated & Virtual Servers. Dedicated servers up to 25% Off with Extra RAM, 
+							63 text NEW10CUSTOMER
+							64 text . NEWSLETTERGANG10. Save up to 50% Off ...
+						65 container
+							66 link Value: google.com.hk/goto, Description: Cherry Servers Coupons & Promo Codes TechJury https://techjury.net › hosting-coupons › cherry-servers
+							67 button About this result
+							68 text Cherry Servers Promo Codes
+							69 text  October 20, 2026: 25% Off Dedicated Server • 10% Off Sitewide • 10% Off Order • $2 Off Storewide • $2314 Off Service.
+						70 container
+							71 link Value: google.com.hk/goto, Description: 10% OFF Cherry Servers Coupon Codes - October 2026 ... TenereTeam https://cherry-servers.tenereteam.com › coupons
+							72 button About this result
+							73 text These 18 Available Cherry Servers discount codes last updated TODAY can help you 
+							74 text save Upto 10% OFF
+							75 text . Buy cheaper with Cherry Servers coupons & promo codes ...
+						76 container
+							77 link Description: Cherry Servers Promo Code 10% OFF | November 2026 Valuecom https://cherryservers.valuecom.com, Value: google.com.hk/goto
+							78 button About this result
+							79 text Our Cherry Servers Promo Codes are hand-picked, fully tested and 100% working. 
+							80 text NEWSLETTERGANG10
+							81 text  is next on our list to test. Pick 10% OFF Code 10% Off. Off ...
+						82 container
+							83 link Value: google.com.hk/goto, Description: Cherry Servers Promo Code: 30% off any plan for 12 months joinsecret.com https://www.joinsecret.com › cherry-servers
+							84 button About this result
+							85 text Cherry Servers's Promo Code and exclusive verified discount: 
+							86 text get 30% off any plan for 12 months
+							87 text  on Cherry Servers with Secret.
+						88 container
+							89 link Value: google.com.hk/goto, Description: Save 24% - Oct. 2026 Cherry Servers Coupon Codes CouponChief.com https://www.couponchief.com › balticservers
+							90 button About this result
+							91 text Get the best deals no more than once a week and no spam. SIGN ME UP! 
+							92 text UP TO24%OFF
+							93 text . Save up to 24% on 4th ...
+							94 link Description: Read more, Value: google.com.hk/goto
+						95 container
+							96 link Description: Cherry Servers Coupons & Promo Codes (2026) HostAdvice https://it.hostadvice.com › cherrys..., Value: google.com.hk/goto
+							97 text ·
+							98 link Description: Translate this page, Value: google.com.hk/goto
+							99 button About this result
+							100 text Save on bare metal and cloud hosting with 
+							101 text verified Cherry Servers coupons
+							102 text . Get discounts on dedicated servers, VPS, and infrastructure plans.
+							103 image Rated 4.0 out of 5, (5) user reviews
+				104 container
+					105 container
+						106 heading People also search for, Value: 2
+							107 text People also search for
+						108 link Description: Cherry servers promo code first order, Value: google.com.hk/search
+						109 link Description: Cherry promo code, Value: google.com.hk/search
+						110 link Description: Cherry server IP, Value: google.com.hk/search
+						111 link Description: Cherry servers login, Value: google.com.hk/search
+						112 link Description: Cherry Technologies, Value: google.com.hk/search
+					113 heading Page Navigation, Value: 1
+						114 text Page Navigation
+					115 text 1
+					116 link Description: Page 2, Value: google.com.hk/search
+					117 link Description: Page 3, Value: google.com.hk/search
+					118 link Description: Page 4, Value: google.com.hk/search
+					119 link Description: Page 5, Value: google.com.hk/search
+					120 link Description: Page 6, Value: google.com.hk/search
+					121 link Description: Page 7, Value: google.com.hk/search
+					122 link Description: Page 8, Value: google.com.hk/search
+					123 link Description: Page 9, Value: google.com.hk/search
+					124 heading Next, Value: 2
+						125 link Description: Next, Value: google.com.hk/search, ID: pnnext
+			126 container sfooter
+				127 heading Footer Links, Value: 1
+					128 text Footer Links
+				129 container fbar
+					130 container
+						131 button Unknown  - Can't determine location
+							132 container
+								133 text Unknown
+							134 container
+								135 text  -  Can't determine location
+						136 text  - 
+						137 button Update location
+							138 text Update location
+					139 container fsl
+						140 link Description: Help, Value: support.google.com/websearch/
+						141 link Description: Send feedback, Value: google.com.hk/search
+						142 link Description: Privacy, Value: policies.google.com/privacy
+						143 link Description: Terms, Value: policies.google.com/terms
+
+The focused UI element is 0 AXWebArea cherry servers promo code - Google Search, URL: google.com.hk/search

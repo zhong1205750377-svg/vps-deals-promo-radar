@@ -1,0 +1,100 @@
+{
+  "date_bjt": "2026-11-01",
+  "run_id": "daily-coupon-2026-11-01-koyeb-gate",
+  "status": "not_published_safety_interruption",
+  "gate": {
+    "candidate": "Koyeb",
+    "query": "koyeb promo code",
+    "url": "https://www.google.com.hk/search?q=koyeb+promo+code&gl=us&hl=en&pws=0&num=100",
+    "parameters": {
+      "gl": "us",
+      "hl": "en",
+      "pws": 0
+    },
+    "organic_positions": 10,
+    "official_owned_positions": 3,
+    "large_coupon_and_media_positions": 3,
+    "decision": "gate_passed_boundary_values_do_not_exceed_threshold",
+    "classification_note": "Counted position-level results only: official Koyeb community, company blog, and docs=3; large coupon/deal or editorial media=SimplyCodes, JoinSecret, Medium=3; GitHub, srvrlss.io, freestuff.dev, and Trustpilot classified other. These are exact 10 organic result positions; modules excluded. Google query redirected to google.com.hk while preserving gl=us. Later official-site search triggered reCAPTCHA; stopped search actions."
+  },
+  "skipped": [
+    {
+      "brand": "Typedream",
+      "official": 4,
+      "large": 0,
+      "organic_positions": 10,
+      "decision": "skip_official_over_3"
+    },
+    {
+      "brand": "10Web",
+      "official": 2,
+      "large": null,
+      "organic_positions": 9,
+      "decision": "held_only_9_organic_positions_visible; one video module excluded; no fabricated 10th"
+    },
+    {
+      "brand": "Pagecloud",
+      "official": 2,
+      "large": 8,
+      "organic_positions": 10,
+      "decision": "skip_large_at_least_6"
+    },
+    {
+      "brand": "CloudSigma",
+      "official": 4,
+      "large": 4,
+      "organic_positions": 10,
+      "decision": "skip_official_over_3"
+    },
+    {
+      "brand": "Cherry Servers",
+      "official": 1,
+      "large": 9,
+      "organic_positions": 10,
+      "decision": "skip_large_at_least_6"
+    },
+    {
+      "brand": "Scaleway",
+      "official": 1,
+      "large": 8,
+      "organic_positions": 10,
+      "decision": "skip_large_at_least_6"
+    }
+  ],
+  "official_review": {
+    "pages": [
+      "https://www.koyeb.com/",
+      "https://www.koyeb.com/pricing",
+      "https://www.koyeb.com/blog/koyeb-for-startups-accelerate-with-credits-for-high-performance-infrastructure"
+    ],
+    "facts": [
+      "Pricing page displays Startup Program up to $30,000 compute credits for early-stage startups.",
+      "Official startup article says credits can be used with Standard and GPU instances; partner accelerator affiliation or $1M-$5M VC funding are listed criteria; other cases are reviewed case-by-case. Article date shown: 2024-06-21.",
+      "Pricing page displays long-term reservations up to 50% off on-demand price, Pro $29/month plus compute with $10 included compute, Scale $299/month plus compute with $100 included compute; compute billed by second."
+    ],
+    "policy": "Only official pages captured; third-party coupon codes not used."
+  },
+  "competitor_read": {
+    "top1": "SimplyCodes loaded; page has conflicting surface statements about active/unverified codes and code cards with community-submitted entries. Structure observation only.",
+    "top2": "JoinSecret presented Cloudflare challenge; stopped. Not read.",
+    "top3": "Koyeb community returned 403 IP-restriction response; stopped. Not read.",
+    "fixed": "VPS Price Tracker homepage read; observed hardware, region, renewal-period, storage, bandwidth, IPv4/IPv6 and stock/reliability filters."
+  },
+  "tracks": {
+    "T0": "Koyeb occupancy gate passed; no article drafted because required full top-three review was blocked by security interstitials.",
+    "T1": "Not done: no today article to style; no rollback or mobile check.",
+    "T2": "Partial only: SimplyCodes + fixed VPS Price Tracker read; JoinSecret Cloudflare challenge, Koyeb community 403; no claim of full top three.",
+    "T3": "Official Koyeb pricing/startup pages and snapshots archived; no group query or real-person quote claimed; Koyeb remains tomorrow candidate pending competitor evidence.",
+    "T4": "No sourced FAQ published because no article.",
+    "T5": "No diagrams, old-page image, video, or YouTube upload."
+  },
+  "publication": {
+    "published": false,
+    "url": null,
+    "deploy_id": null
+  },
+  "browser_cleanup": "Attempted to close only tabs opened during this run; extension debugger was unattached on several tabs. Did not use alternate browser-control route after the security barrier.",
+  "position_evidence": "occupancy.json and koyeb-serp.txt",
+  "browser_session": "Chrome extension instance ede2e209-1efc-4918-8f92-2dbdcb872fb5",
+  "process_session": "node_repl; browser tab IDs 138024008–138024026 created in this run; process ID not exposed by tool"
+}
