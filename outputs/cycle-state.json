@@ -79,5 +79,17 @@
     "official": 1,
     "large": 4,
     "deployment": "dcbc52e8"
+  },
+  "period_report_status": {
+    "due_date": "2026-11-02",
+    "status": "not_read",
+    "reason": "GSC official UI not accessed; controlled browser URL recognition stopped the attempt; no values estimated",
+    "last_checked_bjt": "2026-11-08"
+  },
+  "latest_operational_status": {
+    "date_bjt": "2026-11-08",
+    "published": false,
+    "candidate": "Railway",
+    "status": "browser_url_guard"
   }
 }

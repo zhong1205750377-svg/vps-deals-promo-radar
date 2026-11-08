@@ -1,0 +1,37 @@
+{
+  "date_bjt": "2026-11-08",
+  "run_id": "daily-coupon-2026-11-08-browser-url-guard",
+  "status": "not_published_browser_url_guard",
+  "candidate": "Railway",
+  "candidate_state": "queued_gate_pending; no current SERP or offer evidence",
+  "browser_attempt": {
+    "app": "Google Chrome",
+    "window_title": "namecheap promo code - Google Search - Google Chrome",
+    "operation": "get_window_state on freshly enumerated Chrome window",
+    "result": "Computer Use stopped because it could not determine the current browser URL on Windows with enough confidence to enforce policy",
+    "recovery": "No retry or alternate browser-control route used after the safety stop"
+  },
+  "work": {
+    "T0": "No publication record found for 2026-11-08; candidate gate could not be run",
+    "T1": "not completed",
+    "T2": "not completed",
+    "T3": "Queue and prior notes read; no new user, official, or human-source material collected today",
+    "T4": "not completed",
+    "T5": "not completed"
+  },
+  "publication": {
+    "published": false,
+    "url": null
+  },
+  "period_report": {
+    "due_date": "2026-11-02",
+    "status": "not_read",
+    "reason": "Official controlled browser unavailable at URL-confidence check; GSC data not accessed; no figures substituted"
+  },
+  "desktop_app": {
+    "version": "26.1103.32239",
+    "build": "25471",
+    "channel": "prod",
+    "update_status": "up_to_date"
+  }
+}

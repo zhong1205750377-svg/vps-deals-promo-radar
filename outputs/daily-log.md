@@ -98,3 +98,5 @@
 2026-10-30｜Carrd官方自营1大站4通过 https://vpspricewatch.com/coupons/carrd/｜跳过Cloudflare官方4大站2｜T1当篇试用预算暖色分块与手机留白，留回滚，390无溢出两图加载｜T2TechJury、SimplyCodes和固定VPSPriceTracker已读，Reddit安全拦截停止，无全前三独家主张｜T3官方试用与Pro素材及3组自拟问题归档，无新群回传或真人引文；Typedream明日首页/定价正文已备｜T4三组有据FAQ｜T5新页两图旧Cloudways补图原句保留，85.71秒免费讲解https://youtu.be/RX6Cm7H_0Z0公开播放已核｜原创545/967=56.36%，非激活实测｜部署dcbc52e8｜明天Typedream先过闸核优惠。
 
 2026-11-01｜未发布｜Koyeb官方3、大优惠站与媒体3通过占位闸；前三对照未完（SimplyCodes已读，JoinSecret遇Cloudflare安全验证，官方社区403）；Google随后触发reCAPTCHA，停止搜索｜T1未执行｜T2部分完成并读固定VPSPriceTracker｜T3已归档官方定价/创业积分材料及三组项目自拟问句，无群回传｜T4未发布｜T5未制图、未生成视频或上传｜明日Railway先过闸；证据coupon-loop-2026-11-01/run.json。
+
+2026-11-08｜未发布｜Railway仍待占位闸与官方优惠核验；Chrome受控读取被URL识别安全检查停止，未重试或绕过｜T1未执行｜T2未执行｜T3仅核对队列及旧记录，无新增素材｜T4未执行｜T5未执行｜GSC首期28天报告（到期2026-11-02）未读取，未填数｜证据coupon-loop-2026-11-08/run.json。
