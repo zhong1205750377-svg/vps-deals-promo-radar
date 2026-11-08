@@ -1,7 +1,7 @@
 {
   "date_bjt": "2026-11-08",
   "run_id": "daily-coupon-2026-11-08-browser-url-guard",
-  "status": "not_published_browser_url_guard",
+  "status": "not_published_computer_use_activation_denied",
   "candidate": "Railway",
   "candidate_state": "queued_gate_pending; no current SERP or offer evidence",
   "browser_attempt": {
@@ -33,5 +33,13 @@
     "build": "25471",
     "channel": "prod",
     "update_status": "up_to_date"
+  },
+  "browser_repair_followup": {
+    "attempted_bjt": "2026-11-08",
+    "selection": "Fresh app listing returned exactly one Chrome window; selected its returned window object and attempted supported activation before reading state.",
+    "first_error": "GetCursorPos failed: Access denied (0x80070005)",
+    "recovery": "Refreshed app/window listing as required and retried once with the newly returned window object.",
+    "retry_error": "GetCursorPos failed: Access denied (0x80070005)",
+    "result": "Stopped after the required retry. No settings changed and no alternate control route used."
   }
 }
