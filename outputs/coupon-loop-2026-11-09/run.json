@@ -1,0 +1,31 @@
+{
+  "date_bjt": "2026-11-09",
+  "run_id": "daily-coupon-2026-11-09-url-guard",
+  "status": "not_published_computer_use_url_guard",
+  "candidate": "Railway",
+  "candidate_state": "queued_gate_pending; not checked today",
+  "browser_attempt": {
+    "app": "Google Chrome",
+    "initial_state": "No Chrome window was enumerated; existing Chrome app was launched normally and returned a new-tab window.",
+    "operation": "Selected the uniquely returned window, activated it, and requested current state.",
+    "result": "Computer Use stopped because it could not determine the current browser URL on Windows with enough confidence to enforce policy.",
+    "next": "Stopped; no browser navigation, search, or alternate control route."
+  },
+  "work": {
+    "T0": "No successful publication logged today; position gate not run.",
+    "T1": "not completed",
+    "T2": "not completed",
+    "T3": "Previously prepared Railway remains queued; no new material collected today.",
+    "T4": "not completed",
+    "T5": "not completed"
+  },
+  "publication": {
+    "published": false,
+    "url": null
+  },
+  "period_report": {
+    "due_date": "2026-11-02",
+    "status": "not_read",
+    "reason": "GSC was not accessed through the official controlled browser; no values substituted"
+  }
+}

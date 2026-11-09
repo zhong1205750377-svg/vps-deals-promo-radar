@@ -100,3 +100,5 @@
 2026-11-01｜未发布｜Koyeb官方3、大优惠站与媒体3通过占位闸；前三对照未完（SimplyCodes已读，JoinSecret遇Cloudflare安全验证，官方社区403）；Google随后触发reCAPTCHA，停止搜索｜T1未执行｜T2部分完成并读固定VPSPriceTracker｜T3已归档官方定价/创业积分材料及三组项目自拟问句，无群回传｜T4未发布｜T5未制图、未生成视频或上传｜明日Railway先过闸；证据coupon-loop-2026-11-01/run.json。
 
 2026-11-08｜未发布｜Railway仍待占位闸与官方优惠核验；Chrome受控读取先遇URL识别拦截；按恢复步骤激活窗口及刷新后重试，均报GetCursorPos拒绝访问0x80070005，未绕过｜T1未执行｜T2未执行｜T3仅核对队列及旧记录，无新增素材｜T4未执行｜T5未执行｜GSC首期28天报告（到期2026-11-02）未读取，未填数｜证据coupon-loop-2026-11-08/run.json。
+
+2026-11-09｜未发布｜Railway未核闸；Chrome正常启动至新标签页后，Computer Use因无法可靠识别当前网址而停止，未导航或搜索｜T1未完成｜T2未完成｜T3沿用已备Railway候选，无新增材料｜T4未完成｜T5未完成｜GSC首期报告未读取，未填数｜证据coupon-loop-2026-11-09/run.json。
